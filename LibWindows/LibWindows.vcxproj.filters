@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Port">
+      <UniqueIdentifier>{cfc5074f-550e-442e-8ca1-b28f0c10e11b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Windows\Source\AddressSpace.cpp">
@@ -52,16 +55,16 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\PortExecContext.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Port</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\PortProtDomain.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Port</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\PortSysDomain.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Port</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\PortThread.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Port</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -116,23 +119,23 @@
     <ClInclude Include="..\Windows\Source\WorkerThreads.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\PortBackOff.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Windows\Port\BackOff.h">
+      <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\PortExecContext.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Windows\Port\ExecContext.h">
+      <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\PortProtDomain.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Windows\Port\ProtDomain.h">
+      <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\PortSysDomain.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Windows\Port\SysDomain.h">
+      <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\PortThread.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Windows\Port\Thread.h">
+      <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\PortThreadBackground.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Windows\Port\ThreadBackground.h">
+      <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
