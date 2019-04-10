@@ -20,11 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Mock\MockMemory.cpp" />
-    <ClCompile Include="..\Core\Mock\MockScheduler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Mock\MockMemory.h" />
-    <ClInclude Include="..\Core\Mock\MockScheduler.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -18,15 +18,9 @@
     <ClCompile Include="..\Core\Mock\MockMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Mock\MockScheduler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Mock\MockMemory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Mock\MockScheduler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
