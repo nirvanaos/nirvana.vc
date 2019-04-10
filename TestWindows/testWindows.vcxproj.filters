@@ -15,15 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="..\Windows\Test\testAPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Nirvana.cpp">
+    <ClCompile Include="..\Windows\Test\TestMemoryWindows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Test\TestThreadPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

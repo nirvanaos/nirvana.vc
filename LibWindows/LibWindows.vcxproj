@@ -18,35 +18,81 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Windows\Source\AddressSpace.cpp" />
+    <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
+    <ClCompile Include="..\Windows\Source\ExecContextWindows.cpp" />
+    <ClCompile Include="..\Windows\Source\Initterm.cpp" />
+    <ClCompile Include="..\Windows\Source\Mailslot.cpp" />
+    <ClCompile Include="..\Windows\Source\MailslotReader.cpp" />
+    <ClCompile Include="..\Windows\Source\MemoryWindows.cpp" />
+    <ClCompile Include="..\Windows\Source\ProtDomainWindows.cpp" />
+    <ClCompile Include="..\Windows\Source\SchedulerClient.cpp" />
+    <ClCompile Include="..\Windows\Source\SchedulerWindows.cpp" />
+    <ClCompile Include="..\Windows\Source\SysDomainWindows.cpp" />
+    <ClCompile Include="..\Windows\Source\ThreadPool.cpp" />
+    <ClCompile Include="..\Windows\Source\ThreadPoolable.cpp" />
+    <ClCompile Include="..\Windows\Source\ThreadWindows.cpp" />
+    <ClCompile Include="..\Windows\Source\ThreadWorker.cpp" />
+    <ClCompile Include="..\Windows\Source\WorkerThreads.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Windows\Source\AddressSpace.h" />
+    <ClInclude Include="..\Windows\Source\BufferPool.h" />
+    <ClInclude Include="..\Windows\Source\CompletionPortReceiver.h" />
+    <ClInclude Include="..\Windows\Source\ExecContextWindows.h" />
+    <ClInclude Include="..\Windows\Source\Mailslot.h" />
+    <ClInclude Include="..\Windows\Source\MailslotReader.h" />
+    <ClInclude Include="..\Windows\Source\MemoryWindows.h" />
+    <ClInclude Include="..\Windows\Source\PortBackOff.h" />
+    <ClInclude Include="..\Windows\Source\PostOffice.h" />
+    <ClInclude Include="..\Windows\Source\ProtDomainWindows.h" />
+    <ClInclude Include="..\Windows\Source\SchedulerClient.h" />
+    <ClInclude Include="..\Windows\Source\SchedulerIPC.h" />
+    <ClInclude Include="..\Windows\Source\SchedulerServant.h" />
+    <ClInclude Include="..\Windows\Source\SchedulerWindows.h" />
+    <ClInclude Include="..\Windows\Source\SysDomainWindows.h" />
+    <ClInclude Include="..\Windows\Source\SystemInfo.h" />
+    <ClInclude Include="..\Windows\Source\ThreadBackgroundBase.h" />
+    <ClInclude Include="..\Windows\Source\ThreadPool.h" />
+    <ClInclude Include="..\Windows\Source\ThreadPoolable.h" />
+    <ClInclude Include="..\Windows\Source\ThreadWindows.h" />
+    <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
+    <ClInclude Include="..\Windows\Source\win32.h" />
+    <ClInclude Include="..\Windows\Source\WorkerThreads.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E820686C-5A7C-484B-846C-6198E4BB7C65}</ProjectGuid>
+    <ProjectGuid>{3F85577E-CFD2-4FB9-9C3C-6DA6BBA3CDA5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Nirvana</RootNamespace>
+    <RootNamespace>LibWindows</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -72,16 +118,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -92,14 +134,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\Core\Source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -109,14 +151,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\Core\Source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -128,14 +170,14 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\Core\Source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -149,34 +191,19 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\Core\Source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="pch.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Nirvana.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets" Condition="Exists('..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets')" />
