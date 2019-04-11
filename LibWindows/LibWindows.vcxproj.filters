@@ -33,9 +33,6 @@
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\MemoryWindows.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\SchedulerClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -66,6 +63,9 @@
     <ClCompile Include="..\Windows\Source\Thread.cpp">
       <Filter>Port</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\ProtDomainMemory.cpp">
+      <Filter>Port</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -81,9 +81,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\MailslotReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Windows\Source\MemoryWindows.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\PostOffice.h">
@@ -135,6 +132,9 @@
       <Filter>Port</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Port\ThreadBackground.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\ProtDomainMemory.h">
       <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>

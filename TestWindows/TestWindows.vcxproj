@@ -20,7 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Windows\Test\testAPI.cpp" />
-    <ClCompile Include="..\Windows\Test\TestMemoryWindows.cpp" />
+    <ClCompile Include="..\Windows\Test\TestMemory.cpp" />
     <ClCompile Include="..\Windows\Test\TestThreadPool.cpp" />
   </ItemGroup>
   <ItemGroup>

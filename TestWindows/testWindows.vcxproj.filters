@@ -18,10 +18,10 @@
     <ClCompile Include="..\Windows\Test\testAPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Test\TestMemoryWindows.cpp">
+    <ClCompile Include="..\Windows\Test\TestThreadPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Test\TestThreadPool.cpp">
+    <ClCompile Include="..\Windows\Test\TestMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
