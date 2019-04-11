@@ -25,10 +25,10 @@
     <ClCompile Include="..\Windows\Source\Mailslot.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp" />
     <ClCompile Include="..\Windows\Source\MemoryWindows.cpp" />
-    <ClCompile Include="..\Windows\Source\PortExecContext.cpp" />
-    <ClCompile Include="..\Windows\Source\PortProtDomain.cpp" />
-    <ClCompile Include="..\Windows\Source\PortSysDomain.cpp" />
-    <ClCompile Include="..\Windows\Source\PortThread.cpp" />
+    <ClCompile Include="..\Windows\Source\ExecContext.cpp" />
+    <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
+    <ClCompile Include="..\Windows\Source\SysDomain.cpp" />
+    <ClCompile Include="..\Windows\Source\Thread.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerClient.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerWindows.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadPool.cpp" />
