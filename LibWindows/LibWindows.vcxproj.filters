@@ -24,9 +24,6 @@
     <ClCompile Include="..\Windows\Source\BufferPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\Initterm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\Mailslot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

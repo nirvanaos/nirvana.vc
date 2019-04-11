@@ -172,7 +172,6 @@
     <ClInclude Include="..\Core\Source\ExecDomain.h" />
     <ClInclude Include="..\Core\Source\Heap.h" />
     <ClInclude Include="..\Core\Source\HeapDirectory.h" />
-    <ClInclude Include="..\Core\Source\InitTerm.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObjectCore.h" />
     <ClInclude Include="..\Core\Source\ORB\ObjectCore.h" />
