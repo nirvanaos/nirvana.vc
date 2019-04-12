@@ -66,6 +66,9 @@
     <ClCompile Include="..\Windows\Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\Scheduler.cpp">
+      <Filter>Port</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">

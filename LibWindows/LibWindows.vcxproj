@@ -27,6 +27,7 @@
     <ClCompile Include="..\Windows\Source\ExecContext.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomainMemory.cpp" />
+    <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
     <ClCompile Include="..\Windows\Source\SysDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Thread.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerClient.cpp" />
