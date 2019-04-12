@@ -40,6 +40,7 @@
     <ClInclude Include="..\Windows\Port\BackOff.h" />
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
     <ClInclude Include="..\Windows\Port\ProtDomainMemory.h" />
+    <ClInclude Include="..\Windows\Port\Scheduler.h" />
     <ClInclude Include="..\Windows\Port\Thread.h" />
     <ClInclude Include="..\Windows\Port\ThreadBackground.h" />
     <ClInclude Include="..\Windows\Port\ProtDomain.h" />

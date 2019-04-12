@@ -137,6 +137,9 @@
     <ClInclude Include="..\Windows\Port\ProtDomainMemory.h">
       <Filter>Port</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Port\Scheduler.h">
+      <Filter>Port</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
