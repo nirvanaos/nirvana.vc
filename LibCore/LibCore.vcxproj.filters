@@ -96,6 +96,9 @@
     <ClInclude Include="..\Core\Source\ThreadBackground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\SysScheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ORB\ObjectCore.cpp">

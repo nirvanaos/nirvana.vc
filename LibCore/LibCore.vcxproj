@@ -182,6 +182,7 @@
     <ClInclude Include="..\Core\Source\PriorityQueue.h" />
     <ClInclude Include="..\Core\Source\ProtDomain.h" />
     <ClInclude Include="..\Core\Source\RandomGen.h" />
+    <ClInclude Include="..\Core\Source\SysScheduler.h" />
     <ClInclude Include="..\Core\Source\SchedulerImpl.h" />
     <ClInclude Include="..\Core\Source\Scheduler_c.h" />
     <ClInclude Include="..\Core\Source\Scheduler_s.h" />
