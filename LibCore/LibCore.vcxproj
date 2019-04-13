@@ -209,6 +209,7 @@
     <ClCompile Include="..\Core\Source\RandomGen.cpp" />
     <ClCompile Include="..\Core\Source\Scheduler_c.cpp" />
     <ClCompile Include="..\Core\Source\SyncDomain.cpp" />
+    <ClCompile Include="..\Core\Source\SysScheduler.cpp" />
     <ClCompile Include="..\Core\Source\Thread.cpp" />
   </ItemGroup>
   <ItemGroup>
