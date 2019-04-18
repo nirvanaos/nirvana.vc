@@ -170,6 +170,7 @@
     <ClInclude Include="..\Core\Source\core.h" />
     <ClInclude Include="..\Core\Source\ExecContext.h" />
     <ClInclude Include="..\Core\Source\ExecDomain.h" />
+    <ClInclude Include="..\Core\Source\Executor.h" />
     <ClInclude Include="..\Core\Source\Heap.h" />
     <ClInclude Include="..\Core\Source\HeapDirectory.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
@@ -182,10 +183,8 @@
     <ClInclude Include="..\Core\Source\PriorityQueue.h" />
     <ClInclude Include="..\Core\Source\ProtDomain.h" />
     <ClInclude Include="..\Core\Source\RandomGen.h" />
-    <ClInclude Include="..\Core\Source\SysScheduler.h" />
+    <ClInclude Include="..\Core\Source\Scheduler.h" />
     <ClInclude Include="..\Core\Source\SchedulerImpl.h" />
-    <ClInclude Include="..\Core\Source\Scheduler_c.h" />
-    <ClInclude Include="..\Core\Source\Scheduler_s.h" />
     <ClInclude Include="..\Core\Source\SyncDomain.h" />
     <ClInclude Include="..\Core\Source\SysDomain.h" />
     <ClInclude Include="..\Core\Source\Thread.h" />
@@ -207,9 +206,8 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Core\Source\RandomGen.cpp" />
-    <ClCompile Include="..\Core\Source\Scheduler_c.cpp" />
     <ClCompile Include="..\Core\Source\SyncDomain.cpp" />
-    <ClCompile Include="..\Core\Source\SysScheduler.cpp" />
+    <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\Thread.cpp" />
   </ItemGroup>
   <ItemGroup>

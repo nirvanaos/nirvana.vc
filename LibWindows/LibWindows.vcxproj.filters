@@ -95,9 +95,6 @@
     <ClInclude Include="..\Windows\Source\SchedulerIPC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\SchedulerServant.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\SchedulerWindows.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -142,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Port\Scheduler.h">
       <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\SchedulerAbstract.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
