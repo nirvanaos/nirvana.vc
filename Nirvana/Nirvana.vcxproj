@@ -171,9 +171,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\LibCore\LibCore.vcxproj">
       <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
     </ProjectReference>
@@ -181,16 +178,19 @@
       <Project>{3f85577e-cfd2-4fb9-9c3c-6da6bba3cda5}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets" Condition="Exists('..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets')" />
-    <Import Project="..\packages\Nirvana.Lib.1.0.0.0\build\native\Nirvana.Lib.targets" Condition="Exists('..\packages\Nirvana.Lib.1.0.0.0\build\native\Nirvana.Lib.targets')" />
+    <Import Project="..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets" Condition="Exists('..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets')" />
+    <Import Project="..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets" Condition="Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets'))" />
-    <Error Condition="!Exists('..\packages\Nirvana.Lib.1.0.0.0\build\native\Nirvana.Lib.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.Lib.1.0.0.0\build\native\Nirvana.Lib.targets'))" />
+    <Error Condition="!Exists('..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets'))" />
+    <Error Condition="!Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets'))" />
   </Target>
 </Project>
