@@ -166,7 +166,6 @@
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\AtomicPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
-    <ClInclude Include="..\Core\Source\config.h" />
     <ClInclude Include="..\Core\Source\core.h" />
     <ClInclude Include="..\Core\Source\ExecContext.h" />
     <ClInclude Include="..\Core\Source\ExecDomain.h" />

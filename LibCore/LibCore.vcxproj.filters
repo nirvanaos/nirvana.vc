@@ -45,9 +45,6 @@
     <ClInclude Include="..\Core\Source\BackOff.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\config.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
