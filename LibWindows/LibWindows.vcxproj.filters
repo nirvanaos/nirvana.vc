@@ -69,6 +69,9 @@
     <ClCompile Include="..\Windows\Source\Scheduler.cpp">
       <Filter>Port</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\ThreadMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -141,6 +144,15 @@
       <Filter>Port</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\SchedulerAbstract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\config.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\RunnableImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\ThreadMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
