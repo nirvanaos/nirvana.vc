@@ -48,24 +48,6 @@
     <ClCompile Include="..\Windows\Source\WorkerThreads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\ExecContext.cpp">
-      <Filter>Port</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\Source\ProtDomain.cpp">
-      <Filter>Port</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\Source\SysDomain.cpp">
-      <Filter>Port</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\Source\Thread.cpp">
-      <Filter>Port</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\Source\ProtDomainMemory.cpp">
-      <Filter>Port</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\Source\Scheduler.cpp">
-      <Filter>Port</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\ThreadMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -73,6 +55,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\ExecContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\ProtDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\ProtDomainMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\Scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\SysDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\Thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
