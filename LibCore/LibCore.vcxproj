@@ -179,6 +179,7 @@
     <ClInclude Include="..\Core\Source\ORB\ObjectImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\ReferenceCounterImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantCore.h" />
+    <ClInclude Include="..\Core\Source\ORB\StringManager.h" />
     <ClInclude Include="..\Core\Source\PriorityQueue.h" />
     <ClInclude Include="..\Core\Source\ProtDomain.h" />
     <ClInclude Include="..\Core\Source\RandomGen.h" />

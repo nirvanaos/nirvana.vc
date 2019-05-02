@@ -93,6 +93,9 @@
     <ClInclude Include="..\Core\Source\Executor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\StringManager.h">
+      <Filter>ORB</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ORB\ObjectCore.cpp">
