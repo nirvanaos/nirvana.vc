@@ -28,6 +28,7 @@
     <ClCompile Include="..\Windows\Source\ExecContext.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomainMemory.cpp" />
+    <ClCompile Include="..\Windows\Source\ProtDomainMemoryBlock.cpp" />
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
     <ClCompile Include="..\Windows\Source\SysDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Thread.cpp" />
@@ -55,12 +56,14 @@
     <ClInclude Include="..\Windows\Source\Mailslot.h" />
     <ClInclude Include="..\Windows\Source\MailslotReader.h" />
     <ClInclude Include="..\Windows\Source\PostOffice.h" />
+    <ClInclude Include="..\Windows\Source\ProtDomainMemoryBlock.h" />
     <ClInclude Include="..\Windows\Source\RunnableImpl.h" />
     <ClInclude Include="..\Windows\Source\SchedulerClient.h" />
     <ClInclude Include="..\Windows\Source\SchedulerIPC.h" />
     <ClInclude Include="..\Windows\Source\SchedulerAbstract.h" />
     <ClInclude Include="..\Windows\Source\SchedulerWindows.h" />
     <ClInclude Include="..\Windows\Source\SystemInfo.h" />
+    <ClInclude Include="..\Windows\Source\ThreadInternal.h" />
     <ClInclude Include="..\Windows\Source\ThreadMemory.h" />
     <ClInclude Include="..\Windows\Source\ThreadPool.h" />
     <ClInclude Include="..\Windows\Source\ThreadPoolable.h" />
