@@ -96,6 +96,15 @@
     <ClInclude Include="..\Core\Source\ORB\StringManager.h">
       <Filter>ORB</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\WaitablePtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\RWLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ObjectMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ORB\ObjectCore.cpp">
@@ -148,6 +157,15 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\StringManager.cpp">
       <Filter>ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\WaitablePtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\RWLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ObjectMap.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
