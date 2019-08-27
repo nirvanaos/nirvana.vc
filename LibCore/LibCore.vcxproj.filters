@@ -93,9 +93,6 @@
     <ClInclude Include="..\Core\Source\Executor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\StringManager.h">
-      <Filter>ORB</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\WaitablePtr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -103,6 +100,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ObjectMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Allocators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -134,9 +137,6 @@
     <ClCompile Include="..\Core\Source\HeapDirectory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ObjectPool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\PriorityQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -154,9 +154,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Scheduler.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\StringManager.cpp">
-      <Filter>ORB</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\WaitablePtr.cpp">
       <Filter>Source Files</Filter>

@@ -37,7 +37,7 @@
     <ClCompile Include="..\Core\Test\TestScheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestString.cpp">
+    <ClCompile Include="..\Core\Test\TestStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
