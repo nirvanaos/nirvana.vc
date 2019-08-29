@@ -39,9 +39,6 @@
     <ClInclude Include="..\Core\Source\AtomicCounter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\AtomicPtr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\BackOff.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -106,6 +103,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\TaggedPtr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
