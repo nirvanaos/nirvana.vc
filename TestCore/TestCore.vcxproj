@@ -54,8 +54,9 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="Shared">
-    <Import Project="..\packages\googletest.1.8.0.0\build\native\googletest.targets" Condition="Exists('..\packages\googletest.1.8.0.0\build\native\googletest.targets')" />
     <Import Project="..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets" Condition="Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" />
+    <Import Project="..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets" Condition="Exists('..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets')" />
+    <Import Project="..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets" Condition="Exists('..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets')" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -81,7 +82,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Windows;..\Core\Mock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Async</ExceptionHandling>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -96,7 +97,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Windows;..\Core\Mock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Async</ExceptionHandling>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -111,7 +112,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Windows;..\Core\Mock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Async</ExceptionHandling>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -128,7 +129,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Windows;..\Core\Mock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Async</ExceptionHandling>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -158,9 +159,6 @@
     <ProjectReference Include="..\LibCore\LibCore.vcxproj">
       <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\LibMock\LibMock.vcxproj">
-      <Project>{ae347e10-438a-4a2b-8d7f-47b40d85be40}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\LibWindows\LibWindows.vcxproj">
       <Project>{3f85577e-cfd2-4fb9-9c3c-6da6bba3cda5}</Project>
     </ProjectReference>
@@ -173,7 +171,8 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\googletest.1.8.0.0\build\native\googletest.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\googletest.1.8.0.0\build\native\googletest.targets'))" />
     <Error Condition="!Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets'))" />
+    <Error Condition="!Exists('..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets'))" />
+    <Error Condition="!Exists('..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets'))" />
   </Target>
 </Project>
