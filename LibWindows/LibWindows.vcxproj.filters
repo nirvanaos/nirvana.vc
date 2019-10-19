@@ -51,9 +51,6 @@
     <ClCompile Include="..\Windows\Source\ThreadMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\nirvana_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
