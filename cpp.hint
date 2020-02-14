@@ -1,0 +1,14 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define NIRVANA_NOEXCEPT
+#define NIRVANA_NORETURN
+#define NIRVANA_NODISCARD
+#define BASE_STRUCT_ENTRY
+#define DECLARE_EXCEPTION
+#define DEFINE_EXCEPTION
+#define DECLARE_SYSTEM_EXCEPTION
+#define DEFINE_USER_EXCEPTION
+#define CORBA_REPOSITORY_ID
+#define NIRVANA_REPOSITORY_ID
+#define STATIC_BRIDGE
