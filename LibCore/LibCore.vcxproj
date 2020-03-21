@@ -166,7 +166,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\Allocators.h" />
-    <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
     <ClInclude Include="..\Core\Source\core.h" />
@@ -202,6 +201,7 @@
     <ClCompile Include="..\Core\Source\ExecDomain.cpp" />
     <ClCompile Include="..\Core\Source\Heap.cpp" />
     <ClCompile Include="..\Core\Source\HeapDirectory.cpp" />
+    <ClCompile Include="..\Core\Source\HeapFactoryImpl.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectCore.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectFactoryCore.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectImpl.cpp" />
