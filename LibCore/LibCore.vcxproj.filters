@@ -16,26 +16,16 @@
     <Filter Include="ORB">
       <UniqueIdentifier>{2257ae80-76b4-44c2-add2-3eb2c3e6dfc5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ORB\Header Files">
+      <UniqueIdentifier>{0e8342c0-94f7-4d78-ac3e-19956bd92002}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ORB\Source Files">
+      <UniqueIdentifier>{cbc529be-ae00-4986-85c3-46cb9b20d92f}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Core\Source\ORB\LocalObjectCore.h">
-      <Filter>ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ObjectCore.h">
-      <Filter>ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ObjectFactoryCore.h">
-      <Filter>ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ObjectImpl.h">
-      <Filter>ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ReferenceCounterImpl.h">
-      <Filter>ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ServantCore.h">
-      <Filter>ORB</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\BackOff.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -105,20 +95,62 @@
     <ClInclude Include="..\Core\Source\TaggedPtr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\AtomicCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\CoreInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ModuleInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Runnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\SynchronizationContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Synchronized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\CoreImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\LocalObject.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\POA.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ProxyLocal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ProxyManager.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ProxyObject.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ReferenceCounter.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ServantBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Source\ORB\ObjectCore.cpp">
-      <Filter>ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ObjectFactoryCore.cpp">
-      <Filter>ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ObjectImpl.cpp">
-      <Filter>ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ServantCore.cpp">
-      <Filter>ORB</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Core.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -163,6 +195,42 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\HeapFactoryImpl.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ModuleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\POA.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\POA_p.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ProxyManager.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ProxyObject.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ServantBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ServantMarshaler.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\TypeCode.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

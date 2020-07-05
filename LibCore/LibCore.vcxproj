@@ -166,6 +166,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\Allocators.h" />
+    <ClInclude Include="..\Core\Source\Array.h" />
+    <ClInclude Include="..\Core\Source\AtomicCounter.h" />
+    <ClInclude Include="..\Core\Source\CoreInterface.h" />
+    <ClInclude Include="..\Core\Source\ModuleInfo.h" />
+    <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
+    <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
+    <ClInclude Include="..\Core\Source\ORB\POA.h" />
+    <ClInclude Include="..\Core\Source\ORB\ProxyLocal.h" />
+    <ClInclude Include="..\Core\Source\ORB\ProxyManager.h" />
+    <ClInclude Include="..\Core\Source\ORB\ProxyObject.h" />
+    <ClInclude Include="..\Core\Source\ORB\ReferenceCounter.h" />
+    <ClInclude Include="..\Core\Source\ORB\ServantBase.h" />
+    <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h" />
+    <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
+    <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
+    <ClInclude Include="..\Core\Source\Runnable.h" />
+    <ClInclude Include="..\Core\Source\SynchronizationContext.h" />
+    <ClInclude Include="..\Core\Source\Synchronized.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
     <ClInclude Include="..\Core\Source\core.h" />
@@ -175,12 +193,6 @@
     <ClInclude Include="..\Core\Source\Heap.h" />
     <ClInclude Include="..\Core\Source\HeapDirectory.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
-    <ClInclude Include="..\Core\Source\ORB\LocalObjectCore.h" />
-    <ClInclude Include="..\Core\Source\ORB\ObjectCore.h" />
-    <ClInclude Include="..\Core\Source\ORB\ObjectFactoryCore.h" />
-    <ClInclude Include="..\Core\Source\ORB\ObjectImpl.h" />
-    <ClInclude Include="..\Core\Source\ORB\ReferenceCounterImpl.h" />
-    <ClInclude Include="..\Core\Source\ORB\ServantCore.h" />
     <ClInclude Include="..\Core\Source\PriorityQueue.h" />
     <ClInclude Include="..\Core\Source\ProtDomain.h" />
     <ClInclude Include="..\Core\Source\RandomGen.h" />
@@ -201,11 +213,24 @@
     <ClCompile Include="..\Core\Source\ExecDomain.cpp" />
     <ClCompile Include="..\Core\Source\Heap.cpp" />
     <ClCompile Include="..\Core\Source\HeapDirectory.cpp" />
-    <ClCompile Include="..\Core\Source\HeapFactoryImpl.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\ObjectCore.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\ObjectFactoryCore.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\ObjectImpl.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\ServantCore.cpp" />
+    <ClCompile Include="..\Core\Source\HeapFactoryImpl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ModuleInfo.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA_p.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ProxyManager.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ProxyObject.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ServantBase.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ServantMarshaler.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TypeCode.cpp" />
     <ClCompile Include="..\Core\Source\PriorityQueue.cpp">
       <ConformanceMode Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ConformanceMode>
     </ClCompile>
@@ -224,11 +249,17 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets" Condition="Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" />
+    <Import Project="..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
+    <Import Project="..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
+    <Import Project="..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
   </Target>
 </Project>
