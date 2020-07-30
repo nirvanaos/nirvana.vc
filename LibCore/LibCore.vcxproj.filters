@@ -149,6 +149,9 @@
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\SkipList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\Core.cpp">
@@ -233,6 +236,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\BackOff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\SkipList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
