@@ -169,9 +169,6 @@
     <ClCompile Include="..\Core\Source\HeapDirectory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\PriorityQueue.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ProtDomain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
