@@ -200,6 +200,7 @@
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TypeCode.cpp" />
+    <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp" />
     <ClCompile Include="..\Windows\Source\nirvana_main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

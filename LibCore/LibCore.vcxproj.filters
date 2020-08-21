@@ -154,9 +154,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Source\Core.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -239,6 +236,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

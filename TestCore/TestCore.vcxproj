@@ -150,6 +150,7 @@
     <ClInclude Include="..\..\..\Source\Scheduler_s.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp" />
     <ClCompile Include="..\Core\Test\TestAtomicPtr.cpp" />
     <ClCompile Include="..\Core\Test\TestHeap.cpp" />
     <ClCompile Include="..\Core\Test\TestHeapDirectory.cpp" />
