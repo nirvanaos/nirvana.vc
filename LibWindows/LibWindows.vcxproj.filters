@@ -69,9 +69,6 @@
     <ClCompile Include="..\Windows\Source\Thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\ProtDomainMemoryBlock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -152,10 +149,10 @@
     <ClInclude Include="..\Windows\Source\RunnableImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\ProtDomainMemoryBlock.h">
+    <ClInclude Include="..\Windows\Source\ThreadInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\ThreadInternal.h">
+    <ClInclude Include="..\Windows\Source\ProtDomainMemoryInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
