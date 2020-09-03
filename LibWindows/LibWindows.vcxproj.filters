@@ -48,9 +48,6 @@
     <ClCompile Include="..\Windows\Source\WorkerThreads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\ThreadMemory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -153,9 +150,6 @@
       <Filter>Port</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\RunnableImpl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Windows\Source\ThreadMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\ProtDomainMemoryBlock.h">

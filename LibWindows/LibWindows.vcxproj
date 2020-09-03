@@ -33,7 +33,6 @@
     <ClCompile Include="..\Windows\Source\Thread.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerClient.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerWindows.cpp" />
-    <ClCompile Include="..\Windows\Source\ThreadMemory.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadPool.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadPoolable.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadWorker.cpp" />
@@ -63,7 +62,6 @@
     <ClInclude Include="..\Windows\Source\SchedulerWindows.h" />
     <ClInclude Include="..\Windows\Source\SystemInfo.h" />
     <ClInclude Include="..\Windows\Source\ThreadInternal.h" />
-    <ClInclude Include="..\Windows\Source\ThreadMemory.h" />
     <ClInclude Include="..\Windows\Source\ThreadPool.h" />
     <ClInclude Include="..\Windows\Source\ThreadPoolable.h" />
     <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
