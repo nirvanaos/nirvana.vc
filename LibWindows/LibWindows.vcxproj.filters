@@ -155,6 +155,9 @@
     <ClInclude Include="..\Windows\Source\ProtDomainMemoryInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Source\LockableHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
