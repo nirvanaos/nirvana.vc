@@ -271,6 +271,7 @@
     <ClCompile Include="..\Core\Source\SyncDomain.cpp" />
     <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\ObjectMap.cpp" />
+    <ClCompile Include="..\Core\Source\SynchronizationContext.cpp" />
     <ClCompile Include="..\Core\Source\Thread.cpp" />
     <ClCompile Include="..\Core\Source\WaitablePtr.cpp" />
   </ItemGroup>
