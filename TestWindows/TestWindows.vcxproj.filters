@@ -24,7 +24,6 @@
     <ClCompile Include="..\Windows\Test\TestMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Test\Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
