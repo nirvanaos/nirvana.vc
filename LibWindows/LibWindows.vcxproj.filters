@@ -146,9 +146,6 @@
     <ClInclude Include="..\Windows\Port\config.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\RunnableImpl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\ThreadInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
