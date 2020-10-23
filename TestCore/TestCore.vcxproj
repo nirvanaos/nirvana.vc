@@ -55,8 +55,8 @@
   </ImportGroup>
   <ImportGroup Label="Shared">
     <Import Project="..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets" Condition="Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" />
-    <Import Project="..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets" Condition="Exists('..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets')" />
     <Import Project="..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets" Condition="Exists('..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets')" />
+    <Import Project="..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets" Condition="Exists('..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets')" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -81,7 +81,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ConformanceMode>true</ConformanceMode>
@@ -97,7 +97,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ConformanceMode>true</ConformanceMode>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -174,7 +174,7 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets'))" />
-    <Error Condition="!Exists('..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\googletest.nirvana.vc.1.8.0\build\native\googletest.nirvana.vc.targets'))" />
     <Error Condition="!Exists('..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets'))" />
+    <Error Condition="!Exists('..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets'))" />
   </Target>
 </Project>
