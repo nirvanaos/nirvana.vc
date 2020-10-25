@@ -177,6 +177,9 @@
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\ModuleInfo.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
+    <ClInclude Include="..\Core\Source\ORB\giop.h" />
+    <ClInclude Include="..\Core\Source\ORB\iop.h" />
+    <ClInclude Include="..\Core\Source\ORB\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
     <ClInclude Include="..\Core\Source\ORB\POA.h" />
     <ClInclude Include="..\Core\Source\ORB\ProxyLocal.h" />
@@ -188,6 +191,7 @@
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
     <ClInclude Include="..\Core\Source\Runnable.h" />
+    <ClInclude Include="..\Core\Source\RuntimeSupportImpl.h" />
     <ClInclude Include="..\Core\Source\SkipList.h" />
     <ClInclude Include="..\Core\Source\SynchronizationContext.h" />
     <ClInclude Include="..\Core\Source\Synchronized.h" />
@@ -212,10 +216,17 @@
     <ClInclude Include="..\Core\Source\SysDomain.h" />
     <ClInclude Include="..\Core\Source\Thread.h" />
     <ClInclude Include="..\Core\Source\ThreadBackground.h" />
+    <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\WaitablePtr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
+    <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
@@ -232,7 +243,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Memory.cpp">
+    <ClCompile Include="..\Core\Source\g_memory.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -279,6 +290,7 @@
     <ClCompile Include="..\Core\Source\ObjectMap.cpp" />
     <ClCompile Include="..\Core\Source\SynchronizationContext.cpp" />
     <ClCompile Include="..\Core\Source\Thread.cpp" />
+    <ClCompile Include="..\Core\Source\UserObject.cpp" />
     <ClCompile Include="..\Core\Source\WaitablePtr.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -27,7 +27,10 @@
     <ClCompile Include="..\Core\Source\ORB\TypeCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Memory.cpp">
+    <ClCompile Include="..\Core\Source\g_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

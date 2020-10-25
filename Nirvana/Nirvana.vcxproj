@@ -193,7 +193,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Source\Memory.cpp" />
+    <ClCompile Include="..\Core\Source\g_memory.cpp" />
+    <ClCompile Include="..\Core\Source\g_runtime_support.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TypeCode.cpp" />
