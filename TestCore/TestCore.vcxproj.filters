@@ -9,17 +9,6 @@
       <UniqueIdentifier>{10a7441a-f7af-48bd-a111-fc11f29514b0}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Interface">
-      <UniqueIdentifier>{0cc5b500-6e57-4578-bf4c-58d616731a9b}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Source\Scheduler_s.h">
-      <Filter>Interface</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Source\Scheduler_c.h">
-      <Filter>Interface</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Test\TestAtomicPtr.cpp">

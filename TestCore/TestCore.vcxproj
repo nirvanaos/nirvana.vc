@@ -146,10 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Source\Scheduler_c.h" />
-    <ClInclude Include="..\..\..\Source\Scheduler_s.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\Core\Test\TestAtomicPtr.cpp" />
     <ClCompile Include="..\Core\Test\TestHeap.cpp" />
     <ClCompile Include="..\Core\Test\TestHeapDirectory.cpp" />
