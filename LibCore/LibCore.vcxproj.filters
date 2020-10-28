@@ -24,6 +24,17 @@
       <UniqueIdentifier>{cbc529be-ae00-4986-85c3-46cb9b20d92f}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Legacy">
+      <UniqueIdentifier>{723135ab-2232-4845-a624-a164d5c51757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Header Files">
+      <UniqueIdentifier>{8f5bf123-94d3-474b-b79b-9f20c7540fc6}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Legacy\Source Files">
+      <UniqueIdentifier>{0c0884b8-d07d-4096-a8e5-69e65b9c21f7}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -66,9 +77,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Thread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ThreadBackground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Scheduler.h">
@@ -167,6 +175,18 @@
     <ClInclude Include="..\Core\Source\ORB\LifeCyclePseudo.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\CoreObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\user_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\UserAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -256,13 +276,16 @@
     <ClCompile Include="..\Core\Source\SynchronizationContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\UserObject.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\user_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

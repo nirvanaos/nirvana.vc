@@ -32,6 +32,7 @@
     <ClCompile Include="..\Windows\Source\Thread.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerClient.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerWindows.cpp" />
+    <ClCompile Include="..\Windows\Source\ThreadBackground.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadPool.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadPoolable.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadWorker.cpp" />
@@ -144,7 +145,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_DEBUG_ITERATORS=0;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
