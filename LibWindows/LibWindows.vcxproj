@@ -29,13 +29,18 @@
     <ClCompile Include="..\Windows\Source\ProtDomainMemory.cpp" />
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
     <ClCompile Include="..\Windows\Source\SysDomain.cpp" />
-    <ClCompile Include="..\Windows\Source\Thread.cpp" />
+    <ClCompile Include="..\Windows\Source\ThreadBase.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerClient.cpp" />
     <ClCompile Include="..\Windows\Source\SchedulerWindows.cpp" />
-    <ClCompile Include="..\Windows\Source\ThreadBackground.cpp" />
+    <ClCompile Include="..\Windows\Source\ThreadBackground.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Windows\Source\ThreadPool.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadPoolable.cpp" />
-    <ClCompile Include="..\Windows\Source\ThreadWorker.cpp" />
+    <ClCompile Include="..\Windows\Source\Thread.cpp" />
     <ClCompile Include="..\Windows\Source\WorkerThreads.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -61,10 +66,11 @@
     <ClInclude Include="..\Windows\Source\SchedulerAbstract.h" />
     <ClInclude Include="..\Windows\Source\SchedulerWindows.h" />
     <ClInclude Include="..\Windows\Source\SystemInfo.h" />
+    <ClInclude Include="..\Windows\Source\ThreadBase.h" />
+    <ClInclude Include="..\Windows\Source\ThreadBaseInternal.h" />
     <ClInclude Include="..\Windows\Source\ThreadInternal.h" />
     <ClInclude Include="..\Windows\Source\ThreadPool.h" />
     <ClInclude Include="..\Windows\Source\ThreadPoolable.h" />
-    <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
     <ClInclude Include="..\Windows\Source\win32.h" />
     <ClInclude Include="..\Windows\Source\WorkerThreads.h" />
   </ItemGroup>

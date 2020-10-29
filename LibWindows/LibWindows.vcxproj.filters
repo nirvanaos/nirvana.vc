@@ -42,9 +42,6 @@
     <ClCompile Include="..\Windows\Source\ThreadPoolable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\ThreadWorker.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\WorkerThreads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -66,10 +63,13 @@
     <ClCompile Include="..\Windows\Source\SysDomain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\Thread.cpp">
+    <ClCompile Include="..\Windows\Source\ThreadBackground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\ThreadBackground.cpp">
+    <ClCompile Include="..\Windows\Source\ThreadBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\Thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -110,9 +110,6 @@
     <ClInclude Include="..\Windows\Source\ThreadPoolable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\ThreadWorker.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\win32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -131,9 +128,6 @@
     <ClInclude Include="..\Windows\Port\SysDomain.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Port\Thread.h">
-      <Filter>Port</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Port\ThreadBackground.h">
       <Filter>Port</Filter>
     </ClInclude>
@@ -149,13 +143,22 @@
     <ClInclude Include="..\Windows\Port\config.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\ThreadInternal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\ProtDomainMemoryInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\LockableHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Thread.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\ThreadBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\ThreadBaseInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\ThreadInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
