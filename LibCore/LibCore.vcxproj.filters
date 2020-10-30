@@ -187,6 +187,9 @@
     <ClInclude Include="..\Core\Source\UserAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ThreadWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -208,9 +211,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\SyncDomain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\Thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Scheduler.cpp">
@@ -286,6 +286,9 @@
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\user_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ThreadWorker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

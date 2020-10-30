@@ -66,7 +66,7 @@
     <ClCompile Include="..\Windows\Source\ThreadBackground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\ThreadBase.cpp">
+    <ClCompile Include="..\Windows\Source\ThreadWorker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\Thread.cpp">
@@ -149,13 +149,16 @@
     <ClInclude Include="..\Windows\Source\LockableHandle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Source\ExecContextInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\ThreadWorker.h">
+      <Filter>Port</Filter>
+    </ClInclude>
     <ClInclude Include="..\Windows\Port\Thread.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\ThreadBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Windows\Source\ThreadBaseInternal.h">
+    <ClInclude Include="..\Windows\Source\ThreadWorkerInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\ThreadInternal.h">

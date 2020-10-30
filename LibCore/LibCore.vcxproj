@@ -217,6 +217,7 @@
     <ClInclude Include="..\Core\Source\ObjectMap.h" />
     <ClInclude Include="..\Core\Source\SysDomain.h" />
     <ClInclude Include="..\Core\Source\Thread.h" />
+    <ClInclude Include="..\Core\Source\ThreadWorker.h" />
     <ClInclude Include="..\Core\Source\UserAllocator.h" />
     <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\user_memory.h" />
@@ -298,7 +299,7 @@
     <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\ObjectMap.cpp" />
     <ClCompile Include="..\Core\Source\SynchronizationContext.cpp" />
-    <ClCompile Include="..\Core\Source\Thread.cpp" />
+    <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\user_memory.cpp" />
     <ClCompile Include="..\Core\Source\WaitablePtr.cpp" />
   </ItemGroup>
