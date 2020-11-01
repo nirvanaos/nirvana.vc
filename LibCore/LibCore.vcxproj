@@ -195,7 +195,7 @@
     <ClInclude Include="..\Core\Source\Runnable.h" />
     <ClInclude Include="..\Core\Source\RuntimeSupportImpl.h" />
     <ClInclude Include="..\Core\Source\SkipList.h" />
-    <ClInclude Include="..\Core\Source\SynchronizationContext.h" />
+    <ClInclude Include="..\Core\Source\SyncContext.h" />
     <ClInclude Include="..\Core\Source\Synchronized.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
@@ -298,7 +298,8 @@
     <ClCompile Include="..\Core\Source\SyncDomain.cpp" />
     <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\ObjectMap.cpp" />
-    <ClCompile Include="..\Core\Source\SynchronizationContext.cpp" />
+    <ClCompile Include="..\Core\Source\SyncContext.cpp" />
+    <ClCompile Include="..\Core\Source\Thread.cpp" />
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\user_memory.cpp" />
     <ClCompile Include="..\Core\Source\WaitablePtr.cpp" />
