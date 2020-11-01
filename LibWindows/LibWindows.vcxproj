@@ -41,6 +41,7 @@
     <ClCompile Include="..\Windows\Source\ThreadPool.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadPoolable.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadWorker.cpp" />
+    <ClCompile Include="..\Windows\Source\unrecoverable_error.cpp" />
     <ClCompile Include="..\Windows\Source\WorkerThreads.cpp" />
   </ItemGroup>
   <ItemGroup>
