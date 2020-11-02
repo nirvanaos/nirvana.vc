@@ -190,6 +190,12 @@
     <ClInclude Include="..\Core\Source\SyncContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\Legacy\Process.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ObjectFactory.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -293,6 +299,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Thread.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

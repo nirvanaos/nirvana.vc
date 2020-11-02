@@ -176,6 +176,7 @@
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\CoreObject.h" />
+    <ClInclude Include="..\Core\Source\Legacy\Process.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h" />
     <ClInclude Include="..\Core\Source\ModuleInfo.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
@@ -183,6 +184,7 @@
     <ClInclude Include="..\Core\Source\ORB\iop.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
+    <ClInclude Include="..\Core\Source\ORB\ObjectFactory.h" />
     <ClInclude Include="..\Core\Source\ORB\POA.h" />
     <ClInclude Include="..\Core\Source\ORB\ProxyLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\ProxyManager.h" />
@@ -237,6 +239,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
