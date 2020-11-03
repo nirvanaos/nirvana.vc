@@ -227,6 +227,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
+    <ClCompile Include="..\Core\Source\g_module.cpp" />
     <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>

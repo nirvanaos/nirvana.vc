@@ -303,6 +303,9 @@
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\g_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
