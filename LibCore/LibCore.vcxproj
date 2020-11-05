@@ -198,6 +198,7 @@
     <ClInclude Include="..\Core\Source\Runnable.h" />
     <ClInclude Include="..\Core\Source\RuntimeSupportImpl.h" />
     <ClInclude Include="..\Core\Source\SkipList.h" />
+    <ClInclude Include="..\Core\Source\SpinLock.h" />
     <ClInclude Include="..\Core\Source\SyncContext.h" />
     <ClInclude Include="..\Core\Source\Synchronized.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
@@ -225,6 +226,7 @@
     <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\user_memory.h" />
     <ClInclude Include="..\Core\Source\WaitablePtr.h" />
+    <ClInclude Include="..\Core\Source\WaitList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
@@ -301,6 +303,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\SpinLock.cpp" />
     <ClCompile Include="..\Core\Source\SyncDomain.cpp" />
     <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\ObjectMap.cpp" />

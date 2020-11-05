@@ -151,6 +151,7 @@
     <ClCompile Include="..\Core\Test\TestHeapDirectory.cpp" />
     <ClCompile Include="..\Core\Test\TestPriorityQueue.cpp" />
     <ClCompile Include="..\Core\Test\TestScheduler.cpp" />
+    <ClCompile Include="..\Core\Test\TestSpinLock.cpp" />
     <ClCompile Include="..\Core\Test\TestStack.cpp" />
   </ItemGroup>
   <ItemGroup>
