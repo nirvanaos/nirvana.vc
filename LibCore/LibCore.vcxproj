@@ -222,6 +222,7 @@
     <ClInclude Include="..\Core\Source\SysDomain.h" />
     <ClInclude Include="..\Core\Source\Thread.h" />
     <ClInclude Include="..\Core\Source\ThreadWorker.h" />
+    <ClInclude Include="..\Core\Source\Thread.inl" />
     <ClInclude Include="..\Core\Source\UserAllocator.h" />
     <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\user_memory.h" />
