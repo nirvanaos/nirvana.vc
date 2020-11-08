@@ -324,8 +324,14 @@
     <ClCompile Include="..\Core\Source\SpinLock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\Runnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="..\Core\Source\SyncDomain.inl">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
