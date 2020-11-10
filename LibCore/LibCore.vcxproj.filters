@@ -208,6 +208,9 @@
     <ClInclude Include="..\Core\Source\Thread.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\SkipListWithPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -330,8 +333,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="..\Core\Source\SyncDomain.inl">
-      <Filter>Header Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

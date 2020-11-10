@@ -195,6 +195,7 @@
     <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
+    <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
     <ClInclude Include="..\Core\Source\Runnable.h" />
     <ClInclude Include="..\Core\Source\RuntimeSupportImpl.h" />
     <ClInclude Include="..\Core\Source\SkipList.h" />
@@ -316,7 +317,6 @@
     <ClCompile Include="..\Core\Source\WaitablePtr.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Core\Source\SyncDomain.inl" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
