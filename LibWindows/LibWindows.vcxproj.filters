@@ -158,9 +158,6 @@
     <ClInclude Include="..\Windows\Source\CompletionPort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\TaskMaster.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Port\SystemInfo.h">
       <Filter>Port</Filter>
     </ClInclude>
@@ -186,6 +183,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\MailslotName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\WorkerSemaphore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

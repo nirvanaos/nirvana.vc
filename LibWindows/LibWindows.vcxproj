@@ -86,7 +86,7 @@
     <ClInclude Include="..\Windows\Source\SchedulerMessage.h" />
     <ClInclude Include="..\Windows\Source\SchedulerAbstract.h" />
     <ClInclude Include="..\Windows\Source\SchedulerMaster.h" />
-    <ClInclude Include="..\Windows\Source\TaskMaster.h" />
+    <ClInclude Include="..\Windows\Source\WorkerSemaphore.h" />
     <ClInclude Include="..\Windows\Source\Thread.inl" />
     <ClInclude Include="..\Windows\Source\ThreadPool.h" />
     <ClInclude Include="..\Windows\Source\ThreadPostman.h" />
