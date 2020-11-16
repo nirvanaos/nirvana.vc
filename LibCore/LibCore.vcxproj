@@ -183,6 +183,7 @@
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\ModuleInfo.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
+    <ClInclude Include="..\Core\Source\ORB\Message.h" />
     <ClInclude Include="..\Core\Source\ORB\giop.h" />
     <ClInclude Include="..\Core\Source\ORB\iop.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
