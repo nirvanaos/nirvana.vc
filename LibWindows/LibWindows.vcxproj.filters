@@ -30,9 +30,6 @@
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\WorkerThreads.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -55,7 +55,6 @@
     <ClCompile Include="..\Windows\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Windows\Source\unrecoverable_error.cpp" />
     <ClCompile Include="..\Windows\Source\WorkerSemaphore.cpp" />
-    <ClCompile Include="..\Windows\Source\WorkerThreads.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Port\BackOff.h" />
