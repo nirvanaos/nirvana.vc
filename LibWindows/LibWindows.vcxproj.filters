@@ -81,6 +81,9 @@
     <ClCompile Include="..\Windows\Source\MailslotName.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\WorkerSemaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -143,12 +146,6 @@
     <ClInclude Include="..\Windows\Source\LockableHandle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\ExecContextInternal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Windows\Port\ThreadWorker.h">
-      <Filter>Port</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Port\Thread.h">
       <Filter>Port</Filter>
     </ClInclude>
@@ -188,11 +185,17 @@
     <ClInclude Include="..\Windows\Source\WorkerSemaphore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Source\ThreadWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\ExecContext.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\SchedulerBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="..\Windows\Source\ThreadWorker.inl">
-      <Filter>Header Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
