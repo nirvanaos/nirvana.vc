@@ -39,9 +39,6 @@
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\ProtDomainMemory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\Scheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -79,6 +76,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\WorkerSemaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\Memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -125,9 +125,6 @@
     <ClInclude Include="..\Windows\Port\ThreadBackground.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Port\ProtDomainMemory.h">
-      <Filter>Port</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Port\Scheduler.h">
       <Filter>Port</Filter>
     </ClInclude>
@@ -136,9 +133,6 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Port\config.h">
       <Filter>Port</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Windows\Source\ProtDomainMemoryInternal.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\LockableHandle.h">
       <Filter>Header Files</Filter>
@@ -189,6 +183,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\SchedulerBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Memory.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\Memory.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
