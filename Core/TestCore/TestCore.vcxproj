@@ -165,9 +165,6 @@
     <ProjectReference Include="..\LibCore\LibCore.vcxproj">
       <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\LibWindows\LibWindows.vcxproj">
-      <Project>{3f85577e-cfd2-4fb9-9c3c-6da6bba3cda5}</Project>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

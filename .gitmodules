@@ -1,0 +1,6 @@
+[submodule "Core/Core"]
+	path = Core/Core
+	url = //NAS/Home/Git/N/Core/Core
+[submodule "Port/Windows/Windows"]
+	path = Port/Windows/Windows
+	url = //NAS/Home/Git/N/Core/Windows
