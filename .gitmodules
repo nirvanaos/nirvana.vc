@@ -1,9 +1,0 @@
-[submodule "Core"]
-	path = Core
-	url = //NAS/Home/Git/N/Core/Core
-[submodule "Windows"]
-	path = Windows
-	url = //NAS/Home/Git/N/Core/Windows
-[submodule "googletest"]
-	path = googletest
-	url = https://github.com/google/googletest.git
