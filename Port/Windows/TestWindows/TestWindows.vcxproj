@@ -23,11 +23,20 @@
     <ClCompile Include="..\Windows\Test\TestThreadPool.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibCore\LibCore.vcxproj">
+    <ProjectReference Include="..\..\..\Core\LibCore\LibCore.vcxproj">
       <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Library.VC\googletest\googletest.vcxproj">
+      <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Library.VC\Nirvana\LibMock\LibMock.vcxproj">
+      <Project>{ae347e10-438a-4a2b-8d7f-47b40d85be40}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Library.VC\Nirvana\Library\Library.vcxproj">
+      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LibWindows\LibWindows.vcxproj">
+      <Project>{3f85577e-cfd2-4fb9-9c3c-6da6bba3cda5}</Project>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -72,11 +81,6 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared">
-    <Import Project="..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets" Condition="Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" />
-    <Import Project="..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets" Condition="Exists('..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets')" />
-    <Import Project="..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets" Condition="Exists('..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets')" />
-  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -114,7 +118,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\googletest\googletest\googletest\include;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
@@ -136,7 +140,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\googletest\googletest\googletest\include;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
@@ -160,7 +164,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\googletest\googletest\googletest\include;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
@@ -185,7 +189,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\googletest\googletest\googletest\include;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
@@ -201,12 +205,4 @@
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.Lib.1.0.0\build\native\Nirvana.Lib.targets'))" />
-    <Error Condition="!Exists('..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.LibMock.1.0.0\build\native\Nirvana.LibMock.targets'))" />
-    <Error Condition="!Exists('..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\googletest.nirvana.vc.1.10.0\build\native\googletest.nirvana.vc.targets'))" />
-  </Target>
 </Project>
