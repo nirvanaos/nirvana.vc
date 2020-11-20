@@ -26,6 +26,7 @@
     <ClCompile Include="..\Windows\Source\Mailslot.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp" />
     <ClCompile Include="..\Windows\Source\ExecContext.cpp" />
+    <ClCompile Include="..\Windows\Source\MessageBroker.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Memory.cpp" />
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
