@@ -30,9 +30,6 @@
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\ExecContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -82,6 +79,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\MessageBroker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\shutdown.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -193,6 +193,12 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Source\Memory.inl">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\shutdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\main.h">
+      <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

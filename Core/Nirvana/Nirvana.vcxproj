@@ -192,6 +192,7 @@
   <ItemGroup>
     <ClCompile Include="..\Core\Objects\g_memory.cpp" />
     <ClCompile Include="..\Core\Objects\g_runtime_support.cpp" />
+    <ClCompile Include="..\Core\Objects\main.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\POA.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp" />

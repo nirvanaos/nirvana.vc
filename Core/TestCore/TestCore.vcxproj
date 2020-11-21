@@ -155,7 +155,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Library.VC\googletest\googletest\googletest\src\gtest_main.cc" />
     <ClCompile Include="..\Core\Test\TestCore\TestAtomicPtr.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestHeap.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestHeapDirectory.cpp" />

@@ -32,9 +32,6 @@
     <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Library.VC\googletest\googletest\googletest\src\gtest_main.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Test\TestCore\readme.md" />

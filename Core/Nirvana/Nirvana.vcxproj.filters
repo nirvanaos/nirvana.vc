@@ -39,6 +39,9 @@
     <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp">
       <Filter>ORB</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Objects\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Objects\ORB\tc_impex.h">

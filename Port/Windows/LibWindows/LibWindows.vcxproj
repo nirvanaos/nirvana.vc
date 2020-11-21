@@ -22,7 +22,6 @@
     <ClCompile Include="..\Windows\Source\AddressSpace.cpp" />
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotName.cpp" />
-    <ClCompile Include="..\Windows\Source\main.cpp" />
     <ClCompile Include="..\Windows\Source\Mailslot.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp" />
     <ClCompile Include="..\Windows\Source\ExecContext.cpp" />
@@ -30,6 +29,7 @@
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Memory.cpp" />
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
+    <ClCompile Include="..\Windows\Source\shutdown.cpp" />
     <ClCompile Include="..\Windows\Source\SysDomain.cpp" />
     <ClCompile Include="..\Windows\Source\SystemInfo.cpp" />
     <ClCompile Include="..\Windows\Source\Thread.cpp" />
@@ -61,6 +61,7 @@
     <ClInclude Include="..\Windows\Port\BackOff.h" />
     <ClInclude Include="..\Windows\Port\config.h" />
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
+    <ClInclude Include="..\Windows\Port\main.h" />
     <ClInclude Include="..\Windows\Port\Memory.h" />
     <ClInclude Include="..\Windows\Port\Scheduler.h" />
     <ClInclude Include="..\Windows\Port\SystemInfo.h" />
@@ -87,6 +88,7 @@
     <ClInclude Include="..\Windows\Source\SchedulerMessage.h" />
     <ClInclude Include="..\Windows\Source\SchedulerAbstract.h" />
     <ClInclude Include="..\Windows\Source\SchedulerMaster.h" />
+    <ClInclude Include="..\Windows\Source\shutdown.h" />
     <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
     <ClInclude Include="..\Windows\Source\WorkerSemaphore.h" />
     <ClInclude Include="..\Windows\Source\Thread.inl" />
