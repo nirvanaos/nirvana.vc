@@ -196,7 +196,6 @@
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
-    <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
     <ClInclude Include="..\Core\Source\ScheduleCall.h" />
     <ClInclude Include="..\Core\Source\ScheduleReturn.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
@@ -237,12 +236,6 @@
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
     <ClCompile Include="..\Core\Source\Binder.cpp" />
     <ClCompile Include="..\Core\Source\g_module.cpp" />
-    <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
@@ -267,39 +260,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\g_memory.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ModuleInfo.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\POA.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\POA_p.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyObject.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ServantBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ServantMarshaler.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\TypeCode.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Core\Source\RandomGen.cpp" />
     <ClCompile Include="..\Core\Source\ScheduleCall.cpp" />

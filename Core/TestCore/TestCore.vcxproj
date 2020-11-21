@@ -141,22 +141,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Test\main.cpp" />
-    <ClCompile Include="..\Core\Test\TestAtomicPtr.cpp" />
-    <ClCompile Include="..\Core\Test\TestHeap.cpp" />
-    <ClCompile Include="..\Core\Test\TestHeapDirectory.cpp" />
-    <ClCompile Include="..\Core\Test\TestMemory.cpp" />
-    <ClCompile Include="..\Core\Test\TestPriorityQueue.cpp" />
-    <ClCompile Include="..\Core\Test\TestScheduler.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestSpinLock.cpp" />
-    <ClCompile Include="..\Core\Test\TestStack.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\Library.VC\googletest\googletest.vcxproj">
       <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
     </ProjectReference>
@@ -169,6 +153,19 @@
     <ProjectReference Include="..\LibCore\LibCore.vcxproj">
       <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Library.VC\googletest\googletest\googletest\src\gtest_main.cc" />
+    <ClCompile Include="..\Core\Test\TestCore\TestAtomicPtr.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestHeap.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestHeapDirectory.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestMemory.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestPriorityQueue.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestSpinLock.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Core\Test\TestCore\readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

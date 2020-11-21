@@ -18,10 +18,10 @@
     <ClCompile Include="..\Windows\Test\TestAPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Test\main.cpp">
+    <ClCompile Include="..\..\..\Library.VC\googletest\googletest\googletest\src\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Library.VC\googletest\googletest\googletest\src\gtest-all.cc">
+    <ClCompile Include="..\..\..\Library.VC\googletest\googletest\googletest\src\gtest_main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

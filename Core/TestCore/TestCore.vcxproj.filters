@@ -11,32 +11,32 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Test\TestAtomicPtr.cpp">
+    <ClCompile Include="..\Core\Test\TestCore\TestAtomicPtr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestHeap.cpp">
+    <ClCompile Include="..\Core\Test\TestCore\TestHeap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestHeapDirectory.cpp">
+    <ClCompile Include="..\Core\Test\TestCore\TestHeapDirectory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestPriorityQueue.cpp">
+    <ClCompile Include="..\Core\Test\TestCore\TestMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestScheduler.cpp">
+    <ClCompile Include="..\Core\Test\TestCore\TestPriorityQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestStack.cpp">
+    <ClCompile Include="..\Core\Test\TestCore\TestSpinLock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestSpinLock.cpp">
+    <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestMemory.cpp">
+    <ClCompile Include="..\..\Library.VC\googletest\googletest\googletest\src\gtest_main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Core\Test\TestCore\readme.md" />
   </ItemGroup>
 </Project>

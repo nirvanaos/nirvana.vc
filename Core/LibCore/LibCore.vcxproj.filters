@@ -142,9 +142,6 @@
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\SkipList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -252,12 +249,6 @@
     <ClCompile Include="..\Core\Source\ModuleInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\POA.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\POA_p.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -276,15 +267,6 @@
     <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\TypeCode.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\BackOff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -292,12 +274,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\g_memory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">

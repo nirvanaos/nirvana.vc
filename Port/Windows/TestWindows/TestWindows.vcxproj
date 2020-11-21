@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Windows\Test\main.cpp" />
     <ClCompile Include="..\Windows\Test\TestThreadPool.cpp" />
   </ItemGroup>
   <ItemGroup>

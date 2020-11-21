@@ -156,7 +156,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Library.VC\googletest\googletest\googletest\src\gtest-all.cc" />
-    <ClCompile Include="..\Windows\Test\main.cpp" />
+    <ClCompile Include="..\..\..\Library.VC\googletest\googletest\googletest\src\gtest_main.cc" />
     <ClCompile Include="..\Windows\Test\TestAPI.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
