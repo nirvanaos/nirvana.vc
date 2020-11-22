@@ -84,6 +84,9 @@
     <ClCompile Include="..\Windows\Source\shutdown.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -199,6 +202,9 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Port\main.h">
       <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\Console.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

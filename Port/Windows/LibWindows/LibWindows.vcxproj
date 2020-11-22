@@ -37,6 +37,7 @@
   <ItemGroup>
     <ClCompile Include="..\Windows\Source\AddressSpace.cpp" />
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
+    <ClCompile Include="..\Windows\Source\Console.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotName.cpp" />
     <ClCompile Include="..\Windows\Source\Mailslot.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp" />
@@ -101,6 +102,7 @@
     <ClInclude Include="..\Windows\Source\BufferPool.h" />
     <ClInclude Include="..\Windows\Source\CompletionPort.h" />
     <ClInclude Include="..\Windows\Source\CompletionPortReceiver.h" />
+    <ClInclude Include="..\Windows\Source\Console.h" />
     <ClInclude Include="..\Windows\Source\ExecContext.inl" />
     <ClInclude Include="..\Windows\Source\LockableHandle.h" />
     <ClInclude Include="..\Windows\Source\Mailslot.h" />
