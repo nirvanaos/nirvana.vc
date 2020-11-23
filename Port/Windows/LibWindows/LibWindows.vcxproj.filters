@@ -87,9 +87,6 @@
     <ClCompile Include="..\Windows\Source\Console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\nirvana_startup.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\nirvana_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -210,6 +207,12 @@
       <Filter>Port</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\startup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\initterm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
