@@ -87,7 +87,10 @@
     <ClCompile Include="..\Windows\Source\Console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\nirvana_main.cpp">
+    <ClCompile Include="..\Windows\Source\nirvana.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\gtest_sys.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
