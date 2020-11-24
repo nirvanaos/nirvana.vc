@@ -106,7 +106,7 @@
     <ClInclude Include="..\Windows\Source\CompletionPortReceiver.h" />
     <ClInclude Include="..\Windows\Source\Console.h" />
     <ClInclude Include="..\Windows\Source\ExecContext.inl" />
-    <ClInclude Include="..\Windows\Source\initterm.h" />
+    <ClInclude Include="..\Windows\Source\initialize.h" />
     <ClInclude Include="..\Windows\Source\LockableHandle.h" />
     <ClInclude Include="..\Windows\Source\Mailslot.h" />
     <ClInclude Include="..\Windows\Source\MailslotName.h" />

@@ -215,7 +215,7 @@
     <ClInclude Include="..\Windows\Source\startup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\initterm.h">
+    <ClInclude Include="..\Windows\Source\initialize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
