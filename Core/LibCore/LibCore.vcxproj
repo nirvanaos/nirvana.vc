@@ -341,13 +341,13 @@
     <ClInclude Include="..\Core\Source\Array.h" />
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\Binder.h" />
+    <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\CoreObject.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
     <ClInclude Include="..\Core\Source\Legacy\RuntimeSupportLegacy.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
-    <ClInclude Include="..\Core\Source\ModuleInfo.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\Message.h" />
     <ClInclude Include="..\Core\Source\ORB\giop.h" />
@@ -362,8 +362,10 @@
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
+    <ClInclude Include="..\Core\Source\PortableExecutable.h" />
     <ClInclude Include="..\Core\Source\ScheduleCall.h" />
     <ClInclude Include="..\Core\Source\ScheduleReturn.h" />
+    <ClInclude Include="..\Core\Source\Section.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
     <ClInclude Include="..\Core\Source\Runnable.h" />
     <ClInclude Include="..\Core\Source\RuntimeSupportImpl.h" />
@@ -402,6 +404,7 @@
   <ItemGroup>
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
     <ClCompile Include="..\Core\Source\Binder.cpp" />
+    <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\g_module.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -414,6 +417,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
+    <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
     <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -439,7 +443,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ModuleInfo.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyObject.cpp" />
