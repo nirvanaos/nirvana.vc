@@ -348,6 +348,7 @@
     <ClInclude Include="..\Core\Source\Legacy\RuntimeSupportLegacy.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
+    <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\Message.h" />
     <ClInclude Include="..\Core\Source\ORB\giop.h" />
