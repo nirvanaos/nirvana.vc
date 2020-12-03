@@ -13,5 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ORB">
+      <UniqueIdentifier>{585b2749-7ba8-46f7-a39f-0053b871be0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\Objects\g_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\g_runtime_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\POA.cpp">
+      <Filter>ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp">
+      <Filter>ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp">
+      <Filter>ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp">
+      <Filter>ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp">
+      <Filter>ORB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Objects\ORB\tc_impex.h">
+      <Filter>ORB</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

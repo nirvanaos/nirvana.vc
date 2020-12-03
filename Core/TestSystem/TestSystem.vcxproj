@@ -161,6 +161,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Objects\g_memory.cpp" />
+    <ClCompile Include="..\Core\Objects\g_runtime_support.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\POA.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp" />
     <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -170,15 +177,15 @@
     <ProjectReference Include="..\..\Library.VC\Nirvana\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\CoreObjects\CoreObjects.vcxproj">
-      <Project>{24dfc83e-cd24-4646-a497-72fd3c66d312}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\GTest\GTest.vcxproj">
       <Project>{f763282f-c2f4-40f4-9cac-8dcefa4c5d94}</Project>
     </ProjectReference>
     <ProjectReference Include="..\LibCore\LibCore.vcxproj">
       <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Objects\ORB\tc_impex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
