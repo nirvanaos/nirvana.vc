@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CoreObjects">
+      <UniqueIdentifier>{4b29cf9f-e57a-4954-98c1-884e31cd79f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\ORB">
+      <UniqueIdentifier>{e209093f-46b4-478f-ba31-15efce6c61be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Test\TestORB\module\DynamicI1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\DynamicI3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\ImplI1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\PortableI1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\PortableI3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\Test_I1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\Test_I1_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\Test_I2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\Test_I3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\Test_I3_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\Test_I1_factory_s.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\Test_I1_s.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\Test_I2_s.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\Test_I3_factory_s.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\Test_I3_s.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_portable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_tied.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_portable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_tied.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Objects\ORB\tc_impex.h">
+      <Filter>CoreObjects\ORB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_dynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_portable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_tied.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_dynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_portable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_tied.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\ImplI1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\POA.cpp">
+      <Filter>CoreObjects\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp">
+      <Filter>CoreObjects\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp">
+      <Filter>CoreObjects\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp">
+      <Filter>CoreObjects\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp">
+      <Filter>CoreObjects\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\g_memory.cpp">
+      <Filter>CoreObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\g_runtime_support.cpp">
+      <Filter>CoreObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

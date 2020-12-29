@@ -352,6 +352,7 @@
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\CoreObject.h" />
+    <ClInclude Include="..\Core\Source\initterm.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
     <ClInclude Include="..\Core\Source\Legacy\RuntimeSupportLegacy.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h" />
