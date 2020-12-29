@@ -221,7 +221,18 @@
     <ClCompile Include="..\Core\Test\TestORB\module\I3_static.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\I3_tied.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\ImplI1.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I1_factory_p.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I1_p.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I2_p.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I3_factory_p.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I3_p.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\Test.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\TestORB.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I1.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I1_factory.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I2.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I3.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I3_factory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

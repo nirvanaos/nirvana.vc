@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -19,22 +15,29 @@
     <Filter Include="CoreObjects\ORB">
       <UniqueIdentifier>{e209093f-46b4-478f-ba31-15efce6c61be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{16487fed-7345-4df5-a0ba-69a83ad58489}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Test\TestORB\module\DynamicI1.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\DynamicI3.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\ImplI1.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\PortableI1.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\PortableI3.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\include\Test_I1.h">
       <Filter>Header Files</Filter>
@@ -52,19 +55,19 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\Test_I1_factory_s.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\Test_I1_s.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\Test_I2_s.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\Test_I3_factory_s.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\Test_I3_s.h">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\include\I1_dynamic.h">
       <Filter>Header Files</Filter>
@@ -96,34 +99,31 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_dynamic.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_portable.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_static.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_tied.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I3_dynamic.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I3_portable.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I3_static.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I3_tied.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\ImplI1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\Test.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Objects\ORB\POA.cpp">
       <Filter>CoreObjects\ORB</Filter>
@@ -145,6 +145,42 @@
     </ClCompile>
     <ClCompile Include="..\Core\Objects\g_runtime_support.cpp">
       <Filter>CoreObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I1_factory_p.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I1_p.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I2_p.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I3_factory_p.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\Test_I3_p.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\Test.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I1.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I1_factory.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I2.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I3.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\Test_I3_factory.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\TestORB.cpp">
+      <Filter>Process</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
