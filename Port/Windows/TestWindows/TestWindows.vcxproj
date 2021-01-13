@@ -201,7 +201,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -224,7 +223,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -247,7 +245,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -270,7 +267,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>

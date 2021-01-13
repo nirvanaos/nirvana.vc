@@ -168,7 +168,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -184,7 +183,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -240,7 +238,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -256,7 +253,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>OneCore.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
