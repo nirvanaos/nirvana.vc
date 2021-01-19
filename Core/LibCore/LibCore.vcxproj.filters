@@ -341,7 +341,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="..\Core\Source\Thread.inl">
       <Filter>Header Files</Filter>
     </None>

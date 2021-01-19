@@ -492,20 +492,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Thread.inl" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
-    <Import Project="..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
-    <Import Project="..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
-  </ImportGroup>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
-    <Error Condition="!Exists('..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
-    <Error Condition="!Exists('..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
-  </Target>
+  <ImportGroup Label="ExtensionTargets" />
 </Project>
