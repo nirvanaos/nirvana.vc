@@ -6,4 +6,4 @@
 	url = //NAS/Home/Git/N/Core/Windows
 [submodule "Library.VC"]
 	path = Library.VC
-	url = //NAS/Home/Git/N/Library.VC
+	url = https://github.com/nirvanaos/library.vc.git
