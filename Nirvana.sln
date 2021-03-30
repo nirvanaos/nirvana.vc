@@ -23,6 +23,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Port", "Port", "{97F41E2D-837C-4523-9ED2-3D75034C1D12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{58C66CB0-7DC2-40C7-BB19-3C0EA2780FC6}"
+	ProjectSection(SolutionItems) = preProject
+		Port\Windows\Windows\readme.md = Port\Windows\Windows\readme.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibWindows", "Port\Windows\LibWindows\LibWindows.vcxproj", "{3F85577E-CFD2-4FB9-9C3C-6DA6BBA3CDA5}"
 EndProject

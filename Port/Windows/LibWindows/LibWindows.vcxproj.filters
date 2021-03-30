@@ -206,9 +206,6 @@
     <ClInclude Include="..\Windows\Source\shutdown.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Port\main.h">
-      <Filter>Port</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\Console.h">
       <Filter>Header Files</Filter>
     </ClInclude>

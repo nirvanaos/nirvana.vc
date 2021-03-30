@@ -92,7 +92,6 @@
     <ClInclude Include="..\Windows\Port\BackOff.h" />
     <ClInclude Include="..\Windows\Port\config.h" />
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
-    <ClInclude Include="..\Windows\Port\main.h" />
     <ClInclude Include="..\Windows\Port\Memory.h" />
     <ClInclude Include="..\Windows\Port\Scheduler.h" />
     <ClInclude Include="..\Windows\Port\SystemInfo.h" />
