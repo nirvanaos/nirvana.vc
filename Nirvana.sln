@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FF4338E9-9E9D-4B2C-BFF0-69F2F9F5E6FC}"
+	ProjectSection(SolutionItems) = preProject
+		Core\Core\readme.md = Core\Core\readme.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibCore", "Core\LibCore\LibCore.vcxproj", "{3D48B775-2793-4249-BCE4-57736373EC32}"
 EndProject

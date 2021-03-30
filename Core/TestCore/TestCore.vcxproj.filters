@@ -26,9 +26,6 @@
     <ClCompile Include="..\Core\Test\TestCore\TestPriorityQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestCore\TestSpinLock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

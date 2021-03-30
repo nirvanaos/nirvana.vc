@@ -386,7 +386,6 @@
     <ClInclude Include="..\Core\Source\Runnable.h" />
     <ClInclude Include="..\Core\Source\RuntimeSupportImpl.h" />
     <ClInclude Include="..\Core\Source\SkipList.h" />
-    <ClInclude Include="..\Core\Source\SpinLock.h" />
     <ClInclude Include="..\Core\Source\Startup.h" />
     <ClInclude Include="..\Core\Source\StartupProt.h" />
     <ClInclude Include="..\Core\Source\StartupSys.h" />
@@ -479,7 +478,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\SpinLock.cpp" />
     <ClCompile Include="..\Core\Source\Startup.cpp" />
     <ClCompile Include="..\Core\Source\StartupProt.cpp" />
     <ClCompile Include="..\Core\Source\StartupSys.cpp" />

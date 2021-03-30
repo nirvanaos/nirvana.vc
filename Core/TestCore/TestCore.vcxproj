@@ -294,7 +294,6 @@
     <ClCompile Include="..\Core\Test\TestCore\TestHeapDirectory.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestMemory.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestPriorityQueue.cpp" />
-    <ClCompile Include="..\Core\Test\TestCore\TestSpinLock.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp" />
   </ItemGroup>
   <ItemGroup>
