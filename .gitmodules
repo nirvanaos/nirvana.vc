@@ -1,9 +1,9 @@
-[submodule "Port/Windows/Windows"]
-	path = Port/Windows/Windows
-	url = //NAS/Home/Git/N/Core/Windows
 [submodule "Library.VC"]
 	path = Library.VC
 	url = https://github.com/nirvanaos/library.vc.git
 [submodule "Core/Core"]
 	path = Core/Core
 	url = https://github.com/nirvanaos/core.git
+[submodule "Port/Windows/Windows"]
+	path = Port/Windows/Windows
+	url = https://github.com/nirvanaos/windows.git
