@@ -69,28 +69,28 @@
     <ClInclude Include="..\Core\Test\TestORB\module\Test_I3_s.h">
       <Filter>Module</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_dynamic.h">
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_dynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_portable.h">
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_portable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\include\I1_static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_tied.h">
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_tied.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_dynamic.h">
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_dynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_portable.h">
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_portable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\include\I3_static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_tied.h">
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_tied.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Objects\ORB\tc_impex.h">
@@ -98,28 +98,28 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Test\TestORB\module\I1_dynamic.cpp">
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_dynamic.cpp">
       <Filter>Module</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\module\I1_portable.cpp">
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_portable.cpp">
       <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_static.cpp">
       <Filter>Module</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\module\I1_tied.cpp">
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_tied.cpp">
       <Filter>Module</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\module\I3_dynamic.cpp">
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_factory_dynamic.cpp">
       <Filter>Module</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\module\I3_portable.cpp">
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_factory_portable.cpp">
       <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I3_static.cpp">
       <Filter>Module</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\module\I3_tied.cpp">
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_factory_tied.cpp">
       <Filter>Module</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\ImplI1.cpp">

@@ -326,14 +326,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Objects\ORB\tc_impex.h" />
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_dynamic.h" />
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_portable.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_dynamic.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_portable.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I1_static.h" />
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_tied.h" />
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_dynamic.h" />
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_portable.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_tied.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_dynamic.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_portable.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I3_static.h" />
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_tied.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_tied.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\Test_I1.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\Test_I1_factory.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\Test_I2.h" />
@@ -358,14 +358,14 @@
     <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp" />
-    <ClCompile Include="..\Core\Test\TestORB\module\I1_dynamic.cpp" />
-    <ClCompile Include="..\Core\Test\TestORB\module\I1_portable.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_dynamic.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_portable.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\I1_static.cpp" />
-    <ClCompile Include="..\Core\Test\TestORB\module\I1_tied.cpp" />
-    <ClCompile Include="..\Core\Test\TestORB\module\I3_dynamic.cpp" />
-    <ClCompile Include="..\Core\Test\TestORB\module\I3_portable.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_tied.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_factory_dynamic.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_factory_portable.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\I3_static.cpp" />
-    <ClCompile Include="..\Core\Test\TestORB\module\I3_tied.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\I3_factory_tied.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\ImplI1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\Test_I1_factory_p.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\Test_I1_p.cpp" />
