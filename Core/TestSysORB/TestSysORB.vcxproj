@@ -171,6 +171,7 @@
       <SubSystem>Console</SubSystem>
       <EntryPointSymbol>gtest_sys_startup</EntryPointSymbol>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
@@ -247,6 +248,7 @@
       <SubSystem>Console</SubSystem>
       <EntryPointSymbol>gtest_sys_startup</EntryPointSymbol>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
