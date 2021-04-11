@@ -418,7 +418,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
-    <ClCompile Include="..\Core\Source\Binder.cpp" />
+    <ClCompile Include="..\Core\Source\Binder.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\g_module.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">

@@ -359,7 +359,8 @@
     <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\TypeCodeTypeCode.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\TypeCode_p.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_factory.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_factory_p.cpp" />
@@ -370,7 +371,9 @@
     <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_factory.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_factory_p.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_p.cpp" />
-    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_dynamic.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_dynamic.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_portable.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\I1_static.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_tied.cpp" />

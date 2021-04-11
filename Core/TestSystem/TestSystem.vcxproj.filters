@@ -42,7 +42,10 @@
     <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp">
       <Filter>CoreObjects\ORB</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp">
+    <ClCompile Include="..\Core\Objects\ORB\TypeCode_p.cpp">
+      <Filter>CoreObjects\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Objects\ORB\TypeCodeTypeCode.cpp">
       <Filter>CoreObjects\ORB</Filter>
     </ClCompile>
   </ItemGroup>

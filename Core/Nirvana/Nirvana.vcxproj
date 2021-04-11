@@ -395,7 +395,8 @@
     <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\TypeCode.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\TypeCodeTypeCode.cpp" />
+    <ClCompile Include="..\Core\Objects\ORB\TypeCode_p.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Objects\ORB\tc_impex.h" />
