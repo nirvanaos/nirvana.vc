@@ -265,10 +265,8 @@
     <None Include="..\Core\Test\TestORB\idl\Test_I3.idl">
       <Filter>IDL</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1.idl">
+    <None Include="..\Core\Test\TestORB\idl\Test_I1.idl">
       <Filter>IDL</Filter>
-    </CustomBuild>
+    </None>
   </ItemGroup>
 </Project>

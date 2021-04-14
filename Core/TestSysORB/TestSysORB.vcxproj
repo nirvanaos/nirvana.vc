@@ -497,7 +497,7 @@
     <ClCompile Include="generated\Test_I3_p.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1.idl">
+    <None Include="..\Core\Test\TestORB\idl\Test_I1.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)nidl2cpp.exe %(FullPath) -dir $(ProjectDir)generated</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(TargetDir)nidl2cpp.exe %(FullPath) -dir $(ProjectDir)generated</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(TargetDir)nidl2cpp.exe %(FullPath) -dir $(ProjectDir)generated</Command>
@@ -506,7 +506,7 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(TargetDir)nidl2cpp.exe %(FullPath) -dir $(ProjectDir)generated</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(TargetDir)nidl2cpp.exe %(FullPath) -dir $(ProjectDir)generated</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(TargetDir)nidl2cpp.exe %(FullPath) -dir $(ProjectDir)generated</Command>
-    </CustomBuild>
+    </None>
     <None Include="..\Core\Test\TestORB\idl\Test_I2.idl" />
     <None Include="..\Core\Test\TestORB\idl\Test_I3.idl" />
   </ItemGroup>
