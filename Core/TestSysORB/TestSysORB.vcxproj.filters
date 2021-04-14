@@ -22,8 +22,14 @@
     <Filter Include="Process">
       <UniqueIdentifier>{16487fed-7345-4df5-a0ba-69a83ad58489}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Common">
-      <UniqueIdentifier>{626eef64-9d8b-4ccc-bc95-133e0c47360d}</UniqueIdentifier>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{40e3e100-e3be-4e23-a512-6699e732b64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HandMade">
+      <UniqueIdentifier>{cc620307-ccaa-4210-bf81-c78710671a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDL">
+      <UniqueIdentifier>{ca84dae1-a3d9-48c2-b9e0-bd1e820efd14}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -69,38 +75,68 @@
     <ClInclude Include="..\Core\Objects\ORB\tc_impex.h">
       <Filter>CoreObjects\ORB</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_factory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3_factory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_factory_s.h">
-      <Filter>Module</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_s.h">
-      <Filter>Module</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I2_s.h">
-      <Filter>Module</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3_factory_s.h">
-      <Filter>Module</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3_s.h">
-      <Filter>Module</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I1.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I1_factory.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I1_factory_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I1_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I2.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I2_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I3.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I3_factory.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I3_factory_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Test_I3_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_factory.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_factory_s.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_s.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I2.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I2_s.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3_factory.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3_factory_s.h">
+      <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3_s.h">
+      <Filter>HandMade</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -158,38 +194,81 @@
     <ClCompile Include="..\Core\Test\TestORB\process\TestORB.cpp">
       <Filter>Process</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_factory_p.cpp">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_p.cpp">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I2_p.cpp">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_factory_p.cpp">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_p.cpp">
-      <Filter>Module</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_factory.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I2.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_factory.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Objects\ORB\TypeCodeTypeCode.cpp">
       <Filter>CoreObjects\ORB</Filter>
     </ClCompile>
+    <ClCompile Include="generated\Test_I1.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I1_factory.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I1_factory_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I1_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I2.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I2_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I3.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I3_factory.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I3_factory_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I3_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_factory.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_factory_p.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1_p.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I2.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I2_p.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_factory.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_factory_p.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I3_p.cpp">
+      <Filter>HandMade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Core\Test\TestORB\idl\Test_I2.idl">
+      <Filter>IDL</Filter>
+    </None>
+    <None Include="..\Core\Test\TestORB\idl\Test_I3.idl">
+      <Filter>IDL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
