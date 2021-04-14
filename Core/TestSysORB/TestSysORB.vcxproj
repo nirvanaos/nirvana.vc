@@ -346,6 +346,7 @@
     <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_portable.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I3_static.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_tied.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\DynamicI1.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\DynamicI3.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\ImplI1.h" />

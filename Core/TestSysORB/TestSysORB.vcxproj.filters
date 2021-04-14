@@ -99,6 +99,9 @@
     <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I3_s.h">
       <Filter>Module</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_dynamic.cpp">
