@@ -7,3 +7,6 @@
 [submodule "Port/Windows/Windows"]
 	path = Port/Windows/Windows
 	url = https://github.com/nirvanaos/windows.git
+[submodule "nidl2cpp.vc"]
+	path = nidl2cpp.vc
+	url = https://github.com/nirvanaos/nidl2cpp.vc.git
