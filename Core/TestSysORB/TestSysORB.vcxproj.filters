@@ -259,14 +259,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Core\Test\TestORB\idl\Test_I2.idl">
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1.idl">
       <Filter>IDL</Filter>
-    </None>
-    <None Include="..\Core\Test\TestORB\idl\Test_I3.idl">
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1_factory.idl">
       <Filter>IDL</Filter>
-    </None>
-    <None Include="..\Core\Test\TestORB\idl\Test_I1.idl">
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I2.idl">
       <Filter>IDL</Filter>
-    </None>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I3.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I3_factory.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
