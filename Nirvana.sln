@@ -49,6 +49,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibMock", "Library.VC\Nirvana\LibMock\LibMock.vcxproj", "{AE347E10-438A-4A2B-8D7F-47B40D85BE40}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library", "Library.VC\Nirvana\Library\Library.vcxproj", "{810A987D-BFF4-4112-A59F-B8EAE9FCCD65}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F79EE0A-C429-42CB-8253-309B4CED8D39} = {9F79EE0A-C429-42CB-8253-309B4CED8D39}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLibrary", "Library.VC\Nirvana\TestLibrary\TestLibrary.vcxproj", "{E39BE139-4A09-4ED6-8432-8E759940EC67}"
 EndProject
