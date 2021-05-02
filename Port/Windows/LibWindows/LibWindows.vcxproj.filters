@@ -93,6 +93,12 @@
     <ClCompile Include="..\Windows\Source\gtest_sys.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\Executable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -217,6 +223,12 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Source\CmdLineParser.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Module.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Executable.h">
+      <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -39,6 +39,7 @@
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
     <ClCompile Include="..\Windows\Source\Console.cpp" />
     <ClCompile Include="..\Windows\Source\gtest_sys.cpp" />
+    <ClCompile Include="..\Windows\Source\Module.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotName.cpp" />
     <ClCompile Include="..\Windows\Source\Mailslot.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotReader.cpp" />
@@ -47,6 +48,7 @@
     </ClCompile>
     <ClCompile Include="..\Windows\Source\MessageBroker.cpp" />
     <ClCompile Include="..\Windows\Source\nirvana.cpp" />
+    <ClCompile Include="..\Windows\Source\Executable.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Memory.cpp" />
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
@@ -95,6 +97,8 @@
     <ClInclude Include="..\Windows\Port\config.h" />
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
     <ClInclude Include="..\Windows\Port\Memory.h" />
+    <ClInclude Include="..\Windows\Port\Module.h" />
+    <ClInclude Include="..\Windows\Port\Executable.h" />
     <ClInclude Include="..\Windows\Port\Scheduler.h" />
     <ClInclude Include="..\Windows\Port\SystemInfo.h" />
     <ClInclude Include="..\Windows\Port\Thread.h" />

@@ -359,6 +359,7 @@
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\CoreObject.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
+    <ClInclude Include="..\Core\Source\Legacy\Executable.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
     <ClInclude Include="..\Core\Source\Legacy\RuntimeSupportLegacy.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h" />
@@ -425,6 +426,8 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\g_module.cpp" />
+    <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
+    <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>

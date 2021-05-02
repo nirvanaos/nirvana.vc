@@ -235,6 +235,9 @@
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\Legacy\Executable.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -338,6 +341,12 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\COFF.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\Process.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\Executable.cpp">
+      <Filter>Legacy\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
