@@ -382,8 +382,6 @@
     <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
     <ClInclude Include="..\Core\Source\PortableExecutable.h" />
-    <ClInclude Include="..\Core\Source\ScheduleCall.h" />
-    <ClInclude Include="..\Core\Source\ScheduleReturn.h" />
     <ClInclude Include="..\Core\Source\Section.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
     <ClInclude Include="..\Core\Source\Runnable.h" />
@@ -473,8 +471,6 @@
     <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp" />
     <ClCompile Include="..\Core\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Core\Source\RandomGen.cpp" />
-    <ClCompile Include="..\Core\Source\ScheduleCall.cpp" />
-    <ClCompile Include="..\Core\Source\ScheduleReturn.cpp" />
     <ClCompile Include="..\Core\Source\SkipList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
@@ -492,6 +488,7 @@
     <ClCompile Include="..\Core\Source\SyncDomain.cpp" />
     <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\SyncContext.cpp" />
+    <ClCompile Include="..\Core\Source\Synchronized.cpp" />
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\user_memory.cpp" />
   </ItemGroup>

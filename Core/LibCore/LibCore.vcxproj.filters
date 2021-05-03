@@ -193,12 +193,6 @@
     <ClInclude Include="..\Core\Source\Suspend.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ScheduleCall.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ScheduleReturn.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Legacy\RuntimeSupportLegacy.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
@@ -321,12 +315,6 @@
     <ClCompile Include="..\Core\Source\Suspend.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ScheduleCall.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ScheduleReturn.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\StartupProt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -347,6 +335,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp">
       <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Synchronized.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
