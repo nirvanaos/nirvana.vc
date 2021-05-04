@@ -261,3 +261,5 @@ paket-files/
 __pycache__/
 *.pyc
 /Core/TestSysORB/generated/
+/Core/TestModule/generated/
+/Core/TestProcess/generated/
