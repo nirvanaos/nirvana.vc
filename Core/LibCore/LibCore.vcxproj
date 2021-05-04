@@ -423,6 +423,7 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
     <ClCompile Include="..\Core\Source\COFF.cpp" />
+    <ClCompile Include="..\Core\Source\exports.cpp" />
     <ClCompile Include="..\Core\Source\g_module.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />

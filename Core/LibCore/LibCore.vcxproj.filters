@@ -339,6 +339,9 @@
     <ClCompile Include="..\Core\Source\Synchronized.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\exports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Thread.inl">
