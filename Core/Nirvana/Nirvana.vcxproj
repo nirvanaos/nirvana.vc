@@ -182,7 +182,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -207,7 +207,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -232,7 +232,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -257,7 +257,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
