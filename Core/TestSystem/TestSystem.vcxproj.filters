@@ -13,45 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="CoreObjects">
-      <UniqueIdentifier>{b120a8c0-d1b1-48c7-8d57-f05ffe357249}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="CoreObjects\ORB">
-      <UniqueIdentifier>{a26fd4c7-bf8a-4f4f-89ee-89fd158a50e8}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Objects\g_memory.cpp">
-      <Filter>CoreObjects</Filter>
+    <ClCompile Include="..\Core\Source\exports.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Objects\g_runtime_support.cpp">
-      <Filter>CoreObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Objects\ORB\POA.cpp">
-      <Filter>CoreObjects\ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp">
-      <Filter>CoreObjects\ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp">
-      <Filter>CoreObjects\ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp">
-      <Filter>CoreObjects\ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Objects\ORB\TypeCode_p.cpp">
-      <Filter>CoreObjects\ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Objects\ORB\TypeCodeTypeCode.cpp">
-      <Filter>CoreObjects\ORB</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Core\Objects\ORB\tc_impex.h">
-      <Filter>CoreObjects\ORB</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

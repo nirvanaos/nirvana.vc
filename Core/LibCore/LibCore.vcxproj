@@ -381,6 +381,7 @@
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
+    <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
     <ClInclude Include="..\Core\Source\PortableExecutable.h" />
     <ClInclude Include="..\Core\Source\Section.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
@@ -424,7 +425,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\exports.cpp" />
+    <ClCompile Include="..\Core\Source\g_memory.cpp" />
     <ClCompile Include="..\Core\Source\g_module.cpp" />
+    <ClCompile Include="..\Core\Source\g_runtime_support.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
@@ -438,6 +441,12 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA_p.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TypeCodeTypeCode.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TypeCode_p.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
     <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">

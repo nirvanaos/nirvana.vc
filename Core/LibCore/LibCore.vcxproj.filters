@@ -232,6 +232,9 @@
     <ClInclude Include="..\Core\Source\Legacy\Executable.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -341,6 +344,30 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\exports.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\g_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\POA.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\POA_p.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\TypeCode_p.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\TypeCodeTypeCode.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

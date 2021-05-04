@@ -389,17 +389,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Objects\g_memory.cpp" />
-    <ClCompile Include="..\Core\Objects\g_runtime_support.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\POA.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\TypeCodeTypeCode.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\TypeCode_p.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Core\Objects\ORB\tc_impex.h" />
+    <ClCompile Include="..\Core\Source\exports.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

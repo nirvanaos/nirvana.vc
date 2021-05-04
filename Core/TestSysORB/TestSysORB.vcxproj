@@ -327,7 +327,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Core\Objects\ORB\tc_impex.h" />
     <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1.h" />
     <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_factory.h" />
     <ClInclude Include="..\Core\Test\TestORB\handmade\Test_I1_factory_s.h" />
@@ -364,14 +363,7 @@
     <ClInclude Include="generated\Test_I3_s.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Objects\g_memory.cpp" />
-    <ClCompile Include="..\Core\Objects\g_runtime_support.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\POA.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\POA_p.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\tc_constants.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\tc_exceptions.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\TypeCodeTypeCode.cpp" />
-    <ClCompile Include="..\Core\Objects\ORB\TypeCode_p.cpp" />
+    <ClCompile Include="..\Core\Source\exports.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\handmade\Test_I1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
