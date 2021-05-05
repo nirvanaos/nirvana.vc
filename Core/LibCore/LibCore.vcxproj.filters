@@ -35,6 +35,18 @@
       <UniqueIdentifier>{0c0884b8-d07d-4096-a8e5-69e65b9c21f7}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="IDL">
+      <UniqueIdentifier>{3b611adf-7eff-4c6d-b4bb-e8315703fea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORB\IDL">
+      <UniqueIdentifier>{bfe55d61-26c0-4016-abf6-69f7ffc3f298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORB\IDL\Proxy">
+      <UniqueIdentifier>{2ac9563e-9612-47c7-982f-ba12c7460449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated">
+      <UniqueIdentifier>{2b579eea-827d-46c6-97f8-8d93f751c423}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -235,6 +247,60 @@
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\generated\Binder.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Binder_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Current.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Current_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\HeapFactory.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\HeapFactory_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Marshal.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Marshal_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\MarshalContext.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\MarshalContext_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Memory.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Memory_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Module.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Module_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\RuntimeSupport.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\RuntimeSupport_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Unmarshal.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Unmarshal_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -374,5 +440,40 @@
     <None Include="..\Core\Source\Thread.inl">
       <Filter>Header Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Binder.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Current.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\HeapFactory.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Module.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\RuntimeSupport.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Marshal.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\MarshalContext.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Unmarshal.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IOReference.idl">
+      <Filter>ORB\IDL\Proxy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IORequest.idl">
+      <Filter>ORB\IDL\Proxy</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
