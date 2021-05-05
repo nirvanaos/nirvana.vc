@@ -16,3 +16,5 @@
 #define NIRVANA_BRIDGE_END
 #define NIRVANA_EXPORT
 #define NIRVANA_OLF_SECTION
+#define SYNC_BEGIN
+#define SYNC_END
