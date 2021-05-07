@@ -445,13 +445,13 @@
     <ClCompile Include="..\Core\Source\Binder.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ClassLibrary.cpp" />
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\exports.cpp" />
     <ClCompile Include="..\Core\Source\g_memory.cpp" />
     <ClCompile Include="..\Core\Source\g_module.cpp" />
     <ClCompile Include="..\Core\Source\g_runtime_support.cpp" />
     <ClCompile Include="..\Core\Source\initterm.cpp" />
-    <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -515,6 +515,7 @@
     <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp" />
     <ClCompile Include="..\Core\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Core\Source\RandomGen.cpp" />
+    <ClCompile Include="..\Core\Source\Singleton.cpp" />
     <ClCompile Include="..\Core\Source\SkipList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>

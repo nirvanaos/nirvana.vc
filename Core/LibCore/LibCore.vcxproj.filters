@@ -414,9 +414,6 @@
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Legacy\Executable.cpp">
-      <Filter>Legacy\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Synchronized.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -460,6 +457,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ClassLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Singleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
