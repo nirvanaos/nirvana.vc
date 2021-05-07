@@ -417,6 +417,7 @@
     <ClInclude Include="..\Core\Source\UserAllocator.h" />
     <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\user_memory.h" />
+    <ClInclude Include="..\Core\Source\WaitableRef.h" />
     <ClInclude Include="..\Core\Source\WaitList.h" />
     <ClInclude Include="..\generated\Binder.h" />
     <ClInclude Include="..\generated\Binder_s.h" />
@@ -539,6 +540,7 @@
     <ClCompile Include="..\Core\Source\Synchronized.cpp" />
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\user_memory.cpp" />
+    <ClCompile Include="..\Core\Source\WaitableRef.cpp" />
     <ClCompile Include="..\Core\Source\WaitList.cpp" />
   </ItemGroup>
   <ItemGroup>
