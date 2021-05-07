@@ -171,6 +171,7 @@
       <SubSystem>Console</SubSystem>
       <EntryPointSymbol>gtest_sys_startup</EntryPointSymbol>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
@@ -188,6 +189,7 @@
       <SubSystem>Console</SubSystem>
       <EntryPointSymbol>gtest_sys_startup</EntryPointSymbol>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -250,6 +252,7 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>
       </IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
@@ -269,6 +272,7 @@
       <EntryPointSymbol>gtest_sys_startup</EntryPointSymbol>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
