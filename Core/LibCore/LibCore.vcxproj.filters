@@ -301,6 +301,9 @@
     <ClInclude Include="..\generated\Unmarshal_s.h">
       <Filter>generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -434,6 +437,12 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\TypeCodeTypeCode.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\WaitList.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
