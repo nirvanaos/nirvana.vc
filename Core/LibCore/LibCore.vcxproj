@@ -449,7 +449,7 @@
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\exports.cpp" />
     <ClCompile Include="..\Core\Source\g_memory.cpp" />
-    <ClCompile Include="..\Core\Source\g_module.cpp" />
+    <ClCompile Include="..\Core\Source\CoreModule.cpp" />
     <ClCompile Include="..\Core\Source\g_runtime_support.cpp" />
     <ClCompile Include="..\Core\Source\initterm.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />

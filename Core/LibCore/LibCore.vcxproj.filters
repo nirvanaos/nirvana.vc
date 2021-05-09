@@ -384,7 +384,7 @@
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\g_module.cpp">
+    <ClCompile Include="..\Core\Source\CoreModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Binder.cpp">
