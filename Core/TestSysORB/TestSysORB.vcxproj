@@ -170,7 +170,6 @@
       <SubSystem>Console</SubSystem>
       <EntryPointSymbol>gtest_sys_startup</EntryPointSymbol>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
@@ -245,7 +244,6 @@
       <SubSystem>Console</SubSystem>
       <EntryPointSymbol>gtest_sys_startup</EntryPointSymbol>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;OneCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
