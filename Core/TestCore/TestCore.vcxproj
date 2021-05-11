@@ -318,6 +318,7 @@
     <ClCompile Include="..\Core\Test\TestCore\TestHeapDirectory.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestMemory.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestPriorityQueue.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestQueueWithPool.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp" />
   </ItemGroup>
   <ItemGroup>
