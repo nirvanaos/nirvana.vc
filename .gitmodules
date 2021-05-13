@@ -10,3 +10,6 @@
 [submodule "nidl2cpp.vc"]
 	path = nidl2cpp.vc
 	url = https://github.com/nirvanaos/nidl2cpp.vc.git
+[submodule "dumpolf.vc"]
+	path = dumpolf.vc
+	url = https://github.com/nirvanaos/dumpolf.vc.git
