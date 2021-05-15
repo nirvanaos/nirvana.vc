@@ -441,9 +441,6 @@
     <ClCompile Include="..\Core\Source\ORB\TypeCode_p.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\TypeCodeTypeCode.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -451,9 +448,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\WaitableRef.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\initterm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Module.cpp">

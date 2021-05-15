@@ -451,7 +451,6 @@
     <ClCompile Include="..\Core\Source\g_memory.cpp" />
     <ClCompile Include="..\Core\Source\CoreModule.cpp" />
     <ClCompile Include="..\Core\Source\g_runtime_support.cpp" />
-    <ClCompile Include="..\Core\Source\initterm.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -479,7 +478,6 @@
     <ClCompile Include="..\Core\Source\ORB\POA_p.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\TypeCodeTypeCode.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TypeCode_p.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
