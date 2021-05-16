@@ -426,7 +426,7 @@
     <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\POA.cpp">
+    <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POA_p.cpp">
@@ -438,7 +438,7 @@
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\TypeCode_p.cpp">
+    <ClCompile Include="..\Core\Source\ORB\tc_TypeCode.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Loader.cpp">
