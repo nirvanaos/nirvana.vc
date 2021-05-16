@@ -99,6 +99,9 @@
     <ClCompile Include="..\Windows\Source\Module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\Chrono.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -228,6 +231,9 @@
       <Filter>Port</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Port\Executable.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Chrono.h">
       <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>

@@ -37,6 +37,7 @@
   <ItemGroup>
     <ClCompile Include="..\Windows\Source\AddressSpace.cpp" />
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
+    <ClCompile Include="..\Windows\Source\Chrono.cpp" />
     <ClCompile Include="..\Windows\Source\Console.cpp" />
     <ClCompile Include="..\Windows\Source\gtest_sys.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
@@ -103,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Port\BackOff.h" />
+    <ClInclude Include="..\Windows\Port\Chrono.h" />
     <ClInclude Include="..\Windows\Port\config.h" />
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
     <ClInclude Include="..\Windows\Port\Memory.h" />
@@ -278,7 +280,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -297,7 +299,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -320,7 +322,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -339,7 +341,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -364,7 +366,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
@@ -389,7 +391,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
@@ -415,7 +417,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
@@ -440,7 +442,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Core\generated;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Core;..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Core\Core\Source;..\Windows;$(VCToolsInstallDir)crt\src\vcruntime;..\..\..\Core\Core\Test\GTest</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>

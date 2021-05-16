@@ -313,6 +313,15 @@
     <ClInclude Include="..\Core\Source\Singleton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\generated\Chrono.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\Chrono_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Chrono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -459,6 +468,9 @@
     <ClCompile Include="..\Core\Source\Singleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\g_chrono.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Thread.inl">
@@ -498,6 +510,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IORequest.idl">
       <Filter>ORB\IDL\Proxy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Chrono.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
