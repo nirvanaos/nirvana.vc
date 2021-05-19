@@ -247,24 +247,6 @@
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\generated\Binder.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Binder_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Current.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Current_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\HeapFactory.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\HeapFactory_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\generated\Marshal.h">
       <Filter>generated</Filter>
     </ClInclude>
@@ -313,14 +295,14 @@
     <ClInclude Include="..\Core\Source\Singleton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\generated\Chrono.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Chrono_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Chrono.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\System.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\System_s.h">
+      <Filter>generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -468,7 +450,7 @@
     <ClCompile Include="..\Core\Source\Singleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\g_chrono.cpp">
+    <ClCompile Include="..\Core\Source\System.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -481,13 +463,7 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Binder.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Current.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\HeapFactory.idl">
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\System.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Module.idl">
@@ -510,9 +486,6 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IORequest.idl">
       <Filter>ORB\IDL\Proxy</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Chrono.idl">
-      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
