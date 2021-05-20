@@ -271,12 +271,6 @@
     <ClInclude Include="..\generated\Module_s.h">
       <Filter>generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\generated\RuntimeSupport.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\RuntimeSupport_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\generated\Unmarshal.h">
       <Filter>generated</Filter>
     </ClInclude>
@@ -414,9 +408,6 @@
     <ClCompile Include="..\Core\Source\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\g_runtime_support.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -450,7 +441,7 @@
     <ClCompile Include="..\Core\Source\Singleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\System.cpp">
+    <ClCompile Include="..\Core\Source\g_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -467,9 +458,6 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Module.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\RuntimeSupport.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Marshal.idl">
