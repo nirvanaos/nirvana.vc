@@ -343,10 +343,10 @@
     <ClInclude Include="..\Core\Source\System.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\CoreMemory.h">
+    <ClInclude Include="..\Core\Source\MemoryCore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\UserMemory.h">
+    <ClInclude Include="..\Core\Source\MemoryUser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
