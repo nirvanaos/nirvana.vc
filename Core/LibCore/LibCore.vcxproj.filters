@@ -47,6 +47,15 @@
     <Filter Include="generated">
       <UniqueIdentifier>{2b579eea-827d-46c6-97f8-8d93f751c423}</UniqueIdentifier>
     </Filter>
+    <Filter Include="parallel-hashmap">
+      <UniqueIdentifier>{43efe92b-a3a1-43ed-816f-170488d5d871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="llvm">
+      <UniqueIdentifier>{363e8c04-0cde-4d74-8541-2d664680a22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="llvm\BinaryFormat">
+      <UniqueIdentifier>{756780f1-8516-4905-8537-8d8b5220f102}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -297,6 +306,39 @@
     </ClInclude>
     <ClInclude Include="..\generated\System_s.h">
       <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\RuntimeGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\btree.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\meminfo.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_base.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_bits.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_config.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_dump.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_fwd_decl.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_utils.h">
+      <Filter>parallel-hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h">
+      <Filter>llvm\BinaryFormat</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
