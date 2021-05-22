@@ -359,6 +359,7 @@
     <ClInclude Include="..\Core\Source\ClassLibrary.h" />
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
+    <ClInclude Include="..\Core\Source\CoreMemory.h" />
     <ClInclude Include="..\Core\Source\CoreObject.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
     <ClInclude Include="..\Core\Source\Legacy\Executable.h" />
@@ -409,6 +410,7 @@
     <ClInclude Include="..\Core\Source\Suspend.h" />
     <ClInclude Include="..\Core\Source\SyncContext.h" />
     <ClInclude Include="..\Core\Source\Synchronized.h" />
+    <ClInclude Include="..\Core\Source\System.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
     <ClInclude Include="..\Core\Source\unrecoverable_error.h" />
@@ -429,6 +431,7 @@
     <ClInclude Include="..\Core\Source\Thread.h" />
     <ClInclude Include="..\Core\Source\ThreadWorker.h" />
     <ClInclude Include="..\Core\Source\UserAllocator.h" />
+    <ClInclude Include="..\Core\Source\UserMemory.h" />
     <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\user_memory.h" />
     <ClInclude Include="..\Core\Source\WaitableRef.h" />
@@ -453,9 +456,24 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ClassLibrary.cpp" />
     <ClCompile Include="..\Core\Source\COFF.cpp" />
-    <ClCompile Include="..\Core\Source\exports.cpp" />
-    <ClCompile Include="..\Core\Source\g_system.cpp" />
-    <ClCompile Include="..\Core\Source\g_memory.cpp" />
+    <ClCompile Include="..\Core\Source\exports.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\Core\Source\CoreModule.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
@@ -557,7 +575,6 @@
     <ClCompile Include="..\Core\Source\SyncContext.cpp" />
     <ClCompile Include="..\Core\Source\Synchronized.cpp" />
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
-    <ClCompile Include="..\Core\Source\user_memory.cpp" />
     <ClCompile Include="..\Core\Source\WaitableRef.cpp" />
     <ClCompile Include="..\Core\Source\WaitList.cpp" />
   </ItemGroup>

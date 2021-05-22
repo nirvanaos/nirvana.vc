@@ -340,6 +340,15 @@
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h">
       <Filter>llvm\BinaryFormat</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\CoreMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\UserMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -399,9 +408,6 @@
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\user_memory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -447,9 +453,6 @@
     <ClCompile Include="..\Core\Source\exports.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\g_memory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -481,9 +484,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Singleton.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\g_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
