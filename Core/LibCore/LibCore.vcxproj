@@ -579,9 +579,6 @@
     <ClCompile Include="..\Core\Source\WaitList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Core\Source\Thread.inl" />
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_h $(ProjectDir)..\generated -out_cpp $(TMP)</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_h $(ProjectDir)..\generated -out_cpp $(TMP)</Command>
