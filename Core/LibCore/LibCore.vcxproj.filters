@@ -355,6 +355,9 @@
     <ClInclude Include="..\generated\ObjectFactory_s.h">
       <Filter>generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\HeapDynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -379,9 +382,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Scheduler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\HeapFactoryImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp">

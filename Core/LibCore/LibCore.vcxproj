@@ -359,6 +359,7 @@
     <ClInclude Include="..\Core\Source\ClassLibrary.h" />
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
+    <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\Memory.h" />
     <ClInclude Include="..\Core\Source\CoreObject.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
@@ -531,16 +532,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Heap.cpp" />
     <ClCompile Include="..\Core\Source\HeapDirectory.cpp" />
-    <ClCompile Include="..\Core\Source\HeapFactoryImpl.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyObject.cpp" />
