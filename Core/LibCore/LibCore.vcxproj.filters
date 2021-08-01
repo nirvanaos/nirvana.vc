@@ -286,9 +286,6 @@
     <ClInclude Include="..\generated\Unmarshal_s.h">
       <Filter>generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Loader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\WaitableRef.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -473,9 +470,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\tc_TypeCode.cpp">
       <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\Loader.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\WaitList.cpp">
       <Filter>Source Files</Filter>

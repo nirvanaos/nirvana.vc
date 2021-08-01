@@ -58,7 +58,6 @@
     </ClCompile>
     <ClCompile Include="..\Windows\Source\MessageBroker.cpp" />
     <ClCompile Include="..\Windows\Source\nirvana.cpp" />
-    <ClCompile Include="..\Windows\Source\Executable.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Memory.cpp" />
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
@@ -109,7 +108,6 @@
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
     <ClInclude Include="..\Windows\Port\Memory.h" />
     <ClInclude Include="..\Windows\Port\Module.h" />
-    <ClInclude Include="..\Windows\Port\Executable.h" />
     <ClInclude Include="..\Windows\Port\Scheduler.h" />
     <ClInclude Include="..\Windows\Port\SystemInfo.h" />
     <ClInclude Include="..\Windows\Port\Thread.h" />
