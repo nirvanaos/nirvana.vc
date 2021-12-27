@@ -56,6 +56,9 @@
     <Filter Include="llvm\BinaryFormat">
       <UniqueIdentifier>{756780f1-8516-4905-8537-8d8b5220f102}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ORB\generated">
+      <UniqueIdentifier>{d2665d0b-605b-4e30-b036-7f3cb810060e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -256,21 +259,6 @@
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\generated\Marshal.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Marshal_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\MarshalContext.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\MarshalContext_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Memory.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\generated\Memory_s.h">
       <Filter>generated</Filter>
     </ClInclude>
@@ -278,12 +266,6 @@
       <Filter>generated</Filter>
     </ClInclude>
     <ClInclude Include="..\generated\Module_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Unmarshal.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Unmarshal_s.h">
       <Filter>generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\WaitableRef.h">
@@ -337,25 +319,22 @@
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h">
       <Filter>llvm\BinaryFormat</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\System.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\Memory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\RuntimeSupport.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\ObjectFactory.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\ObjectFactory_s.h">
-      <Filter>generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\HeapDynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\AtomicWaitList.h">
+    <ClInclude Include="..\Core\Source\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IO_Request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Future.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\FileAccessDirect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\generated\File.h">
@@ -363,6 +342,42 @@
     </ClInclude>
     <ClInclude Include="..\generated\File_s.h">
       <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\RuntimeError.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\RuntimeError_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\Marshal.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\Marshal_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\MarshalContext.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\MarshalContext_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\ObjectFactory.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\ObjectFactory_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\OctetSeq.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\OctetSeq_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\Unmarshal.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CORBA\Unmarshal_s.h">
+      <Filter>ORB\generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -498,11 +513,26 @@
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\generated\File.cpp">
-      <Filter>generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\generated\File_p.cpp">
       <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\RuntimeError_p.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\FileAccessDirect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\CORBA\OctetSeq_p.cpp">
+      <Filter>ORB\generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -535,6 +565,12 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
       <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\RuntimeError.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\OctetSeq.idl">
+      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

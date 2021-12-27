@@ -99,6 +99,15 @@
     <ClCompile Include="..\Windows\Source\Chrono.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\WinWChar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\FileAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\error2errno.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -229,6 +238,15 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Port\Chrono.h">
       <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\WinWChar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\FileAccess.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\error2errno.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
