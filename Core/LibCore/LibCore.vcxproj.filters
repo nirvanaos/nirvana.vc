@@ -331,9 +331,6 @@
     <ClInclude Include="..\Core\Source\IO_Request.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Future.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\FileAccessDirect.h">
       <Filter>Header Files</Filter>
     </ClInclude>

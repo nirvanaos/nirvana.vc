@@ -361,7 +361,6 @@
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
-    <ClInclude Include="..\Core\Source\Future.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
     <ClInclude Include="..\Core\Source\CoreObject.h" />
