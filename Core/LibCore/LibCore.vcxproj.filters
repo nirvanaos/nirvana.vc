@@ -376,6 +376,9 @@
     <ClInclude Include="..\generated\CORBA\Unmarshal_s.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\StaticallyAllocated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">

@@ -410,6 +410,7 @@
     <ClInclude Include="..\Core\Source\Startup.h" />
     <ClInclude Include="..\Core\Source\StartupProt.h" />
     <ClInclude Include="..\Core\Source\StartupSys.h" />
+    <ClInclude Include="..\Core\Source\StaticallyAllocated.h" />
     <ClInclude Include="..\Core\Source\Suspend.h" />
     <ClInclude Include="..\Core\Source\SyncContext.h" />
     <ClInclude Include="..\Core\Source\Synchronized.h" />
