@@ -411,7 +411,6 @@
     <ClInclude Include="..\Core\Source\StartupProt.h" />
     <ClInclude Include="..\Core\Source\StartupSys.h" />
     <ClInclude Include="..\Core\Source\StaticallyAllocated.h" />
-    <ClInclude Include="..\Core\Source\Suspend.h" />
     <ClInclude Include="..\Core\Source\SyncContext.h" />
     <ClInclude Include="..\Core\Source\Synchronized.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
@@ -493,6 +492,7 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\CoreModule.cpp" />
     <ClCompile Include="..\Core\Source\FileAccessDirect.cpp" />
+    <ClCompile Include="..\Core\Source\initterm.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
@@ -569,7 +569,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\StartupProt.cpp" />
     <ClCompile Include="..\Core\Source\StartupSys.cpp" />
-    <ClCompile Include="..\Core\Source\Suspend.cpp" />
     <ClCompile Include="..\Core\Source\SyncDomain.cpp" />
     <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\SyncContext.cpp" />

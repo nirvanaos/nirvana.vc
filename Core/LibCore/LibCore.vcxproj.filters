@@ -214,9 +214,6 @@
     <ClInclude Include="..\Core\Source\SkipListWithPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Suspend.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Legacy\RuntimeSupportLegacy.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
@@ -453,9 +450,6 @@
     <ClCompile Include="..\Core\Source\Runnable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Suspend.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\StartupProt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -533,6 +527,9 @@
     </ClCompile>
     <ClCompile Include="..\generated\CORBA\OctetSeq_p.cpp">
       <Filter>ORB\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\initterm.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
