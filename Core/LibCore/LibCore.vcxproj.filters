@@ -253,15 +253,6 @@
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\generated\Memory_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Module.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\Module_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\WaitableRef.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -273,12 +264,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\Chrono.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\System.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\System_s.h">
-      <Filter>generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\RuntimeGlobal.h">
       <Filter>Header Files</Filter>
@@ -328,50 +313,68 @@
     <ClInclude Include="..\Core\Source\FileAccessDirect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\generated\File.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\File_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\RuntimeError.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\RuntimeError_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\Marshal.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\Marshal_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\MarshalContext.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\MarshalContext_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\ObjectFactory.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\ObjectFactory_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\OctetSeq.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\OctetSeq_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\Unmarshal.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\generated\CORBA\Unmarshal_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\StaticallyAllocated.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\File.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\File_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Memory.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Memory_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Module.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Module_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\RuntimeError.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\RuntimeError_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\System.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\System_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Marshal.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Marshal_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\MarshalContext.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\MarshalContext_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ObjectFactory.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ObjectFactory_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\OctetSeq.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\OctetSeq_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Unmarshal.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Unmarshal_s.h">
+      <Filter>ORB\generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -504,20 +507,11 @@
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\generated\File_p.cpp">
-      <Filter>generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Event.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\generated\RuntimeError_p.cpp">
-      <Filter>generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessDirect.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\generated\CORBA\OctetSeq_p.cpp">
-      <Filter>ORB\generated</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\initterm.cpp">
       <Filter>Source Files</Filter>
@@ -527,6 +521,15 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\System.h">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\File_p.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\RuntimeError_p.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IDL\OctetSeq_p.cpp">
+      <Filter>ORB\generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

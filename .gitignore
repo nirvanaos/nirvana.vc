@@ -260,7 +260,3 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-/Core/TestSysORB/generated/
-/Core/TestModule/generated/
-/Core/TestProcess/generated/
-/Core/generated/
