@@ -504,7 +504,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Memory.cpp" />
+    <ClCompile Include="..\Core\Source\Memory.h" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp" />
@@ -572,7 +572,7 @@
     <ClCompile Include="..\Core\Source\Scheduler.cpp" />
     <ClCompile Include="..\Core\Source\SyncContext.cpp" />
     <ClCompile Include="..\Core\Source\Synchronized.cpp" />
-    <ClCompile Include="..\Core\Source\System.cpp" />
+    <ClCompile Include="..\Core\Source\System.h" />
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\WaitableRef.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
