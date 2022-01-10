@@ -79,9 +79,6 @@
     <ClInclude Include="..\Core\Source\HeapDirectory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ObjectPool.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\PriorityQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>

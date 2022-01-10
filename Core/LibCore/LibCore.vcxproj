@@ -421,7 +421,6 @@
     <ClInclude Include="..\Core\Source\Executor.h" />
     <ClInclude Include="..\Core\Source\Heap.h" />
     <ClInclude Include="..\Core\Source\HeapDirectory.h" />
-    <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\PriorityQueue.h" />
     <ClInclude Include="..\Core\Source\ProtDomain.h" />
     <ClInclude Include="..\Core\Source\RandomGen.h" />
