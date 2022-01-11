@@ -21,5 +21,8 @@
     <ClCompile Include="..\Core\Source\exports.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

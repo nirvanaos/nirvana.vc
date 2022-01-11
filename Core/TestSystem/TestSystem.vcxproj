@@ -170,7 +170,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -188,7 +188,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -208,7 +208,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -229,7 +229,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -248,7 +248,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -268,7 +268,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -289,7 +289,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -310,7 +310,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_CORE_TEST;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;$(SolutionDir)Core\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Port\Windows\Windows;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>-mlzcnt %(AdditionalOptions)</AdditionalOptions>
@@ -326,6 +326,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\exports.cpp" />
+    <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp" />
     <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>

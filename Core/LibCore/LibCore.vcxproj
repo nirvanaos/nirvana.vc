@@ -166,7 +166,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -186,7 +186,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -210,7 +210,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -229,7 +229,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>-mlzcnt %(AdditionalOptions)</AdditionalOptions>
@@ -255,7 +255,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -281,7 +281,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -308,7 +308,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
@@ -334,7 +334,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <AdditionalOptions>-mlzcnt %(AdditionalOptions)</AdditionalOptions>
@@ -492,6 +492,7 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\CoreModule.cpp" />
     <ClCompile Include="..\Core\Source\FileAccessDirect.cpp" />
+    <ClCompile Include="..\Core\Source\file_system.cpp" />
     <ClCompile Include="..\Core\Source\IDL\File_p.cpp" />
     <ClCompile Include="..\Core\Source\IDL\RuntimeError_p.cpp" />
     <ClCompile Include="..\Core\Source\initterm.cpp" />

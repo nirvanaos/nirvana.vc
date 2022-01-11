@@ -531,6 +531,9 @@
     <ClCompile Include="..\Core\Source\ORB\IDL\OctetSeq_p.cpp">
       <Filter>ORB\generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\file_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
