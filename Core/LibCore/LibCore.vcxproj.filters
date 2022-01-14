@@ -172,16 +172,13 @@
     <ClInclude Include="..\Core\Source\UserObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\RuntimeSupportImpl.h">
+    <ClInclude Include="..\Core\Source\RuntimeSupport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\CoreObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\user_memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\UserAllocator.h">
@@ -211,7 +208,7 @@
     <ClInclude Include="..\Core\Source\SkipListWithPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\RuntimeSupportLegacy.h">
+    <ClInclude Include="..\Core\Source\Legacy\MemContextProcess.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\Message.h">
@@ -298,7 +295,7 @@
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h">
       <Filter>llvm\BinaryFormat</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\RuntimeSupport.h">
+    <ClInclude Include="..\Core\Source\MemContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\HeapDynamic.h">
@@ -375,6 +372,24 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\Unmarshal_s.h">
       <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\PreallocatedStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\HeapUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\SimpleList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\MemContextEx.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -516,12 +531,6 @@
     <ClCompile Include="..\Core\Source\initterm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Memory.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\System.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\IDL\File_p.cpp">
       <Filter>generated</Filter>
     </ClCompile>
@@ -533,6 +542,18 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\file_system.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\HeapUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\MemContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\MemContextEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\MemContextProcess.cpp">
+      <Filter>Legacy\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
