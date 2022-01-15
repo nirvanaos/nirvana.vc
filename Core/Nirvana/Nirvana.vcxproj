@@ -191,7 +191,8 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <OptimizeReferences>true</OptimizeReferences>
@@ -216,7 +217,8 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX86</TargetMachine>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
@@ -242,7 +244,8 @@
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
@@ -268,7 +271,8 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
@@ -297,7 +301,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
@@ -326,7 +331,8 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX86</TargetMachine>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
@@ -354,7 +360,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
@@ -384,7 +391,8 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalDependencies>$(TargetDir)LibWindows.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>

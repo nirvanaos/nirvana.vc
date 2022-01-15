@@ -384,6 +384,7 @@
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
     <ClInclude Include="..\Core\Source\MemContextEx.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
+    <ClInclude Include="..\Core\Source\ModuleImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\IDL\Marshal.h" />
     <ClInclude Include="..\Core\Source\ORB\IDL\MarshalContext.h" />
@@ -435,6 +436,7 @@
     <ClInclude Include="..\Core\Source\StartupProt.h" />
     <ClInclude Include="..\Core\Source\StartupSys.h" />
     <ClInclude Include="..\Core\Source\StaticallyAllocated.h" />
+    <ClInclude Include="..\Core\Source\StringView.h" />
     <ClInclude Include="..\Core\Source\SyncContext.h" />
     <ClInclude Include="..\Core\Source\Synchronized.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
