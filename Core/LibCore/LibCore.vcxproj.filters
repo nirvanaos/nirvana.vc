@@ -385,9 +385,6 @@
     <ClInclude Include="..\Core\Source\Memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\SimpleList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\MemContextEx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -396,6 +393,18 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\StringView.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\MemContextObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Legacy.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Legacy_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Legacy\Mutex.h">
+      <Filter>Legacy\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -561,6 +570,15 @@
     <ClCompile Include="..\Core\Source\Legacy\MemContextProcess.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\MemContextObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\Legacy_p.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
@@ -598,6 +616,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\OctetSeq.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

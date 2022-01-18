@@ -166,7 +166,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -186,7 +186,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -210,7 +210,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -229,7 +229,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>-mlzcnt %(AdditionalOptions)</AdditionalOptions>
@@ -255,7 +255,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -281,7 +281,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -308,7 +308,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
@@ -334,7 +334,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\Source;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\..\Port\Windows\Windows</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <AdditionalOptions>-mlzcnt %(AdditionalOptions)</AdditionalOptions>
@@ -365,6 +365,8 @@
     <ClInclude Include="..\Core\Source\HeapUser.h" />
     <ClInclude Include="..\Core\Source\IDL\File.h" />
     <ClInclude Include="..\Core\Source\IDL\File_s.h" />
+    <ClInclude Include="..\Core\Source\IDL\Legacy.h" />
+    <ClInclude Include="..\Core\Source\IDL\Legacy_s.h" />
     <ClInclude Include="..\Core\Source\IDL\Memory.h" />
     <ClInclude Include="..\Core\Source\IDL\Memory_s.h" />
     <ClInclude Include="..\Core\Source\IDL\Module.h" />
@@ -377,12 +379,14 @@
     <ClInclude Include="..\Core\Source\CoreObject.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
     <ClInclude Include="..\Core\Source\Legacy\Executable.h" />
+    <ClInclude Include="..\Core\Source\Legacy\Mutex.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
     <ClInclude Include="..\Core\Source\Legacy\MemContextProcess.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
     <ClInclude Include="..\Core\Source\MemContextEx.h" />
+    <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\ModuleImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
@@ -421,7 +425,6 @@
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_dump.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_fwd_decl.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_utils.h" />
-    <ClInclude Include="..\Core\Source\SimpleList.h" />
     <ClInclude Include="..\Core\Source\PortableExecutable.h" />
     <ClInclude Include="..\Core\Source\PreallocatedStack.h" />
     <ClInclude Include="..\Core\Source\RuntimeGlobal.h" />
@@ -500,10 +503,21 @@
     <ClCompile Include="..\Core\Source\file_system.cpp" />
     <ClCompile Include="..\Core\Source\HeapUser.cpp" />
     <ClCompile Include="..\Core\Source\IDL\File_p.cpp" />
+    <ClCompile Include="..\Core\Source\IDL\Legacy_p.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\Core\Source\IDL\RuntimeError_p.cpp" />
     <ClCompile Include="..\Core\Source\initterm.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\MemContextProcess.cpp" />
+    <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -517,6 +531,7 @@
     </ClCompile>
     <ClInclude Include="..\Core\Source\Memory.h" />
     <ClCompile Include="..\Core\Source\MemContextEx.cpp" />
+    <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\ORB\IDL\OctetSeq_p.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
@@ -971,14 +986,14 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\ORB\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\ORB\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\ORB\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
@@ -1015,14 +1030,14 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename).cpp;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
@@ -1051,6 +1066,42 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_p.cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_p.cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_p.cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" -I ..\..\Library.VC\Nirvana\SRC\Include "%(Identity)" -out $(ProjectDir)..\Core\Source\IDL</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Source\IDL\%(Filename)_p.cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
