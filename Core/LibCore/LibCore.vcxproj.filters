@@ -406,6 +406,9 @@
     <ClInclude Include="..\Core\Source\Legacy\Mutex.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ObjectPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
