@@ -108,6 +108,9 @@
     <ClCompile Include="..\Windows\Source\error2errno.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -247,6 +250,9 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Source\error2errno.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Debugger.h">
+      <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
