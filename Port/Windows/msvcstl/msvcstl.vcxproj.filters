@@ -15,32 +15,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Windows\MSVC\Lockit.cpp">
+    <ClCompile Include="..\Windows\msvcstl\Lockit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\excptptr.cpp">
+    <ClCompile Include="..\Windows\msvcstl\xthrow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\uncaught_exception.cpp">
+    <ClCompile Include="..\Windows\msvcstl\uncaught_exception.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\uncaught_exceptions.cpp">
+    <ClCompile Include="..\Windows\msvcstl\uncaught_exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\xthrow.cpp">
+    <ClCompile Include="..\Windows\msvcstl\excptptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\heap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\dbgrpt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\invalid_parameter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Windows\MSVC\output.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Windows\msvcstl\readme.md" />
   </ItemGroup>
 </Project>
