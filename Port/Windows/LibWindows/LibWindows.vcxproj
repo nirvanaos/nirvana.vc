@@ -39,6 +39,7 @@
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
     <ClCompile Include="..\Windows\Source\Chrono.cpp" />
     <ClCompile Include="..\Windows\Source\Console.cpp" />
+    <ClCompile Include="..\Windows\Source\ErrConsole.cpp" />
     <ClCompile Include="..\Windows\Source\Debugger.cpp" />
     <ClCompile Include="..\Windows\Source\error2errno.cpp" />
     <ClCompile Include="..\Windows\Source\FileAccess.cpp" />
@@ -109,6 +110,7 @@
     <ClInclude Include="..\Windows\Port\BackOff.h" />
     <ClInclude Include="..\Windows\Port\Chrono.h" />
     <ClInclude Include="..\Windows\Port\config.h" />
+    <ClInclude Include="..\Windows\Port\Console.h" />
     <ClInclude Include="..\Windows\Port\Debugger.h" />
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
     <ClInclude Include="..\Windows\Port\FileAccess.h" />
@@ -125,7 +127,7 @@
     <ClInclude Include="..\Windows\Source\CmdLineParser.h" />
     <ClInclude Include="..\Windows\Source\CompletionPort.h" />
     <ClInclude Include="..\Windows\Source\CompletionPortReceiver.h" />
-    <ClInclude Include="..\Windows\Source\Console.h" />
+    <ClInclude Include="..\Windows\Source\ErrConsole.h" />
     <ClInclude Include="..\Windows\Source\error2errno.h" />
     <ClInclude Include="..\Windows\Source\ExecContext.inl" />
     <ClInclude Include="..\Windows\Source\initialize.h" />
