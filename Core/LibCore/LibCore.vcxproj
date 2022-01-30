@@ -389,7 +389,7 @@
     <ClInclude Include="..\Core\Source\Legacy\Mutex.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
     <ClInclude Include="..\Core\Source\Legacy\MemContextProcess.h" />
-    <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h" />
+    <ClInclude Include="..\Core\Source\Legacy\ThreadLegacy.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
     <ClInclude Include="..\Core\Source\MemContextEx.h" />
@@ -452,6 +452,7 @@
     <ClInclude Include="..\Core\Source\Synchronized.h" />
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
+    <ClInclude Include="..\Core\Source\ThreadBackground.h" />
     <ClInclude Include="..\Core\Source\unrecoverable_error.h" />
     <ClInclude Include="..\Core\Source\ExecContext.h" />
     <ClInclude Include="..\Core\Source\ExecDomain.h" />
@@ -526,16 +527,15 @@
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\MemContextProcess.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp" />
-    <ClCompile Include="..\Core\Source\Legacy\Process.cpp" />
-    <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
+    <ClCompile Include="..\Core\Source\Legacy\Process.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ShowIncludes>
     </ClCompile>
     <ClInclude Include="..\Core\Source\Memory.h" />
     <ClCompile Include="..\Core\Source\MemContextEx.cpp" />
@@ -947,6 +947,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl" />
+    <None Include="..\Core\Source\ThreadBackground.inl" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ObjectFactory.idl">

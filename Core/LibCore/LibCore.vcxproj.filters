@@ -175,7 +175,7 @@
     <ClInclude Include="..\Core\Source\RuntimeSupport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\ThreadBackground.h">
+    <ClInclude Include="..\Core\Source\Legacy\ThreadLegacy.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\CoreObject.h">
@@ -412,6 +412,9 @@
     <ClInclude Include="..\Core\Source\Console.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ThreadBackground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -464,9 +467,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\Legacy\ThreadBackground.cpp">
-      <Filter>Legacy\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp">
       <Filter>Source Files</Filter>
@@ -629,6 +629,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\Core\Source\ThreadBackground.inl">
       <Filter>Header Files</Filter>
     </None>
   </ItemGroup>
