@@ -7,6 +7,8 @@ Other Nirvana projects included here as submodules.
 ## Running
 
 After building all subprojects you can run Nirvana test:
-> cd Win32\Debug
-> .\Nirvana.exe -s TestProcess.nex
+
+\> cd Win32\Debug
+
+\> .\Nirvana.exe -s TestProcess.nex
 
