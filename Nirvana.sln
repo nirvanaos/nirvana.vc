@@ -95,6 +95,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nidl2cpp", "nidl2cpp.vc\nidl2cpp\nidl2cpp.vcxproj", "{9F79EE0A-C429-42CB-8253-309B4CED8D39}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProcess", "Core\TestProcess\TestProcess.vcxproj", "{3798FC43-142C-4DBB-B7FC-D668D8344735}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E820686C-5A7C-484B-846C-6198E4BB7C65} = {E820686C-5A7C-484B-846C-6198E4BB7C65}
+		{174072EE-7ED1-4489-9A6E-47C63D4499F1} = {174072EE-7ED1-4489-9A6E-47C63D4499F1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestModule", "Core\TestModule\TestModule.vcxproj", "{174072EE-7ED1-4489-9A6E-47C63D4499F1}"
 EndProject
