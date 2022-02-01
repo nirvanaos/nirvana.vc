@@ -415,6 +415,18 @@
     <ClInclude Include="..\Core\Source\ThreadBackground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TCKind.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TCKind_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -522,9 +534,6 @@
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\tc_TypeCode.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\WaitList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -585,6 +594,12 @@
     <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IDL\TCKind_p.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IDL\TypeCode_p.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
@@ -625,6 +640,12 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy.idl">
       <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TCKind.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TypeCode.idl">
+      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
