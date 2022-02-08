@@ -637,5 +637,8 @@
     <None Include="..\Core\Source\ThreadBackground.inl">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="..\Core\Source\ORB\ServantProxyBase.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
