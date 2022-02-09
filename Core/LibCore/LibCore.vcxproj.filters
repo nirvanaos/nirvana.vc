@@ -41,9 +41,6 @@
     <Filter Include="ORB\IDL">
       <UniqueIdentifier>{bfe55d61-26c0-4016-abf6-69f7ffc3f298}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ORB\IDL\Proxy">
-      <UniqueIdentifier>{2ac9563e-9612-47c7-982f-ba12c7460449}</UniqueIdentifier>
-    </Filter>
     <Filter Include="generated">
       <UniqueIdentifier>{2b579eea-827d-46c6-97f8-8d93f751c423}</UniqueIdentifier>
     </Filter>
@@ -154,7 +151,7 @@
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ServantMarshaler.h">
+    <ClInclude Include="..\Core\Source\ORB\RequestLocal.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h">
@@ -343,18 +340,6 @@
     <ClInclude Include="..\Core\Source\IDL\System_s.h">
       <Filter>generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\Marshal.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\Marshal_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\MarshalContext.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\MarshalContext_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\ObjectFactory.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
@@ -365,12 +350,6 @@
       <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\OctetSeq_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\Unmarshal.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\Unmarshal_s.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\PreallocatedStack.h">
@@ -415,17 +394,29 @@
     <ClInclude Include="..\Core\Source\ThreadBackground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\IORequest.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\IORequest_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\IOReference.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\IOReference_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\TCKind.h">
-      <Filter>generated</Filter>
+      <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\TCKind_s.h">
-      <Filter>generated</Filter>
+      <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode.h">
-      <Filter>generated</Filter>
+      <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode_s.h">
-      <Filter>generated</Filter>
+      <Filter>ORB\generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -465,7 +456,7 @@
     <ClCompile Include="..\Core\Source\ORB\ServantBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ServantMarshaler.cpp">
+    <ClCompile Include="..\Core\Source\ORB\RequestLocal.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp">
@@ -595,10 +586,10 @@
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\IDL\TCKind_p.cpp">
-      <Filter>generated</Filter>
+      <Filter>ORB\generated</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\IDL\TypeCode_p.cpp">
-      <Filter>generated</Filter>
+      <Filter>ORB\generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -611,20 +602,8 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Module.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Marshal.idl">
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\IORequest.idl">
       <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\MarshalContext.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Unmarshal.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IOReference.idl">
-      <Filter>ORB\IDL\Proxy</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IORequest.idl">
-      <Filter>ORB\IDL\Proxy</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ObjectFactory.idl">
       <Filter>ORB\IDL</Filter>
@@ -647,6 +626,9 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TypeCode.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IOReference.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl">
@@ -654,6 +636,9 @@
     </None>
     <None Include="..\Core\Source\ThreadBackground.inl">
       <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\Core\Source\ORB\ServantProxyBase.inl">
+      <Filter>ORB\Header Files</Filter>
     </None>
   </ItemGroup>
 </Project>
