@@ -310,13 +310,7 @@
     <ClInclude Include="..\Core\Source\StaticallyAllocated.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\File.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\IDL\File_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\Memory.h">
       <Filter>generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\IDL\Memory_s.h">
@@ -356,12 +350,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\HeapUser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\System.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\Memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\MemContextEx.h">
@@ -417,6 +405,12 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode_s.h">
       <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Memory.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\File.h">
+      <Filter>generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -510,19 +504,10 @@
     <ClCompile Include="..\Core\Source\Synchronized.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\exports.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POA_p.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\WaitList.cpp">
@@ -552,15 +537,6 @@
     <ClCompile Include="..\Core\Source\initterm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\File_p.cpp">
-      <Filter>generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\RuntimeError_p.cpp">
-      <Filter>generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\IDL\OctetSeq_p.cpp">
-      <Filter>ORB\generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\file_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -585,11 +561,11 @@
     <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\IDL\TCKind_p.cpp">
-      <Filter>ORB\generated</Filter>
+    <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\IDL\TypeCode_p.cpp">
-      <Filter>ORB\generated</Filter>
+    <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

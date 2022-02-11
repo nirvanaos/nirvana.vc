@@ -347,7 +347,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Source\exports.cpp" />
+    <ClCompile Include="..\Core\Exports\exports.cpp" />
+    <ClCompile Include="..\Core\Exports\File_p.cpp" />
+    <ClCompile Include="..\Core\Exports\Legacy_p.cpp" />
+    <ClCompile Include="..\Core\Exports\Memory.cpp" />
+    <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp" />
+    <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp" />
+    <ClCompile Include="..\Core\Exports\System.cpp" />
+    <ClCompile Include="..\Core\Exports\TCKind_p.cpp" />
+    <ClCompile Include="..\Core\Exports\TypeCode_p.cpp" />
     <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp" />
     <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>

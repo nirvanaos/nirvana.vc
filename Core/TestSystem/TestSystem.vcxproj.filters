@@ -13,16 +13,43 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Exports">
+      <UniqueIdentifier>{ff1b2766-8389-43e8-ae89-994274eeaea7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\exports.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\exports.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\File_p.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\Legacy_p.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\Memory.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\System.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\TCKind_p.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\TypeCode_p.cpp">
+      <Filter>Exports</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
