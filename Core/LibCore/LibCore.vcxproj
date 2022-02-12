@@ -388,7 +388,6 @@
     <ClInclude Include="..\Core\Source\Legacy\Executable.h" />
     <ClInclude Include="..\Core\Source\Legacy\Mutex.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
-    <ClInclude Include="..\Core\Source\Legacy\MemContextProcess.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadLegacy.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
@@ -507,7 +506,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\initterm.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
-    <ClCompile Include="..\Core\Source\Legacy\MemContextProcess.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>

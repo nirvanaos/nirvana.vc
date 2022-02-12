@@ -205,9 +205,6 @@
     <ClInclude Include="..\Core\Source\SkipListWithPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\MemContextProcess.h">
-      <Filter>Legacy\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\Message.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -548,9 +545,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\MemContextEx.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\Legacy\MemContextProcess.cpp">
-      <Filter>Legacy\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\MemContextObject.cpp">
       <Filter>Source Files</Filter>
