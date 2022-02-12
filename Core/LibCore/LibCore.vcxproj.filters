@@ -409,6 +409,9 @@
     <ClInclude Include="..\Core\Source\IDL\File.h">
       <Filter>generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\MarshalHelper.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -559,6 +562,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\MarshalHelper.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
