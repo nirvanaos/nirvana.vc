@@ -412,6 +412,18 @@
     <ClInclude Include="..\Core\Source\ORB\MarshalHelper.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Exports\PortableServer_p_native.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\HashOctetSeq.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -507,9 +519,6 @@
     <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\POA_p.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\WaitList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -603,6 +612,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IOReference.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\PortableServer.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
