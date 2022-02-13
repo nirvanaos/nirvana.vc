@@ -444,6 +444,8 @@
     <ClInclude Include="..\Core\Source\RuntimeGlobal.h" />
     <ClInclude Include="..\Core\Source\MemContext.h" />
     <ClInclude Include="..\Core\Source\Section.h" />
+    <ClInclude Include="..\Core\Source\SharedAllocator.h" />
+    <ClInclude Include="..\Core\Source\SharedObject.h" />
     <ClInclude Include="..\Core\Source\Singleton.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
     <ClInclude Include="..\Core\Source\Runnable.h" />
