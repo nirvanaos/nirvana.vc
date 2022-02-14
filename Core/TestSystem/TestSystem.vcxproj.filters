@@ -54,5 +54,11 @@
     <ClCompile Include="..\Core\Exports\PortableServer_p.cpp">
       <Filter>Exports</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\ORB.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\ORB_p.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

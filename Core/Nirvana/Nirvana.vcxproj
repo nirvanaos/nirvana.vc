@@ -430,6 +430,8 @@
     <ClCompile Include="..\Core\Exports\Legacy_p.cpp" />
     <ClCompile Include="..\Core\Exports\Memory.cpp" />
     <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp" />
+    <ClCompile Include="..\Core\Exports\ORB.cpp" />
+    <ClCompile Include="..\Core\Exports\ORB_p.cpp" />
     <ClCompile Include="..\Core\Exports\PortableServer_p.cpp" />
     <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp" />
     <ClCompile Include="..\Core\Exports\System.cpp" />

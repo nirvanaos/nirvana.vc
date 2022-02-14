@@ -433,6 +433,12 @@
     <ClInclude Include="..\Core\Source\ORB\Services.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ORB.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ORB_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -627,6 +633,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\PortableServer.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ORB.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
