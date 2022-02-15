@@ -12,3 +12,7 @@ After building all subprojects you can run Nirvana test:
 
 \> .\Nirvana.exe -s TestProcess.nex
 
+## Examples
+
+Folder .\Core\Core\Test\TestORB contains the test sources.
+
