@@ -369,6 +369,7 @@
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
+    <ClInclude Include="..\Core\Source\HeapDirectoryImpl.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\HeapUser.h" />
     <ClInclude Include="..\Core\Source\IDL\File.h" />
