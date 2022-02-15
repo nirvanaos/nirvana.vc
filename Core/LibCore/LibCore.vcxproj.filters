@@ -579,9 +579,6 @@
     <ClCompile Include="..\Core\Source\MemContextObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\Legacy_p.cpp">
-      <Filter>generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
