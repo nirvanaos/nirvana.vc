@@ -369,7 +369,6 @@
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
-    <ClInclude Include="..\Core\Source\HeapDirectoryImpl.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\HeapUser.h" />
     <ClInclude Include="..\Core\Source\IDL\File.h" />
@@ -450,6 +449,7 @@
     <ClInclude Include="..\Core\Source\Section.h" />
     <ClInclude Include="..\Core\Source\SharedAllocator.h" />
     <ClInclude Include="..\Core\Source\SharedObject.h" />
+    <ClInclude Include="..\Core\Source\Signals.h" />
     <ClInclude Include="..\Core\Source\Singleton.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
     <ClInclude Include="..\Core\Source\Runnable.h" />
@@ -569,6 +569,7 @@
     <ClCompile Include="..\Core\Source\ORB\ServantProxyBase.cpp" />
     <ClCompile Include="..\Core\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Core\Source\RandomGen.cpp" />
+    <ClCompile Include="..\Core\Source\Signals.cpp" />
     <ClCompile Include="..\Core\Source\Singleton.cpp" />
     <ClCompile Include="..\Core\Source\SkipList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

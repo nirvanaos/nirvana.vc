@@ -439,7 +439,7 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\ORB_s.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\HeapDirectoryImpl.h">
+    <ClInclude Include="..\Core\Source\Signals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -593,6 +593,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\Services.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Signals.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
