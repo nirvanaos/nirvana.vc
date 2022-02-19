@@ -395,7 +395,7 @@
     <ClInclude Include="..\Core\Source\MemContextEx.h" />
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
-    <ClInclude Include="..\Core\Source\ModuleImpl.h" />
+    <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\HashOctetSeq.h" />
@@ -810,6 +810,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl" />
+    <None Include="..\Core\Source\Legacy\Mutex.inl" />
     <None Include="..\Core\Source\ORB\ServantProxyBase.inl" />
     <None Include="..\Core\Source\ThreadBackground.inl" />
   </ItemGroup>

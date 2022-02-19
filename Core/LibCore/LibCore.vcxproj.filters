@@ -352,7 +352,7 @@
     <ClInclude Include="..\Core\Source\MemContextEx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ModuleImpl.h">
+    <ClInclude Include="..\Core\Source\Binary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\StringView.h">
@@ -651,6 +651,9 @@
     </None>
     <None Include="..\Core\Source\ORB\ServantProxyBase.inl">
       <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\Core\Source\Legacy\Mutex.inl">
+      <Filter>Legacy\Header Files</Filter>
     </None>
   </ItemGroup>
 </Project>
