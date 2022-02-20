@@ -25,4 +25,7 @@
       <UniqueIdentifier>{507b6df3-40ce-41a2-bbc0-ffc2422ab7c0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Windows\msvccrt\readme.md" />
+  </ItemGroup>
 </Project>
