@@ -114,6 +114,9 @@
     <ClCompile Include="..\Windows\Source\Console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\ex2signal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -259,6 +262,9 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Port\Console.h">
       <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\ex2signal.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
