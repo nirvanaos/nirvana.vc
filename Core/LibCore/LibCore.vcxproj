@@ -361,6 +361,7 @@
     <ClInclude Include="..\Core\Source\Allocators.h" />
     <ClInclude Include="..\Core\Source\Array.h" />
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
+    <ClInclude Include="..\Core\Source\BitmapOps.h" />
     <ClInclude Include="..\Core\Source\Console.h" />
     <ClInclude Include="..\Core\Source\Event.h" />
     <ClInclude Include="..\Core\Source\Binder.h" />
@@ -392,7 +393,8 @@
     <ClInclude Include="..\Core\Source\Legacy\ThreadLegacy.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
-    <ClInclude Include="..\Core\Source\MemContextEx.h" />
+    <ClInclude Include="..\Core\Source\MemContextCore.h" />
+    <ClInclude Include="..\Core\Source\MemContextUser.h" />
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
@@ -508,7 +510,6 @@
     <ClCompile Include="..\Core\Source\HeapUser.cpp" />
     <ClCompile Include="..\Core\Source\initterm.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
-    <ClCompile Include="..\Core\Source\Legacy\Mutex.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Process.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
@@ -519,7 +520,8 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ShowIncludes>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\MemContextEx.cpp" />
+    <ClCompile Include="..\Core\Source\MemContextCore.cpp" />
+    <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\ORB\MarshalHelper.cpp" />
@@ -530,6 +532,16 @@
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
+    <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>

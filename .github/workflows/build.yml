@@ -33,16 +33,29 @@ jobs:
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.1
 
-      - name: Build and test
-        run: |
-            ./BuildAndTest.cmd Win32 Debug
-            ./BuildAndTest.cmd Win32 Release
-            ./BuildAndTest.cmd x64 Debug
-            ./BuildAndTest.cmd x64 Release
-            ./BuildAndTest.cmd Win32 Debug LLVM
-            ./BuildAndTest.cmd Win32 Release LLVM
-            ./BuildAndTest.cmd x64 Debug LLVM
-            ./BuildAndTest.cmd x64 Release LLVM
+      - name: Win32 Debug
+        run: ./BuildAndTest.cmd Win32 Debug
+
+      - name: Win32 Release
+        run: ./BuildAndTest.cmd Win32 Release
+
+      - name: x64 Debug
+        run: ./BuildAndTest.cmd x64 Debug
+
+      - name: x64 Release
+        run: ./BuildAndTest.cmd x64 Release
+
+      - name: Win32 Debug LLVM
+        run: ./BuildAndTest.cmd Win32 Debug LLVM
+
+      - name: Win32 Release LLVM
+        run: ./BuildAndTest.cmd Win32 Release LLVM
+
+      - name: x64 Debug LLVM
+        run: ./BuildAndTest.cmd x64 Debug LLVM
+
+      - name: x64 Release LLVM
+        run: ./BuildAndTest.cmd x64 Release LLVM
 
       - name: Test Reporter
         uses: dorny/test-reporter@v1.5.0
