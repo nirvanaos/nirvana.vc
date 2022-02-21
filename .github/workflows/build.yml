@@ -35,8 +35,8 @@ jobs:
 
       - name: Build and test
         run: |
-            BuildAndTest.cmd Win32 Debug
-            BuildAndTest.cmd Win32 Release
+            ./BuildAndTest.cmd Win32 Debug
+            ./BuildAndTest.cmd Win32 Release
             
       - name: Test Reporter
         uses: dorny/test-reporter@v1.5.0
