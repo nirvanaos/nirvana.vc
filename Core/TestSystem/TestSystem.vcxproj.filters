@@ -60,5 +60,8 @@
     <ClCompile Include="..\Core\Exports\ORB_p.cpp">
       <Filter>Exports</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\Legacy.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
