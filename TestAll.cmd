@@ -2,7 +2,8 @@ SET PLATFORM=Win32
 SET CONFIG=Debug
 
 IF NOT "%1"=="" SET PLATFORM=%1
-IF NOT "%2"=="" SET CONFIG=%2 %3
+IF NOT "%2"=="" SET CONFIG=%2
+IF NOT "%3"=="" SET CONFIG=%2 %3
 
 "%PLATFORM%\%CONFIG%\TestLibrary.exe" "--gtest_output=xml:TestLibrary.%PLATFORM%.%CONFIG%.xml"
 "%PLATFORM%\%CONFIG%\TestORB.exe" "--gtest_output=xml:TestORB.%PLATFORM%.%CONFIG%.xml"
