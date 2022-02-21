@@ -37,7 +37,13 @@ jobs:
         run: |
             ./BuildAndTest.cmd Win32 Debug
             ./BuildAndTest.cmd Win32 Release
-            
+            ./BuildAndTest.cmd x64 Debug
+            ./BuildAndTest.cmd x64 Release
+            ./BuildAndTest.cmd Win32 Debug LLVM
+            ./BuildAndTest.cmd Win32 Release LLVM
+            ./BuildAndTest.cmd x64 Debug LLVM
+            ./BuildAndTest.cmd x64 Release LLVM
+
       - name: Test Reporter
         uses: dorny/test-reporter@v1.5.0
         if: success() || failure()    # run this step even if previous step failed
