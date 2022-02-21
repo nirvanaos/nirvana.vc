@@ -465,6 +465,7 @@
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
     <ClInclude Include="..\Core\Source\ThreadBackground.h" />
+    <ClInclude Include="..\Core\Source\TLS.h" />
     <ClInclude Include="..\Core\Source\unrecoverable_error.h" />
     <ClInclude Include="..\Core\Source\ExecContext.h" />
     <ClInclude Include="..\Core\Source\ExecDomain.h" />
@@ -599,6 +600,7 @@
     <ClCompile Include="..\Core\Source\Synchronized.cpp" />
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\MemContext.cpp" />
+    <ClCompile Include="..\Core\Source\TLS.cpp" />
     <ClCompile Include="..\Core\Source\WaitableRef.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
