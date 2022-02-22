@@ -57,8 +57,9 @@ jobs:
 #      - name: x64 Release LLVM
 #        run: ./BuildAndTest.cmd x64 Release LLVM
 
+
       - name: Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v1
+        uses: EnricoMi/publish-unit-test-result-action@v1.28
         if: always()
         with:
             files: ./*.xml
