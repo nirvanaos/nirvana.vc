@@ -57,6 +57,10 @@ jobs:
 #      - name: x64 Release LLVM
 #        run: ./BuildAndTest.cmd x64 Release LLVM
 
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.8
 
       - name: Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1.28
