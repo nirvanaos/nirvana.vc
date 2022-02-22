@@ -656,6 +656,9 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ORB.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy_Process.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl">
@@ -666,9 +669,6 @@
     </None>
     <None Include="..\Core\Source\ORB\ServantProxyBase.inl">
       <Filter>ORB\Header Files</Filter>
-    </None>
-    <None Include="..\Core\Source\Legacy\Mutex.inl">
-      <Filter>Legacy\Header Files</Filter>
     </None>
   </ItemGroup>
 </Project>

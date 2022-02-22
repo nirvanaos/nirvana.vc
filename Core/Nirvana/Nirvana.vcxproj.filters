@@ -21,10 +21,7 @@
     <ClCompile Include="..\Core\Exports\File_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Legacy_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\Memory.cpp">
+    <ClCompile Include="..\Core\Exports\Memory_impl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp">
@@ -33,7 +30,7 @@
     <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\System.cpp">
+    <ClCompile Include="..\Core\Exports\System_impl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\TCKind_p.cpp">
@@ -48,10 +45,13 @@
     <ClCompile Include="..\Core\Exports\ORB_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\ORB.cpp">
+    <ClCompile Include="..\Core\Exports\ORB_impl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Legacy.cpp">
+    <ClCompile Include="..\Core\Exports\Legacy_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\Legacy_Process_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
