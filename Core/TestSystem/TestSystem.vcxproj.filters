@@ -63,5 +63,8 @@
     <ClCompile Include="..\Core\Exports\Legacy_Process_p.cpp">
       <Filter>Exports</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\Launcher.cpp">
+      <Filter>Exports</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
