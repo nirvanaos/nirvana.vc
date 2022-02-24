@@ -172,7 +172,7 @@
     <ClInclude Include="..\Core\Source\RuntimeSupport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\ThreadLegacy.h">
+    <ClInclude Include="..\Core\Source\Legacy\ThreadBase.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\CoreObject.h">

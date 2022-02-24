@@ -390,7 +390,7 @@
     <ClInclude Include="..\Core\Source\Legacy\Executable.h" />
     <ClInclude Include="..\Core\Source\Legacy\Mutex.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
-    <ClInclude Include="..\Core\Source\Legacy\ThreadLegacy.h" />
+    <ClInclude Include="..\Core\Source\Legacy\ThreadBase.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
     <ClInclude Include="..\Core\Source\MemContextCore.h" />
