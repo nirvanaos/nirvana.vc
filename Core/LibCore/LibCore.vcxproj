@@ -419,7 +419,7 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode_s.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleNoCopy.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
-    <ClInclude Include="..\Core\Source\ORB\MarshalHelper.h" />
+    <ClInclude Include="..\Core\Source\ORB\RqHelper.h" />
     <ClInclude Include="..\Core\Source\ORB\Message.h" />
     <ClInclude Include="..\Core\Source\ORB\giop.h" />
     <ClInclude Include="..\Core\Source\ORB\iop.h" />
@@ -525,7 +525,7 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\MarshalHelper.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Services.cpp" />

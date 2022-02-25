@@ -308,6 +308,7 @@
     <ClCompile Include="..\..\..\Library.VC\googletest\googletest\googletest\src\gtest-all.cc" />
     <ClCompile Include="..\..\..\Library.VC\googletest\googletest\googletest\src\gtest_main.cc" />
     <ClCompile Include="..\Windows\Test\TestAPI.cpp" />
+    <ClCompile Include="..\Windows\Test\test_exception.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

@@ -409,7 +409,7 @@
     <ClInclude Include="..\Core\Source\IDL\File.h">
       <Filter>generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\MarshalHelper.h">
+    <ClInclude Include="..\Core\Source\ORB\RqHelper.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer.h">
@@ -597,7 +597,7 @@
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\MarshalHelper.cpp">
+    <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\Services.cpp">
