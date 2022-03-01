@@ -145,9 +145,6 @@
     <ClInclude Include="..\Core\Source\ORB\ProxyObject.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ReferenceCounter.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>

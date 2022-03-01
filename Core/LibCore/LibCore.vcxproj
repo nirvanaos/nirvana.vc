@@ -430,7 +430,6 @@
     <ClInclude Include="..\Core\Source\ORB\ProxyLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\ProxyManager.h" />
     <ClInclude Include="..\Core\Source\ORB\ProxyObject.h" />
-    <ClInclude Include="..\Core\Source\ORB\ReferenceCounter.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
