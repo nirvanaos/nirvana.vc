@@ -451,9 +451,6 @@
     <ClInclude Include="..\Core\Source\ORB\offset_ptr.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ReferenceCounter.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -661,9 +658,6 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy_Process.idl">
       <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ReferenceCounter.idl">
-      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
