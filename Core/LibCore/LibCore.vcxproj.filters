@@ -382,12 +382,6 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\IORequest_s.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\IOReference.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\IOReference_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IDL\TCKind.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
@@ -450,6 +444,12 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\offset_ptr.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference_s.h">
+      <Filter>ORB\generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
