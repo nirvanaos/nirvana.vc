@@ -451,6 +451,12 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference_s.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\InterfaceRepository.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\InterfaceRepository_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -658,6 +664,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy_Process.idl">
       <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\InterfaceRepository.idl">
+      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
