@@ -13,4 +13,5 @@ TestWindowsAPI.exe "--gtest_output=xml:..\..\TestWindowsAPI.%PLATFORM%.%CONFIG%.
 TestWindows.exe "--gtest_output=xml:..\..\TestWindows.%PLATFORM%.%CONFIG%.xml"
 TestCore.exe "--gtest_output=xml:..\..\TestCore.%PLATFORM%.%CONFIG%.xml"
 Nirvana.exe -s TestProcess.nex --gtest_catch_exceptions=0 "--gtest_output=xml:..\..\TestProcess.%PLATFORM%.%CONFIG%.xml"
+Nirvana.exe -s TestSystem.nex --gtest_catch_exceptions=0 "--gtest_output=xml:..\..\TestSystem.%PLATFORM%.%CONFIG%.xml"
 cd ..\..

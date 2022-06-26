@@ -14,5 +14,5 @@ After building all subprojects you can run Nirvana test:
 
 ## Examples
 
-Folder .\Core\Core\Test\TestORB contains the test sources.
+Folder .\TestORB.vc\TestORB contains the test sources.
 
