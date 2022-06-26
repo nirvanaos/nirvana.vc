@@ -13,3 +13,6 @@
 [submodule "dumpolf.vc"]
 	path = dumpolf.vc
 	url = https://github.com/nirvanaos/dumpolf.vc.git
+[submodule "TestORB.vc"]
+	path = TestORB.vc
+	url = https://github.com/nirvanaos/TestORB.vc.git
