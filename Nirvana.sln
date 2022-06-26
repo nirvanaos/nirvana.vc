@@ -117,6 +117,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "msvccrt", "Port\Windows\msv
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestORB", "TestORB", "{D2FE977F-5BEB-4A47-AD0D-FF2ED01023BB}"
+	ProjectSection(SolutionItems) = preProject
+		TestORB.vc\TestORB\readme.md = TestORB.vc\TestORB\readme.md
+		TestORB.vc\readme.md = TestORB.vc\readme.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestModule", "TestORB.vc\TestModule\TestModule.vcxproj", "{174072EE-7ED1-4489-9A6E-47C63D4499F1}"
 EndProject
