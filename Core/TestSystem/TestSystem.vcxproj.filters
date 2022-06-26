@@ -24,47 +24,8 @@
     <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\exports.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\File_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\g_memory.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\g_system.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\TCKind_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\TypeCode_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\PortableServer_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\g_ORB.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\ORB_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\g_factory.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\Legacy_Process_p.cpp">
-      <Filter>Exports</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\Launcher.cpp">
-      <Filter>Exports</Filter>
+    <ClCompile Include="..\Core\Test\TestLegacy\TestLegacy.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
