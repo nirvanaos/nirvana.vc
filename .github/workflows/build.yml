@@ -19,9 +19,9 @@ jobs:
     runs-on: windows-latest
 
     # EnricoMi/publish-unit-test-result-action requires these permissions
-    permissions:
-      checks: write
-      pull-requests: write
+    #permissions:
+    #  checks: write
+    #  pull-requests: write
   
   # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -72,3 +72,4 @@ jobs:
         if: always()
         with:
             files: ./*.xml
+            job_summary: true
