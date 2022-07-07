@@ -16,3 +16,6 @@
 [submodule "TestORB.vc"]
 	path = TestORB.vc
 	url = https://github.com/nirvanaos/TestORB.vc.git
+[submodule "Core/decNumber.vc"]
+	path = Core/decNumber.vc
+	url = https://github.com/nirvanaos/decNumber.vc.git
