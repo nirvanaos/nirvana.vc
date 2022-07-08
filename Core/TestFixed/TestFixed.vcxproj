@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3fb3fad6-e37e-411c-aec8-349aa696f2cd}</ProjectGuid>
-    <RootNamespace>DecCalc</RootNamespace>
+    <ProjectGuid>{4ee4a316-a5cf-4a8e-8b7c-a40e1d84c76b}</ProjectGuid>
+    <RootNamespace>TestFixed</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -72,33 +72,33 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.olf</TargetExt>
+    <TargetExt>.nex</TargetExt>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.olf</TargetExt>
+    <TargetExt>.nex</TargetExt>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.olf</TargetExt>
+    <TargetExt>.nex</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.olf</TargetExt>
+    <TargetExt>.nex</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_MODULE;WIN32;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;_DEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -108,6 +108,7 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -116,11 +117,11 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_MODULE;WIN32;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;NDEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -137,11 +138,11 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_MODULE;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NIRVANA_PROCESS;_DEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -151,6 +152,7 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -159,11 +161,11 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_MODULE;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NIRVANA_PROCESS;NDEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -177,46 +179,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\DecCalc\DecCalcImpl.cpp" />
-    <ClCompile Include="..\Core\DecCalc\pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestFixed\TestFixed.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Core\DecCalc\pch.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\DecCalc.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\DecCalc -no_client_cpp -no_proxy</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\DecCalc -no_client_cpp -no_proxy</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\DecCalc -no_client_cpp -no_proxy</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\DecCalc -no_client_cpp -no_proxy</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">IDL compilation</Message>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IDL compilation</Message>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\DecCalc\%(Filename).h;$(ProjectDir)..\Core\DecCalc\%(Filename)_s.h</Outputs>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\DecCalc\%(Filename).h;$(ProjectDir)..\Core\DecCalc\%(Filename)_s.h</Outputs>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\DecCalc\%(Filename).h;$(ProjectDir)..\Core\DecCalc\%(Filename)_s.h</Outputs>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\DecCalc\%(Filename).h;$(ProjectDir)..\Core\DecCalc\%(Filename)_s.h</Outputs>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\..\Library.VC\googletest\googletest.vcxproj">
+      <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\Library.VC\Nirvana\CoreImport\CoreImport.vcxproj">
       <Project>{0d8b0020-62e3-472f-be10-5400bc8183ca}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\Library.VC\Nirvana\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\decNumber.vc\decNumber.vcxproj">
-      <Project>{1b176788-050f-47ce-81d7-5f128f8a7688}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

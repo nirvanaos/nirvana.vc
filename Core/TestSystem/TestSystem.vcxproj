@@ -178,7 +178,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -201,7 +201,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -226,7 +226,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -252,7 +252,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -276,7 +276,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -301,7 +301,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -326,7 +326,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -352,7 +352,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\Core\Source;..\..\Library.VC\Nirvana\preprocessor\Include;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;..\..\Library.VC\Nirvana\preprocessor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
