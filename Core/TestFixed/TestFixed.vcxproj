@@ -341,6 +341,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Test\TestFixed\TestDecimal.cpp" />
     <ClCompile Include="..\Core\Test\TestFixed\TestFixed.cpp" />
   </ItemGroup>
   <ItemGroup>

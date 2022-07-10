@@ -18,5 +18,8 @@
     <ClCompile Include="..\Core\Test\TestFixed\TestFixed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestFixed\TestDecimal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
