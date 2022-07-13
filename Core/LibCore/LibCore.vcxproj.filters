@@ -457,6 +457,12 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\InterfaceRepository_s.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\TC_Base.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -617,6 +623,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\TC_Fixed.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

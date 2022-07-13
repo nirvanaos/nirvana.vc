@@ -436,7 +436,9 @@
     <ClInclude Include="..\Core\Source\ORB\RequestLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
     <ClInclude Include="..\Core\Source\ORB\Services.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h" />
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Base.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\btree.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\meminfo.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap.h" />
@@ -532,6 +534,7 @@
     <ClCompile Include="..\Core\Source\ORB\Services.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Fixed.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
     <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
