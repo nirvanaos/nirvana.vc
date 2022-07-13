@@ -522,9 +522,6 @@
     <ClCompile Include="..\Core\Source\SyncContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\CoreModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

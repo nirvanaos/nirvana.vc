@@ -60,5 +60,8 @@
     <ClCompile Include="..\Core\Exports\InterfaceRepository_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\g_object_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

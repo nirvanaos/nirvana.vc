@@ -428,6 +428,7 @@
     <ClCompile Include="..\Core\Exports\exports.cpp" />
     <ClCompile Include="..\Core\Exports\File_p.cpp" />
     <ClCompile Include="..\Core\Exports\g_factory.cpp" />
+    <ClCompile Include="..\Core\Exports\g_object_factory.cpp" />
     <ClCompile Include="..\Core\Exports\InterfaceRepository_p.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
