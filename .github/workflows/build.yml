@@ -63,7 +63,7 @@ jobs:
             python-version: 3.8
 
       - name: Test Results
-        uses: EnricoMi/publish-unit-test-result-action/composite@v1.28
+        uses: EnricoMi/publish-unit-test-result-action/composite@v1.39
         id: test-results
         if: always()
         with:
