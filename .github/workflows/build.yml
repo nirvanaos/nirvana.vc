@@ -99,6 +99,6 @@ jobs:
           github.event_name != 'workflow_run' && github.ref == 'refs/heads/master'
         uses: andymckay/append-gist-action@1fbfbbce708a39bd45846f0955ed5521f2099c6d
         with:
-          token: ${{ secrets.WORKFLOW_TOKEN }}
-          gistURL: https://github.com/nirvanaos/nirvana.vc/actions/workflows/build.yml
+          token: ${{ secrets.GIST_TOKEN }}
+          gistURL: https://gist.github.com/nirvanaos
           file: badge.svg
