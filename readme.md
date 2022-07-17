@@ -1,5 +1,5 @@
 # MS Visual Studio solution for building Nirvana for Windows
-[![CI](https://github.com/nirvanaos/nirvana.vc/actions/workflows/build.yml/badge.svg)](https://github.com/nirvanaos/nirvana.vc/actions/workflows/build.yml)
+[![CI](https://gist.github.com/nirvanaos/nirvana.vc/badge.svg)](https://gist.github.com/nirvanaos/nirvana.vc)
 ### Content
 
 This repository contains MS Visual Studio 2019 solution for build the Nirvana subprojects.
