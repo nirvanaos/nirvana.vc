@@ -409,9 +409,6 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer_s.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Exports\PortableServer_p_native.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\HashOctetSeq.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -551,9 +548,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Synchronized.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\RootPOA.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\WaitList.cpp">
       <Filter>Source Files</Filter>
