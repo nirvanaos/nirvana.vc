@@ -528,6 +528,7 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Services.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
