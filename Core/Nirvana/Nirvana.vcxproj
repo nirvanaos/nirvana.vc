@@ -425,6 +425,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Exports\Current_p.cpp" />
     <ClCompile Include="..\Core\Exports\exports.cpp" />
     <ClCompile Include="..\Core\Exports\File_p.cpp" />
     <ClCompile Include="..\Core\Exports\g_factory.cpp" />
@@ -445,6 +446,7 @@
     <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp" />
     <ClCompile Include="..\Core\Exports\g_ORB.cpp" />
     <ClCompile Include="..\Core\Exports\ORB_p.cpp" />
+    <ClCompile Include="..\Core\Exports\Policy_p.cpp" />
     <ClCompile Include="..\Core\Exports\PortableServer_p.cpp" />
     <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp" />
     <ClCompile Include="..\Core\Exports\g_system.cpp" />
