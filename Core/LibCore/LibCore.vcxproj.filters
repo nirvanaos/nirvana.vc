@@ -43,6 +43,7 @@
     </Filter>
     <Filter Include="generated">
       <UniqueIdentifier>{2b579eea-827d-46c6-97f8-8d93f751c423}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="parallel-hashmap">
       <UniqueIdentifier>{43efe92b-a3a1-43ed-816f-170488d5d871}</UniqueIdentifier>
@@ -55,6 +56,7 @@
     </Filter>
     <Filter Include="ORB\generated">
       <UniqueIdentifier>{d2665d0b-605b-4e30-b036-7f3cb810060e}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -304,42 +306,6 @@
     <ClInclude Include="..\Core\Source\StaticallyAllocated.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\File_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\Memory_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\Module.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\Module_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\RuntimeError.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\RuntimeError_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\System.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\System_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\ObjectFactory.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\ObjectFactory_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\OctetSeq.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\OctetSeq_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\PreallocatedStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -358,12 +324,6 @@
     <ClInclude Include="..\Core\Source\MemContextObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\Legacy.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\Legacy_s.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Legacy\Mutex.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
@@ -376,38 +336,8 @@
     <ClInclude Include="..\Core\Source\ThreadBackground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\IORequest.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\IORequest_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\TCKind.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\TCKind_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\Memory.h">
-      <Filter>generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\IDL\File.h">
-      <Filter>generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\RqHelper.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer_s.h">
-      <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\HashOctetSeq.h">
       <Filter>ORB\Header Files</Filter>
@@ -420,12 +350,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\Services.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\ORB.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\ORB_s.h">
-      <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Signals.h">
       <Filter>Header Files</Filter>
@@ -441,18 +365,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\offset_ptr.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference_s.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\InterfaceRepository.h">
-      <Filter>ORB\generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IDL\InterfaceRepository_s.h">
-      <Filter>ORB\generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h">
       <Filter>ORB\Header Files</Filter>
@@ -477,6 +389,96 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\POA_ImplicitUnique.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\File.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\File_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Legacy.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Legacy_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Memory.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Memory_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Module.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\Module_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\RuntimeError.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\RuntimeError_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\System.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\IDL\System_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\InterfaceRepository.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\InterfaceRepository_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\IORequest.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\IORequest_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ObjectFactory.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ObjectFactory_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\OctetSeq.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\OctetSeq_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ORB.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\ORB_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\PortableServer_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TCKind.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TCKind_s.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode_s.h">
+      <Filter>ORB\generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
