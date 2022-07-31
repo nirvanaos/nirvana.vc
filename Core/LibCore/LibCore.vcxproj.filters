@@ -105,9 +105,6 @@
     <ClInclude Include="..\Core\Source\Executor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Allocators.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>

@@ -358,7 +358,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Exports\PortableServer_p_native.h" />
-    <ClInclude Include="..\Core\Source\Allocators.h" />
     <ClInclude Include="..\Core\Source\Array.h" />
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
