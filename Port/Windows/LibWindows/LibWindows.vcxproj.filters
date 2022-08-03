@@ -269,5 +269,8 @@
     <ClInclude Include="..\Windows\Port\ESIOP.h">
       <Filter>Port</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Port\OtherDomain.h">
+      <Filter>Port</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

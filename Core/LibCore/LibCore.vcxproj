@@ -430,7 +430,7 @@
     <ClInclude Include="..\Core\Source\ORB\POA_ImplicitUnique.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_SystemId.h" />
     <ClInclude Include="..\Core\Source\ORB\RqHelper.h" />
-    <ClInclude Include="..\Core\Source\ORB\Message.h" />
+    <ClInclude Include="..\Core\Source\ORB\ESIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
     <ClInclude Include="..\Core\Source\ORB\ObjectFactory.h" />
     <ClInclude Include="..\Core\Source\ORB\offset_ptr.h" />
@@ -538,6 +538,7 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ESIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\native.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_AOM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
