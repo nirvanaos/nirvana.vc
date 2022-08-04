@@ -495,6 +495,15 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\IOP.h">
       <Filter>ORB\generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IncomingRequests.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\RequestIn.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IDL\BiDirPolicy.h">
+      <Filter>ORB\generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -677,6 +686,9 @@
     <ClCompile Include="..\Core\Source\ORB\ESIOP.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IncomingRequests.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
@@ -740,6 +752,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\Core\Source\ORB\GIOP.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\BiDirPolicy.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>

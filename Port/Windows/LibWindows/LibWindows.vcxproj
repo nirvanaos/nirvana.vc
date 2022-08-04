@@ -42,6 +42,7 @@
     <ClCompile Include="..\Windows\Source\ErrConsole.cpp" />
     <ClCompile Include="..\Windows\Source\Debugger.cpp" />
     <ClCompile Include="..\Windows\Source\error2errno.cpp" />
+    <ClCompile Include="..\Windows\Source\ESIOP.cpp" />
     <ClCompile Include="..\Windows\Source\ex2signal.cpp" />
     <ClCompile Include="..\Windows\Source\FileAccess.cpp" />
     <ClCompile Include="..\Windows\Source\gtest_sys.cpp">
