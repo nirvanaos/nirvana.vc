@@ -398,6 +398,8 @@
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
+    <ClInclude Include="..\Core\Source\ORB\CodeSetConverter.h" />
+    <ClInclude Include="..\Core\Source\ORB\CORBA_initterm.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\HashOctetSeq.h" />
     <ClInclude Include="..\Core\Source\ORB\IDL\BiDirPolicy.h" />
@@ -431,6 +433,7 @@
     <ClInclude Include="..\Core\Source\ORB\POA_Implicit.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_ImplicitUnique.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_SystemId.h" />
+    <ClInclude Include="..\Core\Source\ORB\Request.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h" />
     <ClInclude Include="..\Core\Source\ORB\RqHelper.h" />
     <ClInclude Include="..\Core\Source\ORB\ESIOP.h" />
@@ -541,6 +544,8 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\CORBA_initterm.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ESIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\IncomingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\native.cpp" />
@@ -548,6 +553,8 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_SystemId.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\Request.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Services.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamInSM.cpp" />
