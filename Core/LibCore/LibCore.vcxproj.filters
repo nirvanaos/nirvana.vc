@@ -474,7 +474,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamIn.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\OtherMemory.h">
+    <ClInclude Include="..\Core\Source\ORB\OtherDomain.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\StreamOut.h">
@@ -511,6 +511,21 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\CORBA_initterm.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\OtherDomains.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\WeakPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\MapUnorderedStable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\MapOrderedUnstable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\RequestOut.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -701,13 +716,19 @@
     <ClCompile Include="..\Core\Source\ORB\Request.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\CORBA_initterm.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

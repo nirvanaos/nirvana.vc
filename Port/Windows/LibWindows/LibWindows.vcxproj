@@ -119,7 +119,6 @@
     <ClInclude Include="..\Windows\Port\FileAccess.h" />
     <ClInclude Include="..\Windows\Port\Memory.h" />
     <ClInclude Include="..\Windows\Port\Module.h" />
-    <ClInclude Include="..\Windows\Port\OtherDomain.h" />
     <ClInclude Include="..\Windows\Port\Scheduler.h" />
     <ClInclude Include="..\Windows\Port\SystemInfo.h" />
     <ClInclude Include="..\Windows\Port\Thread.h" />

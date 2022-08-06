@@ -392,6 +392,8 @@
     <ClInclude Include="..\Core\Source\Legacy\ThreadBase.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
+    <ClInclude Include="..\Core\Source\MapOrderedUnstable.h" />
+    <ClInclude Include="..\Core\Source\MapUnorderedStable.h" />
     <ClInclude Include="..\Core\Source\MemContextCore.h" />
     <ClInclude Include="..\Core\Source\MemContextUser.h" />
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
@@ -427,7 +429,8 @@
     <ClInclude Include="..\Core\Source\ORB\IncomingRequests.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleNoCopy.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
-    <ClInclude Include="..\Core\Source\ORB\OtherMemory.h" />
+    <ClInclude Include="..\Core\Source\ORB\OtherDomain.h" />
+    <ClInclude Include="..\Core\Source\ORB\OtherDomains.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_AOM.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Base.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Implicit.h" />
@@ -435,6 +438,7 @@
     <ClInclude Include="..\Core\Source\ORB\POA_SystemId.h" />
     <ClInclude Include="..\Core\Source\ORB\Request.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestOut.h" />
     <ClInclude Include="..\Core\Source\ORB\RqHelper.h" />
     <ClInclude Include="..\Core\Source\ORB\ESIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
@@ -508,6 +512,7 @@
     <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\WaitableRef.h" />
     <ClInclude Include="..\Core\Source\WaitList.h" />
+    <ClInclude Include="..\Core\Source\WeakPtr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\Event.cpp" />
@@ -549,12 +554,14 @@
     <ClCompile Include="..\Core\Source\ORB\ESIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\IncomingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\native.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_AOM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_SystemId.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Request.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Services.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamInSM.cpp" />
