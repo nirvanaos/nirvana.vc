@@ -528,6 +528,9 @@
     <ClInclude Include="..\Core\Source\ORB\RequestOut.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\StreamReply.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -730,6 +733,15 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IDL\GIOP.cpp">
+      <Filter>ORB\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IDL\IIOP.cpp">
+      <Filter>ORB\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IDL\IOP.cpp">
+      <Filter>ORB\generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
