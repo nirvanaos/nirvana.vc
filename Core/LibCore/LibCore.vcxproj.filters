@@ -743,6 +743,12 @@
     <ClCompile Include="..\Core\Source\ORB\IDL\IOP.cpp">
       <Filter>ORB\generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\StreamOut.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\StreamReply.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
