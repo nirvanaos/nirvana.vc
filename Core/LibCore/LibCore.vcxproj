@@ -432,6 +432,7 @@
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
     <ClInclude Include="..\Core\Source\ORB\OtherDomain.h" />
     <ClInclude Include="..\Core\Source\ORB\OtherDomains.h" />
+    <ClInclude Include="..\Core\Source\ORB\OutgoingRequests.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_AOM.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Base.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Implicit.h" />
@@ -560,6 +561,7 @@
     <ClCompile Include="..\Core\Source\ORB\IncomingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\native.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\OutgoingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_AOM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp" />
