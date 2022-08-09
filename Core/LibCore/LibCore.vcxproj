@@ -400,6 +400,7 @@
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
+    <ClInclude Include="..\Core\Source\ORB\ClientAddress.h" />
     <ClInclude Include="..\Core\Source\ORB\CodeSetConverter.h" />
     <ClInclude Include="..\Core\Source\ORB\CORBA_initterm.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
