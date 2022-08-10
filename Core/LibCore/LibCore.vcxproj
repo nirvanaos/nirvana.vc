@@ -571,6 +571,7 @@
     <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Services.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\StreamIn.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamInSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
