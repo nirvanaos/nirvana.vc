@@ -425,6 +425,8 @@
     <ClInclude Include="..\Core\Source\ORB\IDL\Proxy\IOReference_s.h" />
     <ClInclude Include="..\Core\Source\ORB\IDL\TCKind.h" />
     <ClInclude Include="..\Core\Source\ORB\IDL\TCKind_s.h" />
+    <ClInclude Include="..\Core\Source\ORB\IDL\TimeBase.h" />
+    <ClInclude Include="..\Core\Source\ORB\IDL\TimeBase_s.h" />
     <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode.h" />
     <ClInclude Include="..\Core\Source\ORB\IDL\TypeCode_s.h" />
     <ClInclude Include="..\Core\Source\ORB\IncomingRequests.h" />
@@ -721,14 +723,14 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\System.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\..\Library.VC\Nirvana\ORB\Include -no_client_cpp -no_proxy -out_h $(ProjectDir)..\Core\Source\IDL</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
@@ -1462,6 +1464,42 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TimeBase.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h $(ProjectDir)..\Core\Source\ORB\IDL -no_client_cpp -out_cpp $(ProjectDir)..\Core\Exports</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename).h;$(ProjectDir)..\Core\Source\ORB\IDL\%(Filename)_s.h;$(ProjectDir)..\Core\Exports\%(Filename)_p.cpp;%(Outputs)</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
