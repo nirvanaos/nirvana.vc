@@ -24,9 +24,6 @@
     <ClCompile Include="..\Core\Exports\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

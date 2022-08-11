@@ -443,7 +443,6 @@
     <ClCompile Include="..\Core\Exports\Launcher.cpp" />
     <ClCompile Include="..\Core\Exports\Legacy_Process_p.cpp" />
     <ClCompile Include="..\Core\Exports\g_memory.cpp" />
-    <ClCompile Include="..\Core\Exports\OctetSeq_p.cpp" />
     <ClCompile Include="..\Core\Exports\g_ORB.cpp" />
     <ClCompile Include="..\Core\Exports\ORB_p.cpp" />
     <ClCompile Include="..\Core\Exports\Policy_p.cpp" />

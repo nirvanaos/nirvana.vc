@@ -835,8 +835,8 @@
     <CustomBuild Include="..\Core\Source\ORB\BiDirPolicy.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TimeBase.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\TimeBase.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
