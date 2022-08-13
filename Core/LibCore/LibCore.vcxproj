@@ -460,7 +460,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamInSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOut.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
-    <ClInclude Include="..\Core\Source\ORB\StreamReply.h" />
+    <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h" />
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Base.h" />
@@ -577,7 +577,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamInSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\StreamReply.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Fixed.cpp" />
