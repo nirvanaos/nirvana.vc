@@ -404,6 +404,7 @@
     <ClInclude Include="..\Core\Source\ORB\POA_Implicit.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_ImplicitUnique.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_SystemId.h" />
+    <ClInclude Include="..\Core\Source\ORB\PolicyImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\Request.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncapIn.h" />
