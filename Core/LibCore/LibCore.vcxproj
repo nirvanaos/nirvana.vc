@@ -404,7 +404,9 @@
     <ClInclude Include="..\Core\Source\ORB\POA_Implicit.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_ImplicitUnique.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_SystemId.h" />
+    <ClInclude Include="..\Core\Source\ORB\PolicyFactory.h" />
     <ClInclude Include="..\Core\Source\ORB\PolicyImpl.h" />
+    <ClInclude Include="..\Core\Source\ORB\PortableServer_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\Request.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncapIn.h" />
@@ -535,6 +537,7 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_SystemId.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Request.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
