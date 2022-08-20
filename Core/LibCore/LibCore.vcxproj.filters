@@ -684,6 +684,15 @@
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\CSI.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\GSSUP.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\CSIIOP.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
@@ -769,6 +778,18 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Context.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DomainManager.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\CSI.idl">
+      <Filter>ORB\IDL\Internal</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\GSSUP.idl">
+      <Filter>ORB\IDL\Internal</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\CSIIOP.idl">
+      <Filter>ORB\IDL\Internal</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

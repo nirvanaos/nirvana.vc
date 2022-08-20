@@ -75,5 +75,8 @@
     <ClCompile Include="..\Core\Exports\Dynamic_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\DomainManager_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
