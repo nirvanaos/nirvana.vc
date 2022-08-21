@@ -454,6 +454,9 @@
     <ClInclude Include="..\Core\Source\ORB\PolicyFactory.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\ObjectKey.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -691,6 +694,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\CSIIOP.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\ObjectKey.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

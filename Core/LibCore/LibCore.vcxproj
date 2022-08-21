@@ -396,6 +396,7 @@
     <ClInclude Include="..\Core\Source\ORB\IncomingRequests.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleNoCopy.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
+    <ClInclude Include="..\Core\Source\ORB\ObjectKey.h" />
     <ClInclude Include="..\Core\Source\ORB\OtherDomain.h" />
     <ClInclude Include="..\Core\Source\ORB\OtherDomains.h" />
     <ClInclude Include="..\Core\Source\ORB\OutgoingRequests.h" />
@@ -534,6 +535,7 @@
     <ClCompile Include="..\Core\Source\ORB\IIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\IncomingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\native.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ObjectKey.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OutgoingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_AOM.cpp" />
