@@ -415,7 +415,7 @@
     <ClInclude Include="..\Core\Source\ORB\OtherDomains.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\WeakPtr.h">
+    <ClInclude Include="..\Core\Source\WeakRef.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\MapUnorderedStable.h">

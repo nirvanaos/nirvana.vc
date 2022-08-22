@@ -339,6 +339,7 @@
     <ClCompile Include="..\Core\Test\TestCore\TestQueueWithPool.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestSkipList.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp" />
+    <ClCompile Include="..\Core\Test\TestCore\TestWeakRef.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Test\TestCore\readme.md" />

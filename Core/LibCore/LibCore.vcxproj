@@ -488,7 +488,7 @@
     <ClInclude Include="..\Core\Source\UserObject.h" />
     <ClInclude Include="..\Core\Source\WaitableRef.h" />
     <ClInclude Include="..\Core\Source\WaitList.h" />
-    <ClInclude Include="..\Core\Source\WeakPtr.h" />
+    <ClInclude Include="..\Core\Source\WeakRef.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\Event.cpp" />
