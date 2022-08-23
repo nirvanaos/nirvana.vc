@@ -800,6 +800,9 @@
     <CustomBuild Include="..\Core\Source\ORB\CSIIOP.idl">
       <Filter>ORB\IDL\Internal</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\BiDirPolicy.idl">
+      <Filter>ORB\IDL\Internal</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl">
