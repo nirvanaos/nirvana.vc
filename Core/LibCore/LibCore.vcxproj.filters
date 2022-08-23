@@ -403,7 +403,7 @@
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\Request.h">
+    <ClInclude Include="..\Core\Source\ORB\RequestGIOP.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\CodeSetConverter.h">
@@ -455,6 +455,9 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ObjectKey.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\RequestInBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -642,7 +645,7 @@
     <ClCompile Include="..\Core\Source\ORB\IncomingRequests.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\Request.cpp">
+    <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\CORBA_initterm.cpp">

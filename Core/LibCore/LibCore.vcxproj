@@ -408,10 +408,11 @@
     <ClInclude Include="..\Core\Source\ORB\PolicyFactory.h" />
     <ClInclude Include="..\Core\Source\ORB\PolicyImpl.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_policies.h" />
-    <ClInclude Include="..\Core\Source\ORB\Request.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestGIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncapIn.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestInBase.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestOut.h" />
     <ClInclude Include="..\Core\Source\ORB\RqHelper.h" />
     <ClInclude Include="..\Core\Source\ORB\ESIOP.h" />
@@ -543,7 +544,7 @@
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_SystemId.cpp" />
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\Request.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp" />
