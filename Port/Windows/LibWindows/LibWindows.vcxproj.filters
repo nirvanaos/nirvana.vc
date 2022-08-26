@@ -99,9 +99,6 @@
     <ClCompile Include="..\Windows\Source\Chrono.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\WinWChar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\FileAccess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

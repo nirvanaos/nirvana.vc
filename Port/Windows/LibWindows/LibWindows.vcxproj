@@ -105,7 +105,6 @@
     <ClCompile Include="..\Windows\Source\ThreadPostman.cpp" />
     <ClCompile Include="..\Windows\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Windows\Source\unrecoverable_error.cpp" />
-    <ClCompile Include="..\Windows\Source\WinWChar.cpp" />
     <ClCompile Include="..\Windows\Source\WorkerSemaphore.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -380,6 +380,7 @@
     <ClInclude Include="..\Core\Source\Legacy\ThreadBase.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
+    <ClInclude Include="..\Core\Source\LockableRef.h" />
     <ClInclude Include="..\Core\Source\MapOrderedUnstable.h" />
     <ClInclude Include="..\Core\Source\MapUnorderedStable.h" />
     <ClInclude Include="..\Core\Source\MemContextCore.h" />
