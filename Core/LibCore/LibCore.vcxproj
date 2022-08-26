@@ -389,7 +389,7 @@
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
-    <ClInclude Include="..\Core\Source\ORB\ClientAddress.h" />
+    <ClInclude Include="..\Core\Source\ORB\DomainAddress.h" />
     <ClInclude Include="..\Core\Source\ORB\CodeSetConverter.h" />
     <ClInclude Include="..\Core\Source\ORB\CORBA_initterm.h" />
     <ClInclude Include="..\Core\Source\ORB\CoreImpl.h" />
@@ -401,7 +401,9 @@
     <ClInclude Include="..\Core\Source\ORB\OtherDomain.h" />
     <ClInclude Include="..\Core\Source\ORB\OtherDomains.h" />
     <ClInclude Include="..\Core\Source\ORB\OutgoingRequests.h" />
-    <ClInclude Include="..\Core\Source\ORB\POA_AOM.h" />
+    <ClInclude Include="..\Core\Source\ORB\POAManager.h" />
+    <ClInclude Include="..\Core\Source\ORB\POAManagerFactory.h" />
+    <ClInclude Include="..\Core\Source\ORB\POA_Retain.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Base.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Implicit.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_ImplicitUnique.h" />
@@ -540,7 +542,7 @@
     <ClCompile Include="..\Core\Source\ORB\ObjectKey.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OutgoingRequests.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\POA_AOM.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_SystemId.cpp" />

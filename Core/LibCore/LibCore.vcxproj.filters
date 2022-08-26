@@ -370,7 +370,7 @@
     <ClInclude Include="..\Core\Source\ORB\POA_Base.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\POA_AOM.h">
+    <ClInclude Include="..\Core\Source\ORB\POA_Retain.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\POA_SystemId.h">
@@ -430,7 +430,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ClientAddress.h">
+    <ClInclude Include="..\Core\Source\ORB\DomainAddress.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\OutgoingRequests.h">
@@ -462,6 +462,12 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\LockableRef.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\POAManager.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\POAManagerFactory.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -627,7 +633,7 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\POA_AOM.cpp">
+    <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp">
