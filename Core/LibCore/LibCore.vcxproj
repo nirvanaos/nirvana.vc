@@ -552,6 +552,7 @@
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestInBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Services.cpp" />
