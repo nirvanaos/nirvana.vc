@@ -542,9 +542,11 @@
     <ClCompile Include="..\Core\Source\ORB\ObjectKey.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OutgoingRequests.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POAManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_ImplicitUnique.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA_Root.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_SystemId.cpp" />
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
