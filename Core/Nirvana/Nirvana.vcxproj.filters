@@ -84,5 +84,8 @@
     <ClCompile Include="..\Core\Exports\BiDirPolicy_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\Current_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

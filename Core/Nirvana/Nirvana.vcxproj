@@ -429,6 +429,7 @@
   <ItemGroup>
     <ClCompile Include="..\Core\Exports\BiDirPolicy.cpp" />
     <ClCompile Include="..\Core\Exports\BiDirPolicy_p.cpp" />
+    <ClCompile Include="..\Core\Exports\Current_p.cpp" />
     <ClCompile Include="..\Core\Exports\DomainManager_p.cpp" />
     <ClCompile Include="..\Core\Exports\Dynamic_p.cpp" />
     <ClCompile Include="..\Core\Exports\exports.cpp" />
