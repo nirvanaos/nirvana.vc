@@ -859,7 +859,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl" />
-    <None Include="..\Core\Source\ORB\ServantProxyBase.inl" />
     <None Include="..\Core\Source\ThreadBackground.inl" />
   </ItemGroup>
   <ItemGroup>
