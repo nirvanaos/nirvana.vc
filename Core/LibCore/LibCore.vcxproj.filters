@@ -475,7 +475,7 @@
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Current.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ProxyObjectImplicit.h">
+    <ClInclude Include="..\Core\Source\ORB\ProxyObjectServant.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ReferenceLocal.h">
@@ -741,13 +741,16 @@
     <ClCompile Include="..\Core\Source\ORB\ProxyObjectDGC.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ProxyObjectImplicit.cpp">
+    <ClCompile Include="..\Core\Source\ORB\ProxyObjectServant.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ReferenceLocal.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\Reference.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\LocalObject.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
