@@ -451,7 +451,7 @@
     <ClInclude Include="..\Core\Source\ORB\ObjectKey.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\RequestInBase.h">
+    <ClInclude Include="..\Core\Source\ORB\RequestInPOA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\LockableRef.h">
@@ -486,6 +486,9 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\RequestLocalPOA.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\MapUnorderedUnstable.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -732,7 +735,7 @@
     <ClCompile Include="..\Core\Source\ORB\POAManager.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\RequestInBase.cpp">
+    <ClCompile Include="..\Core\Source\ORB\RequestInPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp">

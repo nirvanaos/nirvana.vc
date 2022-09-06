@@ -383,6 +383,7 @@
     <ClInclude Include="..\Core\Source\LockableRef.h" />
     <ClInclude Include="..\Core\Source\MapOrderedUnstable.h" />
     <ClInclude Include="..\Core\Source\MapUnorderedStable.h" />
+    <ClInclude Include="..\Core\Source\MapUnorderedUnstable.h" />
     <ClInclude Include="..\Core\Source\MemContextCore.h" />
     <ClInclude Include="..\Core\Source\MemContextUser.h" />
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
@@ -420,7 +421,7 @@
     <ClInclude Include="..\Core\Source\ORB\RequestEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncapIn.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h" />
-    <ClInclude Include="..\Core\Source\ORB\RequestInBase.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestInPOA.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestLocalPOA.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestOut.h" />
     <ClInclude Include="..\Core\Source\ORB\RqHelper.h" />
@@ -564,7 +565,7 @@
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\RequestInBase.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestInPOA.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestLocalPOA.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
