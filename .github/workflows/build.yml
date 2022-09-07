@@ -49,21 +49,21 @@ jobs:
         run: ./BuildAndTest.cmd x64 Release
         shell: cmd
 
-#      - name: Win32 Debug LLVM
-#        run: ./BuildAndTest.cmd Win32 Debug LLVM
-#        shell: cmd
+      - name: Win32 Debug LLVM
+        run: ./BuildAndTest.cmd Win32 Debug LLVM
+        shell: cmd
 
-#      - name: Win32 Release LLVM
-#        run: ./BuildAndTest.cmd Win32 Release LLVM
-#        shell: cmd
+      - name: Win32 Release LLVM
+        run: ./BuildAndTest.cmd Win32 Release LLVM
+        shell: cmd
 
-#      - name: x64 Debug LLVM
-#        run: ./BuildAndTest.cmd x64 Debug LLVM
-#        shell: cmd
+      - name: x64 Debug LLVM
+        run: ./BuildAndTest.cmd x64 Debug LLVM
+        shell: cmd
 
-#      - name: x64 Release LLVM
-#        run: ./BuildAndTest.cmd x64 Release LLVM
-#        shell: cmd
+      - name: x64 Release LLVM
+        run: ./BuildAndTest.cmd x64 Release LLVM
+        shell: cmd
 
       - name: Setup Python
         uses: actions/setup-python@v2
