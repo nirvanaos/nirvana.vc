@@ -551,6 +551,7 @@
     <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OutgoingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POAManager.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POAManagerFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_RetainSystem.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp" />
