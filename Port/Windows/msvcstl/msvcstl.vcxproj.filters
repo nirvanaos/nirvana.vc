@@ -30,6 +30,9 @@
     <ClCompile Include="..\Windows\msvcstl\excptptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\msvcstl\vector_algorithms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Windows\msvcstl\readme.md" />

@@ -39,6 +39,7 @@
     <ClCompile Include="..\Windows\msvcstl\Lockit.cpp" />
     <ClCompile Include="..\Windows\msvcstl\uncaught_exception.cpp" />
     <ClCompile Include="..\Windows\msvcstl\uncaught_exceptions.cpp" />
+    <ClCompile Include="..\Windows\msvcstl\vector_algorithms.cpp" />
     <ClCompile Include="..\Windows\msvcstl\xthrow.cpp" />
   </ItemGroup>
   <ItemGroup>
