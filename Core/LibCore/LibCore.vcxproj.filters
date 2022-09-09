@@ -127,7 +127,7 @@
     <ClInclude Include="..\Core\Source\Synchronized.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\CoreImpl.h">
+    <ClInclude Include="..\Core\Source\ORB\CoreServant.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h">
