@@ -34,19 +34,19 @@ jobs:
         uses: microsoft/setup-msbuild@v1.1
 
       - name: Win32 Debug
-        run: ./BuildAndTest Win32 Debug
+        run: ./BuildAndTest Win32 Debug 2022
         shell: cmd
 
       - name: Win32 Release
-        run: ./BuildAndTest.cmd Win32 Release
+        run: ./BuildAndTest.cmd Win32 Release 2022
         shell: cmd
 
       - name: x64 Debug
-        run: ./BuildAndTest.cmd x64 Debug
+        run: ./BuildAndTest.cmd x64 Debug 2022
         shell: cmd
 
       - name: x64 Release
-        run: ./BuildAndTest.cmd x64 Release
+        run: ./BuildAndTest.cmd x64 Release 2022
         shell: cmd
 
       - name: Win32 Debug LLVM
