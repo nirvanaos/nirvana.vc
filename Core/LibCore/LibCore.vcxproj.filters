@@ -490,6 +490,12 @@
     <ClInclude Include="..\Core\Source\MapUnorderedUnstable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\Service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -763,6 +769,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POAManagerFactory.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

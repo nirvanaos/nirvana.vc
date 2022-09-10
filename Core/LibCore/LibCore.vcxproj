@@ -606,6 +606,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamInEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamInSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOut.h" />
+    <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h" />
@@ -625,6 +626,7 @@
     <ClInclude Include="..\Core\Source\RuntimeGlobal.h" />
     <ClInclude Include="..\Core\Source\MemContext.h" />
     <ClInclude Include="..\Core\Source\Section.h" />
+    <ClInclude Include="..\Core\Source\Service.h" />
     <ClInclude Include="..\Core\Source\SharedAllocator.h" />
     <ClInclude Include="..\Core\Source\SharedObject.h" />
     <ClInclude Include="..\Core\Source\Signals.h" />
@@ -748,6 +750,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamInEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamInSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOut.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
