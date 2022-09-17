@@ -370,7 +370,7 @@
     <ClInclude Include="..\Core\Source\ORB\POA_Base.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\POA_RetainSystem.h">
+    <ClInclude Include="..\Core\Source\ORB\POA_System.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\POA_Implicit.h">
@@ -403,7 +403,7 @@
     <ClInclude Include="..\Core\Source\ORB\CodeSetConverter.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\CORBA_initterm.h">
+    <ClInclude Include="..\Core\Source\ORB\ORB_initterm.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\OtherDomains.h">
@@ -463,13 +463,10 @@
     <ClInclude Include="..\Core\Source\ORB\POAManagerFactory.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ProxyObjectDGC.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\POA_Retain.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\POA_RetainUser.h">
+    <ClInclude Include="..\Core\Source\ORB\POA_Unique.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Current.h">
@@ -495,6 +492,15 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\RefCntProxy.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\PortableServer_Context.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\PointerSet.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -657,7 +663,7 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Base.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\POA_RetainSystem.cpp">
+    <ClCompile Include="..\Core\Source\ORB\POA_System.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POA_Implicit.cpp">
@@ -681,7 +687,7 @@
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\CORBA_initterm.cpp">
+    <ClCompile Include="..\Core\Source\ORB\ORB_initterm.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp">
@@ -744,13 +750,10 @@
     <ClCompile Include="..\Core\Source\ORB\RequestInPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp">
+    <ClCompile Include="..\Core\Source\ORB\POA_Unique.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\PortableServer_Current.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ProxyObjectDGC.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ProxyObjectImplicit.cpp">
@@ -772,6 +775,12 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\RefCntProxy.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
