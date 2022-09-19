@@ -556,6 +556,8 @@
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Activator.h" />
+    <ClInclude Include="..\Core\Source\ORB\POA_Default.h" />
+    <ClInclude Include="..\Core\Source\ORB\POA_Locator.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Persistent.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Retain.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainAddress.h" />
@@ -734,6 +736,8 @@
     <ClCompile Include="..\Core\Source\ORB\POAManagerFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Activator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_create.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA_Default.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA_Locator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Persistent.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Transient.cpp" />
