@@ -741,7 +741,6 @@
     <ClCompile Include="..\Core\Source\ORB\LocalObject.cpp" />
     <ClCompile Include="..\Core\Source\ORB\native.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectKey.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\OutgoingRequests.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POAManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POAManagerFactory.cpp" />

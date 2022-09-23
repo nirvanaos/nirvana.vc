@@ -726,9 +726,6 @@
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\OtherDomains.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
