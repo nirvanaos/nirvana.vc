@@ -555,6 +555,10 @@
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
+    <ClInclude Include="..\Core\Source\ORB\Domain.h" />
+    <ClInclude Include="..\Core\Source\ORB\DomainRemote.h" />
+    <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
+    <ClInclude Include="..\Core\Source\ORB\LocalAddress.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Activator.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Default.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Locator.h" />
@@ -569,8 +573,8 @@
     <ClInclude Include="..\Core\Source\ORB\LifeCycleNoCopy.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
     <ClInclude Include="..\Core\Source\ORB\ObjectKey.h" />
-    <ClInclude Include="..\Core\Source\ORB\OtherDomain.h" />
-    <ClInclude Include="..\Core\Source\ORB\OtherDomains.h" />
+    <ClInclude Include="..\Core\Source\ORB\DomainLocal.h" />
+    <ClInclude Include="..\Core\Source\ORB\DomainsLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\OutgoingRequests.h" />
     <ClInclude Include="..\Core\Source\ORB\POAManager.h" />
     <ClInclude Include="..\Core\Source\ORB\POAManagerFactory.h" />
@@ -588,6 +592,8 @@
     <ClInclude Include="..\Core\Source\ORB\RefCntProxy.h" />
     <ClInclude Include="..\Core\Source\ORB\ReferenceLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\Reference.h" />
+    <ClInclude Include="..\Core\Source\ORB\ReferenceRemote.h" />
+    <ClInclude Include="..\Core\Source\ORB\RemoteReferences.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestGIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncapIn.h" />
@@ -719,6 +725,11 @@
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\DomainLocal.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\DomainRemote.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\GarbageCollector.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\LocalAddress.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ORB_initterm.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CSI.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CSIIOP.cpp" />
@@ -752,6 +763,8 @@
     <ClCompile Include="..\Core\Source\ORB\RefCntProxy.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Reference.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ReferenceLocal.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ReferenceRemote.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RemoteReferences.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
