@@ -594,6 +594,7 @@
     <ClInclude Include="..\Core\Source\ORB\Reference.h" />
     <ClInclude Include="..\Core\Source\ORB\ReferenceRemote.h" />
     <ClInclude Include="..\Core\Source\ORB\RemoteReferences.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestEncapOut.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestGIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestEncapIn.h" />
