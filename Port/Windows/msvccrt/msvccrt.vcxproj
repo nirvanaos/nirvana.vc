@@ -61,6 +61,11 @@
   <ItemGroup>
     <None Include="..\Windows\msvccrt\readme.md" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library.VC\Nirvana\Library\Library.vcxproj">
+      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

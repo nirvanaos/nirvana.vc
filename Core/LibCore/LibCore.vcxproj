@@ -622,6 +622,8 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Array.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_ArrayBase.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Enum.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_IdName.h" />
@@ -790,6 +792,8 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Array.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_ArrayBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Base.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tc_constants.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Enum.cpp" />
