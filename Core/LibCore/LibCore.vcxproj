@@ -631,6 +631,8 @@
     <ClInclude Include="..\Core\Source\ORB\TC_ObjRef.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Ref.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_RefBase.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Sequence.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_String.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Struct.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Union.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\btree.h" />
@@ -796,6 +798,7 @@
     <ClCompile Include="..\Core\Source\ORB\TC_IdName.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_ObjRef.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_RefBase.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Sequence.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Struct.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Union.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
