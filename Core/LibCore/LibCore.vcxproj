@@ -622,6 +622,8 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Abstract.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Alias.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Array.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_ArrayBase.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Enum.h" />
@@ -630,13 +632,17 @@
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Base.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Impl.h" />
-    <ClInclude Include="..\Core\Source\ORB\TC_ObjRef.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Interface.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Native.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Ref.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_RefBase.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Sequence.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_String.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Struct.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Union.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Value.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_ValueBase.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_ValueBox.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\btree.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\meminfo.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap.h" />
@@ -792,6 +798,21 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Abstract.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Alias.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\TC_Array.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_ArrayBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Base.cpp" />
@@ -800,11 +821,14 @@
     <ClCompile Include="..\Core\Source\ORB\tc_exceptions.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Fixed.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_IdName.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\TC_ObjRef.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Interface.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_RefBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Sequence.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Struct.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Union.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Value.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_ValueBase.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_ValueBox.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
     <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
