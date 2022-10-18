@@ -592,6 +592,9 @@
     <ClInclude Include="..\Core\Source\ORB\TC_Native.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\TC_FactoryImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -954,6 +957,15 @@
     <ClCompile Include="..\Core\Source\ORB\TC_Abstract.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\TC_Factory.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\TC_Factory_p.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\TC_FactoryImpl.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
@@ -1053,6 +1065,9 @@
       <Filter>ORB\IDL\Internal</Filter>
     </CustomBuild>
     <CustomBuild Include="..\Core\Source\ORB\BiDirPolicy.idl">
+      <Filter>ORB\IDL\Internal</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\TC_Factory.idl">
       <Filter>ORB\IDL\Internal</Filter>
     </CustomBuild>
   </ItemGroup>
