@@ -558,6 +558,7 @@
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainRemote.h" />
     <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
+    <ClInclude Include="..\Core\Source\ORB\IndirectMapUnmarshal.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalAddress.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Activator.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Default.h" />
@@ -624,6 +625,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Abstract.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Alias.h" />
+    <ClInclude Include="..\Core\Source\ORB\TC_Recursive.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Array.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_ArrayBase.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Enum.h" />
@@ -826,6 +828,7 @@
     <ClCompile Include="..\Core\Source\ORB\TC_Fixed.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_IdName.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Interface.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TC_Ref.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_RefBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Sequence.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Struct.cpp" />
