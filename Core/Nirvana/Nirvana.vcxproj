@@ -657,6 +657,8 @@
     <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp" />
     <ClCompile Include="..\Core\Exports\g_system.cpp" />
     <ClCompile Include="..\Core\Exports\TCKind_p.cpp" />
+    <ClCompile Include="..\Core\Exports\TC_Factory.cpp" />
+    <ClCompile Include="..\Core\Exports\TC_Factory_p.cpp" />
     <ClCompile Include="..\Core\Exports\TimeBase_p.cpp" />
     <ClCompile Include="..\Core\Exports\TypeCode_p.cpp" />
   </ItemGroup>

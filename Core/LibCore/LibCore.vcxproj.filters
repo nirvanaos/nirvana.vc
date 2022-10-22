@@ -963,12 +963,6 @@
     <ClCompile Include="..\Core\Source\ORB\TC_Abstract.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\TC_Factory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\TC_Factory_p.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\TC_FactoryImpl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
