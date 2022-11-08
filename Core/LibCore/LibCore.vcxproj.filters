@@ -433,12 +433,6 @@
     <ClInclude Include="..\Core\Source\ORB\StreamInEncap.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\RequestEncap.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\RequestEncapIn.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\PolicyImpl.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -535,9 +529,6 @@
     <ClInclude Include="..\Core\Source\ORB\LocalAddress.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\RequestEncapOut.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\TC_IdName.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -599,6 +590,12 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IndirectMapUnmarshal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\RequestInESIOP.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\RequestOutESIOP.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -819,9 +816,6 @@
     <ClCompile Include="..\Core\Source\ORB\StreamInEncap.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\RequestEncap.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -967,6 +961,12 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\TC_Ref.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\RequestInESIOP.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\RequestOutESIOP.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
