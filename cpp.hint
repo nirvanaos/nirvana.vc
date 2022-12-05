@@ -20,3 +20,4 @@
 #define NIRVANA_FORCEINLINE
 #define SYNC_BEGIN
 #define SYNC_END
+#define DEFINE_ALLOCATOR
