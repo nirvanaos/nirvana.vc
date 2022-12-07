@@ -51,7 +51,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Windows\Source\AddressSpace.cpp" />
+    <ClInclude Include="..\Windows\Source\AddressSpace.inl">
+      <FileType>Document</FileType>
+    </ClInclude>
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
     <ClCompile Include="..\Windows\Source\Chrono.cpp" />
     <ClCompile Include="..\Windows\Source\Console.cpp" />
