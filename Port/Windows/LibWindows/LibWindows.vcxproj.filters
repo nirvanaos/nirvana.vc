@@ -114,6 +114,9 @@
     <ClCompile Include="..\Windows\Source\ESIOP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\OtherDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -272,5 +275,13 @@
     <ClInclude Include="..\Windows\Source\AddressSpace.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Source\OtherSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Windows\Source\OtherSpace.inl">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
