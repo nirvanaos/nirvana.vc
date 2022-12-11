@@ -77,6 +77,7 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\handle_count.cpp" />
     <ClCompile Include="..\Windows\Source\Module.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotName.cpp" />
     <ClCompile Include="..\Windows\Source\Mailslot.cpp" />
@@ -90,6 +91,14 @@
     <ClCompile Include="..\Windows\Source\OtherDomain.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Memory.cpp" />
+    <ClCompile Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
     <ClCompile Include="..\Windows\Source\shutdown.cpp" />
     <ClCompile Include="..\Windows\Source\SysDomain.cpp" />
