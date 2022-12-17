@@ -77,7 +77,6 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\handle_count.cpp" />
     <ClCompile Include="..\Windows\Source\Module.cpp" />
     <ClCompile Include="..\Windows\Source\MailslotName.cpp" />
     <ClCompile Include="..\Windows\Source\Mailslot.cpp" />

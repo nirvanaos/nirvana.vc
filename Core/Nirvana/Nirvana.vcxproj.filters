@@ -93,5 +93,8 @@
     <ClCompile Include="..\Core\Exports\TC_Factory_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\Domains_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

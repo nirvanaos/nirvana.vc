@@ -117,9 +117,6 @@
     <ClCompile Include="..\Windows\Source\OtherDomain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\handle_count.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

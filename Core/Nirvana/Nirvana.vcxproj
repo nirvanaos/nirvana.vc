@@ -626,6 +626,7 @@
     <ClCompile Include="..\Core\Exports\BiDirPolicy_p.cpp" />
     <ClCompile Include="..\Core\Exports\Current_p.cpp" />
     <ClCompile Include="..\Core\Exports\DomainManager_p.cpp" />
+    <ClCompile Include="..\Core\Exports\Domains_p.cpp" />
     <ClCompile Include="..\Core\Exports\Dynamic_p.cpp" />
     <ClCompile Include="..\Core\Exports\exports.cpp" />
     <ClCompile Include="..\Core\Exports\File_p.cpp" />
