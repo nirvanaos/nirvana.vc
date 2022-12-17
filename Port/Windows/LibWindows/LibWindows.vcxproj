@@ -88,6 +88,7 @@
     <ClCompile Include="..\Windows\Source\MessageBroker.cpp" />
     <ClCompile Include="..\Windows\Source\nirvana.cpp" />
     <ClCompile Include="..\Windows\Source\OtherDomain.cpp" />
+    <ClCompile Include="..\Windows\Source\ProcessWatchdog.cpp" />
     <ClCompile Include="..\Windows\Source\ProtDomain.cpp" />
     <ClCompile Include="..\Windows\Source\Memory.cpp" />
     <ClCompile Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.cpp">
@@ -99,6 +100,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
+    <ClCompile Include="..\Windows\Source\SchedulerBase.cpp" />
     <ClCompile Include="..\Windows\Source\shutdown.cpp" />
     <ClCompile Include="..\Windows\Source\SysDomain.cpp" />
     <ClCompile Include="..\Windows\Source\SystemInfo.cpp" />
@@ -188,6 +190,7 @@
     <ClInclude Include="..\Windows\Source\OtherSpace.h" />
     <ClInclude Include="..\Windows\Source\PostOffice.h" />
     <ClInclude Include="..\Windows\Source\Memory.inl" />
+    <ClInclude Include="..\Windows\Source\ProcessWatchdog.h" />
     <ClInclude Include="..\Windows\Source\RoundBuffers.h" />
     <ClInclude Include="..\Windows\Source\SchedulerBase.h" />
     <ClInclude Include="..\Windows\Source\SchedulerSlave.h" />
