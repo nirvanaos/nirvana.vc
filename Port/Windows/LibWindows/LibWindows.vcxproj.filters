@@ -63,9 +63,6 @@
     <ClCompile Include="..\Windows\Source\ThreadPostman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\SysDomain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\MailslotName.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -120,7 +117,7 @@
     <ClCompile Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\SchedulerBase.cpp">
+    <ClCompile Include="..\Windows\Source\sysdomainid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\ProcessWatchdog.cpp">
@@ -164,9 +161,6 @@
     <ClInclude Include="..\Windows\Port\ProtDomain.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Port\SysDomain.h">
-      <Filter>Port</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Port\ThreadBackground.h">
       <Filter>Port</Filter>
     </ClInclude>
@@ -204,9 +198,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\ThreadPostman.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Windows\Source\Message.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\MessageBroker.h">
@@ -288,6 +279,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\ProcessWatchdog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\sysdomainid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
