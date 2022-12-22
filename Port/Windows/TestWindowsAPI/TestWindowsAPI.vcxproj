@@ -458,6 +458,9 @@
     <ClCompile Include="..\Windows\Test\TestAPI.cpp" />
     <ClCompile Include="..\Windows\Test\test_exception.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Windows\Test\OtherProcess.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
