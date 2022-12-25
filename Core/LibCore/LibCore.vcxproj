@@ -939,6 +939,7 @@
     <ClCompile Include="..\Core\Source\SyncContext.cpp" />
     <ClCompile Include="..\Core\Source\Synchronized.cpp" />
     <ClCompile Include="..\Core\Source\SysDomain.cpp" />
+    <ClCompile Include="..\Core\Source\ThreadBackground.cpp" />
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\MemContext.cpp" />
     <ClCompile Include="..\Core\Source\TLS.cpp" />
