@@ -14,7 +14,7 @@ rem TestWindows.exe "--gtest_output=xml:..\..\TestWindows.%PLATFORM%.%CONFIG%.xm
 rem TestCore.exe "--gtest_output=xml:..\..\TestCore.%PLATFORM%.%CONFIG%.xml"
 
 start "" "..\..\x64\%CONFIG%\Nirvana.exe" -s
-ping -n 1 127.0.0.1 > nul
+ping -n 2 127.0.0.1
 Nirvana.exe TestProcess.nex --gtest_catch_exceptions=0 "--gtest_output=xml:..\..\TestProcess.%PLATFORM%.%CONFIG%.xml"
 Nirvana.exe TestSystem.nex --gtest_catch_exceptions=0 "--gtest_output=xml:..\..\TestSystem.%PLATFORM%.%CONFIG%.xml"
 Nirvana.exe TestFixed.nex --gtest_catch_exceptions=0 "--gtest_output=xml:..\..\TestFixed.%PLATFORM%.%CONFIG%.xml"
