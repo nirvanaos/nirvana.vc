@@ -9,8 +9,8 @@ echo Count of processors: %NUMBER_OF_PROCESSORS%
 echo on
 
 cd "%PLATFORM%\%CONFIG%"
-TestLibrary.exe "--gtest_output=xml:..\..\TestLibrary.%PLATFORM%.%CONFIG%.xml"
-TestORB.exe "--gtest_output=xml:..\..\TestORB.%PLATFORM%.%CONFIG%.xml"
+rem TestLibrary.exe "--gtest_output=xml:..\..\TestLibrary.%PLATFORM%.%CONFIG%.xml"
+rem TestORB.exe "--gtest_output=xml:..\..\TestORB.%PLATFORM%.%CONFIG%.xml"
 rem TestSTL.exe "--gtest_output=xml:..\..\TestSTL.%PLATFORM%.%CONFIG%.xml"
 rem TestWindowsAPI.exe "--gtest_output=xml:..\..\TestWindowsAPI.%PLATFORM%.%CONFIG%.xml"
 rem TestWindows.exe "--gtest_output=xml:..\..\TestWindows.%PLATFORM%.%CONFIG%.xml"
