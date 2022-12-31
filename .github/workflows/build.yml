@@ -21,7 +21,7 @@ jobs:
   # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: recursive
 
@@ -49,13 +49,13 @@ jobs:
         run: ./BuildAndTest.cmd Win32 Release 2022
         shell: cmd
 
-      - name: x64 Debug LLVM
-        run: ./BuildAndTest.cmd x64 Debug LLVM
-        shell: cmd
+#      - name: x64 Debug LLVM
+#        run: ./BuildAndTest.cmd x64 Debug LLVM
+#        shell: cmd
 
-      - name: x64 Release LLVM
-        run: ./BuildAndTest.cmd x64 Release LLVM
-        shell: cmd
+#      - name: x64 Release LLVM
+#        run: ./BuildAndTest.cmd x64 Release LLVM
+#        shell: cmd
 
 #      - name: Win32 Debug LLVM
 #        run: ./BuildAndTest.cmd Win32 Debug LLVM
@@ -75,7 +75,7 @@ jobs:
         id: test-results
         if: always()
         with:
-            files: ./*.xml
+            junit_files: ./*.xml
 
       - name: Set badge color
         shell: bash
@@ -93,7 +93,7 @@ jobs:
           esac
 
       - name: Create badge
-        uses: emibcn/badge-action@d6f51ff11b5c3382b3b88689ae2d6db22d9737d1
+        uses: emibcn/badge-action@v2
         with:
           label: Tests
           status: '${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.tests }} tests, ${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.runs }} runs: ${{ fromJSON( steps.test-results.outputs.json ).conclusion }}'
