@@ -481,9 +481,6 @@
     <ClInclude Include="..\Core\Source\MapUnorderedUnstable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
