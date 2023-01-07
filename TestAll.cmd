@@ -14,7 +14,7 @@ TestORB.exe "--gtest_output=xml:..\..\TestORB.%PLATFORM%.%CONFIG%.xml"
 TestSTL.exe "--gtest_output=xml:..\..\TestSTL.%PLATFORM%.%CONFIG%.xml"
 TestWindowsAPI.exe "--gtest_output=xml:..\..\TestWindowsAPI.%PLATFORM%.%CONFIG%.xml"
 TestWindows.exe "--gtest_output=xml:..\..\TestWindows.%PLATFORM%.%CONFIG%.xml"
-rem TestCore.exe "--gtest_output=xml:..\..\TestCore.%PLATFORM%.%CONFIG%.xml"
+TestCore.exe "--gtest_output=xml:..\..\TestCore.%PLATFORM%.%CONFIG%.xml"
 
 start "" /b "..\..\x64\%CONFIG%\Nirvana.exe" -s
 
