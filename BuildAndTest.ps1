@@ -20,8 +20,9 @@ cd "$platform\\$config"
 #.\TestWindows.exe "--gtest_output=xml:..\..\TestWindows.$platform.$config.xml"
 #.\TestCore.exe "--gtest_output=xml:..\..\TestCore.$platform.$config.xml"
 
+Set-PSDebug -Trace 2
 Start-Process -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentList "-s"
-Start-Sleep -Seconds 1
+Start-Sleep -Seconds 2
 
 Start-Process -Wait -FilePath ".\Nirvana.exe" -ArgumentList "TestProcess.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:..\..\TestProcess.$platform.$config.xml`""
 Start-Process -Wait -FilePath ".\Nirvana.exe" -ArgumentList "TestSystem.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:..\..\TestSystem.$platform.$config.xml`""
