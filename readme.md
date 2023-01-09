@@ -5,7 +5,7 @@
 ## Folders
 ### Content
 
-This repository contains MS Visual Studio 2019 solution for build the Nirvana subprojects.
+This repository contains MS Visual Studio (2019 and 2022) solution for build the Nirvana subprojects.
 
 Other Nirvana projects included here as submodules.
 
