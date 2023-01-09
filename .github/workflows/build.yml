@@ -75,7 +75,7 @@ jobs:
         id: test-results
         if: always()
         with:
-            junit_files: ./testres/*.xml
+            junit_files: "test-results/**/*.xml"
 
       - name: Set badge color
         shell: bash
