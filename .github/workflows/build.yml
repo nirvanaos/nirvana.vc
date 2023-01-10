@@ -56,6 +56,10 @@ jobs:
       - name: x64 Release LLVM
         run: ./BuildAndTest.ps1 "x64" "Release LLVM"
         shell: pwsh
+        
+      - name: List Tests
+        run: dir test-results
+        shell: cmd
 
       - name: Setup Python
         uses: actions/setup-python@v4
