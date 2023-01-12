@@ -123,6 +123,9 @@
     <ClCompile Include="..\Windows\Source\ProcessWatchdog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\PostOffice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -283,6 +286,9 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Source\sysdomainid.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\PostOffice.h">
+      <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

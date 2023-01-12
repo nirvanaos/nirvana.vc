@@ -51,11 +51,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Windows\Port\PostOffice.h" />
     <ClInclude Include="..\Windows\Source\AddressSpace.inl">
       <FileType>Document</FileType>
     </ClInclude>
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
     <ClCompile Include="..\Windows\Source\Chrono.cpp" />
+    <ClCompile Include="..\Windows\Source\PostOffice.cpp" />
     <ClCompile Include="..\Windows\Source\Console.cpp" />
     <ClCompile Include="..\Windows\Source\ErrConsole.cpp" />
     <ClCompile Include="..\Windows\Source\Debugger.cpp" />
