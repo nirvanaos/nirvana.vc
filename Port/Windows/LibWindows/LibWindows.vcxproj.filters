@@ -182,9 +182,6 @@
     <ClInclude Include="..\Windows\Port\Thread.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\RoundBuffers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\CompletionPort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
