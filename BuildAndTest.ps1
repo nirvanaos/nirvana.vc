@@ -26,10 +26,25 @@ $test_result="..\..\test-results\$platform.$config"
 .\TestWindows.exe "--gtest_output=xml:$test_result.TestWindows.xml"
 #.\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
 
+$appdata = [Environment]::GetFolderPath('CommonApplicationData')
+
 Write-Host "Start Nirvana"
 Start-Process -NoNewWindow -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentList "-s"
-Start-Sleep -Seconds 4
-Write-Host "Nirvana Started"
+
+$started = $false
+for ($i = 0; $i -lt 4; $i++) {
+	Start-Sleep -Seconds 1
+	$started = Test-Path "$appdata\Nirvana\Nirvana\sysdomainid"
+	if ($started) {
+		break;
+	}
+}
+if ($started) {
+	Write-Host "Nirvana started"
+} else {
+	Write-Host "Nirvana start failed"
+	Exit
+}
 
 Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestProcess.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestProcess.xml`""
 Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestSystem.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestSystem.xml`""
