@@ -34,9 +34,12 @@ Start-Process -NoNewWindow -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentLi
 $started = $false
 for ($i = 0; $i -lt 4; $i++) {
 	Start-Sleep -Seconds 1
-	$started = Test-Path "$appdata\Nirvana\Nirvana\sysdomainid"
-	if ($started) {
-		break;
+	if (Test-Path "$appdata\Nirvana\Nirvana\sysdomainid") {
+		$started = (Get-Item "$appdata\Nirvana\Nirvana\sysdomainid").length -eq 4
+		if ($started)
+		{
+			break;
+		}
 	}
 }
 if ($started) {

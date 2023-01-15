@@ -102,7 +102,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
-    <ClCompile Include="..\Windows\Source\sysdomainid.cpp" />
+    <ClCompile Include="..\Windows\Source\app_data.cpp" />
     <ClCompile Include="..\Windows\Source\shutdown.cpp" />
     <ClCompile Include="..\Windows\Source\SystemInfo.cpp" />
     <ClCompile Include="..\Windows\Source\Thread.cpp" />
@@ -197,7 +197,7 @@
     <ClInclude Include="..\Windows\Source\SchedulerMaster.h" />
     <ClInclude Include="..\Windows\Source\shutdown.h" />
     <ClInclude Include="..\Windows\Source\start.h" />
-    <ClInclude Include="..\Windows\Source\sysdomainid.h" />
+    <ClInclude Include="..\Windows\Source\app_data.h" />
     <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
     <ClInclude Include="..\Windows\Source\WinWChar.h" />
     <ClInclude Include="..\Windows\Source\WorkerSemaphore.h" />

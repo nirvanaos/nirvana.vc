@@ -117,7 +117,7 @@
     <ClCompile Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\sysdomainid.cpp">
+    <ClCompile Include="..\Windows\Source\app_data.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\ProcessWatchdog.cpp">
@@ -281,7 +281,7 @@
     <ClInclude Include="..\Windows\Source\ProcessWatchdog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\sysdomainid.h">
+    <ClInclude Include="..\Windows\Source\app_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Port\PostOffice.h">
