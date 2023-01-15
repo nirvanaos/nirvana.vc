@@ -28,7 +28,7 @@ $test_result="..\..\test-results\$platform.$config"
 
 Write-Host "Start Nirvana"
 Start-Process -NoNewWindow -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentList "-s"
-Start-Sleep -Seconds 2
+Start-Sleep -Seconds 4
 Write-Host "Nirvana Started"
 
 Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestProcess.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestProcess.xml`""
