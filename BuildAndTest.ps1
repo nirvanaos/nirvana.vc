@@ -9,6 +9,8 @@ if ($args.count -ge 1) {
 	$config = "Debug 2022"
 }
 
+$ErrorActionPreference = "Stop"
+
 msbuild -p:Platform="$platform" -p:Configuration="$config"
 
 Write-Host "=== Start tests. Processor count:"(Get-ComputerInfo).CsNumberOfLogicalProcessors
