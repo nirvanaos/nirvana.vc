@@ -31,6 +31,7 @@ $appdata = [Environment]::GetFolderPath('CommonApplicationData')
 Write-Host "Start Nirvana"
 $sysdomain = (Start-Process -NoNewWindow -PassThru -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentList "-s")
 $handle = $sysdomain.Handle # Hold process handle
+Write-Host "System domain id:"$sysdomain.Id
 
 $started = $false
 for ($i = 0; $i -lt 4; $i++) {
