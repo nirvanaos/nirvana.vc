@@ -30,7 +30,7 @@ $appdata = [Environment]::GetFolderPath('CommonApplicationData')
 
 Write-Host "Start Nirvana"
 $sysdomain = (Start-Process -NoNewWindow -PassThru -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentList "-s")
-Write-Host $sysdomain.id
+$handle = $sysdomain.Handle # Hold process handle
 
 $started = $false
 for ($i = 0; $i -lt 4; $i++) {
@@ -59,7 +59,5 @@ Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "-d"
 
 cd ..\..
 
-Try { Wait-Process -InputObject $sysdomain } Catch {}
-Write-Host "System domain exit code:" $sysdomain.GetType().GetField('exitCode', 'NonPublic, Instance').GetValue($sysdomain)
-#$sysdomain.ExitCode
-
+$sysdomain.WaitForExit()
+Write-Host "System domain exit code:" $sysdomain.ExitCode
