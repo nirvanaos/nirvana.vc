@@ -23,7 +23,7 @@ $test_result="..\..\test-results\$platform.$config"
 #.\TestORB.exe "--gtest_output=xml:$test_result.TestORB.xml"
 #.\TestSTL.exe "--gtest_output=xml:$test_result.TestSTL.xml"
 #.\TestWindowsAPI.exe "--gtest_output=xml:$test_result.TestWindowsAPI.xml"
-#.\TestWindows.exe "--gtest_output=xml:$test_result.TestWindows.xml"
+.\TestWindows.exe "--gtest_output=xml:$test_result.TestWindows.xml"
 #.\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
 
 $appdata = [Environment]::GetFolderPath('CommonApplicationData')
