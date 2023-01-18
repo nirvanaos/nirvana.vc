@@ -24,7 +24,7 @@ $test_result="..\..\test-results\$platform.$config"
 #.\TestSTL.exe "--gtest_output=xml:$test_result.TestSTL.xml"
 #.\TestWindowsAPI.exe "--gtest_output=xml:$test_result.TestWindowsAPI.xml"
 #.\TestWindows.exe "--gtest_output=xml:$test_result.TestWindows.xml"
-#.\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
+.\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
 
 $appdata = [Environment]::GetFolderPath('CommonApplicationData')
 
@@ -50,8 +50,6 @@ if ($started) {
 	Write-Host "Nirvana start failed"
 	Exit
 }
-
-Start-Sleep -Seconds 8
 
 #Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestProcess.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestProcess.xml`""
 #Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestSystem.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestSystem.xml`""
