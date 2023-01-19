@@ -26,7 +26,7 @@ $test_result="..\..\test-results\$platform.$config"
 .\TestWindows.exe "--gtest_output=xml:$test_result.TestWindows.xml"
 #.\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
 
-$appdata = [Environment]::GetFolderPath('CommonApplicationData')
+$appdata = [Environment]::GetFolderPath('CommonApplicationData') + "\Nirvana\Nirvana"
 
 Write-Host "Start Nirvana"
 $sysdomain = (Start-Process -NoNewWindow -PassThru -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentList "-s")
@@ -36,8 +36,8 @@ Write-Host "System domain id:"$sysdomain.Id
 $started = $false
 for ($i = 0; $i -lt 4; $i++) {
 	Start-Sleep -Seconds 1
-	if (Test-Path "$appdata\Nirvana\Nirvana\sysdomainid") {
-		$started = (Get-Item "$appdata\Nirvana\Nirvana\sysdomainid").length -eq 4
+	if (Test-Path "$appdata\sysdomainid") {
+		$started = (Get-Item "$appdata\sysdomainid").length -eq 4
 		if ($started)
 		{
 			break;
@@ -62,3 +62,6 @@ cd ..\..
 
 $sysdomain.WaitForExit()
 Write-Host "System domain exit code:" $sysdomain.ExitCode
+
+New-Item -Path . -Name "logs" -ItemType "directory"
+Copy-Item -Path "$appdata\var\log\*" -Destination ".\logs" -Recurse

@@ -56,7 +56,13 @@ jobs:
 #      - name: x64 Release LLVM
 #        run: ./BuildAndTest.ps1 "x64" "Release LLVM"
 #        shell: pwsh
-        
+
+      - name: Upload Logs
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs
+          path: logs/
+
       - name: List Tests
         run: dir test-results
         shell: cmd
