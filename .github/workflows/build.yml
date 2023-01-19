@@ -41,17 +41,17 @@ jobs:
 #        run: ./BuildAndTest.ps1 "x64" "Release 2022"
 #        shell: pwsh
 
-#      - name: Win32 Debug
-#        run: ./BuildAndTest.ps1 "Win32" "Debug 2022"
-#        shell: pwsh
+      - name: Win32 Debug
+        run: ./BuildAndTest.ps1 "Win32" "Debug 2022"
+        shell: pwsh
 
 #      - name: Win32 Release
 #        run: ./BuildAndTest.ps1 "Win32" "Release 2022"
 #        shell: pwsh
 
-#      - name: x64 Debug LLVM
-#        run: ./BuildAndTest.ps1 "x64" "Debug LLVM"
-#        shell: pwsh
+      - name: x64 Debug LLVM
+        run: ./BuildAndTest.ps1 "x64" "Debug LLVM"
+        shell: pwsh
 
 #      - name: x64 Release LLVM
 #        run: ./BuildAndTest.ps1 "x64" "Release LLVM"
