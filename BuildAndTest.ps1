@@ -63,5 +63,7 @@ cd ..\..
 $sysdomain.WaitForExit()
 Write-Host "System domain exit code:" $sysdomain.ExitCode
 
-New-Item -Path . -Name "logs" -ItemType "directory"
-Copy-Item -Path "$appdata\var\log\*" -Destination ".\logs" -Recurse
+if (Test-Path "$appdata\var\log") {
+	New-Item -Path . -Name "logs" -ItemType "directory" -Force
+	Copy-Item -Path "$appdata\var\log\*" -Destination ".\logs" -Recurse
+}
