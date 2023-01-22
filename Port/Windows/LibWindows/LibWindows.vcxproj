@@ -57,7 +57,7 @@
     </ClInclude>
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
     <ClCompile Include="..\Windows\Source\Chrono.cpp" />
-    <ClCompile Include="..\Windows\Source\CrashLog.cpp" />
+    <ClCompile Include="..\Windows\Source\DebugLog.cpp" />
     <ClCompile Include="..\Windows\Source\PostOffice.cpp" />
     <ClCompile Include="..\Windows\Source\Console.cpp" />
     <ClCompile Include="..\Windows\Source\ErrConsole.cpp" />
@@ -177,7 +177,7 @@
     <ClInclude Include="..\Windows\Source\CmdLineParser.h" />
     <ClInclude Include="..\Windows\Source\CompletionPort.h" />
     <ClInclude Include="..\Windows\Source\CompletionPortReceiver.h" />
-    <ClInclude Include="..\Windows\Source\CrashLog.h" />
+    <ClInclude Include="..\Windows\Source\DebugLog.h" />
     <ClInclude Include="..\Windows\Source\ErrConsole.h" />
     <ClInclude Include="..\Windows\Source\error2errno.h" />
     <ClInclude Include="..\Windows\Source\ex2signal.h" />

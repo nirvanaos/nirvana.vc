@@ -126,7 +126,7 @@
     <ClCompile Include="..\Windows\Source\PostOffice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\CrashLog.cpp">
+    <ClCompile Include="..\Windows\Source\DebugLog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -290,7 +290,7 @@
     <ClInclude Include="..\Windows\Port\PostOffice.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\CrashLog.h">
+    <ClInclude Include="..\Windows\Source\DebugLog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
