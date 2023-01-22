@@ -11,7 +11,7 @@ if ($args.count -ge 1) {
 
 $ErrorActionPreference = "Stop"
 
-msbuild -p:Platform="$platform" -p:Configuration="$config"
+msbuild -m -p:Platform="$platform" -p:Configuration="$config"
 
 Write-Host "=== Start tests. Processor count:"(Get-ComputerInfo).CsNumberOfLogicalProcessors
 
