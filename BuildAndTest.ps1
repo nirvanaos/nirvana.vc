@@ -62,11 +62,3 @@ cd ..\..
 
 $sysdomain.WaitForExit()
 Write-Host "System domain exit code:" $sysdomain.ExitCode
-
-#New-Item -Path . -Name "logs" -ItemType "directory" -Force
-#if (Test-Path "$appdata\var\log\*") {
-#	Write-Host "Copy log files"
-#	Copy-Item -Path "$appdata\var\log\*" -Destination ".\logs" -Recurse
-#}
-#Get-WinEvent -LogName "Application" | Export-Csv ".\logs\Application.csv"
-
