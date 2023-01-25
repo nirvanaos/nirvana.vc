@@ -19,7 +19,7 @@ cd "$platform\\$config"
 
 $test_result="..\..\test-results\$platform.$config"
 
-#.\TestLibrary.exe "--gtest_output=xml:$test_result.TestLibrary.xml"
+.\TestLibrary.exe "--gtest_output=xml:$test_result.TestLibrary.xml"
 #.\TestORB.exe "--gtest_output=xml:$test_result.TestORB.xml"
 #.\TestSTL.exe "--gtest_output=xml:$test_result.TestSTL.xml"
 #.\TestWindowsAPI.exe "--gtest_output=xml:$test_result.TestWindowsAPI.xml"
