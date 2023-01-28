@@ -27,5 +27,8 @@
     <ClCompile Include="..\Core\Test\TestLegacy\TestLegacy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestESIOP\TestESIOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

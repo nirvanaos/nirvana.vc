@@ -553,6 +553,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Test\TestESIOP\TestESIOP.cpp" />
     <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp" />
     <ClCompile Include="..\Core\Test\TestLegacy\TestLegacy.cpp" />
     <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp">
