@@ -648,9 +648,6 @@
     <ClCompile Include="..\Core\Source\SkipList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\run_in_neutral_context.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
