@@ -60,5 +60,10 @@ Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "-d"
 
 cd ..\..
 
-$sysdomain.WaitForExit()
-Write-Host "System domain exit code:" $sysdomain.ExitCode
+if ($sysdomain.WaitForExit(1000)) {
+	Write-Host "System domain exit code:" $sysdomain.ExitCode
+} else {
+	Write-Host "Nirvana has not exited, kill"
+	$sysdomain.Kill()
+	Write-Host "Killed"
+}
