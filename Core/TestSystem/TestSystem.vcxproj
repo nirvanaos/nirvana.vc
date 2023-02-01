@@ -570,6 +570,7 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestSystem\writemem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Library.VC\googletest\googletest.vcxproj">
