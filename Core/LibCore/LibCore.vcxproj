@@ -563,6 +563,7 @@
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainRemote.h" />
     <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
+    <ClInclude Include="..\Core\Source\ORB\ORB.h" />
     <ClInclude Include="..\Core\Source\ORB\IndirectMapUnmarshal.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalAddress.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Activator.h" />
@@ -754,6 +755,7 @@
     <ClCompile Include="..\Core\Source\ORB\DomainLocal.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainRemote.cpp" />
     <ClCompile Include="..\Core\Source\ORB\GarbageCollector.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ORB.cpp" />
     <ClCompile Include="..\Core\Source\ORB\LocalAddress.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ORB_initterm.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CSI.cpp" />
