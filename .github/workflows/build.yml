@@ -21,7 +21,7 @@ jobs:
   # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: recursive
 
@@ -33,41 +33,51 @@ jobs:
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.1
 
-      - name: Win32 Debug
-        run: ./BuildAndTest.cmd Win32 Debug
-
-      - name: Win32 Release
-        run: ./BuildAndTest.cmd Win32 Release
-
       - name: x64 Debug
-        run: ./BuildAndTest.cmd x64 Debug
+        run: ./BuildAndTest.ps1 "x64" "Debug 2022"
+        shell: pwsh
 
       - name: x64 Release
-        run: ./BuildAndTest.cmd x64 Release
+        run: ./BuildAndTest.ps1 "x64" "Release 2022"
+        shell: pwsh
 
-      - name: Win32 Debug LLVM
-        run: ./BuildAndTest.cmd Win32 Debug LLVM
+      - name: Win32 Debug
+        run: ./BuildAndTest.ps1 "Win32" "Debug 2022"
+        shell: pwsh
 
-      - name: Win32 Release LLVM
-        run: ./BuildAndTest.cmd Win32 Release LLVM
+      - name: Win32 Release
+        run: ./BuildAndTest.ps1 "Win32" "Release 2022"
+        shell: pwsh
 
       - name: x64 Debug LLVM
-        run: ./BuildAndTest.cmd x64 Debug LLVM
+        run: ./BuildAndTest.ps1 "x64" "Debug LLVM"
+        shell: pwsh
 
       - name: x64 Release LLVM
-        run: ./BuildAndTest.cmd x64 Release LLVM
+        run: ./BuildAndTest.ps1 "x64" "Release LLVM"
+        shell: pwsh
+
+      - name: Upload Logs
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs
+          path: "C:/ProgramData/Nirvana/Nirvana/var/log"
+
+      - name: List Tests
+        run: dir test-results
+        shell: cmd
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
             python-version: 3.8
 
       - name: Test Results
-        uses: EnricoMi/publish-unit-test-result-action/composite@v1.39
+        uses: EnricoMi/publish-unit-test-result-action/composite@v2
         id: test-results
         if: always()
         with:
-            files: ./*.xml
+            junit_files: "test-results/**/*.xml"
 
       - name: Set badge color
         shell: bash
@@ -85,7 +95,7 @@ jobs:
           esac
 
       - name: Create badge
-        uses: emibcn/badge-action@d6f51ff11b5c3382b3b88689ae2d6db22d9737d1
+        uses: emibcn/badge-action@v2.0.2
         with:
           label: Tests
           status: '${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.tests }} tests, ${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.runs }} runs: ${{ fromJSON( steps.test-results.outputs.json ).conclusion }}'
