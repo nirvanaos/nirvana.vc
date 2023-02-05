@@ -634,6 +634,10 @@
   <ItemGroup>
     <ClCompile Include="..\Core\Exports\BiDirPolicy.cpp" />
     <ClCompile Include="..\Core\Exports\BiDirPolicy_p.cpp" />
+    <ClCompile Include="..\Core\Exports\CosEventComm_p.cpp" />
+    <ClCompile Include="..\Core\Exports\CosNaming_p.cpp" />
+    <ClCompile Include="..\Core\Exports\CosTimerEvent_p.cpp" />
+    <ClCompile Include="..\Core\Exports\CosTime_p.cpp" />
     <ClCompile Include="..\Core\Exports\Current_p.cpp" />
     <ClCompile Include="..\Core\Exports\DomainManager_p.cpp" />
     <ClCompile Include="..\Core\Exports\Domains_p.cpp" />
