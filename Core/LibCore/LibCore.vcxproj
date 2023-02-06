@@ -684,6 +684,7 @@
     <ClInclude Include="..\Core\Source\TaggedPtr.h" />
     <ClInclude Include="..\Core\Source\BackOff.h" />
     <ClInclude Include="..\Core\Source\ThreadBackground.h" />
+    <ClInclude Include="..\Core\Source\Timer.h" />
     <ClInclude Include="..\Core\Source\TLS.h" />
     <ClInclude Include="..\Core\Source\unrecoverable_error.h" />
     <ClInclude Include="..\Core\Source\ExecContext.h" />

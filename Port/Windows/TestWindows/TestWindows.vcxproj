@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Windows\Test\TestThreadPool.cpp" />
+    <ClCompile Include="..\Windows\Test\TestTimer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Core\LibCore\LibCore.vcxproj">
