@@ -786,7 +786,6 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Implicit.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Root.cpp" />
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\PortableServer_Current.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyObjectImplicit.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RefCntProxy.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Reference.cpp" />

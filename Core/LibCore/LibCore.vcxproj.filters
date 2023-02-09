@@ -849,9 +849,6 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Unique.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\PortableServer_Current.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ProxyObjectImplicit.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
