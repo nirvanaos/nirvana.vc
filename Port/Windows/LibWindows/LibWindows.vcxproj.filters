@@ -299,6 +299,12 @@
     <ClInclude Include="..\Windows\Port\Timer.h">
       <Filter>Port</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Port\Network.h">
+      <Filter>Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Power.h">
+      <Filter>Port</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Windows\Source\OtherSpace.inl">

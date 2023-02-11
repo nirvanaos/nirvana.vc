@@ -13,33 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{b703fa1a-e05c-4e31-a7eb-bafb62d028da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Exports\exports.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\File_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\RuntimeError_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\g_system.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\TCKind_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\TypeCode_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\PortableServer_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\ORB_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\g_ORB.cpp">
@@ -48,65 +33,107 @@
     <ClCompile Include="..\Core\Exports\g_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Legacy_Process_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\Launcher.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\InterfaceRepository_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\g_object_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Policy_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Messaging_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Pollable_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CoreDomains.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Dynamic_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CoreDomains_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\DomainManager_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CosEventComm_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\BiDirPolicy.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CosNaming_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\BiDirPolicy_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CosTime_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Current_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CosTimerEvent_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\TC_Factory.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CSI.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\TC_Factory_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\CSIIOP.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\Domains_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\Current_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\TimeBase_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\DomainManager_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\CosEventComm_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\Domains_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\CosNaming_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\Dynamic_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\CosTime_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\File_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\CosTimerEvent_p.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Core\Exports\IDL\GIOP.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\GSSUP.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\IIOP.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\InterfaceRepository_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\Legacy_Process_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\Messaging_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\ORB_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\Policy_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\Pollable_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\PortableServer_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\RuntimeError_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\TC_Factory.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\TC_Factory_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\TCKind_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\TimeBase_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\TypeCode_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\FT_p.cpp">
+      <Filter>Source Files\Generated</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

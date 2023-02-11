@@ -51,7 +51,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Windows\Port\Network.h" />
     <ClInclude Include="..\Windows\Port\PostOffice.h" />
+    <ClInclude Include="..\Windows\Port\Power.h" />
     <ClInclude Include="..\Windows\Port\Timer.h" />
     <ClInclude Include="..\Windows\Source\AddressSpace.inl">
       <FileType>Document</FileType>
