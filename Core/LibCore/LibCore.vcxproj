@@ -711,6 +711,7 @@
     <ClInclude Include="..\Core\Source\WeakRef.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Source\BitmapOps.cpp" />
     <ClCompile Include="..\Core\Source\Event.cpp" />
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
     <ClCompile Include="..\Core\Source\Binder.cpp">
