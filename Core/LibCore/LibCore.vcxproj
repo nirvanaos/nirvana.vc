@@ -592,6 +592,7 @@
     <ClInclude Include="..\Core\Source\ORB\POA_Unique.h" />
     <ClInclude Include="..\Core\Source\ORB\PolicyFactory.h" />
     <ClInclude Include="..\Core\Source\ORB\PolicyImpl.h" />
+    <ClInclude Include="..\Core\Source\ORB\PolicyMap.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Context.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Current.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_policies.h" />
