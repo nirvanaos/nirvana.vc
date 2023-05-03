@@ -136,13 +136,13 @@
     <ClInclude Include="..\Core\Source\ORB\POA_Root.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ProxyLocal.h">
+    <ClInclude Include="..\Core\Source\ORB\ServantProxyLocal.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ProxyManager.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ProxyObject.h">
+    <ClInclude Include="..\Core\Source\ORB\ServantProxyObject.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h">
@@ -463,9 +463,6 @@
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Current.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\ProxyObjectImplicit.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ReferenceLocal.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -639,13 +636,13 @@
     <ClCompile Include="..\Core\Source\Scheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp">
+    <ClCompile Include="..\Core\Source\ORB\ServantProxyLocal.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ProxyManager.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ProxyObject.cpp">
+    <ClCompile Include="..\Core\Source\ORB\ServantProxyObject.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ServantBase.cpp">
@@ -838,9 +835,6 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POA_Unique.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\ProxyObjectImplicit.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ReferenceLocal.cpp">

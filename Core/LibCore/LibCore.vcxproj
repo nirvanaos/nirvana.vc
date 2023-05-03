@@ -597,7 +597,6 @@
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Current.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_p_native.h" />
-    <ClInclude Include="..\Core\Source\ORB\ProxyObjectImplicit.h" />
     <ClInclude Include="..\Core\Source\ORB\RefCntProxy.h" />
     <ClInclude Include="..\Core\Source\ORB\ReferenceLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\Reference.h" />
@@ -616,9 +615,9 @@
     <ClInclude Include="..\Core\Source\ORB\ObjectFactory.h" />
     <ClInclude Include="..\Core\Source\ORB\offset_ptr.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Root.h" />
-    <ClInclude Include="..\Core\Source\ORB\ProxyLocal.h" />
+    <ClInclude Include="..\Core\Source\ORB\ServantProxyLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\ProxyManager.h" />
-    <ClInclude Include="..\Core\Source\ORB\ProxyObject.h" />
+    <ClInclude Include="..\Core\Source\ORB\ServantProxyObject.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantBase.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyBase.h" />
@@ -785,7 +784,6 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Implicit.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Root.cpp" />
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\ProxyObjectImplicit.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RefCntProxy.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Reference.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ReferenceLocal.cpp" />
@@ -873,9 +871,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Heap.cpp" />
     <ClCompile Include="..\Core\Source\HeapDirectory.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\ProxyLocal.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ServantProxyLocal.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProxyManager.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\ProxyObject.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ServantProxyObject.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ServantBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestLocal.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
