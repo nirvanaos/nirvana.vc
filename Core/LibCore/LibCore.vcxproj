@@ -577,7 +577,6 @@
     <ClInclude Include="..\Core\Source\ORB\CoreServant.h" />
     <ClInclude Include="..\Core\Source\ORB\HashOctetSeq.h" />
     <ClInclude Include="..\Core\Source\ORB\IncomingRequests.h" />
-    <ClInclude Include="..\Core\Source\ORB\LifeCycleNoCopy.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
     <ClInclude Include="..\Core\Source\ORB\ObjectKey.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainLocal.h" />

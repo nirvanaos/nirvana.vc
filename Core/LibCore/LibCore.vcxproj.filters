@@ -223,9 +223,6 @@
     <ClInclude Include="..\Core\Source\initterm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\LifeCycleNoCopy.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
