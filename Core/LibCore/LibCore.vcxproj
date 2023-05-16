@@ -530,6 +530,7 @@
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
     <ClInclude Include="..\Core\Source\Console.h" />
+    <ClInclude Include="..\Core\Source\CoreAllocator.h" />
     <ClInclude Include="..\Core\Source\Event.h" />
     <ClInclude Include="..\Core\Source\Binder.h" />
     <ClInclude Include="..\Core\Source\Chrono.h" />
@@ -537,6 +538,7 @@
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
+    <ClInclude Include="..\Core\Source\HeapAllocator.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\HeapUser.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
