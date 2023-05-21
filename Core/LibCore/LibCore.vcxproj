@@ -653,6 +653,7 @@
     <ClInclude Include="..\Core\Source\ORB\TC_Value.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_ValueBase.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_ValueBox.h" />
+    <ClInclude Include="..\Core\Source\ORB\unmarshal_object.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\btree.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\meminfo.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap.h" />
@@ -688,6 +689,7 @@
     <ClInclude Include="..\Core\Source\ThreadBackground.h" />
     <ClInclude Include="..\Core\Source\Timer.h" />
     <ClInclude Include="..\Core\Source\TimerAsyncCall.h" />
+    <ClInclude Include="..\Core\Source\TimerEvent.h" />
     <ClInclude Include="..\Core\Source\TLS.h" />
     <ClInclude Include="..\Core\Source\unrecoverable_error.h" />
     <ClInclude Include="..\Core\Source\ExecContext.h" />
@@ -839,6 +841,7 @@
     <ClCompile Include="..\Core\Source\ORB\TC_Value.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_ValueBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_ValueBox.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\unmarshal_object.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
     <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
@@ -934,6 +937,7 @@
     <ClCompile Include="..\Core\Source\ThreadWorker.cpp" />
     <ClCompile Include="..\Core\Source\MemContext.cpp" />
     <ClCompile Include="..\Core\Source\TimerAsyncCall.cpp" />
+    <ClCompile Include="..\Core\Source\TimerEvent.cpp" />
     <ClCompile Include="..\Core\Source\TLS.cpp" />
     <ClCompile Include="..\Core\Source\WaitableRef.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
