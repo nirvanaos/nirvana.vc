@@ -630,6 +630,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
+    <ClInclude Include="..\Core\Source\ORB\tagged_seq.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Abstract.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Alias.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Recursive.h" />
@@ -808,6 +809,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\tagged_seq.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Abstract.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Alias.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
