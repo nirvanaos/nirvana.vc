@@ -581,8 +581,8 @@
     <ClInclude Include="..\Core\Source\ORB\IncomingRequests.h" />
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
     <ClInclude Include="..\Core\Source\ORB\ObjectKey.h" />
-    <ClInclude Include="..\Core\Source\ORB\DomainLocal.h" />
-    <ClInclude Include="..\Core\Source\ORB\DomainsLocal.h" />
+    <ClInclude Include="..\Core\Source\ORB\DomainProt.h" />
+    <ClInclude Include="..\Core\Source\ORB\ProtDomains.h" />
     <ClInclude Include="..\Core\Source\ORB\OutgoingRequests.h" />
     <ClInclude Include="..\Core\Source\ORB\POAManager.h" />
     <ClInclude Include="..\Core\Source\ORB\POAManagerFactory.h" />
@@ -759,7 +759,7 @@
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\DomainLocal.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainRemote.cpp" />
     <ClCompile Include="..\Core\Source\ORB\GarbageCollector.cpp" />
