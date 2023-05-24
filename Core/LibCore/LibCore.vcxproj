@@ -528,6 +528,7 @@
   <ItemGroup>
     <ClInclude Include="..\Core\Source\Array.h" />
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
+    <ClInclude Include="..\Core\Source\BinderMemory.h" />
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
     <ClInclude Include="..\Core\Source\Console.h" />
     <ClInclude Include="..\Core\Source\CoreAllocator.h" />
@@ -602,6 +603,7 @@
     <ClInclude Include="..\Core\Source\ORB\ReferenceLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\Reference.h" />
     <ClInclude Include="..\Core\Source\ORB\ReferenceRemote.h" />
+    <ClInclude Include="..\Core\Source\ORB\RemoteDomains.h" />
     <ClInclude Include="..\Core\Source\ORB\RemoteReferences.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestGIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h" />
@@ -715,6 +717,7 @@
     <ClInclude Include="..\Core\Source\WeakRef.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Source\BinderMemory.cpp" />
     <ClCompile Include="..\Core\Source\BitmapOps.cpp" />
     <ClCompile Include="..\Core\Source\Event.cpp" />
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
@@ -788,10 +791,12 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Implicit.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Root.cpp" />
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ProtDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RefCntProxy.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Reference.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ReferenceLocal.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ReferenceRemote.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RemoteDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RemoteReferences.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
