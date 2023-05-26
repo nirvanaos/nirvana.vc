@@ -640,6 +640,8 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
+    <ClInclude Include="..\Core\Source\ORB\SysObject.h" />
+    <ClInclude Include="..\Core\Source\ORB\SysServant.h" />
     <ClInclude Include="..\Core\Source\ORB\tagged_seq.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Abstract.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Alias.h" />
@@ -822,6 +824,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\SysObject.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tagged_seq.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Abstract.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Alias.cpp">
