@@ -642,6 +642,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
     <ClInclude Include="..\Core\Source\ORB\SysObject.h" />
     <ClInclude Include="..\Core\Source\ORB\SysServant.h" />
+    <ClInclude Include="..\Core\Source\ORB\SysServantStatic.h" />
     <ClInclude Include="..\Core\Source\ORB\tagged_seq.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Abstract.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Alias.h" />
