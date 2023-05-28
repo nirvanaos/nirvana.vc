@@ -57,6 +57,14 @@ jobs:
         run: ./BuildAndTest.ps1 "x64" "Release LLVM"
         shell: pwsh
 
+      - name: Win32 Debug LLVM
+        run: ./BuildAndTest.ps1 "Win32" "Debug LLVM"
+        shell: pwsh
+
+      - name: Win32 Release LLVM
+        run: ./BuildAndTest.ps1 "Win32" "Release LLVM"
+        shell: pwsh
+
       - name: Upload Logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v3

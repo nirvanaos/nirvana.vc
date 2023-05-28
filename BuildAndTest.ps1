@@ -28,8 +28,13 @@ $test_result="..\..\test-results\$platform.$config"
 
 $appdata = [Environment]::GetFolderPath('CommonApplicationData') + "\Nirvana\Nirvana"
 
-Write-Host "Start Nirvana"
-$sysdomain = (Start-Process -NoNewWindow -PassThru -FilePath "..\..\x64\$config\Nirvana.exe" -ArgumentList "-s")
+if (($platform -eq "Win32") -and -not ($config -like "* LLVM")) {
+	$system_path = "..\..\x64\$config"
+} else {
+	$system_path = "."
+}
+Write-Host "Start Nirvana from "$system_path
+$sysdomain = (Start-Process -NoNewWindow -PassThru -FilePath $system_path"\Nirvana.exe" -ArgumentList "-s")
 $handle = $sysdomain.Handle # Hold process handle
 Write-Host "System domain id:"$sysdomain.Id
 
