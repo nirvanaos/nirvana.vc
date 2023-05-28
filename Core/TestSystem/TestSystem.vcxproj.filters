@@ -30,8 +30,5 @@
     <ClCompile Include="..\Core\Test\TestESIOP\TestESIOP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestSystem\writemem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
