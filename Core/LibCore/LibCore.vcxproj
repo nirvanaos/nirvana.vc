@@ -613,13 +613,16 @@
     <ClInclude Include="..\Core\Source\ORB\ReferenceRemote.h" />
     <ClInclude Include="..\Core\Source\ORB\RemoteDomains.h" />
     <ClInclude Include="..\Core\Source\ORB\RemoteReferences.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestEvent.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestGIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestInESIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestInPOA.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestLocalPOA.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestOut.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestOutAsync.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestOutESIOP.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestOutSync.h" />
     <ClInclude Include="..\Core\Source\ORB\RqHelper.h" />
     <ClInclude Include="..\Core\Source\ORB\ESIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
@@ -809,6 +812,7 @@
     <ClCompile Include="..\Core\Source\ORB\ReferenceRemote.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RemoteDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RemoteReferences.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestEvent.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestInESIOP.cpp" />
