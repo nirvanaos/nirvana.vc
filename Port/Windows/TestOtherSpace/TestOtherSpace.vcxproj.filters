@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Windows\Test\TestAddressSpace.cpp">
+    <ClCompile Include="..\Windows\Test\TestOtherSpace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
