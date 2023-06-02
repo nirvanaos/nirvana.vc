@@ -34,7 +34,7 @@ if (($platform -eq "Win32") -and -not ($config -like "* LLVM")) {
 	$system_path = "."
 }
 Write-Host "Start Nirvana from "$system_path
-$sysdomain = (Start-Process -NoNewWindow -PassThru -FilePath $system_path"\Nirvana.exe" -ArgumentList "-s")
+$sysdomain = (Start-Process -NoNewWindow -PassThru -FilePath $system_path"\Nirvana.exe" -WorkingDirectory $system_path -ArgumentList "-s")
 $handle = $sysdomain.Handle # Hold process handle
 Write-Host "System domain id:"$sysdomain.Id
 
