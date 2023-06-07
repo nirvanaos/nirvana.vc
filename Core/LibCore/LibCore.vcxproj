@@ -782,6 +782,7 @@
     <ClCompile Include="..\Core\Source\ORB\DomainManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainRemote.cpp" />
     <ClCompile Include="..\Core\Source\ORB\GarbageCollector.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ORB.cpp" />
     <ClCompile Include="..\Core\Source\ORB\LocalAddress.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ORB_initterm.cpp" />
