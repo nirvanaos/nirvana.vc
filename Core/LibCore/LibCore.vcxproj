@@ -537,6 +537,7 @@
     <ClInclude Include="..\Core\Source\Array.h" />
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\BinderMemory.h" />
+    <ClInclude Include="..\Core\Source\BinderObject.h" />
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
     <ClInclude Include="..\Core\Source\Console.h" />
     <ClInclude Include="..\Core\Source\CoreAllocator.h" />
