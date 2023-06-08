@@ -430,7 +430,7 @@
     <ClInclude Include="..\Core\Source\ORB\PolicyImpl.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\PortableServer_policies.h">
+    <ClInclude Include="..\Core\Source\ORB\policies.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\PolicyFactory.h">
@@ -597,9 +597,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\TimerAsyncCall.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\DomainManager.h">
-      <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\PortableServer_p_native.h">
       <Filter>ORB\Header Files</Filter>
@@ -1008,9 +1005,6 @@
     <ClCompile Include="..\Core\Source\TimerAsyncCall.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\DomainManager.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\BitmapOps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1039,6 +1033,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\PolicyMap.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

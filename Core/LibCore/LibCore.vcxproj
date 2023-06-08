@@ -572,7 +572,6 @@
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
-    <ClInclude Include="..\Core\Source\ORB\DomainManager.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainRemote.h" />
     <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
     <ClInclude Include="..\Core\Source\ORB\ORB.h" />
@@ -606,7 +605,7 @@
     <ClInclude Include="..\Core\Source\ORB\PolicyMap.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Context.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Current.h" />
-    <ClInclude Include="..\Core\Source\ORB\PortableServer_policies.h" />
+    <ClInclude Include="..\Core\Source\ORB\policies.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_p_native.h" />
     <ClInclude Include="..\Core\Source\ORB\RefCntProxy.h" />
     <ClInclude Include="..\Core\Source\ORB\ReferenceLocal.h" />
@@ -779,7 +778,6 @@
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\DomainManager.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainRemote.cpp" />
     <ClCompile Include="..\Core\Source\ORB\GarbageCollector.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
@@ -807,6 +805,7 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Implicit.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Root.cpp" />
     <ClCompile Include="..\Core\Source\ORB\PolicyFactory.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\PolicyMap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProtDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RefCntProxy.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Reference.cpp" />
