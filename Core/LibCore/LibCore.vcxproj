@@ -571,12 +571,16 @@
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
+    <ClInclude Include="..\Core\Source\ORB\BiDirPolicy_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainRemote.h" />
+    <ClInclude Include="..\Core\Source\ORB\FT_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
+    <ClInclude Include="..\Core\Source\ORB\Messaging_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\ORB.h" />
     <ClInclude Include="..\Core\Source\ORB\IndirectMapUnmarshal.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalAddress.h" />
+    <ClInclude Include="..\Core\Source\ORB\POA_DGC.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Activator.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Default.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Locator.h" />
@@ -605,7 +609,7 @@
     <ClInclude Include="..\Core\Source\ORB\PolicyMap.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Context.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_Current.h" />
-    <ClInclude Include="..\Core\Source\ORB\policies.h" />
+    <ClInclude Include="..\Core\Source\ORB\PortableServer_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\PortableServer_p_native.h" />
     <ClInclude Include="..\Core\Source\ORB\RefCntProxy.h" />
     <ClInclude Include="..\Core\Source\ORB\ReferenceLocal.h" />
@@ -795,6 +799,7 @@
     <ClCompile Include="..\Core\Source\ORB\POA_Activator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_create.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Default.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\POA_DGC.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Locator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Persistent.cpp" />
     <ClCompile Include="..\Core\Source\ORB\POA_Retain.cpp" />
