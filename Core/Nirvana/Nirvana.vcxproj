@@ -665,6 +665,7 @@
     <ClCompile Include="..\Core\Exports\IDL\InterfaceRepository_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\Legacy_Process_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\Messaging_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\NirvanaDGC_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\ORB_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\Policy_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\Pollable_p.cpp" />
