@@ -634,9 +634,6 @@
     <ClInclude Include="..\Core\Source\ORB\SysServantStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\RequestEvent.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\RequestOutSync.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -656,6 +653,9 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\Messaging_policies.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\RequestEvent.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1039,9 +1039,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\SysObject.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\RequestEvent.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp">

@@ -818,7 +818,6 @@
     <ClCompile Include="..\Core\Source\ORB\ReferenceRemote.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RemoteDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RemoteReferences.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\RequestEvent.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestGIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestInESIOP.cpp" />
