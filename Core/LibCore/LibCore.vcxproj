@@ -570,6 +570,7 @@
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
+    <ClInclude Include="..\Core\Source\NameService\NameService.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\BiDirPolicy_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
@@ -649,8 +650,10 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
     <ClInclude Include="..\Core\Source\ORB\SysObject.h" />
+    <ClInclude Include="..\Core\Source\ORB\SysObjectKey.h" />
     <ClInclude Include="..\Core\Source\ORB\SysServant.h" />
     <ClInclude Include="..\Core\Source\ORB\SysServantStatic.h" />
+    <ClInclude Include="..\Core\Source\ORB\system_services.h" />
     <ClInclude Include="..\Core\Source\ORB\tagged_seq.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Abstract.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Alias.h" />
@@ -780,6 +783,7 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\NameService.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
@@ -836,6 +840,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
     <ClCompile Include="..\Core\Source\ORB\SysObject.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\system_services.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tagged_seq.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Abstract.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_Alias.cpp">

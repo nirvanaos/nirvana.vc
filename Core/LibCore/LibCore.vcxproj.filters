@@ -59,6 +59,9 @@
     <Filter Include="IDL\Legacy">
       <UniqueIdentifier>{eea430ba-9a28-4ee8-abb0-e3cee1c525c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="NameService">
+      <UniqueIdentifier>{f03dd1ac-9511-49db-b87b-bb510c3d2d6c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -661,6 +664,15 @@
     <ClInclude Include="..\Core\Source\ORB\Nirvana_policies.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NameService.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\SysObjectKey.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\system_services.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1051,6 +1063,12 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\POA_DGC.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NameService.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\system_services.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
