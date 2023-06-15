@@ -673,6 +673,9 @@
     <ClInclude Include="..\Core\Source\ORB\system_services.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\FileSystem.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">

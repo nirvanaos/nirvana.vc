@@ -570,6 +570,7 @@
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
+    <ClInclude Include="..\Core\Source\NameService\FileSystem.h" />
     <ClInclude Include="..\Core\Source\NameService\NameService.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\BiDirPolicy_policies.h" />

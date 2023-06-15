@@ -51,6 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Windows\Port\FileSystem.h" />
     <ClInclude Include="..\Windows\Port\Network.h" />
     <ClInclude Include="..\Windows\Port\PostOffice.h" />
     <ClInclude Include="..\Windows\Port\Power.h" />

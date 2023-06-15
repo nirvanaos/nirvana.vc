@@ -305,6 +305,9 @@
     <ClInclude Include="..\Windows\Port\Power.h">
       <Filter>Port</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Port\FileSystem.h">
+      <Filter>Port</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Windows\Source\OtherSpace.inl">
