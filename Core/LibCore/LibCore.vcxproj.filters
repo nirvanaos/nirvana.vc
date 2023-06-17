@@ -676,6 +676,27 @@
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h">
       <Filter>NameService</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\FileActivator.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\SysAdapterActivator.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\FileSystemRoots.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\VirtualIterator.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\BindingIterator.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\StackIterator.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1073,6 +1094,24 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\system_services.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\SysAdapterActivator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\VirtualIterator.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\BindingIterator.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\StackIterator.cpp">
+      <Filter>NameService</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

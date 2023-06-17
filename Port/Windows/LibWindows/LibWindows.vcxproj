@@ -62,6 +62,7 @@
     <ClCompile Include="..\Windows\Source\BufferPool.cpp" />
     <ClCompile Include="..\Windows\Source\Chrono.cpp" />
     <ClCompile Include="..\Windows\Source\DebugLog.cpp" />
+    <ClCompile Include="..\Windows\Source\FileSystem.cpp" />
     <ClCompile Include="..\Windows\Source\LockableHandle.cpp" />
     <ClCompile Include="..\Windows\Source\PostOffice.cpp" />
     <ClCompile Include="..\Windows\Source\Console.cpp" />

@@ -570,8 +570,14 @@
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
+    <ClInclude Include="..\Core\Source\NameService\BindingIterator.h" />
+    <ClInclude Include="..\Core\Source\NameService\FileActivator.h" />
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h" />
+    <ClInclude Include="..\Core\Source\NameService\FileSystemRoots.h" />
     <ClInclude Include="..\Core\Source\NameService\NameService.h" />
+    <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h" />
+    <ClInclude Include="..\Core\Source\NameService\StackIterator.h" />
+    <ClInclude Include="..\Core\Source\NameService\VirtualIterator.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\BiDirPolicy_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
@@ -650,6 +656,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
+    <ClInclude Include="..\Core\Source\ORB\SysAdapterActivator.h" />
     <ClInclude Include="..\Core\Source\ORB\SysObject.h" />
     <ClInclude Include="..\Core\Source\ORB\SysObjectKey.h" />
     <ClInclude Include="..\Core\Source\ORB\SysServant.h" />
@@ -784,7 +791,12 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\BindingIterator.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NameService.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\StackIterator.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\VirtualIterator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
@@ -840,6 +852,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\SysAdapterActivator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\SysObject.cpp" />
     <ClCompile Include="..\Core\Source\ORB\system_services.cpp" />
     <ClCompile Include="..\Core\Source\ORB\tagged_seq.cpp" />
