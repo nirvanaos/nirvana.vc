@@ -574,6 +574,7 @@
     <ClInclude Include="..\Core\Source\NameService\FileActivator.h" />
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h" />
     <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h" />
+    <ClInclude Include="..\Core\Source\NameService\NamingContextRoot.h" />
     <ClInclude Include="..\Core\Source\NameService\Roots.h" />
     <ClInclude Include="..\Core\Source\NameService\ItemBase.h" />
     <ClInclude Include="..\Core\Source\NameService\NameService.h" />
@@ -771,7 +772,6 @@
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\CoreModule.cpp" />
     <ClCompile Include="..\Core\Source\FileAccessDirect.cpp" />
-    <ClCompile Include="..\Core\Source\file_system.cpp" />
     <ClCompile Include="..\Core\Source\HeapUser.cpp" />
     <ClCompile Include="..\Core\Source\initterm.cpp" />
     <ClCompile Include="..\Core\Source\Legacy\Executable.cpp" />
@@ -793,12 +793,14 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\DirBase.cpp" />
     <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NameService.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextImpl.cpp" />
     <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp" />
     <ClCompile Include="..\Core\Source\NameService\Iterator.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />

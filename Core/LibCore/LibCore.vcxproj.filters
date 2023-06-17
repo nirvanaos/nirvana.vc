@@ -703,6 +703,9 @@
     <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h">
       <Filter>NameService</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NamingContextRoot.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -814,9 +817,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\initterm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\file_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\HeapUser.cpp">
@@ -1117,6 +1117,12 @@
       <Filter>NameService</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\DirBase.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
   </ItemGroup>
