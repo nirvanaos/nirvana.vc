@@ -571,6 +571,7 @@
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
     <ClInclude Include="..\Core\Source\NameService\DirBase.h" />
+    <ClInclude Include="..\Core\Source\NameService\File.h" />
     <ClInclude Include="..\Core\Source\NameService\FileActivator.h" />
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h" />
     <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h" />
