@@ -658,6 +658,7 @@
     <ClCompile Include="..\Core\Exports\IDL\Domains_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\Dynamic_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\File_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\FS_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\FT_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\GIOP.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\GSSUP.cpp" />

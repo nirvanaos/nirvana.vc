@@ -676,7 +676,7 @@
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h">
       <Filter>NameService</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h">
+    <ClInclude Include="..\Core\Source\NameService\NamingContextImpl.h">
       <Filter>NameService</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\NameService\FileActivator.h">
@@ -685,7 +685,7 @@
     <ClInclude Include="..\Core\Source\ORB\SysAdapterActivator.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\FileSystemRoots.h">
+    <ClInclude Include="..\Core\Source\NameService\Roots.h">
       <Filter>NameService</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\NameService\VirtualIterator.h">
@@ -695,6 +695,12 @@
       <Filter>NameService</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\NameService\StackIterator.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\ItemBase.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\DirBase.h">
       <Filter>NameService</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1095,7 +1101,7 @@
     <ClCompile Include="..\Core\Source\ORB\system_services.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp">
+    <ClCompile Include="..\Core\Source\NameService\NamingContextImpl.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\SysAdapterActivator.cpp">
@@ -1228,6 +1234,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NirvanaDGC.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\FS.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
