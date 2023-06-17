@@ -688,13 +688,10 @@
     <ClInclude Include="..\Core\Source\NameService\Roots.h">
       <Filter>NameService</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\VirtualIterator.h">
+    <ClInclude Include="..\Core\Source\NameService\Iterator.h">
       <Filter>NameService</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\BindingIterator.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\StackIterator.h">
+    <ClInclude Include="..\Core\Source\NameService\IteratorStack.h">
       <Filter>NameService</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\NameService\ItemBase.h">
@@ -1110,13 +1107,10 @@
     <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\VirtualIterator.cpp">
+    <ClCompile Include="..\Core\Source\NameService\Iterator.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\BindingIterator.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\StackIterator.cpp">
+    <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
   </ItemGroup>

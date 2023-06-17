@@ -570,7 +570,6 @@
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
     <ClInclude Include="..\Core\Source\Binary.h" />
-    <ClInclude Include="..\Core\Source\NameService\BindingIterator.h" />
     <ClInclude Include="..\Core\Source\NameService\DirBase.h" />
     <ClInclude Include="..\Core\Source\NameService\FileActivator.h" />
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h" />
@@ -578,8 +577,8 @@
     <ClInclude Include="..\Core\Source\NameService\ItemBase.h" />
     <ClInclude Include="..\Core\Source\NameService\NameService.h" />
     <ClInclude Include="..\Core\Source\NameService\NamingContextImpl.h" />
-    <ClInclude Include="..\Core\Source\NameService\StackIterator.h" />
-    <ClInclude Include="..\Core\Source\NameService\VirtualIterator.h" />
+    <ClInclude Include="..\Core\Source\NameService\IteratorStack.h" />
+    <ClInclude Include="..\Core\Source\NameService\Iterator.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\BiDirPolicy_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
@@ -793,12 +792,11 @@
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
-    <ClCompile Include="..\Core\Source\NameService\BindingIterator.cpp" />
     <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NameService.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextImpl.cpp" />
-    <ClCompile Include="..\Core\Source\NameService\StackIterator.cpp" />
-    <ClCompile Include="..\Core\Source\NameService\VirtualIterator.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\Iterator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
