@@ -573,6 +573,7 @@
     <ClInclude Include="..\Core\Source\NameService\DirBase.h" />
     <ClInclude Include="..\Core\Source\NameService\FileActivator.h" />
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h" />
+    <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h" />
     <ClInclude Include="..\Core\Source\NameService\Roots.h" />
     <ClInclude Include="..\Core\Source\NameService\ItemBase.h" />
     <ClInclude Include="..\Core\Source\NameService\NameService.h" />
@@ -794,6 +795,7 @@
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NameService.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextImpl.cpp" />
     <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp" />
     <ClCompile Include="..\Core\Source\NameService\Iterator.cpp" />

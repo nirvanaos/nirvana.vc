@@ -700,6 +700,9 @@
     <ClInclude Include="..\Core\Source\NameService\DirBase.h">
       <Filter>NameService</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1111,6 +1114,9 @@
       <Filter>NameService</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
   </ItemGroup>
