@@ -135,10 +135,13 @@
     <ClCompile Include="..\Windows\Source\FileSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\FS_Item.cpp">
+    <ClCompile Include="..\Windows\Source\DirItem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\Dir.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -320,8 +323,11 @@
     <ClInclude Include="..\Windows\Port\File.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\FS_Item.h">
+    <ClInclude Include="..\Windows\Source\DirItem.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\Dir.h">
+      <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

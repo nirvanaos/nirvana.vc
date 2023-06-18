@@ -697,7 +697,7 @@
     <ClInclude Include="..\Core\Source\NameService\ItemBase.h">
       <Filter>NameService</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\DirBase.h">
+    <ClInclude Include="..\Core\Source\NameService\Dir.h">
       <Filter>NameService</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h">
@@ -1122,7 +1122,7 @@
     <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\DirBase.cpp">
+    <ClCompile Include="..\Core\Source\NameService\Dir.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp">
@@ -1243,9 +1243,6 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NirvanaDGC.idl">
       <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\FS.idl">
-      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
