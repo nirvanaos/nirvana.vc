@@ -560,7 +560,6 @@
     <ClInclude Include="..\Core\Source\Legacy\ThreadBase.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
-    <ClInclude Include="..\Core\Source\LockableRef.h" />
     <ClInclude Include="..\Core\Source\MapOrderedStable.h" />
     <ClInclude Include="..\Core\Source\MapOrderedUnstable.h" />
     <ClInclude Include="..\Core\Source\MapUnorderedStable.h" />
@@ -577,7 +576,6 @@
     <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h" />
     <ClInclude Include="..\Core\Source\NameService\NamingContextRoot.h" />
     <ClInclude Include="..\Core\Source\NameService\Roots.h" />
-    <ClInclude Include="..\Core\Source\NameService\ItemBase.h" />
     <ClInclude Include="..\Core\Source\NameService\NameService.h" />
     <ClInclude Include="..\Core\Source\NameService\NamingContextImpl.h" />
     <ClInclude Include="..\Core\Source\NameService\IteratorStack.h" />
