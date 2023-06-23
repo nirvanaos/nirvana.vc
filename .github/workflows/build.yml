@@ -37,16 +37,32 @@ jobs:
         run: ./BuildAndTest.ps1 "x64" "Debug 2022"
         shell: pwsh
 
-      - name: x64 Release
-        run: ./BuildAndTest.ps1 "x64" "Release 2022"
-        shell: pwsh
-
       - name: Win32 Debug
         run: ./BuildAndTest.ps1 "Win32" "Debug 2022"
         shell: pwsh
 
+      - name: x64 Debug Clean
+        run: ./Clean.ps1 "x64" "Debug 2022"
+        shell: pwsh
+
+      - name: Win32 Debug Clean
+        run: ./Clean.ps1 "Win32" "Debug 2022"
+        shell: pwsh
+
+      - name: x64 Release
+        run: ./BuildAndTest.ps1 "x64" "Release 2022"
+        shell: pwsh
+
       - name: Win32 Release
         run: ./BuildAndTest.ps1 "Win32" "Release 2022"
+        shell: pwsh
+
+      - name: x64 Release Clean
+        run: ./Clean.ps1 "x64" "Release 2022"
+        shell: pwsh
+
+      - name: Win32 Release Clean
+        run: ./Clean.ps1 "Win32" "Release 2022"
         shell: pwsh
 
       - name: x64 Debug LLVM
@@ -57,12 +73,24 @@ jobs:
         run: ./BuildAndTest.ps1 "x64" "Release LLVM"
         shell: pwsh
 
+      - name: x64 Release LLVM Clean
+        run: ./Clean.ps1 "x64" "Release LLVM"
+        shell: pwsh
+
       - name: Win32 Debug LLVM
         run: ./BuildAndTest.ps1 "Win32" "Debug LLVM"
         shell: pwsh
 
+      - name: Win32 Debug LLVM Clean
+        run: ./Clean.ps1 "Win32" "Debug LLVM"
+        shell: pwsh
+
       - name: Win32 Release LLVM
         run: ./BuildAndTest.ps1 "Win32" "Release LLVM"
+        shell: pwsh
+
+      - name: Win32 Release LLVM Clean
+        run: ./Clean.ps1 "Win32" "Release LLVM"
         shell: pwsh
 
       - name: Upload Logs
