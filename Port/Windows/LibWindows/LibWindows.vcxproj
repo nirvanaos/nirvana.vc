@@ -69,7 +69,6 @@
     <ClCompile Include="..\Windows\Source\DirIteratorEx.cpp" />
     <ClCompile Include="..\Windows\Source\Dir_mnt.cpp" />
     <ClCompile Include="..\Windows\Source\Dir_var.cpp" />
-    <ClCompile Include="..\Windows\Source\ex_handler.cpp" />
     <ClCompile Include="..\Windows\Source\File.cpp" />
     <ClCompile Include="..\Windows\Source\FileSystem.cpp" />
     <ClCompile Include="..\Windows\Source\DirItem.cpp" />
@@ -191,7 +190,6 @@
     <ClInclude Include="..\Windows\Source\error2errno.h" />
     <ClInclude Include="..\Windows\Source\ex2signal.h" />
     <ClInclude Include="..\Windows\Source\ExecContext.inl" />
-    <ClInclude Include="..\Windows\Source\ex_handler.h" />
     <ClInclude Include="..\Windows\Source\initialize.h" />
     <ClInclude Include="..\Windows\Source\DirItem.h" />
     <ClInclude Include="..\Windows\Source\LockableHandle.h" />
