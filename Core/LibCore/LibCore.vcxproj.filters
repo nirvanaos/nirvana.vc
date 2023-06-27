@@ -709,6 +709,9 @@
     <ClInclude Include="..\Core\Source\FileAccessBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\deactivate_servant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1127,6 +1130,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp">
       <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\deactivate_servant.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

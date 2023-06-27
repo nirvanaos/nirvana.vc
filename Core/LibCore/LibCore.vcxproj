@@ -541,6 +541,7 @@
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
     <ClInclude Include="..\Core\Source\Console.h" />
     <ClInclude Include="..\Core\Source\CoreAllocator.h" />
+    <ClInclude Include="..\Core\Source\deactivate_servant.h" />
     <ClInclude Include="..\Core\Source\Event.h" />
     <ClInclude Include="..\Core\Source\Binder.h" />
     <ClInclude Include="..\Core\Source\Chrono.h" />
@@ -753,6 +754,7 @@
   <ItemGroup>
     <ClCompile Include="..\Core\Source\BinderMemory.cpp" />
     <ClCompile Include="..\Core\Source\BitmapOps.cpp" />
+    <ClCompile Include="..\Core\Source\deactivate_servant.cpp" />
     <ClCompile Include="..\Core\Source\Event.cpp" />
     <ClCompile Include="..\Core\Source\BackOff.cpp" />
     <ClCompile Include="..\Core\Source\Binder.cpp">
