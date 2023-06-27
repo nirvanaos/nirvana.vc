@@ -9,5 +9,6 @@ if ($args.count -ge 1) {
 	$config = "Debug 2022"
 }
 
-./Build.ps1 $platform $config
-./Test.ps1 $platform $config
+$ErrorActionPreference = "Stop"
+
+msbuild -m -p:Platform="$platform" -p:Configuration="$config"
