@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master, develop ]
+    branches: [ master, develop, feature/** ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -41,9 +41,10 @@ jobs:
         run: ./TestLibs.ps1 "x64" "Debug 2022"
         shell: pwsh
 
-#      - name: x64 Debug test core
-#        run: ./TestCore.ps1 "x64" "Debug 2022"
-#        shell: pwsh
+      - name: x64 Debug test core
+        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        run: ./TestCore.ps1 "x64" "Debug 2022"
+        shell: pwsh
 
       - name: x64 Debug test
         run: ./Test.ps1 "x64" "Debug 2022"
@@ -57,9 +58,10 @@ jobs:
         run: ./TestLibs.ps1 "Win32" "Debug 2022"
         shell: pwsh
 
-#      - name: Win32 Debug test core
-#        run: ./TestCore.ps1 "Win32" "Debug 2022"
-#        shell: pwsh
+      - name: Win32 Debug test core
+        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        run: ./TestCore.ps1 "Win32" "Debug 2022"
+        shell: pwsh
 
       - name: Win32 Debug test
         run: ./Test.ps1 "Win32" "Debug 2022"
@@ -81,9 +83,10 @@ jobs:
         run: ./TestLibs.ps1 "x64" "Release 2022"
         shell: pwsh
 
-#      - name: x64 Release test core
-#        run: ./TestCore.ps1 "x64" "Release 2022"
-#        shell: pwsh
+      - name: x64 Release test core
+        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        run: ./TestCore.ps1 "x64" "Release 2022"
+        shell: pwsh
 
       - name: x64 Release test
         run: ./Test.ps1 "x64" "Release 2022"
@@ -97,9 +100,10 @@ jobs:
         run: ./TestLibs.ps1 "Win32" "Release 2022"
         shell: pwsh
 
-#      - name: Win32 Release test core
-#        run: ./TestCore.ps1 "Win32" "Release 2022"
-#        shell: pwsh
+      - name: Win32 Release test core
+        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        run: ./TestCore.ps1 "Win32" "Release 2022"
+        shell: pwsh
 
       - name: Win32 Release test
         run: ./Test.ps1 "Win32" "Release 2022"

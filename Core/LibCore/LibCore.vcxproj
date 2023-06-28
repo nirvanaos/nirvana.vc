@@ -549,6 +549,7 @@
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
     <ClInclude Include="..\Core\Source\FileAccessBase.h" />
+    <ClInclude Include="..\Core\Source\FileAccessBuf.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h" />
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
@@ -774,6 +775,7 @@
     <ClCompile Include="..\Core\Source\ClassLibrary.cpp" />
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\CoreModule.cpp" />
+    <ClCompile Include="..\Core\Source\FileAccessBuf.cpp" />
     <ClCompile Include="..\Core\Source\FileAccessDirect.cpp" />
     <ClCompile Include="..\Core\Source\HeapUser.cpp" />
     <ClCompile Include="..\Core\Source\initterm.cpp" />
