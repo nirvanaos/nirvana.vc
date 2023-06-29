@@ -748,6 +748,7 @@
     <ClInclude Include="..\Core\Source\ThreadWorker.h" />
     <ClInclude Include="..\Core\Source\UserAllocator.h" />
     <ClInclude Include="..\Core\Source\UserObject.h" />
+    <ClInclude Include="..\Core\Source\virtual_copy.h" />
     <ClInclude Include="..\Core\Source\WaitableRef.h" />
     <ClInclude Include="..\Core\Source\WaitList.h" />
     <ClInclude Include="..\Core\Source\WeakRef.h" />
@@ -996,6 +997,7 @@
     <ClCompile Include="..\Core\Source\TimerAsyncCall.cpp" />
     <ClCompile Include="..\Core\Source\TimerEvent.cpp" />
     <ClCompile Include="..\Core\Source\TLS.cpp" />
+    <ClCompile Include="..\Core\Source\virtual_copy.cpp" />
     <ClCompile Include="..\Core\Source\WaitableRef.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>

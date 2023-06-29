@@ -715,6 +715,9 @@
     <ClInclude Include="..\Core\Source\FileAccessBuf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\virtual_copy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1138,6 +1141,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessBuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\virtual_copy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
