@@ -30,7 +30,7 @@
     <ClCompile Include="..\Core\Exports\g_ORB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\g_factory.cpp">
+    <ClCompile Include="..\Core\Exports\g_legacy_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\Launcher.cpp">

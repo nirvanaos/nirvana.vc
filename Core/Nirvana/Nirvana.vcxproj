@@ -641,7 +641,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Exports\exports.cpp" />
-    <ClCompile Include="..\Core\Exports\g_factory.cpp" />
+    <ClCompile Include="..\Core\Exports\g_legacy_system.cpp" />
     <ClCompile Include="..\Core\Exports\g_object_factory.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy_p.cpp" />
