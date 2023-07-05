@@ -718,6 +718,9 @@
     <ClInclude Include="..\Core\Source\virtual_copy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\DirIter.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1145,6 +1148,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\virtual_copy.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\DirIter.cpp">
+      <Filter>NameService</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

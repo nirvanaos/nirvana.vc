@@ -576,6 +576,7 @@
     <ClInclude Include="..\Core\Source\NameService\Dir.h" />
     <ClInclude Include="..\Core\Source\NameService\File.h" />
     <ClInclude Include="..\Core\Source\NameService\FileActivator.h" />
+    <ClInclude Include="..\Core\Source\NameService\DirIter.h" />
     <ClInclude Include="..\Core\Source\NameService\FileSystem.h" />
     <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h" />
     <ClInclude Include="..\Core\Source\NameService\NamingContextRoot.h" />
@@ -800,6 +801,7 @@
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\NameService\Dir.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\DirIter.cpp" />
     <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NameService.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp" />
