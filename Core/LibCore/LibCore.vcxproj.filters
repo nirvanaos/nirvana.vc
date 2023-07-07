@@ -1152,6 +1152,9 @@
     <ClCompile Include="..\Core\Source\NameService\DirIter.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\File.cpp">
+      <Filter>NameService</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">

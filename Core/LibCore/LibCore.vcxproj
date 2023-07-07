@@ -802,6 +802,7 @@
     <ClCompile Include="..\Core\Source\Module.cpp" />
     <ClCompile Include="..\Core\Source\NameService\Dir.cpp" />
     <ClCompile Include="..\Core\Source\NameService\DirIter.cpp" />
+    <ClCompile Include="..\Core\Source\NameService\File.cpp" />
     <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NameService.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp" />

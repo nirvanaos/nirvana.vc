@@ -132,7 +132,7 @@
     <ClCompile Include="..\Windows\Source\LockableHandle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\FileSystem.cpp">
+    <ClCompile Include="..\Windows\Source\FileSystemImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\DirItem.cpp">
@@ -351,6 +351,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\Dir_mnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\FileSystemImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
