@@ -70,6 +70,7 @@
     <ClCompile Include="..\Windows\Source\Dir_mnt.cpp" />
     <ClCompile Include="..\Windows\Source\Dir_var.cpp" />
     <ClCompile Include="..\Windows\Source\File.cpp" />
+    <ClCompile Include="..\Windows\Source\FileSystem.cpp" />
     <ClCompile Include="..\Windows\Source\FileSystemImpl.cpp" />
     <ClCompile Include="..\Windows\Source\DirItem.cpp" />
     <ClCompile Include="..\Windows\Source\LockableHandle.cpp" />
