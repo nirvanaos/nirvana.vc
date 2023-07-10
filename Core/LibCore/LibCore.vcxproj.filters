@@ -721,6 +721,9 @@
     <ClInclude Include="..\Core\Source\NameService\DirIter.h">
       <Filter>NameService</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\MemContextImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1151,6 +1154,12 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\NameService\File.cpp">
       <Filter>NameService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\MemContextImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\RuntimeGlobal.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

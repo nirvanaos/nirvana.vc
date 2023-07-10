@@ -569,6 +569,7 @@
     <ClInclude Include="..\Core\Source\MapUnorderedStable.h" />
     <ClInclude Include="..\Core\Source\MapUnorderedUnstable.h" />
     <ClInclude Include="..\Core\Source\MemContextCore.h" />
+    <ClInclude Include="..\Core\Source\MemContextImpl.h" />
     <ClInclude Include="..\Core\Source\MemContextUser.h" />
     <ClInclude Include="..\Core\Source\MemContextObject.h" />
     <ClInclude Include="..\Core\Source\Module.h" />
@@ -796,6 +797,7 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\MemContextImpl.cpp" />
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />
@@ -904,6 +906,7 @@
     <ClCompile Include="..\Core\Source\ORB\unmarshal_object.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
+    <ClCompile Include="..\Core\Source\RuntimeGlobal.cpp" />
     <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
