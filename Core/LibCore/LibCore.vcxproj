@@ -796,7 +796,6 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\MemContextCore.cpp" />
     <ClCompile Include="..\Core\Source\MemContextUser.cpp" />
     <ClCompile Include="..\Core\Source\MemContextObject.cpp" />
     <ClCompile Include="..\Core\Source\Module.cpp" />

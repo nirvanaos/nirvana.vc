@@ -864,9 +864,6 @@
     <ClCompile Include="..\Core\Source\TLS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\MemContextCore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
