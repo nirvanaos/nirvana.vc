@@ -706,9 +706,6 @@
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\FileAccessBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\deactivate_servant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -1162,6 +1159,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\MemContextCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\FileAccessDirectProxy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
