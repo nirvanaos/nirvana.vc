@@ -670,7 +670,6 @@
     <ClCompile Include="..\Core\Exports\IDL\Policy_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\Pollable_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\PortableServer_p.cpp" />
-    <ClCompile Include="..\Core\Exports\IDL\RuntimeError_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\TCKind_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\TC_Factory.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\TC_Factory_p.cpp" />

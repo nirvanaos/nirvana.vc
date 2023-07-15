@@ -1184,9 +1184,6 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\RuntimeError.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TCKind.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
