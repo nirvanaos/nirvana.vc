@@ -159,6 +159,9 @@
     <ClCompile Include="..\Windows\Source\FileSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\FileAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -357,6 +360,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\FileSystemImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\FileAccess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
