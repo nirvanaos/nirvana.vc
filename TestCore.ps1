@@ -11,8 +11,8 @@ if ($args.count -ge 1) {
 
 $ErrorActionPreference = "Stop"
 
-$path = "$platform\\$config"
+cd "$platform\\$config"
 
-$test_result="test-results\$platform.$config"
+$test_result="..\..\test-results\$platform.$config"
 
-.\$path\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
+.\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
