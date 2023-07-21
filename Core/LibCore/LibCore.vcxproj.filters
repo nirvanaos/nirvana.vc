@@ -577,9 +577,6 @@
     <ClInclude Include="..\Core\Source\ORB\TC_Recursive.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\IndirectMapUnmarshal.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\RequestInESIOP.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -720,6 +717,9 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\MemContextImpl.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\IndirectMap.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1163,6 +1163,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessDirectProxy.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\IndirectMap.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
