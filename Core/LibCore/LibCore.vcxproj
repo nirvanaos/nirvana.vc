@@ -638,7 +638,9 @@
     <ClInclude Include="..\Core\Source\ORB\RequestIn.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestInESIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestInPOA.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestLocalBase.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestLocalPOA.h" />
+    <ClInclude Include="..\Core\Source\ORB\RequestLocalRoot.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestOut.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestOutAsync.h" />
     <ClInclude Include="..\Core\Source\ORB\RequestOutESIOP.h" />
@@ -856,7 +858,9 @@
     <ClCompile Include="..\Core\Source\ORB\RequestIn.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestInESIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestInPOA.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestLocalBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestLocalPOA.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\RequestLocalRoot.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RequestOutESIOP.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp" />
