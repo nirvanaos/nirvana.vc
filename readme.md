@@ -2,13 +2,13 @@
 
 [![CI](https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a/raw/badge.svg)](https://github.com/nirvanaos/nirvana.vc/actions/workflows/build.yml)
 
-## Folders
 ### Content
 
 This repository contains MS Visual Studio (2019 and 2022) solution for build the Nirvana subprojects.
 
 Other Nirvana projects included here as submodules.
 
+## Folders
 ### Core
 
 The Nirvana core and tests.
@@ -34,7 +34,7 @@ the port for the Windows only.
 
 ### TestORB.vc
 
-Nirvana ORB test.
+Nirvana tests.
 
 ## Build and Test
 
@@ -55,4 +55,4 @@ In the example above "x64" is platform and may be "Win32".
 ## Examples
 
 Folder .\TestORB.vc\TestORB contains the test sources.
-
+The sources may be used to explore different Nirvana features.
