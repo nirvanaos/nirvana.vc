@@ -42,7 +42,7 @@ jobs:
         shell: pwsh
 
       - name: x64 Debug test core
-        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         run: ./TestCore.ps1 "x64" "Debug 2022"
         shell: pwsh
 
@@ -59,7 +59,7 @@ jobs:
         shell: pwsh
 
       - name: Win32 Debug test core
-        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         run: ./TestCore.ps1 "Win32" "Debug 2022"
         shell: pwsh
 
@@ -84,7 +84,7 @@ jobs:
         shell: pwsh
 
       - name: x64 Release test core
-        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         run: ./TestCore.ps1 "x64" "Release 2022"
         shell: pwsh
 
@@ -101,7 +101,7 @@ jobs:
         shell: pwsh
 
       - name: Win32 Release test core
-        if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         run: ./TestCore.ps1 "Win32" "Release 2022"
         shell: pwsh
 
