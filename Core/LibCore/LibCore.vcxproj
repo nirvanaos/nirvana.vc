@@ -617,6 +617,7 @@
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h" />
     <ClInclude Include="..\Core\Source\ORB\ObjectKey.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainProt.h" />
+    <ClInclude Include="..\Core\Source\ORB\Pollable.h" />
     <ClInclude Include="..\Core\Source\ORB\ProtDomains.h" />
     <ClInclude Include="..\Core\Source\ORB\OutgoingRequests.h" />
     <ClInclude Include="..\Core\Source\ORB\POAManager.h" />
