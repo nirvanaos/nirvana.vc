@@ -1188,6 +1188,9 @@
     <ClCompile Include="..\Core\Source\EventSync.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\Pollable.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
