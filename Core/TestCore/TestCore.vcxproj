@@ -510,7 +510,6 @@
     <ClCompile Include="..\Core\Test\TestCore\TestMemory.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestPreallocatedStack.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestPriorityQueue.cpp" />
-    <ClCompile Include="..\Core\Test\TestCore\TestQueueWithPool.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestSkipList.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp" />
     <ClCompile Include="..\Core\Test\TestCore\TestWeakRef.cpp" />

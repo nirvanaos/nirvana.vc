@@ -29,9 +29,6 @@
     <ClCompile Include="..\Core\Test\TestCore\TestStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestCore\TestQueueWithPool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Test\TestCore\TestPreallocatedStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
