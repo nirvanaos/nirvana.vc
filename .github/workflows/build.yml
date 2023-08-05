@@ -232,7 +232,7 @@ jobs:
         if: >
           github.event_name == 'workflow_run' && github.event.workflow_run.head_branch == 'master' ||
           github.event_name != 'workflow_run' && github.ref == 'refs/heads/master'
-        uses: andymckay/append-gist-action@1fbfbbce708a39bd45846f0955ed5521f2099c6d
+        uses: andymckay/append-gist-action@0.2
         with:
           token: ${{ secrets.GIST_TOKEN }}
           gistURL: https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a
