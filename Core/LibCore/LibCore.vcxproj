@@ -873,6 +873,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\Poller.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ProtDomains.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RefCntProxy.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Reference.cpp" />
