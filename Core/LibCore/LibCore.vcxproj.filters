@@ -1268,9 +1268,6 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy\Legacy_Process.idl">
       <Filter>IDL\Legacy</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy\Runnable.idl">
-      <Filter>IDL\Legacy</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DomainManager.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
@@ -1332,6 +1329,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\RefCnt.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\AMI.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
