@@ -195,6 +195,7 @@
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -207,6 +208,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
     <LinkIncremental>true</LinkIncremental>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -225,6 +227,7 @@
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -237,6 +240,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">
     <LinkIncremental>false</LinkIncremental>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
     <ClCompile>

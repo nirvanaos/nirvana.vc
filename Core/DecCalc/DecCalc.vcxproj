@@ -198,6 +198,7 @@
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -219,6 +220,7 @@
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -234,6 +236,7 @@
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -249,6 +252,7 @@
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
     <ClCompile>
@@ -316,6 +320,7 @@
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
       <AdditionalDependencies>onecore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
@@ -388,6 +393,7 @@
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
       <AdditionalDependencies>onecore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
@@ -456,6 +462,7 @@
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
       <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
@@ -528,6 +535,7 @@
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
       <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
