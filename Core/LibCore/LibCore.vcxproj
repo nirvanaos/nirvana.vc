@@ -615,7 +615,6 @@
     <ClInclude Include="..\Core\Source\ORB\FT_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
     <ClInclude Include="..\Core\Source\ORB\IndirectMap.h" />
-    <ClInclude Include="..\Core\Source\ORB\LifeCycleNoCopy.h" />
     <ClInclude Include="..\Core\Source\ORB\Messaging_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\Nirvana_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\ORB.h" />
