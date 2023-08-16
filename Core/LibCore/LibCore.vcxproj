@@ -610,11 +610,13 @@
     <ClInclude Include="..\Core\Source\NameService\Iterator.h" />
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\BiDirPolicy_policies.h" />
+    <ClInclude Include="..\Core\Source\ORB\CallbackRef.h" />
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainRemote.h" />
     <ClInclude Include="..\Core\Source\ORB\FT_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
     <ClInclude Include="..\Core\Source\ORB\IndirectMap.h" />
+    <ClInclude Include="..\Core\Source\ORB\remarshal_output.h" />
     <ClInclude Include="..\Core\Source\ORB\Messaging_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\Nirvana_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\ORB.h" />
@@ -842,6 +844,7 @@
     <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp" />
     <ClCompile Include="..\Core\Source\NameService\Iterator.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\CallbackRef.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
@@ -849,6 +852,7 @@
     <ClCompile Include="..\Core\Source\ORB\ExceptionHolder.cpp" />
     <ClCompile Include="..\Core\Source\ORB\GarbageCollector.cpp" />
     <ClCompile Include="..\Core\Source\ORB\IndirectMap.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\remarshal_output.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ORB.cpp" />
     <ClCompile Include="..\Core\Source\ORB\LocalAddress.cpp" />
@@ -3298,6 +3302,58 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(SolutionDir)Core\Core\Exports\IDL\%(Filename)_p.cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(SolutionDir)Core\Core\Exports\IDL\%(Filename)_p.cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(SolutionDir)Core\Core\Exports\IDL\%(Filename)_p.cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Core\Source\ORB\RequestCallback.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -no_proxy -no_client_cpp</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(SolutionDir)Core\Core\Source\CORBA\%(Filename).h;$(SolutionDir)Core\Core\Source\CORBA\%(Filename)_s.h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>

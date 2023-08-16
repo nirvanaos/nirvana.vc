@@ -742,6 +742,12 @@
     <ClInclude Include="..\Core\Source\ORB\RequestEncap.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\CallbackRef.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\ORB\remarshal_output.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1209,6 +1215,12 @@
     <ClCompile Include="..\Core\Source\ORB\RequestEncap.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\CallbackRef.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\remarshal_output.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Memory.idl">
@@ -1339,6 +1351,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\AMI.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\RequestCallback.idl">
+      <Filter>ORB\IDL\Internal</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
