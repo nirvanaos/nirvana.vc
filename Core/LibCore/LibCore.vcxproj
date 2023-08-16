@@ -611,8 +611,10 @@
     <ClInclude Include="..\Core\Source\ObjectPool.h" />
     <ClInclude Include="..\Core\Source\ORB\BiDirPolicy_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\CallbackRef.h" />
+    <ClInclude Include="..\Core\Source\ORB\call_handler.h" />
     <ClInclude Include="..\Core\Source\ORB\Domain.h" />
     <ClInclude Include="..\Core\Source\ORB\DomainRemote.h" />
+    <ClInclude Include="..\Core\Source\ORB\ExceptionHolder.h" />
     <ClInclude Include="..\Core\Source\ORB\FT_policies.h" />
     <ClInclude Include="..\Core\Source\ORB\GarbageCollector.h" />
     <ClInclude Include="..\Core\Source\ORB\IndirectMap.h" />
@@ -845,6 +847,7 @@
     <ClCompile Include="..\Core\Source\NameService\Iterator.cpp" />
     <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CallbackRef.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\call_handler.cpp" />
     <ClCompile Include="..\Core\Source\ORB\CodeSetConverter.cpp" />
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
