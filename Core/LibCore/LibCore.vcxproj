@@ -695,7 +695,7 @@
     <ClInclude Include="..\Core\Source\ORB\StreamOut.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutEncap.h" />
     <ClInclude Include="..\Core\Source\ORB\StreamOutSM.h" />
-    <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h" />
+    <ClInclude Include="..\Core\Source\ORB\StreamOutSMReply.h" />
     <ClInclude Include="..\Core\Source\ORB\SysAdapterActivator.h" />
     <ClInclude Include="..\Core\Source\ORB\SysObject.h" />
     <ClInclude Include="..\Core\Source\ORB\SysObjectKey.h" />
@@ -923,7 +923,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOut.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutEncap.cpp" />
     <ClCompile Include="..\Core\Source\ORB\StreamOutSM.cpp" />
-    <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\StreamOutSMReply.cpp" />
     <ClCompile Include="..\Core\Source\ORB\SysAdapterActivator.cpp" />
     <ClCompile Include="..\Core\Source\ORB\SysObject.cpp" />
     <ClCompile Include="..\Core\Source\ORB\system_services.cpp" />

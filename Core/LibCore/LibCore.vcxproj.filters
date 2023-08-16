@@ -418,7 +418,7 @@
     <ClInclude Include="..\Core\Source\ORB\RequestOut.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\StreamOutReply.h">
+    <ClInclude Include="..\Core\Source\ORB\StreamOutSMReply.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\DomainAddress.h">
@@ -945,7 +945,7 @@
     <ClCompile Include="..\Core\Source\ORB\StreamOut.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\StreamOutReply.cpp">
+    <ClCompile Include="..\Core\Source\ORB\StreamOutSMReply.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\OutgoingRequests.cpp">
