@@ -112,8 +112,14 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestOtherSpace", "Port\Windows\TestOtherSpace\TestOtherSpace.vcxproj", "{D60C7DA8-0CB3-45A5-B926-1A7E2A8273A1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestFixed", "TestORB.vc\TestFixed\TestFixed.vcxproj", "{4EE4A316-A5CF-4A8E-8B7C-A40E1D84C76B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E820686C-5A7C-484B-846C-6198E4BB7C65} = {E820686C-5A7C-484B-846C-6198E4BB7C65}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSystem", "TestORB.vc\TestSystem\TestSystem.vcxproj", "{A543850D-7786-42D0-BABC-AD6C6ED2A2F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E820686C-5A7C-484B-846C-6198E4BB7C65} = {E820686C-5A7C-484B-846C-6198E4BB7C65}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
