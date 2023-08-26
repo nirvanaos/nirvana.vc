@@ -730,7 +730,7 @@
     <ClInclude Include="..\Core\Source\ORB\Pollable.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\EventSync.h">
+    <ClInclude Include="..\Core\Source\EventSyncTimeout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\RefCnt.h">
@@ -753,6 +753,9 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ExceptionHolder.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\PriorityQueueReorder.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1206,7 +1209,7 @@
     <ClCompile Include="..\Core\Source\ORB\RequestLocalBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\EventSync.cpp">
+    <ClCompile Include="..\Core\Source\EventSyncTimeout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\Pollable.cpp">

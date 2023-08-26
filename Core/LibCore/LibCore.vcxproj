@@ -570,7 +570,7 @@
     <ClInclude Include="..\Core\Source\ClassLibrary.h" />
     <ClInclude Include="..\Core\Source\COFF.h" />
     <ClInclude Include="..\Core\Source\CoreInterface.h" />
-    <ClInclude Include="..\Core\Source\EventSync.h" />
+    <ClInclude Include="..\Core\Source\EventSyncTimeout.h" />
     <ClInclude Include="..\Core\Source\FileAccessBuf.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h" />
@@ -739,6 +739,7 @@
     <ClInclude Include="..\Core\Source\PointerSet.h" />
     <ClInclude Include="..\Core\Source\PortableExecutable.h" />
     <ClInclude Include="..\Core\Source\PreallocatedStack.h" />
+    <ClInclude Include="..\Core\Source\PriorityQueueReorder.h" />
     <ClInclude Include="..\Core\Source\RuntimeGlobal.h" />
     <ClInclude Include="..\Core\Source\MemContext.h" />
     <ClInclude Include="..\Core\Source\Section.h" />
@@ -810,7 +811,7 @@
     <ClCompile Include="..\Core\Source\ClassLibrary.cpp" />
     <ClCompile Include="..\Core\Source\COFF.cpp" />
     <ClCompile Include="..\Core\Source\CoreModule.cpp" />
-    <ClCompile Include="..\Core\Source\EventSync.cpp" />
+    <ClCompile Include="..\Core\Source\EventSyncTimeout.cpp" />
     <ClCompile Include="..\Core\Source\FileAccessBuf.cpp" />
     <ClCompile Include="..\Core\Source\FileAccessDirect.cpp" />
     <ClCompile Include="..\Core\Source\FileAccessDirectProxy.cpp" />
