@@ -670,6 +670,7 @@
     <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CoreDomains.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CoreDomains_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CosEventChannelAdmin_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CosEventComm_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CosNaming_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CosTimerEvent_p.cpp" />
