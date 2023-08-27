@@ -856,6 +856,7 @@
     <ClCompile Include="..\Core\Source\ORB\Domain.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainProt.cpp" />
     <ClCompile Include="..\Core\Source\ORB\DomainRemote.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\EventChannel.cpp" />
     <ClCompile Include="..\Core\Source\ORB\ExceptionHolder.cpp" />
     <ClCompile Include="..\Core\Source\ORB\GarbageCollector.cpp" />
     <ClCompile Include="..\Core\Source\ORB\IndirectMap.cpp" />
