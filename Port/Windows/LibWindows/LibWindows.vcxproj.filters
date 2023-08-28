@@ -356,6 +356,9 @@
     <ClInclude Include="..\Windows\Source\FileAccess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Windows\Port\Security.h">
+      <Filter>Port</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Windows\Source\OtherSpace.inl">
