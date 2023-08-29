@@ -108,6 +108,7 @@
     </ClCompile>
     <ClCompile Include="..\Windows\Source\Scheduler.cpp" />
     <ClCompile Include="..\Windows\Source\app_data.cpp" />
+    <ClCompile Include="..\Windows\Source\Security.cpp" />
     <ClCompile Include="..\Windows\Source\shutdown.cpp" />
     <ClCompile Include="..\Windows\Source\SystemInfo.cpp" />
     <ClCompile Include="..\Windows\Source\Thread.cpp" />
