@@ -675,6 +675,8 @@
     <ClCompile Include="..\Core\Exports\IDL\CosNaming_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CosTimerEvent_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CosTime_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CosTypedEventChannelAdmin_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CosTypedEventComm_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CSI.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CSIIOP.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\Current_p.cpp" />
