@@ -728,6 +728,7 @@
     <ClInclude Include="..\Core\Source\ORB\TC_Value.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_ValueBase.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_ValueBox.h" />
+    <ClInclude Include="..\Core\Source\ORB\TypedEventChannel.h" />
     <ClInclude Include="..\Core\Source\ORB\unmarshal_object.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\btree.h" />
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\meminfo.h" />
@@ -967,6 +968,7 @@
     <ClCompile Include="..\Core\Source\ORB\TC_Value.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_ValueBase.cpp" />
     <ClCompile Include="..\Core\Source\ORB\TC_ValueBox.cpp" />
+    <ClCompile Include="..\Core\Source\ORB\TypedEventChannel.cpp" />
     <ClCompile Include="..\Core\Source\ORB\unmarshal_object.cpp" />
     <ClCompile Include="..\Core\Source\PortableExecutable.cpp" />
     <ClCompile Include="..\Core\Source\Runnable.cpp" />
