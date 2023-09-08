@@ -11,6 +11,8 @@ if ($args.count -ge 1) {
 
 $ErrorActionPreference = "Stop"
 
+msbuild -m -p:Platform="$platform" -p:Configuration="$config" -target:Core\TestCore
+
 cd "$platform\\$config"
 
 $test_result="..\..\test-results\$platform.$config"

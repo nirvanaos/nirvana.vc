@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build and test
+name: Test Core
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events
   push:
-    branches: [ master, develop, feature/** ]
+    branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,32 +33,16 @@ jobs:
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.1
 
-      - name: x64 Debug build
-        run: ./Build.ps1 "x64" "Debug 2022"
-        shell: pwsh
-
-      - name: x64 Debug test libraries
-        run: ./TestLibs.ps1 "x64" "Debug 2022"
-        shell: pwsh
-
-      - name: x64 Debug test
-        run: ./Test.ps1 "x64" "Debug 2022"
-        shell: pwsh
-
-      - name: Win32 Debug build
-        run: ./Build.ps1 "Win32" "Debug 2022"
-        shell: pwsh
-
-      - name: Win32 Debug test libraries
-        run: ./TestLibs.ps1 "Win32" "Debug 2022"
-        shell: pwsh
-
-      - name: Win32 Debug test
-        run: ./Test.ps1 "Win32" "Debug 2022"
+      - name: x64 Debug
+        run: ./TestCore.ps1 "x64" "Debug 2022"
         shell: pwsh
 
       - name: x64 Debug clean
         run: ./Clean.ps1 "x64" "Debug 2022"
+        shell: pwsh
+
+      - name: Win32 Debug
+        run: ./TestCore.ps1 "Win32" "Debug 2022"
         shell: pwsh
 
       - name: Win32 Debug clean
@@ -66,99 +50,19 @@ jobs:
         shell: pwsh
 
       - name: x64 Release build
-        run: ./Build.ps1 "x64" "Release 2022"
-        shell: pwsh
-
-      - name: x64 Release test libraries
-        run: ./TestLibs.ps1 "x64" "Release 2022"
-        shell: pwsh
-
-      - name: x64 Release test
-        run: ./Test.ps1 "x64" "Release 2022"
-        shell: pwsh
-
-      - name: Win32 Release build
-        run: ./Build.ps1 "Win32" "Release 2022"
-        shell: pwsh
-
-      - name: Win32 Release test libraries
-        run: ./TestLibs.ps1 "Win32" "Release 2022"
-        shell: pwsh
-
-      - name: Win32 Release test
-        run: ./Test.ps1 "Win32" "Release 2022"
+        run: ./TestCore.ps1 "x64" "Release 2022"
         shell: pwsh
 
       - name: x64 Release clean
         run: ./Clean.ps1 "x64" "Release 2022"
         shell: pwsh
 
+      - name: Win32 Release build
+        run: ./TestCore.ps1 "Win32" "Release 2022"
+        shell: pwsh
+
       - name: Win32 Release clean
         run: ./Clean.ps1 "Win32" "Release 2022"
-        shell: pwsh
-
-      - name: x64 Debug LLVM build
-        run: ./Build.ps1 "x64" "Debug LLVM"
-        shell: pwsh
-
-      - name: x64 Debug LLVM test libraries
-        run: ./TestLibs.ps1 "x64" "Debug LLVM"
-        shell: pwsh
-
-      - name: x64 Debug LLVM test
-        run: ./Test.ps1 "x64" "Debug LLVM"
-        shell: pwsh
-
-      - name: x64 Debug LLVM clean
-        run: ./Clean.ps1 "x64" "Debug LLVM"
-        shell: pwsh
-
-      - name: x64 Release LLVM build
-        run: ./Build.ps1 "x64" "Release LLVM"
-        shell: pwsh
-
-      - name: x64 Release LLVM test libraries
-        run: ./TestLibs.ps1 "x64" "Release LLVM"
-        shell: pwsh
-
-      - name: x64 Release LLVM test
-        run: ./Test.ps1 "x64" "Release LLVM"
-        shell: pwsh
-
-      - name: x64 Release LLVM clean
-        run: ./Clean.ps1 "x64" "Release LLVM"
-        shell: pwsh
-
-      - name: Win32 Debug LLVM build
-        run: ./Build.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
-
-      - name: Win32 Debug LLVM test libraries
-        run: ./TestLibs.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
-
-      - name: Win32 Debug LLVM test
-        run: ./Test.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
-
-      - name: Win32 Debug LLVM clean
-        run: ./Clean.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
-
-      - name: Win32 Release LLVM build
-        run: ./Build.ps1 "Win32" "Release LLVM"
-        shell: pwsh
-
-      - name: Win32 Release LLVM test libraries
-        run: ./TestLibs.ps1 "Win32" "Release LLVM"
-        shell: pwsh
-
-      - name: Win32 Release LLVM test
-        run: ./Test.ps1 "Win32" "Release LLVM"
-        shell: pwsh
-
-      - name: Win32 Release LLVM clean
-        run: ./Clean.ps1 "Win32" "Release LLVM"
         shell: pwsh
 
       - name: Upload Logs
@@ -205,7 +109,7 @@ jobs:
           label: Tests
           status: '${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.tests }} tests, ${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.runs }} runs: ${{ fromJSON( steps.test-results.outputs.json ).conclusion }}'
           color: ${{ env.BADGE_COLOR }}
-          path: badge.svg
+          path: test_core.svg
 
       - name: Upload badge to Gist
         # Upload only for master branch
@@ -216,4 +120,4 @@ jobs:
         with:
           token: ${{ secrets.GIST_TOKEN }}
           gistURL: https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a
-          file: badge.svg
+          file: test_core.svg
