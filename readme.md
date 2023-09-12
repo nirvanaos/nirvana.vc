@@ -1,6 +1,7 @@
 # MS Visual Studio solution for building Nirvana for Windows
 
 [![CI](https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a/raw/badge.svg)](https://github.com/nirvanaos/nirvana.vc/actions/workflows/build.yml)
+[![CI](https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a/raw/test_core.svg)](https://github.com/nirvanaos/nirvana.vc/actions/workflows/test_core.yml)
 
 ### Content
 

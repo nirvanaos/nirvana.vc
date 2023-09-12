@@ -49,7 +49,7 @@ jobs:
         run: ./Clean.ps1 "Win32" "Debug 2022"
         shell: pwsh
 
-      - name: x64 Release build
+      - name: x64 Release
         run: ./TestCore.ps1 "x64" "Release 2022"
         shell: pwsh
 
@@ -57,7 +57,7 @@ jobs:
         run: ./Clean.ps1 "x64" "Release 2022"
         shell: pwsh
 
-      - name: Win32 Release build
+      - name: Win32 Release
         run: ./TestCore.ps1 "Win32" "Release 2022"
         shell: pwsh
 
@@ -106,7 +106,7 @@ jobs:
       - name: Create badge
         uses: emibcn/badge-action@v2.0.2
         with:
-          label: Tests
+          label: Core Tests
           status: '${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.tests }} tests, ${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.runs }} runs: ${{ fromJSON( steps.test-results.outputs.json ).conclusion }}'
           color: ${{ env.BADGE_COLOR }}
           path: test_core.svg
