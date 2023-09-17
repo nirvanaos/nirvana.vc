@@ -565,6 +565,7 @@
     <ClInclude Include="..\Core\Source\BinderMemory.h" />
     <ClInclude Include="..\Core\Source\BinderObject.h" />
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
+    <ClInclude Include="..\Core\Source\CharFileAdapter.h" />
     <ClInclude Include="..\Core\Source\FileAccessChar.h" />
     <ClInclude Include="..\Core\Source\Console.h" />
     <ClInclude Include="..\Core\Source\CoreAllocator.h" />
@@ -578,6 +579,7 @@
     <ClInclude Include="..\Core\Source\EventSync.h" />
     <ClInclude Include="..\Core\Source\EventSyncTimeout.h" />
     <ClInclude Include="..\Core\Source\FileAccessBuf.h" />
+    <ClInclude Include="..\Core\Source\FileAccessCharProxy.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h" />
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
