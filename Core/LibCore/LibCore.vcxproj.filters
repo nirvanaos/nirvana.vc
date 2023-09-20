@@ -53,9 +53,6 @@
     <Filter Include="ORB\IDL\Internal">
       <UniqueIdentifier>{39dec286-9fe1-4035-a5bb-d6a89fe36d65}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ORB\IDL\Proxy">
-      <UniqueIdentifier>{601d1275-5924-44b7-bf3f-1a5de000e6b8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="IDL\Legacy">
       <UniqueIdentifier>{eea430ba-9a28-4ee8-abb0-e3cee1c525c1}</UniqueIdentifier>
     </Filter>
@@ -1283,9 +1280,6 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Module.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\IORequest.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ObjectFactory.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
@@ -1327,12 +1321,6 @@
     </CustomBuild>
     <CustomBuild Include="..\Core\Source\ORB\IIOP.idl">
       <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Proxy\IOReference.idl">
-      <Filter>ORB\IDL\Proxy</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy\Legacy.idl">
-      <Filter>IDL\Legacy</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy\Legacy_Process.idl">
       <Filter>IDL\Legacy</Filter>
@@ -1385,9 +1373,6 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Request.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Context.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NVList.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
@@ -1395,9 +1380,6 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DynamicServant.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\RefCnt.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\AMI.idl">
