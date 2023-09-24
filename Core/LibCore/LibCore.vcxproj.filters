@@ -778,6 +778,9 @@
     <ClInclude Include="..\Core\Source\CharFileAdapter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\FileChar.h">
+      <Filter>NameService</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1268,6 +1271,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessChar.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\FileChar.cpp">
+      <Filter>NameService</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
