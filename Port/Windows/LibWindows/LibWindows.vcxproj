@@ -322,6 +322,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\FileAccessConsoleBase.cpp" />
     <ClCompile Include="..\Windows\Source\FileSystem.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\Windows\Source/pch.h</PrecompiledHeaderFile>
@@ -478,7 +479,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\Console.cpp">
+    <ClCompile Include="..\Windows\Source\FileAccessConsole.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\Windows\Source/pch.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
@@ -1345,7 +1346,7 @@
     <ClInclude Include="..\Windows\Port\BackOff.h" />
     <ClInclude Include="..\Windows\Port\Chrono.h" />
     <ClInclude Include="..\Windows\Port\config.h" />
-    <ClInclude Include="..\Windows\Port\Console.h" />
+    <ClInclude Include="..\Windows\Port\FileAccessConsole.h" />
     <ClInclude Include="..\Windows\Port\Debugger.h" />
     <ClInclude Include="..\Windows\Port\ESIOP.h" />
     <ClInclude Include="..\Windows\Port\ExecContext.h" />
@@ -1373,6 +1374,7 @@
     <ClInclude Include="..\Windows\Source\ex2signal.h" />
     <ClInclude Include="..\Windows\Source\ExecContext.inl" />
     <ClInclude Include="..\Windows\Source\FileAccess.h" />
+    <ClInclude Include="..\Windows\Source\FileAccessConsoleBase.h" />
     <ClInclude Include="..\Windows\Source\FileSystemImpl.h" />
     <ClInclude Include="..\Windows\Source\initialize.h" />
     <ClInclude Include="..\Windows\Source\DirItem.h" />

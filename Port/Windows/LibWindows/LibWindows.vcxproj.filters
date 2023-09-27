@@ -96,7 +96,7 @@
     <ClCompile Include="..\Windows\Source\Debugger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\Console.cpp">
+    <ClCompile Include="..\Windows\Source\FileAccessConsole.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\ex2signal.cpp">
@@ -160,6 +160,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\FileAccessConsoleBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -296,7 +299,7 @@
     <ClInclude Include="..\Windows\Port\Debugger.h">
       <Filter>Port</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Port\Console.h">
+    <ClInclude Include="..\Windows\Port\FileAccessConsole.h">
       <Filter>Port</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\ex2signal.h">
@@ -369,6 +372,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\FileAccessConsoleBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

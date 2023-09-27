@@ -1275,6 +1275,9 @@
     <ClCompile Include="..\Core\Source\NameService\FileChar.cpp">
       <Filter>NameService</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ObjectFactory.idl">
