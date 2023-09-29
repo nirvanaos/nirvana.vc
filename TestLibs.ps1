@@ -11,9 +11,13 @@ if ($args.count -ge 1) {
 
 $ErrorActionPreference = "Stop"
 
-cd "$platform\\$config"
+$test_result=$PSScriptRoot + "\test-results\$platform.$config"
 
-$test_result="..\..\test-results\$platform.$config"
+if (($platform -eq "Win32") -and -not ($config -like "* LLVM")) {
+	cd "x64\\$config\\x86"
+} else {
+	cd "$platform\\$config"
+}
 
 .\TestLibrary.exe "--gtest_output=xml:$test_result.TestLibrary.xml"
 .\TestORB.exe "--gtest_output=xml:$test_result.TestORB.xml"
@@ -21,4 +25,4 @@ $test_result="..\..\test-results\$platform.$config"
 .\TestWindowsAPI.exe "--gtest_output=xml:$test_result.TestWindowsAPI.xml"
 .\TestWindows.exe "--gtest_output=xml:$test_result.TestWindows.xml"
 
-cd ..\..
+cd $PSScriptRoot

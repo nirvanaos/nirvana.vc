@@ -13,15 +13,15 @@ $ErrorActionPreference = "Stop"
 
 Write-Host "=== Start tests. Processor count:"(Get-ComputerInfo).CsNumberOfLogicalProcessors
 
-cd "$platform\\$config"
-
-$test_result="..\..\test-results\$platform.$config"
+$test_result=$PSScriptRoot + "\test-results\$platform.$config"
 
 $appdata = [Environment]::GetFolderPath('CommonApplicationData') + "\Nirvana\Nirvana"
 
 if (($platform -eq "Win32") -and -not ($config -like "* LLVM")) {
-	$system_path = "..\..\x64\$config"
+	cd "x64\\$config\\x86"
+	$system_path = ".."
 } else {
+	cd "$platform\\$config"
 	$system_path = "."
 }
 Write-Host "Start Nirvana from "$system_path
@@ -54,7 +54,7 @@ Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestFi
 Write-Host "Stop Nirvana"
 Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "-d"
 
-cd ..\..
+cd $PSScriptRoot
 
 if ($sysdomain.WaitForExit(1000)) {
 	Write-Host "System domain exit code:" $sysdomain.ExitCode

@@ -165,6 +165,9 @@
     <ClCompile Include="..\Windows\Source\FileAccessConsoleBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\SysDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Windows\Source\AddressSpace.h">
@@ -376,6 +379,9 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Source\FileAccessConsoleBase.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Port\SysDomain.h">
+      <Filter>Port</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

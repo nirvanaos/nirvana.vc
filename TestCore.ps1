@@ -13,8 +13,14 @@ $ErrorActionPreference = "Stop"
 
 msbuild -m -p:Platform="$platform" -p:Configuration="$config" -target:Core\TestCore
 
-cd "$platform\\$config"
+$test_result=$PSScriptRoot + "\test-results\$platform.$config"
 
-$test_result="..\..\test-results\$platform.$config"
+if (($platform -eq "Win32") -and -not ($config -like "* LLVM")) {
+	cd "x64\\$config\\x86"
+} else {
+	cd "$platform\\$config"
+}
 
 .\TestCore.exe "--gtest_output=xml:$test_result.TestCore.xml"
+
+cd $PSScriptRoot
