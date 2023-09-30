@@ -41,16 +41,16 @@ jobs:
         run: ./TestLibs.ps1 "x64" "Debug 2022"
         shell: pwsh
 
-      - name: x64 Debug test
-        run: ./Test.ps1 "x64" "Debug 2022"
-        shell: pwsh
-
       - name: Win32 Debug build
         run: ./Build.ps1 "Win32" "Debug 2022"
         shell: pwsh
 
       - name: Win32 Debug test libraries
         run: ./TestLibs.ps1 "Win32" "Debug 2022"
+        shell: pwsh
+
+      - name: x64 Debug test
+        run: ./Test.ps1 "x64" "Debug 2022"
         shell: pwsh
 
       - name: Win32 Debug test
@@ -73,16 +73,16 @@ jobs:
         run: ./TestLibs.ps1 "x64" "Release 2022"
         shell: pwsh
 
-      - name: x64 Release test
-        run: ./Test.ps1 "x64" "Release 2022"
-        shell: pwsh
-
       - name: Win32 Release build
         run: ./Build.ps1 "Win32" "Release 2022"
         shell: pwsh
 
       - name: Win32 Release test libraries
         run: ./TestLibs.ps1 "Win32" "Release 2022"
+        shell: pwsh
+
+      - name: x64 Release test
+        run: ./Test.ps1 "x64" "Release 2022"
         shell: pwsh
 
       - name: Win32 Release test
