@@ -19,6 +19,9 @@
     <ClCompile Include="..\Windows\msvccrt\uncaught_exceptions.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\byteswap.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SourceFiles">
