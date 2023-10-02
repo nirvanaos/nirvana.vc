@@ -22,6 +22,9 @@
     <ClCompile Include="..\Windows\msvccrt\byteswap.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\onexit.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SourceFiles">

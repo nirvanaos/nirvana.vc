@@ -59,6 +59,7 @@
     <ClCompile Include="..\Windows\msvccrt\invalid_parameter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\onexit.cpp" />
     <ClCompile Include="..\Windows\msvccrt\output.cpp" />
     <ClCompile Include="..\Windows\msvccrt\uncaught_exception.cpp" />
     <ClCompile Include="..\Windows\msvccrt\uncaught_exceptions.cpp" />
