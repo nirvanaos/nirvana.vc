@@ -781,6 +781,9 @@
     <ClInclude Include="..\Core\Source\NameService\FileChar.h">
       <Filter>NameService</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\AtExit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">

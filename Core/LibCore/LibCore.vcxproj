@@ -561,6 +561,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\Array.h" />
+    <ClInclude Include="..\Core\Source\AtExit.h" />
     <ClInclude Include="..\Core\Source\AtomicCounter.h" />
     <ClInclude Include="..\Core\Source\BinderMemory.h" />
     <ClInclude Include="..\Core\Source\BinderObject.h" />
