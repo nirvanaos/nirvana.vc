@@ -22,13 +22,10 @@
     <ClCompile Include="..\Windows\msvccrt\byteswap.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\msvccrt\onexit.cpp">
-      <Filter>SourceFiles</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\msvccrt\initterm.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\msvccrt\exit.cpp">
+    <ClCompile Include="..\Windows\msvccrt\atexit.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
     <ClCompile Include="..\Windows\msvccrt\stubs.cpp">
