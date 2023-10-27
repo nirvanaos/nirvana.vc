@@ -441,7 +441,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;clang_rt.builtins-x86_64.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
@@ -642,7 +642,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;clang_rt.builtins-x86_64.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>

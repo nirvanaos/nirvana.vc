@@ -493,7 +493,7 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;clang_rt.builtins-x86_64.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreSpecificDefaultLibraries>
@@ -578,7 +578,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;clang_rt.builtins-x86_64.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreSpecificDefaultLibraries>
