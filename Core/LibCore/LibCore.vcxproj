@@ -712,6 +712,7 @@
     <ClInclude Include="..\Core\Source\ORB\SysObjectKey.h" />
     <ClInclude Include="..\Core\Source\ORB\SysServant.h" />
     <ClInclude Include="..\Core\Source\ORB\SysServantStatic.h" />
+    <ClInclude Include="..\Core\Source\ORB\SystemExceptionHolder.h" />
     <ClInclude Include="..\Core\Source\ORB\system_services.h" />
     <ClInclude Include="..\Core\Source\ORB\tagged_seq.h" />
     <ClInclude Include="..\Core\Source\ORB\TC_Abstract.h" />
@@ -3169,6 +3170,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">..\pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\SystemExceptionHolder.cpp" />
     <ClCompile Include="..\Core\Source\ORB\system_services.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">..\pch.h</PrecompiledHeaderFile>
