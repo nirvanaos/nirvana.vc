@@ -54,7 +54,6 @@
     <ClCompile Include="..\Windows\msvccrt\byteswap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Windows\msvccrt\common_vsprintf.cpp" />
     <ClCompile Include="..\Windows\msvccrt\dbgrpt.cpp" />
     <ClCompile Include="..\Windows\msvccrt\atexit.cpp" />
     <ClCompile Include="..\Windows\msvccrt\heap.cpp" />

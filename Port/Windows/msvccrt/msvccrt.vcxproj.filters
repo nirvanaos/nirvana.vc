@@ -37,9 +37,6 @@
     <ClCompile Include="..\Windows\msvccrt\splitpath.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\msvccrt\common_vsprintf.cpp">
-      <Filter>SourceFiles</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SourceFiles">
