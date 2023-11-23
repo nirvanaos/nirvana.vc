@@ -1388,9 +1388,6 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\IOP.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DynamicServant.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\AMI.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
