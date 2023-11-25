@@ -19,9 +19,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Exports\exports.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -152,6 +149,15 @@
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\tc_constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\tc_exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\native.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

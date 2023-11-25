@@ -67,6 +67,9 @@
     <ProjectReference Include="..\..\..\Library.VC\Nirvana\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Library.VC\Nirvana\MockImports\MockImports.vcxproj">
+      <Project>{a39cadf8-37b9-4bac-822b-1bb6bb6f600f}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\LibWindows\LibWindows.vcxproj">
       <Project>{3f85577e-cfd2-4fb9-9c3c-6da6bba3cda5}</Project>
     </ProjectReference>
