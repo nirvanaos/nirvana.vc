@@ -1280,9 +1280,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ObjectFactory.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
