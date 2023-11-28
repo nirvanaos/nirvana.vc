@@ -265,7 +265,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;WIN32;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -284,6 +284,7 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
@@ -292,7 +293,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;WIN32;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -311,6 +312,7 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
@@ -319,7 +321,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;WIN32;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -338,6 +340,7 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
@@ -348,7 +351,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;WIN32;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -376,7 +379,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;WIN32;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -404,7 +407,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;WIN32;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -431,7 +434,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -450,6 +453,7 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
@@ -458,7 +462,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -477,6 +481,7 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
@@ -485,7 +490,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -504,6 +509,7 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
@@ -514,7 +520,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -542,7 +548,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -570,7 +576,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;DECCALC_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\decNumber.vc</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -593,23 +599,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\DecCalc\DecCalcImpl.cpp" />
-    <ClCompile Include="..\Core\DecCalc\pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Core\DecCalc\pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Library.VC\Nirvana\CoreImport\CoreImport.vcxproj">
