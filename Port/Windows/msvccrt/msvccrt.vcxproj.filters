@@ -37,6 +37,9 @@
     <ClCompile Include="..\Windows\msvccrt\splitpath.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\wassert.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SourceFiles">
