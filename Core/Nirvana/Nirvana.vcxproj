@@ -281,7 +281,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <LanguageStandard>stdcpp17</LanguageStandard>
@@ -313,7 +313,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -345,7 +345,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
@@ -376,7 +376,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <LanguageStandard>stdcpp17</LanguageStandard>
@@ -407,7 +407,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -438,7 +438,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
@@ -471,7 +471,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -504,7 +504,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
@@ -536,7 +536,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
@@ -571,7 +571,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -604,7 +604,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
@@ -636,7 +636,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\preprocessor\Include;..\Core\Source;..\Core\Source\ORB;..\..\Port\Windows\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <AdditionalOptions>/bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
