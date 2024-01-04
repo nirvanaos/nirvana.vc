@@ -595,6 +595,7 @@
     <ClInclude Include="..\Core\Source\Legacy\Executable.h" />
     <ClInclude Include="..\Core\Source\Legacy\Mutex.h" />
     <ClInclude Include="..\Core\Source\Legacy\Process.h" />
+    <ClInclude Include="..\Core\Source\Legacy\Thread.h" />
     <ClInclude Include="..\Core\Source\Legacy\ThreadBase.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
@@ -1252,6 +1253,7 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\Thread.cpp" />
     <ClCompile Include="..\Core\Source\MemContextCore.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">pch.h</PrecompiledHeaderFile>

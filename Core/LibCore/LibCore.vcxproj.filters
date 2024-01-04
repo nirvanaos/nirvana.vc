@@ -787,6 +787,9 @@
     <ClInclude Include="..\Core\Source\ORB\SystemExceptionHolder.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\Legacy\Thread.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1277,6 +1280,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\SystemExceptionHolder.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\Thread.cpp">
+      <Filter>Legacy\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
