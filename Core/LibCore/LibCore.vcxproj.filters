@@ -59,6 +59,12 @@
     <Filter Include="NameService">
       <UniqueIdentifier>{f03dd1ac-9511-49db-b87b-bb510c3d2d6c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="NameService\Header Files">
+      <UniqueIdentifier>{97e2881a-c967-45cb-bebb-fe64904a67ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NameService\Source Files">
+      <UniqueIdentifier>{513c6ce9-5574-4573-8a93-6c07058f3d51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -655,47 +661,14 @@
     <ClInclude Include="..\Core\Source\ORB\Nirvana_policies.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\NameService.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\SysObjectKey.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\system_services.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\FileSystem.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\NamingContextImpl.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\FileActivator.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\SysAdapterActivator.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\Roots.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\Iterator.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\IteratorStack.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\Dir.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\NamingContextRoot.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\File.h">
-      <Filter>NameService</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h">
       <Filter>Header Files</Filter>
@@ -708,9 +681,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\virtual_copy.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\DirIter.h">
-      <Filter>NameService</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\MemContextImpl.h">
       <Filter>Header Files</Filter>
@@ -778,9 +748,6 @@
     <ClInclude Include="..\Core\Source\CharFileAdapter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\NameService\FileChar.h">
-      <Filter>NameService</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\AtExit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -789,6 +756,45 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\Legacy\Thread.h">
       <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\Dir.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\DirIter.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\File.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\FileActivator.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\FileChar.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\FileSystem.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\Iterator.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\IteratorStack.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NameService.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NamingContextBase.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NamingContextImpl.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NamingContextRoot.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\Roots.h">
+      <Filter>NameService\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1167,35 +1173,11 @@
     <ClCompile Include="..\Core\Source\ORB\POA_DGC.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\NameService.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\system_services.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\NamingContextImpl.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\SysAdapterActivator.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\Iterator.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\Dir.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp">
-      <Filter>NameService</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\deactivate_servant.cpp">
       <Filter>Source Files</Filter>
@@ -1205,12 +1187,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\virtual_copy.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\DirIter.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\File.cpp">
-      <Filter>NameService</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\MemContextImpl.cpp">
       <Filter>Source Files</Filter>
@@ -1272,9 +1248,6 @@
     <ClCompile Include="..\Core\Source\FileAccessChar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\NameService\FileChar.cpp">
-      <Filter>NameService</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1283,6 +1256,39 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Legacy\Thread.cpp">
       <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\Dir.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\DirIter.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\File.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\FileChar.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\FileSystem.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\Iterator.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\IteratorStack.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NameService.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NamingContextBase.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NamingContextImpl.cpp">
+      <Filter>NameService\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp">
+      <Filter>NameService\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
