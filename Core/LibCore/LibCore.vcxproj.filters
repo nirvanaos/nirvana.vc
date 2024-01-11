@@ -1290,6 +1290,9 @@
     <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp">
       <Filter>NameService\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\Legacy\ThreadBase.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
