@@ -163,6 +163,9 @@
     <ClCompile Include="..\Core\Exports\IDL\NVList_p.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CORBA_Stream_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Exports\pch.h">
