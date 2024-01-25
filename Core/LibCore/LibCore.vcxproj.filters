@@ -65,6 +65,9 @@
     <Filter Include="NameService\Source Files">
       <UniqueIdentifier>{513c6ce9-5574-4573-8a93-6c07058f3d51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ORB\Generated">
+      <UniqueIdentifier>{77699219-c3a8-4a3d-8f2e-5009239c5d0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -796,6 +799,12 @@
     <ClInclude Include="..\Core\Source\NameService\Roots.h">
       <Filter>NameService\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1292,6 +1301,42 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Legacy\ThreadBase.cpp">
       <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\g_ORB.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CoreDomains.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\GIOP.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CSI.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CSIIOP.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\GSSUP.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\IIOP.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\TC_Factory.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\g_object_factory.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\g_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\g_memory.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
