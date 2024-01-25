@@ -1302,9 +1302,6 @@
     <ClCompile Include="..\Core\Source\Legacy\ThreadBase.cpp">
       <Filter>Legacy\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\g_ORB.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\IDL\CoreDomains.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
@@ -1328,15 +1325,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy.cpp">
       <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\ORB\g_object_factory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\g_system.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\g_memory.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
