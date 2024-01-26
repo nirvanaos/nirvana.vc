@@ -316,9 +316,6 @@
     <ClInclude Include="..\Core\Source\StringView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\MemContextObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Legacy\Mutex.h">
       <Filter>Legacy\Header Files</Filter>
     </ClInclude>
@@ -922,9 +919,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\MemContextUser.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\MemContextObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp">

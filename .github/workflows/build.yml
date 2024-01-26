@@ -21,17 +21,17 @@ jobs:
   # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@main
         with:
           submodules: recursive
 
       # Restore NuGet packages
-      - uses: nuget/setup-nuget@v1
+      - uses: nuget/setup-nuget@main
       - name: Restore NuGet packages
         run: nuget restore Nirvana.sln
         
       - name: Add msbuild to PATH
-        uses: microsoft/setup-msbuild@v1.1
+        uses: microsoft/setup-msbuild@main
 
       - name: x64 Debug build
         run: ./Build.ps1 "x64" "Debug 2022"
@@ -163,7 +163,7 @@ jobs:
 
       - name: Upload Logs
         if: ${{ always() }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@main
         with:
           name: logs
           path: "C:/ProgramData/Nirvana/Nirvana/var/log"
@@ -173,7 +173,7 @@ jobs:
         shell: cmd
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@main
         with:
             python-version: 3.8
 
@@ -200,7 +200,7 @@ jobs:
           esac
 
       - name: Create badge
-        uses: emibcn/badge-action@v2.0.2
+        uses: emibcn/badge-action@main
         with:
           label: Tests
           status: '${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.tests }} tests, ${{ fromJSON( steps.test-results.outputs.json ).formatted.stats.runs }} runs: ${{ fromJSON( steps.test-results.outputs.json ).conclusion }}'
