@@ -21,17 +21,17 @@ jobs:
   # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@main
         with:
           submodules: recursive
 
       # Restore NuGet packages
-      - uses: nuget/setup-nuget@v1
+      - uses: nuget/setup-nuget@main
       - name: Restore NuGet packages
         run: nuget restore Nirvana.sln
         
       - name: Add msbuild to PATH
-        uses: microsoft/setup-msbuild@v1.1
+        uses: microsoft/setup-msbuild@main
 
       - name: x64 Debug
         run: ./TestCore.ps1 "x64" "Debug 2022"
@@ -77,7 +77,7 @@ jobs:
         shell: cmd
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@main
         with:
             python-version: 3.8
 
