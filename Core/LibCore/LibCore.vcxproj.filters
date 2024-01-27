@@ -1417,5 +1417,6 @@
     <None Include="..\Core\Source\ThreadBackground.inl">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="vcpkg.json" />
   </ItemGroup>
 </Project>

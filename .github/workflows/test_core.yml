@@ -25,14 +25,18 @@ jobs:
         with:
           submodules: recursive
 
-      # Restore NuGet packages
-      - uses: nuget/setup-nuget@main
-      - name: Restore NuGet packages
-        run: nuget restore Nirvana.sln
-        
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@main
 
+      - name: Setup NuGet
+        uses: nuget/setup-nuget@main
+  
+      - name: Restore NuGet packages
+        run: nuget restore Nirvana.sln
+        
+      - name: Restore vcpkg packages
+        run: vcpkg integrate install
+        
       - name: x64 Debug
         run: ./TestCore.ps1 "x64" "Debug 2022"
         shell: pwsh
