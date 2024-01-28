@@ -1310,9 +1310,6 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ORB.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\InterfaceRepository.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Policy.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
@@ -1407,6 +1404,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_Stream.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_types.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
