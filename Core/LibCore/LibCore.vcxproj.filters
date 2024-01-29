@@ -24,17 +24,6 @@
       <UniqueIdentifier>{cbc529be-ae00-4986-85c3-46cb9b20d92f}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Legacy">
-      <UniqueIdentifier>{723135ab-2232-4845-a624-a164d5c51757}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Legacy\Header Files">
-      <UniqueIdentifier>{8f5bf123-94d3-474b-b79b-9f20c7540fc6}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Legacy\Source Files">
-      <UniqueIdentifier>{0c0884b8-d07d-4096-a8e5-69e65b9c21f7}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="IDL">
       <UniqueIdentifier>{3b611adf-7eff-4c6d-b4bb-e8315703fea6}</UniqueIdentifier>
     </Filter>
@@ -52,9 +41,6 @@
     </Filter>
     <Filter Include="ORB\IDL\Internal">
       <UniqueIdentifier>{39dec286-9fe1-4035-a5bb-d6a89fe36d65}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="IDL\Legacy">
-      <UniqueIdentifier>{eea430ba-9a28-4ee8-abb0-e3cee1c525c1}</UniqueIdentifier>
     </Filter>
     <Filter Include="NameService">
       <UniqueIdentifier>{f03dd1ac-9511-49db-b87b-bb510c3d2d6c}</UniqueIdentifier>
@@ -169,9 +155,6 @@
     <ClInclude Include="..\Core\Source\RuntimeSupport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\ThreadBase.h">
-      <Filter>Legacy\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\CoreObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -183,9 +166,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\SyncContext.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\Process.h">
-      <Filter>Legacy\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\ObjectFactory.h">
       <Filter>ORB\Header Files</Filter>
@@ -231,9 +211,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\LifeCycleStack.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\Executable.h">
-      <Filter>Legacy\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\tc_impex.h">
       <Filter>ORB\Header Files</Filter>
@@ -315,9 +292,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\StringView.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\Mutex.h">
-      <Filter>Legacy\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ObjectPool.h">
       <Filter>Header Files</Filter>
@@ -679,9 +653,6 @@
     <ClInclude Include="..\Core\Source\virtual_copy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\MemContextImpl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\IndirectMap.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -751,9 +722,6 @@
     <ClInclude Include="..\Core\Source\ORB\SystemExceptionHolder.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Legacy\Thread.h">
-      <Filter>Legacy\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\NameService\Dir.h">
       <Filter>NameService\Header Files</Filter>
     </ClInclude>
@@ -797,6 +765,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Executable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Nirvana_Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\Launcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -879,9 +856,6 @@
     <ClCompile Include="..\Core\Source\COFF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Legacy\Process.cpp">
-      <Filter>Legacy\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\Synchronized.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -899,9 +873,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\Singleton.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\Legacy\Executable.cpp">
-      <Filter>Legacy\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Event.cpp">
       <Filter>Source Files</Filter>
@@ -1188,9 +1159,6 @@
     <ClCompile Include="..\Core\Source\virtual_copy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\MemContextImpl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\RuntimeGlobal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1254,9 +1222,6 @@
     <ClCompile Include="..\Core\Source\ORB\SystemExceptionHolder.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Legacy\Thread.cpp">
-      <Filter>Legacy\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\NameService\Dir.cpp">
       <Filter>NameService\Source Files</Filter>
     </ClCompile>
@@ -1290,8 +1255,11 @@
     <ClCompile Include="..\Core\Source\NameService\NamingContextRoot.cpp">
       <Filter>NameService\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\Legacy\ThreadBase.cpp">
-      <Filter>Legacy\Source Files</Filter>
+    <ClCompile Include="..\Core\Source\Executable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\Nirvana_Process.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1330,9 +1298,6 @@
     </CustomBuild>
     <CustomBuild Include="..\Core\Source\ORB\IIOP.idl">
       <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Legacy\Legacy_Process.idl">
-      <Filter>IDL\Legacy</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DomainManager.idl">
       <Filter>ORB\IDL</Filter>
@@ -1408,6 +1373,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_types.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\ProcessFactory.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
