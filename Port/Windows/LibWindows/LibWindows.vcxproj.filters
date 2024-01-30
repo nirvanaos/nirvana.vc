@@ -278,9 +278,6 @@
     <ClInclude Include="..\Windows\Source\initialize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\start.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\CmdLineParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
