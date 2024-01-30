@@ -1,0 +1,122 @@
+name: Build 2019
+
+on:
+  # Triggers the workflow on push or pull request events
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: windows-latest
+
+  # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@main
+        with:
+          submodules: recursive
+
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@main
+
+      - name: Setup NuGet
+        uses: nuget/setup-nuget@main
+  
+      - name: Restore NuGet packages
+        run: nuget restore Nirvana.sln
+        
+      - name: Restore vcpkg packages
+        run: vcpkg integrate install
+        
+      - name: x64 Debug build
+        run: ./Build.ps1 "x64" "Debug 2019"
+        shell: pwsh
+
+      - name: x64 Debug test libraries
+        run: ./TestLibs.ps1 "x64" "Debug 2019"
+        shell: pwsh
+
+      - name: Win32 Debug build
+        run: ./Build.ps1 "Win32" "Debug 2019"
+        shell: pwsh
+
+      - name: Win32 Debug test libraries
+        run: ./TestLibs.ps1 "Win32" "Debug 2019"
+        shell: pwsh
+
+      - name: x64 Debug test
+        run: ./Test.ps1 "x64" "Debug 2019"
+        shell: pwsh
+
+      - name: Win32 Debug test
+        run: ./Test.ps1 "Win32" "Debug 2019"
+        shell: pwsh
+
+      - name: x64 Debug clean
+        run: ./Clean.ps1 "x64" "Debug 2019"
+        shell: pwsh
+
+      - name: Win32 Debug clean
+        run: ./Clean.ps1 "Win32" "Debug 2019"
+        shell: pwsh
+
+      - name: x64 Release build
+        run: ./Build.ps1 "x64" "Release 2019"
+        shell: pwsh
+
+      - name: x64 Release test libraries
+        run: ./TestLibs.ps1 "x64" "Release 2019"
+        shell: pwsh
+
+      - name: Win32 Release build
+        run: ./Build.ps1 "Win32" "Release 2019"
+        shell: pwsh
+
+      - name: Win32 Release test libraries
+        run: ./TestLibs.ps1 "Win32" "Release 2019"
+        shell: pwsh
+
+      - name: x64 Release test
+        run: ./Test.ps1 "x64" "Release 2019"
+        shell: pwsh
+
+      - name: Win32 Release test
+        run: ./Test.ps1 "Win32" "Release 2019"
+        shell: pwsh
+
+      - name: x64 Release clean
+        run: ./Clean.ps1 "x64" "Release 2019"
+        shell: pwsh
+
+      - name: Win32 Release clean
+        run: ./Clean.ps1 "Win32" "Release 2019"
+        shell: pwsh
+
+      - name: Upload Logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@main
+        with:
+          name: logs
+          path: "C:/ProgramData/Nirvana/Nirvana/var/log"
+
+      - name: List Tests
+        run: dir test-results
+        shell: cmd
+
+      - name: Setup Python
+        uses: actions/setup-python@main
+        with:
+            python-version: 3.8
+
+      - name: Test Results
+        uses: EnricoMi/publish-unit-test-result-action/composite@v2
+        id: test-results
+        if: always()
+        with:
+            junit_files: "test-results/**/*.xml"
