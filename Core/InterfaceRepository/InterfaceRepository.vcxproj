@@ -243,10 +243,12 @@
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <TargetExt>.olf</TargetExt>
     <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <TargetExt>.olf</TargetExt>
     <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnabled>false</VcpkgEnabled>
