@@ -2,6 +2,7 @@
 
 [![CI](https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a/raw/badge.svg)](https://github.com/nirvanaos/nirvana.vc/actions/workflows/build.yml)
 [![CI](https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a/raw/test_core.svg)](https://github.com/nirvanaos/nirvana.vc/actions/workflows/test_core.yml)
+[![CI](https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a/raw/test2019.svg)](https://github.com/nirvanaos/nirvana.vc/actions/workflows/test2019.yml)
 
 ### Content
 
@@ -37,23 +38,40 @@ the port for the Windows only.
 
 Nirvana tests.
 
-## Build and Test
+## Build
 
+Open the `Nirvana.sln` solution in Visual Studio 2022 or 2019.
 Right-click on the solution and select Open in Terminal.
 
-In Developer PowerShell window enter command:
-`.\BuildAndTest.ps1 "x64" "Debug 2022"
+In Developer PowerShell window enter commands:
+```console
+> .\Build.ps1 "x64" "Debug 2022"
+> .\Build.ps1 "Win32" "Debug 2022"
+```
 
-In the example above "x64" is platform and may be "Win32".
+For Visual Studio 2019 use configuration "Debug 2019" instead of "Debug 2022".
 
-"Debug 2022" is the configuration and may be:
+Also the following configurations are available:
 
-* "Release 2022"
-* "Debug 2019"
-* "Debug LLVM"
+* "Release 2022" - release build with VS 2022.
+* "Release 2019" - release build with VS 2019.
+
+If you have CLang toolset installed in Visual Studio, you can also use the following configurations:
+
+* "Debug LLVM" - debug build with CLang-CL (CLang support must be installed in VS).
 * "Release LLVM"
+
+## Test
+
+After building both x64 and Win32 platforms, use PowerShell command:
+
+In Developer PowerShell window enter commands:
+```console
+> .\Test.ps1 "x64" "Debug 2022"
+> .\Test.ps1 "Win32" "Debug 2022"
+```
 
 ## Examples
 
-Folder .\TestORB.vc\TestORB contains the test sources.
-The sources may be used to explore different Nirvana features.
+Folder `.\TestORB.vc\TestORB` contains the test sources.
+These sources may be used to explore different Nirvana features.
