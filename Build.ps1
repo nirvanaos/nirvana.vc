@@ -11,4 +11,4 @@ if ($args.count -ge 2) {
 
 $ErrorActionPreference = "Stop"
 
-msbuild -m -p:Platform="$platform" -p:Configuration="$config"
+msbuild -m -p:Platform="$platform" -p:Configuration="$config" -p:PreferredToolArchtecture=x64
