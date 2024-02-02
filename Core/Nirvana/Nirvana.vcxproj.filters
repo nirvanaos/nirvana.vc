@@ -165,5 +165,8 @@
     <ClInclude Include="..\Core\Exports\pch.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\SFloat\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
