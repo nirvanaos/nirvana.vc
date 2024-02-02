@@ -1164,6 +1164,9 @@
     <ClCompile Include="..\Core\SFloat\berkeley-softfloat-3\source\ui64_to_f128M.c">
       <Filter>berkley-softfloat\source</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\SFloat\state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\SFloat\berkeley-softfloat-3\source\include\internals.h">
@@ -1186,6 +1189,12 @@
     </ClInclude>
     <ClInclude Include="..\Core\SFloat\x86_64\platform.h">
       <Filter>Source Files\x86_64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\SFloat\softfloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\SFloat\Context.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
