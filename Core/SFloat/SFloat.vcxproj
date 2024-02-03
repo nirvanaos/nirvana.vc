@@ -270,6 +270,7 @@
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -296,6 +297,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -323,6 +325,7 @@
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>Default</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -350,6 +353,7 @@
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -376,6 +380,7 @@
       <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -403,6 +408,7 @@
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -429,6 +435,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -456,6 +463,7 @@
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>Default</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -483,6 +491,7 @@
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -509,6 +518,7 @@
       <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -539,6 +549,7 @@
       <SDLCheck>false</SDLCheck>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <PreprocessorDefinitions>SOFTFLOAT_FAST_INT64;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <NoEntryPoint>true</NoEntryPoint>
@@ -567,6 +578,7 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>false</SDLCheck>
       <WholeProgramOptimization>true</WholeProgramOptimization>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Link>
       <NoEntryPoint>true</NoEntryPoint>
