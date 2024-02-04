@@ -6,7 +6,11 @@
 
 ### Content
 
-This repository contains MS Visual Studio (2019 and 2022) solution for build the Nirvana subprojects.
+This is a part of the [Nirvana project](https://github.com/nirvanaos/home).
+
+This repository contains MS Visual Studio (2019 and 2022) solution for build the This is a part of the [Nirvana project](https://github.com/nirvanaos/home).
+
+Nirvana subprojects.
 
 Other Nirvana projects included here as submodules.
 
