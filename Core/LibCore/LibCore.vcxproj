@@ -705,7 +705,6 @@
     <ClInclude Include="..\Core\Source\ORB\ESIOP.h" />
     <ClInclude Include="..\Core\Source\ORB\LocalObject.h" />
     <ClInclude Include="..\Core\Source\ORB\ObjectFactory.h" />
-    <ClInclude Include="..\Core\Source\ORB\offset_ptr.h" />
     <ClInclude Include="..\Core\Source\ORB\POA_Root.h" />
     <ClInclude Include="..\Core\Source\ORB\ServantProxyLocal.h" />
     <ClInclude Include="..\Core\Source\ORB\ProxyManager.h" />

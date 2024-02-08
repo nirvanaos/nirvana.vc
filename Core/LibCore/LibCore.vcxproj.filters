@@ -329,9 +329,6 @@
     <ClInclude Include="..\Core\Source\MemContextCore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\ORB\offset_ptr.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
