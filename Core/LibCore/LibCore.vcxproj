@@ -601,6 +601,7 @@
     <ClInclude Include="..\Core\Source\FileAccessCharProxy.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h" />
+    <ClInclude Include="..\Core\Source\FSLocator.h" />
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\HeapUser.h" />
