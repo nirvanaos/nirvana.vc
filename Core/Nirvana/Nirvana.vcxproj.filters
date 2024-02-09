@@ -160,6 +160,30 @@
     <ClCompile Include="..\Core\Exports\IDL\ProcessFactory_p.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Base_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Cookie_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Events_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Exceptions_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Home_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Navigation_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Object_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Receptacle_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Exports\pch.h">

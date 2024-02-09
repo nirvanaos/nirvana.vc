@@ -740,6 +740,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">..\pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Base_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Cookie_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Events_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Exceptions_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Home_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Navigation_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Object_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Receptacle_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CORBA_Stream_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CORBA_types_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CoreDomains.cpp" />

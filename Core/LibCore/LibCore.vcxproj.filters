@@ -51,6 +51,9 @@
     <Filter Include="NameService\Source Files">
       <UniqueIdentifier>{513c6ce9-5574-4573-8a93-6c07058f3d51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ORB\IDL\CCM">
+      <UniqueIdentifier>{1fbe624b-81bb-4ac8-ac8a-31688b3a00c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -1270,6 +1273,9 @@
     <ClCompile Include="..\Core\Source\SysManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\CCM_Cookie.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
@@ -1385,6 +1391,30 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\ProcessFactory.idl">
       <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Base.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Cookie.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Events.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Exceptions.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Home.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Navigation.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Object.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Receptacle.idl">
+      <Filter>ORB\IDL\CCM</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
