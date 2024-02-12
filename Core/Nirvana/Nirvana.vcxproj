@@ -1424,7 +1424,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Exports\pch.h" />
-    <ClInclude Include="..\Core\SFloat\pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
