@@ -54,6 +54,9 @@
     <Filter Include="ORB\IDL\CCM">
       <UniqueIdentifier>{1fbe624b-81bb-4ac8-ac8a-31688b3a00c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{bf6c975f-c5bd-441f-af1a-7db57e2a380f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Source\BackOff.h">
@@ -1275,6 +1278,30 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\CCM_Cookie.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\BiDirPolicy.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\CoreDomains.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\CSI.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\CSIIOP.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\GIOP.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\GSSUP.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\IIOP.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\TC_Factory.cpp">
+      <Filter>Generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
