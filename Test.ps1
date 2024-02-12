@@ -47,9 +47,9 @@ if ($started) {
 	Exit
 }
 
-Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestProcess.nex `"--gtest_catch_exceptions=0" "--gtest_output=xml:$test_result.TestProcess.xml`""
-Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestSystem.nex `"--gtest_catch_exceptions=0" "--gtest_output=xml:$test_result.TestSystem.xml`""
-Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestFixed.nex `"--gtest_catch_exceptions=0" "--gtest_output=xml:$test_result.TestFixed.xml`""
+Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestProcess.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestProcess.xml`""
+Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestSystem.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestSystem.xml`""
+Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "TestFixed.nex --gtest_catch_exceptions=0 `"--gtest_output=xml:$test_result.TestFixed.xml`""
 
 Write-Host "Stop Nirvana"
 Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "-d"
