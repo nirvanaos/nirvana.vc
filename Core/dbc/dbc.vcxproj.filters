@@ -18,20 +18,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\InterfaceRepository.idl">
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\NDBC.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\InterfaceRepository\pch.cpp">
+    <ClCompile Include="..\Core\dbc\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\InterfaceRepository\IDL\InterfaceRepository_p.cpp">
+    <ClCompile Include="..\Core\dbc\IDL\NDBC_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Core\InterfaceRepository\pch.h">
+    <ClInclude Include="..\Core\dbc\pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
