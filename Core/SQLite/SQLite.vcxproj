@@ -259,12 +259,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -286,12 +286,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -312,12 +312,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -341,12 +341,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -368,12 +368,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
@@ -392,12 +392,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -419,12 +419,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -445,12 +445,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -474,12 +474,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -501,12 +501,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
@@ -530,7 +530,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>Default</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -538,7 +538,7 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <NoEntryPoint>true</NoEntryPoint>
@@ -558,11 +558,11 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>Default</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <PreprocessorDefinitions>SQLITE_OS_OTHER=1;SQLITE_OMIT_DEPRECATED;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_CUSTOM_INCLUDE=../sqlite_config.h;NIRVANA_MODULE;NIRVANA_NO_BAD_ALLOC;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
@@ -598,6 +598,22 @@
     <ClCompile Include="..\Core\SQLite\Driver.cpp" />
     <ClCompile Include="..\Core\SQLite\DriverFactory.cpp" />
     <ClCompile Include="..\Core\SQLite\filesystem.cpp" />
+    <ClCompile Include="..\Core\SQLite\Global.cpp" />
+    <ClCompile Include="..\Core\SQLite\mem_methods.cpp" />
+    <ClCompile Include="..\Core\SQLite\mutex.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Core\SQLite\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
@@ -625,18 +641,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">NotUsing</PrecompiledHeader>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -646,8 +650,10 @@
     <ClInclude Include="..\Core\SQLite\Driver.h" />
     <ClInclude Include="..\Core\SQLite\filesystem.h" />
     <ClInclude Include="..\Core\SQLite\Global.h" />
+    <ClInclude Include="..\Core\SQLite\mem_methods.h" />
     <ClInclude Include="..\Core\SQLite\pch.h" />
     <ClInclude Include="..\Core\SQLite\sqlite\sqlite3.h" />
+    <ClInclude Include="..\Core\SQLite\sqlite_config.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

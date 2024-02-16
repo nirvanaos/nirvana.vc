@@ -461,7 +461,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -483,7 +483,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -505,7 +505,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -526,7 +526,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
@@ -549,7 +549,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -572,7 +572,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -594,7 +594,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -616,7 +616,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -638,7 +638,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -659,7 +659,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
@@ -682,7 +682,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -705,7 +705,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ExternalIncludePath);..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>

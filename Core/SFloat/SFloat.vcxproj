@@ -264,7 +264,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -292,7 +292,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -319,7 +319,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -349,7 +349,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -377,7 +377,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FloatingPointModel>Strict</FloatingPointModel>
@@ -402,7 +402,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -430,7 +430,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -457,7 +457,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -487,7 +487,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -515,7 +515,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FloatingPointModel>Strict</FloatingPointModel>
@@ -540,7 +540,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>Default</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -569,7 +569,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>Default</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Core\SFloat;..\Core\SFloat\x86_64;..\Core\SFloat\berkeley-softfloat-3\source\8086-SSE;..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\Core\SFloat\berkeley-softfloat-3\source\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
