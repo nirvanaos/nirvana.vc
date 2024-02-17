@@ -641,10 +641,12 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\Core\SQLite\Statement.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\SQLite\Activator.h" />
     <ClInclude Include="..\Core\SQLite\Connection.h" />
+    <ClInclude Include="..\Core\SQLite\Cursor.h" />
     <ClInclude Include="..\Core\SQLite\DataSource.h" />
     <ClInclude Include="..\Core\SQLite\Driver.h" />
     <ClInclude Include="..\Core\SQLite\filesystem.h" />
@@ -654,6 +656,7 @@
     <ClInclude Include="..\Core\SQLite\PreparedStatement.h" />
     <ClInclude Include="..\Core\SQLite\sqlite\sqlite3.h" />
     <ClInclude Include="..\Core\SQLite\sqlite_config.h" />
+    <ClInclude Include="..\Core\SQLite\Statement.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

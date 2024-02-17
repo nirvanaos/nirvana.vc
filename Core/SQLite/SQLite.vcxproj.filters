@@ -51,6 +51,9 @@
     <ClCompile Include="..\Core\SQLite\PreparedStatement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\SQLite\Statement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\SQLite\pch.h">
@@ -84,6 +87,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\SQLite\PreparedStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\SQLite\Cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\SQLite\Statement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
