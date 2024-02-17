@@ -48,6 +48,9 @@
     <ClCompile Include="..\Core\SQLite\Connection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\SQLite\PreparedStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\SQLite\pch.h">
