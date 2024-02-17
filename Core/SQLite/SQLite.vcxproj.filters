@@ -45,6 +45,9 @@
     <ClCompile Include="..\Core\SQLite\mutex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\SQLite\Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\SQLite\pch.h">
@@ -75,6 +78,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\SQLite\mem_methods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\SQLite\PreparedStatement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

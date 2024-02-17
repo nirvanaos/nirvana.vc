@@ -518,7 +518,7 @@
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>vcruntime.lib;msvcrt.lib;ucrt.lib;onecore_apiset.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;clang_rt.builtins-x86_64.lib;ucrt.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
@@ -592,6 +592,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\SQLite\Connection.cpp" />
     <ClCompile Include="..\Core\SQLite\Driver.cpp" />
     <ClCompile Include="..\Core\SQLite\DriverFactory.cpp" />
     <ClCompile Include="..\Core\SQLite\filesystem.cpp" />
@@ -649,6 +650,7 @@
     <ClInclude Include="..\Core\SQLite\Global.h" />
     <ClInclude Include="..\Core\SQLite\mem_methods.h" />
     <ClInclude Include="..\Core\SQLite\pch.h" />
+    <ClInclude Include="..\Core\SQLite\PreparedStatement.h" />
     <ClInclude Include="..\Core\SQLite\sqlite\sqlite3.h" />
     <ClInclude Include="..\Core\SQLite\sqlite_config.h" />
   </ItemGroup>
