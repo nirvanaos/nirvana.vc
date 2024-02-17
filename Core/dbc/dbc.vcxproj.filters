@@ -26,9 +26,6 @@
     <ClCompile Include="..\Core\dbc\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\dbc\IDL\NDBC_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\dbc\pch.h">

@@ -26,9 +26,6 @@
     <ClCompile Include="..\Core\InterfaceRepository\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\InterfaceRepository\IDL\InterfaceRepository_p.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\InterfaceRepository\pch.h">
