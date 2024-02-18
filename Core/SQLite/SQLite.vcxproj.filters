@@ -104,5 +104,8 @@
     <ClInclude Include="..\Core\SQLite\StatementBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\SQLite\Connection_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

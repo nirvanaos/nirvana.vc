@@ -648,6 +648,7 @@
   <ItemGroup>
     <ClInclude Include="..\Core\SQLite\Activator.h" />
     <ClInclude Include="..\Core\SQLite\Connection.h" />
+    <ClInclude Include="..\Core\SQLite\Connection_impl.h" />
     <ClInclude Include="..\Core\SQLite\Cursor.h" />
     <ClInclude Include="..\Core\SQLite\DataSource.h" />
     <ClInclude Include="..\Core\SQLite\Driver.h" />
