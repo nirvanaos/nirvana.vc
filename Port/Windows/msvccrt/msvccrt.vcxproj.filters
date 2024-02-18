@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Windows\msvccrt\output.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\dbgrpt.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\heap.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\invalid_parameter.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\uncaught_exception.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\uncaught_exceptions.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\byteswap.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\initterm.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\atexit.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\stubs.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\makepath.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\splitpath.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\msvccrt\wassert.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{507b6df3-40ce-41a2-bbc0-ffc2422ab7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="i386">
+      <UniqueIdentifier>{522f05ef-daa3-4c4f-9fc8-c5687c384349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="i386\dbg">
+      <UniqueIdentifier>{e8b3de96-26c9-451a-bddf-4f8a26b97a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="i386\rel">
+      <UniqueIdentifier>{94acf741-3916-4381-bfdc-230524f94d9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Windows\msvccrt\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\Windows\msvccrt\i386\dbg\fpexcept.obj">
+      <Filter>i386\dbg</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\rel\fpexcept.obj">
+      <Filter>i386\rel</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\dbg\matherr.obj">
+      <Filter>i386\dbg</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\rel\matherr.obj">
+      <Filter>i386\rel</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\dbg\fegetround.obj">
+      <Filter>i386\dbg</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\rel\fegetround.obj">
+      <Filter>i386\rel</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\dbg\util.obj">
+      <Filter>i386\dbg</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\rel\util.obj">
+      <Filter>i386\rel</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\dbg\fpctrl.obj">
+      <Filter>i386\dbg</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\rel\fpctrl.obj">
+      <Filter>i386\rel</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\dbg\_fenvutils.obj">
+      <Filter>i386\dbg</Filter>
+    </Object>
+    <Object Include="..\Windows\msvccrt\i386\rel\_fenvutils.obj">
+      <Filter>i386\rel</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
