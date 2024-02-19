@@ -670,9 +670,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\Core\dbc\ResultSetImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\dbc\pch.h" />
+    <ClInclude Include="..\Core\dbc\ResultSetImpl.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
