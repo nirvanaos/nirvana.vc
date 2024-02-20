@@ -785,9 +785,6 @@
     <ClInclude Include="..\Core\Source\Packages.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\DriverManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1303,7 +1300,7 @@
     <ClCompile Include="..\Core\Source\IDL\TC_Factory.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\DriverManager.cpp">
+    <ClCompile Include="..\Core\Source\Packages.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
