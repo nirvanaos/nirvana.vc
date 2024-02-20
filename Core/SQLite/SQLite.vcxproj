@@ -594,7 +594,6 @@
   <ItemGroup>
     <ClCompile Include="..\Core\SQLite\Connection.cpp" />
     <ClCompile Include="..\Core\SQLite\Cursor.cpp" />
-    <ClCompile Include="..\Core\SQLite\Driver.cpp" />
     <ClCompile Include="..\Core\SQLite\DriverFactory.cpp" />
     <ClCompile Include="..\Core\SQLite\filesystem.cpp" />
     <ClCompile Include="..\Core\SQLite\Global.cpp" />
