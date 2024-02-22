@@ -37,5 +37,8 @@
     <ClInclude Include="..\Core\dbc\ResultSetImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\dbc\ColumnIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

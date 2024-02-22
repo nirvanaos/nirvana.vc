@@ -30,7 +30,7 @@
     <ClCompile Include="..\Core\SQLite\sqlite\sqlite3.c">
       <Filter>SQLite</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\SQLite\DriverFactory.cpp">
+    <ClCompile Include="..\Core\SQLite\Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\SQLite\Global.cpp">

@@ -673,6 +673,7 @@
     <ClCompile Include="..\Core\dbc\ResultSetImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Core\dbc\ColumnIndex.h" />
     <ClInclude Include="..\Core\dbc\pch.h" />
     <ClInclude Include="..\Core\dbc\ResultSetImpl.h" />
   </ItemGroup>
