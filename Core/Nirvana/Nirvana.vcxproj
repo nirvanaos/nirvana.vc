@@ -281,7 +281,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>HOST_PLATFORM=PLATFORM_X64;NIRVANA_NO_BAD_ALLOC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -308,12 +307,12 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>HOST_PLATFORM=PLATFORM_X64;NIRVANA_NO_BAD_ALLOC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -340,12 +339,12 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>HOST_PLATFORM=PLATFORM_I386;NIRVANA_NO_BAD_ALLOC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -360,6 +359,7 @@
       <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -372,12 +372,12 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>HOST_PLATFORM=PLATFORM_X64;NIRVANA_NO_BAD_ALLOC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -403,12 +403,12 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>HOST_PLATFORM=PLATFORM_X64;NIRVANA_NO_BAD_ALLOC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -434,12 +434,12 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>HOST_PLATFORM=PLATFORM_X64;NIRVANA_NO_BAD_ALLOC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -453,6 +453,7 @@
       <AdditionalOptions>/Zc:sizedDealloc /bigobj /Zc:__cplusplus -mlzcnt</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -465,12 +466,12 @@
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -503,7 +504,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -536,7 +536,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
@@ -570,7 +569,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -603,7 +601,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -636,7 +633,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
@@ -743,7 +739,20 @@
     <ClCompile Include="..\Core\Exports\IDL\CCM_Cookie_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CCM_Events_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CCM_Exceptions_p.cpp" />
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Home_p.cpp" />
+    <ClCompile Include="..\Core\Exports\IDL\CCM_Home_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Core\Exports\IDL\CCM_Navigation_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CCM_Object_p.cpp" />
     <ClCompile Include="..\Core\Exports\IDL\CCM_Receptacle_p.cpp" />

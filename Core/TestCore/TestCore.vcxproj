@@ -284,6 +284,7 @@
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
@@ -305,6 +306,7 @@
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
@@ -319,6 +321,7 @@
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -326,6 +329,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
@@ -347,6 +351,7 @@
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
@@ -368,6 +373,7 @@
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
@@ -382,6 +388,7 @@
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <AdditionalDependencies>clang_rt.builtins-x86_64.lib;onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -390,6 +397,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <TargetMachine>MachineX64</TargetMachine>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">

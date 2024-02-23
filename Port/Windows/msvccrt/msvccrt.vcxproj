@@ -508,6 +508,7 @@
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -641,6 +642,7 @@
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(ExternalIncludePath);$(VCToolsInstallDir)crt\src\vcruntime;$(UCRTContentRoot)Source\$(TargetUniversalCRTVersion)\ucrt\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>

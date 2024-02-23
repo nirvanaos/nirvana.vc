@@ -1661,6 +1661,7 @@
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -1732,6 +1733,7 @@
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

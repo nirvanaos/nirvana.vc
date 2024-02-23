@@ -302,6 +302,7 @@
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
@@ -328,6 +329,7 @@
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
@@ -345,6 +347,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -353,6 +356,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
@@ -379,6 +383,7 @@
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
@@ -405,6 +410,7 @@
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
@@ -422,6 +428,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -430,6 +437,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">

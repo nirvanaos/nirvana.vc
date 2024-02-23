@@ -328,6 +328,7 @@
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -479,6 +480,7 @@
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>
