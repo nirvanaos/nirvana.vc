@@ -598,20 +598,7 @@
     <ClCompile Include="..\Core\SQLite\filesystem.cpp" />
     <ClCompile Include="..\Core\SQLite\Global.cpp" />
     <ClCompile Include="..\Core\SQLite\mem_methods.cpp" />
-    <ClCompile Include="..\Core\SQLite\mutex.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\Core\SQLite\mutex_methods.cpp" />
     <ClCompile Include="..\Core\SQLite\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
@@ -654,6 +641,7 @@
     <ClInclude Include="..\Core\SQLite\filesystem.h" />
     <ClInclude Include="..\Core\SQLite\Global.h" />
     <ClInclude Include="..\Core\SQLite\mem_methods.h" />
+    <ClInclude Include="..\Core\SQLite\mutex_methods.h" />
     <ClInclude Include="..\Core\SQLite\pch.h" />
     <ClInclude Include="..\Core\SQLite\PreparedStatement.h" />
     <ClInclude Include="..\Core\SQLite\sqlite\sqlite3.h" />
