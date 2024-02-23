@@ -107,5 +107,8 @@
     <ClInclude Include="..\Core\SQLite\mutex_methods.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\SQLite\WritableStaticData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

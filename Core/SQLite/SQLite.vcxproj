@@ -648,6 +648,7 @@
     <ClInclude Include="..\Core\SQLite\sqlite_config.h" />
     <ClInclude Include="..\Core\SQLite\Statement.h" />
     <ClInclude Include="..\Core\SQLite\StatementBase.h" />
+    <ClInclude Include="..\Core\SQLite\WritableStaticData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
