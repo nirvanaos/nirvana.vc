@@ -290,7 +290,7 @@
       <PrecompiledHeaderFile>..\Core\dbc/pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -369,7 +369,7 @@
       <PrecompiledHeaderFile>..\Core\dbc/pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
@@ -418,7 +418,7 @@
       <PrecompiledHeaderFile>..\Core\dbc/pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus /bigobj</AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -497,7 +497,7 @@
       <PrecompiledHeaderFile>..\Core\dbc/pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus /bigobj</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
