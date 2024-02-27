@@ -103,9 +103,6 @@
     <ClCompile Include="..\Core\Exports\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\tc_constants.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\tc_exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
