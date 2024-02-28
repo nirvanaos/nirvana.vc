@@ -785,6 +785,9 @@
     <ClInclude Include="..\Core\Source\Packages.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\NameService\NamingContextDefault.h">
+      <Filter>NameService\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1305,6 +1308,9 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\AtExit.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\NameService\NamingContextDefault.cpp">
+      <Filter>NameService\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

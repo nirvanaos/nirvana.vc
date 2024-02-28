@@ -1,5 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
+# Build and run core tests.
 name: Test Core
 
 # Controls when the workflow will run
@@ -88,7 +87,7 @@ jobs:
             python-version: 3.8
 
       - name: Test Results
-        uses: EnricoMi/publish-unit-test-result-action/composite@v2
+        uses: EnricoMi/publish-unit-test-result-action/windows@v2
         id: test-results
         if: always()
         with:
