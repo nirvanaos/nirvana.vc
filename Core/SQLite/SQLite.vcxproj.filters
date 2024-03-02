@@ -65,16 +65,10 @@
     <ClInclude Include="..\Core\SQLite\sqlite\sqlite3.h">
       <Filter>SQLite</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\SQLite\Activator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\SQLite\Connection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\SQLite\Driver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\SQLite\DataSource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\SQLite\filesystem.h">

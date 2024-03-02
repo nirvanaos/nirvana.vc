@@ -994,6 +994,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\SecurityInfo.cpp" />
     <ClCompile Include="..\Windows\Source\shutdown.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\Windows\Source/pch.h</PrecompiledHeaderFile>
@@ -1395,6 +1396,7 @@
     <ClInclude Include="..\Windows\Source\SchedulerMessage.h" />
     <ClInclude Include="..\Windows\Source\SchedulerAbstract.h" />
     <ClInclude Include="..\Windows\Source\SchedulerMaster.h" />
+    <ClInclude Include="..\Windows\Source\SecurityInfo.h" />
     <ClInclude Include="..\Windows\Source\shutdown.h" />
     <ClInclude Include="..\Windows\Source\app_data.h" />
     <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
