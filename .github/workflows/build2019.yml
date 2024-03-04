@@ -152,8 +152,8 @@ jobs:
         if: >
           github.event_name == 'workflow_run' && github.event.workflow_run.head_branch == 'master' ||
           github.event_name != 'workflow_run' && github.ref == 'refs/heads/master'
-        uses: exuanbo/actions-deploy-gist@v1
+        uses: andymckay/append-gist-action@0.2
         with:
           token: ${{ secrets.GIST_TOKEN }}
-          gist_id: https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a
-          file_path: test2019.svg
+          gistURL: https://gist.githubusercontent.com/silver-popov/5e83ddfb2531206b60b6451851c51b2a
+          file: test2019.svg
