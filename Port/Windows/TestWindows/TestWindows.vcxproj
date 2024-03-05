@@ -51,6 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Windows\Test\TestSecurity.cpp" />
     <ClCompile Include="..\Windows\Test\TestThreadPool.cpp" />
     <ClCompile Include="..\Windows\Test\TestTimer.cpp" />
   </ItemGroup>
