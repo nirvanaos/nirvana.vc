@@ -171,7 +171,10 @@
     <ClCompile Include="..\Windows\Source\SecurityInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\TokenUser.cpp">
+    <ClCompile Include="..\Windows\Source\TokenInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\FileSecurityAttributes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -389,10 +392,13 @@
     <ClInclude Include="..\Windows\Source\SecurityInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\TokenUser.h">
+    <ClInclude Include="..\Windows\Source\TokenInformation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\Handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\FileSecurityAttributes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

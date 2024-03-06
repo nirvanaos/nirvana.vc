@@ -324,6 +324,7 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="..\Windows\Source\FileAccessConsoleBase.cpp" />
+    <ClCompile Include="..\Windows\Source\FileSecurityAttributes.cpp" />
     <ClCompile Include="..\Windows\Source\FileSystem.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\Windows\Source/pch.h</PrecompiledHeaderFile>
@@ -1292,7 +1293,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\TokenUser.cpp" />
+    <ClCompile Include="..\Windows\Source\TokenInformation.cpp" />
     <ClCompile Include="..\Windows\Source\unrecoverable_error.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\Windows\Source/pch.h</PrecompiledHeaderFile>
@@ -1379,6 +1380,7 @@
     <ClInclude Include="..\Windows\Source\ExecContext.inl" />
     <ClInclude Include="..\Windows\Source\FileAccess.h" />
     <ClInclude Include="..\Windows\Source\FileAccessConsoleBase.h" />
+    <ClInclude Include="..\Windows\Source\FileSecurityAttributes.h" />
     <ClInclude Include="..\Windows\Source\FileSystemImpl.h" />
     <ClInclude Include="..\Windows\Source\Handle.h" />
     <ClInclude Include="..\Windows\Source\initialize.h" />
@@ -1402,7 +1404,7 @@
     <ClInclude Include="..\Windows\Source\shutdown.h" />
     <ClInclude Include="..\Windows\Source\app_data.h" />
     <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
-    <ClInclude Include="..\Windows\Source\TokenUser.h" />
+    <ClInclude Include="..\Windows\Source\TokenInformation.h" />
     <ClInclude Include="..\Windows\Source\WinWChar.h" />
     <ClInclude Include="..\Windows\Source\WorkerSemaphore.h" />
     <ClInclude Include="..\Windows\Source\Thread.inl" />
