@@ -716,9 +716,6 @@
     <ClInclude Include="..\Core\Source\FileAccessCharProxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\CharFileAdapter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\AtExit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -1313,6 +1310,9 @@
       <Filter>NameService\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Security.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\FileAccessCharProxy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
