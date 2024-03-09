@@ -588,6 +588,7 @@
     <ClInclude Include="..\Core\Source\EventSyncTimeout.h" />
     <ClInclude Include="..\Core\Source\FileAccessBuf.h" />
     <ClInclude Include="..\Core\Source\FileAccessCharProxy.h" />
+    <ClInclude Include="..\Core\Source\FileAccessChar_impl.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirect.h" />
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h" />
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
