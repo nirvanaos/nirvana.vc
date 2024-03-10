@@ -158,7 +158,7 @@
     <ClInclude Include="..\Core\Source\UserObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\RuntimeSupport.h">
+    <ClInclude Include="..\Core\Source\RuntimeSupportContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\CoreObject.h">
@@ -290,9 +290,6 @@
     <ClInclude Include="..\Core\Source\HeapUser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\MemContextUser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Binary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -330,9 +327,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\BitmapOps.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\MemContextCore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\TC_Fixed.h">
@@ -788,6 +782,30 @@
     <ClInclude Include="..\Core\Source\FileAccessChar_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\TLS_Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\RuntimeSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\FileDescriptorsContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\FileDescriptors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\CurrentDirContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\CurrentDir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\DeadlinePolicyContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\DeadlinePolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -901,9 +919,6 @@
     <ClCompile Include="..\Core\Source\MemContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\MemContextUser.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -914,9 +929,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\TLS.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\RuntimeSupport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\TC_Fixed.cpp">
@@ -1174,9 +1186,6 @@
     <ClCompile Include="..\Core\Source\RuntimeGlobal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\MemContextCore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessDirectProxy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1316,6 +1325,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessCharProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\FileDescriptorsContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\FileDescriptors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\CurrentDirContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
