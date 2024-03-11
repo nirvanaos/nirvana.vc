@@ -161,9 +161,6 @@
     <ClInclude Include="..\Core\Source\RuntimeSupportContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\CoreObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\UserAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -287,9 +284,6 @@
     <ClInclude Include="..\Core\Source\PreallocatedStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\HeapUser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Binary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -312,9 +306,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\SharedAllocator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\SharedObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\ORB\Services.h">
@@ -911,9 +902,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\initterm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\HeapUser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\MemContext.cpp">

@@ -599,9 +599,7 @@
     <ClInclude Include="..\Core\Source\FileDescriptorsContext.h" />
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
-    <ClInclude Include="..\Core\Source\HeapUser.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
-    <ClInclude Include="..\Core\Source\CoreObject.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
     <ClInclude Include="..\Core\Source\Launcher.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
@@ -770,7 +768,6 @@
     <ClInclude Include="..\Core\Source\Section.h" />
     <ClInclude Include="..\Core\Source\Security.h" />
     <ClInclude Include="..\Core\Source\SharedAllocator.h" />
-    <ClInclude Include="..\Core\Source\SharedObject.h" />
     <ClInclude Include="..\Core\Source\Signals.h" />
     <ClInclude Include="..\Core\Source\Singleton.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
@@ -1365,32 +1362,6 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileDescriptorsContext.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\HeapUser.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">pch.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
