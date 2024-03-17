@@ -598,6 +598,7 @@
     <ClInclude Include="..\Core\Source\FileAccessDirectProxy.h" />
     <ClInclude Include="..\Core\Source\FileDescriptors.h" />
     <ClInclude Include="..\Core\Source\FileDescriptorsContext.h" />
+    <ClInclude Include="..\Core\Source\FileLockMap.h" />
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
