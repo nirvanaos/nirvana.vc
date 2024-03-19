@@ -809,7 +809,7 @@
     <ClInclude Include="..\Core\Source\the_security.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\FileLockMap.h">
+    <ClInclude Include="..\Core\Source\FileLockRanges.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1340,6 +1340,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\HeapDynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\FileLockRanges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
