@@ -41,6 +41,9 @@
     <ClCompile Include="..\Core\Test\TestCore\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestCore\TestFileLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Test\TestCore\readme.md" />
