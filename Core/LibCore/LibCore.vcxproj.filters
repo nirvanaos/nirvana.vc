@@ -794,13 +794,7 @@
     <ClInclude Include="..\Core\Source\DeadlinePolicy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\the_binder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Debugger.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\the_chrono.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\the_security.h">
@@ -810,6 +804,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\FileLockQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Source\POSIX.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1342,6 +1339,9 @@
     <ClCompile Include="..\Core\Source\FileLockRanges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\IDL\IOP.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
@@ -1431,9 +1431,6 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NVList.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\IOP.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\AMI.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
@@ -1481,6 +1478,12 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Receptacle.idl">
       <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\MessageRouting.idl">
+      <Filter>ORB\IDL\Internal</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Source\ORB\IOP.idl">
+      <Filter>ORB\IDL\Internal</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
