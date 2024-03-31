@@ -755,7 +755,7 @@
     <ClInclude Include="..\Core\Source\Nirvana_Process.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Launcher.h">
+    <ClInclude Include="..\Core\Source\Shell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\SysManager.h">
@@ -1452,7 +1452,7 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_types.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\ProcessFactory.idl">
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Shell.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Base.idl">

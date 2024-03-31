@@ -118,9 +118,6 @@
     <ClCompile Include="..\Core\Exports\IDL\CORBA_types_p.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\ProcessFactory_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\IDL\CCM_Base_p.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
@@ -143,6 +140,9 @@
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\IDL\CCM_Receptacle_p.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Exports\IDL\Shell_p.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
   </ItemGroup>

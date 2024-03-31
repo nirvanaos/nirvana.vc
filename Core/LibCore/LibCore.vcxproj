@@ -604,7 +604,7 @@
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
-    <ClInclude Include="..\Core\Source\Launcher.h" />
+    <ClInclude Include="..\Core\Source\Shell.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h" />
     <ClInclude Include="..\Core\Source\MapOrderedStable.h" />
@@ -7347,7 +7347,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\ProcessFactory.idl">
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Shell.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../pch.h" "%(Identity)" -proxy -out_cpp "$(SolutionDir)Core\Core\Exports\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../pch.h" "%(Identity)" -proxy -out_cpp "$(SolutionDir)Core\Core\Exports\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../pch.h" "%(Identity)" -proxy -out_cpp "$(SolutionDir)Core\Core\Exports\IDL"</Command>
