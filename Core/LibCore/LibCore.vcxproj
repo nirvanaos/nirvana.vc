@@ -3459,6 +3459,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">..\pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\RequestOutSync.cpp" />
     <ClCompile Include="..\Core\Source\ORB\RqHelper.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">..\pch.h</PrecompiledHeaderFile>

@@ -1342,6 +1342,9 @@
     <ClCompile Include="..\Core\Source\IDL\IOP.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\ORB\RequestOutSync.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
