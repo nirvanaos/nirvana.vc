@@ -1488,6 +1488,9 @@
     <CustomBuild Include="..\Core\Source\ORB\IOP.idl">
       <Filter>ORB\IDL\Internal</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\NDBC_ex.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl">
