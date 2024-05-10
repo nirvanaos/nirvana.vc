@@ -147,7 +147,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Installer", "Core\Installer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PE", "PE", "{F4A230AF-F8B6-4F3B-98FF-C30E93A6F84C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pe_bliss", "pe\pe_bliss\pe_lib\pe_lib.vcxproj", "{1461F543-D1FA-4E4C-B6D7-0F879F566035}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pe_bliss", "pe\pe_bliss\pe_lib\pe_lib_n.vcxproj", "{1461F543-D1FA-4E4C-B6D7-0F879F566035}"
+	ProjectSection(ProjectDependencies) = postProject
+		{810A987D-BFF4-4112-A59F-B8EAE9FCCD65} = {810A987D-BFF4-4112-A59F-B8EAE9FCCD65}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
