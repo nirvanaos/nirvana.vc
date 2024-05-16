@@ -396,7 +396,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>ucrtd.lib;vcruntimed.lib;msvcrtd.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>ucrtd.lib;vcruntimed.lib;msvcrtd.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <OptimizeReferences>true</OptimizeReferences>
@@ -427,7 +427,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>ucrtd.lib;vcruntimed.lib;msvcrtd.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>ucrtd.lib;vcruntimed.lib;msvcrtd.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <OptimizeReferences>true</OptimizeReferences>
@@ -493,7 +493,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>ucrt.lib;vcruntime.lib;msvcrt.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>ucrt.lib;vcruntime.lib;msvcrt.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <IgnoreSpecificDefaultLibraries>
@@ -525,7 +525,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>ucrt.lib;vcruntime.lib;msvcrt.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>ucrt.lib;vcruntime.lib;msvcrt.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <IgnoreSpecificDefaultLibraries>
@@ -557,7 +557,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>ucrt.lib;vcruntime.lib;msvcrt.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>ucrt.lib;vcruntime.lib;msvcrt.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib</AdditionalDependencies>
       <TargetMachine>MachineX86</TargetMachine>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
