@@ -33,12 +33,6 @@
     <Filter Include="parallel-hashmap">
       <UniqueIdentifier>{43efe92b-a3a1-43ed-816f-170488d5d871}</UniqueIdentifier>
     </Filter>
-    <Filter Include="llvm">
-      <UniqueIdentifier>{363e8c04-0cde-4d74-8541-2d664680a22b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="llvm\BinaryFormat">
-      <UniqueIdentifier>{756780f1-8516-4905-8537-8d8b5220f102}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ORB\IDL\Internal">
       <UniqueIdentifier>{39dec286-9fe1-4035-a5bb-d6a89fe36d65}</UniqueIdentifier>
     </Filter>
@@ -197,13 +191,7 @@
     <ClInclude Include="..\Core\Source\Startup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\PortableExecutable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Section.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\COFF.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Module.h">
@@ -259,9 +247,6 @@
     </ClInclude>
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\phmap_utils.h">
       <Filter>parallel-hashmap</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\Source\llvm\BinaryFormat\COFF.h">
-      <Filter>llvm\BinaryFormat</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\MemContext.h">
       <Filter>Header Files</Filter>
@@ -881,12 +866,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Startup.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\PortableExecutable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\COFF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Synchronized.cpp">
