@@ -74,6 +74,9 @@
     <ProjectReference Include="..\pe\pe.vcxproj">
       <Project>{389a90ef-1651-4003-a7fa-f6cfd5aa7c23}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Windows\pe\pe_bliss\pe_lib\pe_lib_n.vcxproj">
+      <Project>{1461f543-d1fa-4e4c-b6d7-0f879f566035}</Project>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
