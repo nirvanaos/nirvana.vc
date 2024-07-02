@@ -737,9 +737,6 @@
     <ClInclude Include="..\Core\Source\Executable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Nirvana_Process.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\Shell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -1253,9 +1250,6 @@
       <Filter>NameService\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Executable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\Nirvana_Process.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\SysManager.cpp">
