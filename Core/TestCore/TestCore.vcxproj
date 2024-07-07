@@ -575,9 +575,6 @@
     <ProjectReference Include="..\..\Port\Windows\pe\pe.vcxproj">
       <Project>{389a90ef-1651-4003-a7fa-f6cfd5aa7c23}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\Port\Windows\Windows\pe\pe_bliss\pe_lib\pe_lib_n.vcxproj">
-      <Project>{1461f543-d1fa-4e4c-b6d7-0f879f566035}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\LibCore\LibCore.vcxproj">
       <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
     </ProjectReference>
