@@ -743,9 +743,6 @@
     <ClInclude Include="..\Core\Source\SysManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\Packages.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\NameService\NamingContextDefault.h">
       <Filter>NameService\Header Files</Filter>
     </ClInclude>
@@ -1284,9 +1281,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\IDL\TC_Factory.cpp">
       <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\Packages.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\AtExit.cpp">
       <Filter>Source Files</Filter>
