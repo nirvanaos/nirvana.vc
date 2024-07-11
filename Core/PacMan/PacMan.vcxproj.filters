@@ -59,6 +59,9 @@
     <ClCompile Include="..\Core\PacMan\Statement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\PacMan\Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\Core\PacMan\PM.idl">

@@ -597,6 +597,7 @@
     <ClInclude Include="..\Core\PacMan\Statement.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\PacMan\Connection.cpp" />
     <ClCompile Include="..\Core\PacMan\PacFactory.cpp" />
     <ClCompile Include="..\Core\PacMan\Packages.cpp" />
     <ClCompile Include="..\Core\PacMan\PacMan.cpp" />
