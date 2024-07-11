@@ -593,6 +593,8 @@
     <ClInclude Include="..\Core\PacMan\Packages.h" />
     <ClInclude Include="..\Core\PacMan\PacMan.h" />
     <ClInclude Include="..\Core\PacMan\pch.h" />
+    <ClInclude Include="..\Core\PacMan\SemVer.h" />
+    <ClInclude Include="..\Core\PacMan\Statement.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\PacMan\PacFactory.cpp" />
@@ -613,6 +615,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\Core\PacMan\SemVer.cpp" />
+    <ClCompile Include="..\Core\PacMan\Statement.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\Core\PacMan\PM.idl">
