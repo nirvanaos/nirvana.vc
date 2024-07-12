@@ -64,7 +64,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Core\PacMan\PM.idl">
+    <CustomBuild Include="..\Core\PacMan\internal.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

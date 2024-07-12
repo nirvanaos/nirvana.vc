@@ -1479,6 +1479,9 @@
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\BindError.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Packages.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl">
