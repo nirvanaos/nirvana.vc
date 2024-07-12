@@ -791,9 +791,6 @@
     <ClInclude Include="..\Core\Source\BindError.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\packagedb.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\open_binary.h">
       <Filter>Header Files</Filter>
     </ClInclude>

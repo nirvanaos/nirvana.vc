@@ -605,7 +605,6 @@
     <ClInclude Include="..\Core\Source\IO_Request.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
     <ClInclude Include="..\Core\Source\open_binary.h" />
-    <ClInclude Include="..\Core\Source\packagedb.h" />
     <ClInclude Include="..\Core\Source\Shell.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\MapOrderedStable.h" />
