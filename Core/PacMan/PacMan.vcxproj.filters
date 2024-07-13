@@ -33,7 +33,7 @@
     <ClInclude Include="..\Core\PacMan\SemVer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\PacMan\Statement.h">
+    <ClInclude Include="..\Core\PacMan\ConnectionPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,15 +56,15 @@
     <ClCompile Include="..\Core\PacMan\SemVer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\PacMan\Statement.cpp">
+    <ClCompile Include="..\Core\PacMan\Connection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\PacMan\Connection.cpp">
+    <ClCompile Include="..\Core\PacMan\ConnectionPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Core\PacMan\internal.idl">
+    <CustomBuild Include="..\Core\PacMan\factory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

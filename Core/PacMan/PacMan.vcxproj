@@ -581,14 +581,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\PacMan\Connection.h" />
+    <ClInclude Include="..\Core\PacMan\ConnectionPool.h" />
     <ClInclude Include="..\Core\PacMan\Packages.h" />
     <ClInclude Include="..\Core\PacMan\PacMan.h" />
     <ClInclude Include="..\Core\PacMan\pch.h" />
     <ClInclude Include="..\Core\PacMan\SemVer.h" />
-    <ClInclude Include="..\Core\PacMan\Statement.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\PacMan\Connection.cpp" />
+    <ClCompile Include="..\Core\PacMan\ConnectionPool.cpp" />
     <ClCompile Include="..\Core\PacMan\PacFactory.cpp" />
     <ClCompile Include="..\Core\PacMan\Packages.cpp" />
     <ClCompile Include="..\Core\PacMan\PacMan.cpp" />
@@ -608,10 +609,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\Core\PacMan\SemVer.cpp" />
-    <ClCompile Include="..\Core\PacMan\Statement.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Core\PacMan\internal.idl">
+    <CustomBuild Include="..\Core\PacMan\factory.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
