@@ -788,9 +788,6 @@
     <ClInclude Include="..\Core\Source\POSIX.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\BindError.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\open_binary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -1317,9 +1314,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RequestOutSync.cpp">
       <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\BindError.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\Binary.cpp">
       <Filter>Source Files</Filter>

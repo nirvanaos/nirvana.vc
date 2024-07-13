@@ -575,17 +575,8 @@
     <ProjectReference Include="..\..\Library.VC\Nirvana\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\Port\Windows\LibWindows\LibWindows.vcxproj">
-      <Project>{3f85577e-cfd2-4fb9-9c3c-6da6bba3cda5}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\Port\Windows\msvcstl\msvcstl.vcxproj">
       <Project>{912c31c9-a2f1-475b-929f-1203dae1363b}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Port\Windows\pe\pe.vcxproj">
-      <Project>{389a90ef-1651-4003-a7fa-f6cfd5aa7c23}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\LibCore\LibCore.vcxproj">
-      <Project>{3d48b775-2793-4249-bce4-57736373ec32}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
