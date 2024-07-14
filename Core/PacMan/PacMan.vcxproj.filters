@@ -36,6 +36,9 @@
     <ClInclude Include="..\Core\PacMan\ConnectionPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\PacMan\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\PacMan\Packages.cpp">
