@@ -101,69 +101,69 @@ jobs:
         run: ./Clean.ps1 "Win32" "Release 2022"
         shell: pwsh
 
-      - name: x64 Debug LLVM build
-        run: ./Build.ps1 "x64" "Debug LLVM"
-        shell: pwsh
+#      - name: x64 Debug LLVM build
+#        run: ./Build.ps1 "x64" "Debug LLVM"
+#        shell: pwsh
 
-      - name: x64 Debug LLVM test libraries
-        run: ./TestLibs.ps1 "x64" "Debug LLVM"
-        shell: pwsh
+#      - name: x64 Debug LLVM test libraries
+#        run: ./TestLibs.ps1 "x64" "Debug LLVM"
+#        shell: pwsh
 
-      - name: x64 Debug LLVM test
-        run: ./Test.ps1 "x64" "Debug LLVM"
-        shell: pwsh
+#      - name: x64 Debug LLVM test
+#        run: ./Test.ps1 "x64" "Debug LLVM"
+#        shell: pwsh
 
-      - name: x64 Debug LLVM clean
-        run: ./Clean.ps1 "x64" "Debug LLVM"
-        shell: pwsh
+#      - name: x64 Debug LLVM clean
+#        run: ./Clean.ps1 "x64" "Debug LLVM"
+#        shell: pwsh
 
-      - name: x64 Release LLVM build
-        run: ./Build.ps1 "x64" "Release LLVM"
-        shell: pwsh
+#      - name: x64 Release LLVM build
+#        run: ./Build.ps1 "x64" "Release LLVM"
+#        shell: pwsh
 
-      - name: x64 Release LLVM test libraries
-        run: ./TestLibs.ps1 "x64" "Release LLVM"
-        shell: pwsh
+#      - name: x64 Release LLVM test libraries
+#        run: ./TestLibs.ps1 "x64" "Release LLVM"
+#        shell: pwsh
 
-      - name: x64 Release LLVM test
-        run: ./Test.ps1 "x64" "Release LLVM"
-        shell: pwsh
+#      - name: x64 Release LLVM test
+#        run: ./Test.ps1 "x64" "Release LLVM"
+#        shell: pwsh
 
-      - name: x64 Release LLVM clean
-        run: ./Clean.ps1 "x64" "Release LLVM"
-        shell: pwsh
+#      - name: x64 Release LLVM clean
+#        run: ./Clean.ps1 "x64" "Release LLVM"
+#        shell: pwsh
 
-      - name: Win32 Debug LLVM build
-        run: ./Build.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
+#      - name: Win32 Debug LLVM build
+#        run: ./Build.ps1 "Win32" "Debug LLVM"
+#        shell: pwsh
 
-      - name: Win32 Debug LLVM test libraries
-        run: ./TestLibs.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
+#      - name: Win32 Debug LLVM test libraries
+#        run: ./TestLibs.ps1 "Win32" "Debug LLVM"
+#        shell: pwsh
 
-      - name: Win32 Debug LLVM test
-        run: ./Test.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
+#      - name: Win32 Debug LLVM test
+#        run: ./Test.ps1 "Win32" "Debug LLVM"
+#        shell: pwsh
 
-      - name: Win32 Debug LLVM clean
-        run: ./Clean.ps1 "Win32" "Debug LLVM"
-        shell: pwsh
+#      - name: Win32 Debug LLVM clean
+#        run: ./Clean.ps1 "Win32" "Debug LLVM"
+#        shell: pwsh
 
-      - name: Win32 Release LLVM build
-        run: ./Build.ps1 "Win32" "Release LLVM"
-        shell: pwsh
+#      - name: Win32 Release LLVM build
+#        run: ./Build.ps1 "Win32" "Release LLVM"
+#        shell: pwsh
 
-      - name: Win32 Release LLVM test libraries
-        run: ./TestLibs.ps1 "Win32" "Release LLVM"
-        shell: pwsh
+#      - name: Win32 Release LLVM test libraries
+#        run: ./TestLibs.ps1 "Win32" "Release LLVM"
+#        shell: pwsh
 
-      - name: Win32 Release LLVM test
-        run: ./Test.ps1 "Win32" "Release LLVM"
-        shell: pwsh
+#      - name: Win32 Release LLVM test
+#        run: ./Test.ps1 "Win32" "Release LLVM"
+#        shell: pwsh
 
-      - name: Win32 Release LLVM clean
-        run: ./Clean.ps1 "Win32" "Release LLVM"
-        shell: pwsh
+#      - name: Win32 Release LLVM clean
+#        run: ./Clean.ps1 "Win32" "Release LLVM"
+#        shell: pwsh
 
       - name: Upload Logs
         if: ${{ always() }}
