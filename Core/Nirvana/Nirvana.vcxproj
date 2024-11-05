@@ -439,7 +439,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>ucrtd.lib;vcruntimed.lib;msvcrtd.lib;libcpmtd.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib</AdditionalDependencies>
+      <AdditionalDependencies>ucrtd.lib;vcruntimed.lib;msvcrtd.lib;onecore_apiset.lib;ntdll.lib;user32.lib;dbghelp.lib;shell32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EntryPointSymbol>nirvana_startup</EntryPointSymbol>
       <OptimizeReferences>true</OptimizeReferences>
@@ -448,6 +448,7 @@
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
+    <ProjectReference />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
     <ClCompile>
