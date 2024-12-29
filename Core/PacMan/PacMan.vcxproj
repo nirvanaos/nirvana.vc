@@ -185,6 +185,7 @@
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
@@ -193,6 +194,7 @@
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(LLVMInstallDir)\bin;$(ExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
     <OutDir>$(SolutionDir)x64\$(Configuration)\x86\</OutDir>
@@ -201,6 +203,7 @@
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
@@ -209,6 +212,7 @@
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <OutDir>$(SolutionDir)x64\$(Configuration)\x86\</OutDir>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
@@ -217,36 +221,42 @@
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(LLVMInstallDir)\bin;$(ExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(LLVMInstallDir)\bin;$(ExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.olf</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(LLVMInstallDir)\bin;$(ExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
     <OutDir>$(SolutionDir)x64\$(Configuration)\x86\</OutDir>
@@ -255,12 +265,14 @@
     <LinkIncremental>false</LinkIncremental>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <TargetExt>.olf</TargetExt>
     <LinkIncremental>false</LinkIncremental>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnabled>false</VcpkgEnabled>
@@ -625,18 +637,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\Core\PacMan\factory.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "pch.h" "%(Identity)"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
