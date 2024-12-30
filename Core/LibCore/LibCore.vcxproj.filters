@@ -794,6 +794,9 @@
     <ClInclude Include="..\Core\Source\CoreModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\append_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1321,6 +1324,9 @@
     <ClCompile Include="..\Core\Source\open_binary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\append_path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
@@ -1471,6 +1477,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Packages.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\FileStat.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
