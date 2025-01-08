@@ -797,6 +797,9 @@
     <ClInclude Include="..\Core\Source\append_path.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\LocaleImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1325,6 +1328,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\append_path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\LocaleImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
