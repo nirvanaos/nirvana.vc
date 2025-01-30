@@ -665,6 +665,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\dbc\Manager.cpp" />
     <ClCompile Include="..\Core\dbc\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
@@ -679,11 +680,17 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\Core\dbc\Pool.cpp" />
+    <ClCompile Include="..\Core\dbc\PoolableStatement.cpp" />
     <ClCompile Include="..\Core\dbc\ResultSetImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\dbc\ColumnIndex.h" />
+    <ClInclude Include="..\Core\dbc\ConnectionPoolImpl.h" />
     <ClInclude Include="..\Core\dbc\pch.h" />
+    <ClInclude Include="..\Core\dbc\Pool.h" />
+    <ClInclude Include="..\Core\dbc\PoolableConnection.h" />
+    <ClInclude Include="..\Core\dbc\PoolableStatement.h" />
     <ClInclude Include="..\Core\dbc\ResultSetImpl.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
