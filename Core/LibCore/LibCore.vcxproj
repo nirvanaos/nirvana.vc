@@ -588,6 +588,7 @@
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
     <ClInclude Include="..\Core\Source\CurrentDir.h" />
     <ClInclude Include="..\Core\Source\CurrentDirContext.h" />
+    <ClInclude Include="..\Core\Source\DataState.h" />
     <ClInclude Include="..\Core\Source\DeadlinePolicy.h" />
     <ClInclude Include="..\Core\Source\DeadlinePolicyContext.h" />
     <ClInclude Include="..\Core\Source\Debugger.h" />
