@@ -800,7 +800,7 @@
     <ClInclude Include="..\Core\Source\LocaleImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\DataState.h">
+    <ClInclude Include="..\Core\Source\EventUser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1334,6 +1334,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\LocaleImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\FileLockQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
