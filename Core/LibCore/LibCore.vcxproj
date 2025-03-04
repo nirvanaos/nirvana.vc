@@ -801,6 +801,7 @@
     <ClInclude Include="..\Core\Source\BackOff.h" />
     <ClInclude Include="..\Core\Source\the_security.h" />
     <ClInclude Include="..\Core\Source\ThreadBackground.h" />
+    <ClInclude Include="..\Core\Source\Timeout.h" />
     <ClInclude Include="..\Core\Source\Timer.h" />
     <ClInclude Include="..\Core\Source\TimerAsyncCall.h" />
     <ClInclude Include="..\Core\Source\TimerEvent.h" />
@@ -5250,6 +5251,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\Timeout.cpp" />
     <ClCompile Include="..\Core\Source\TimerAsyncCall.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">pch.h</PrecompiledHeaderFile>
