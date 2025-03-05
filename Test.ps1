@@ -56,7 +56,7 @@ Start-Process -Wait -NoNewWindow -FilePath ".\Nirvana.exe" -ArgumentList "-d"
 
 cd $PSScriptRoot
 
-if ($sysdomain.WaitForExit(1000)) {
+if ($sysdomain.WaitForExit(10000)) {
 	Write-Host "System domain exit code:" $sysdomain.ExitCode
 } else {
 	Write-Host "Nirvana has not exited, kill"
