@@ -602,7 +602,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\PacMan\Connection.h" />
-    <ClInclude Include="..\Core\PacMan\ConnectionPool.h" />
     <ClInclude Include="..\Core\PacMan\Packages.h" />
     <ClInclude Include="..\Core\PacMan\PacMan.h" />
     <ClInclude Include="..\Core\PacMan\pch.h" />
@@ -611,7 +610,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\PacMan\Connection.cpp" />
-    <ClCompile Include="..\Core\PacMan\ConnectionPool.cpp" />
     <ClCompile Include="..\Core\PacMan\PacFactory.cpp" />
     <ClCompile Include="..\Core\PacMan\Packages.cpp" />
     <ClCompile Include="..\Core\PacMan\PacMan.cpp" />
