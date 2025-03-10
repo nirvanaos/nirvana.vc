@@ -36,6 +36,9 @@
     <ClInclude Include="..\Core\PacMan\version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\PacMan\Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\PacMan\Packages.cpp">
@@ -47,10 +50,10 @@
     <ClCompile Include="..\Core\PacMan\PacMan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\PacMan\PacFactory.cpp">
+    <ClCompile Include="..\Core\PacMan\pac_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\PacMan\PacManFactory.cpp">
+    <ClCompile Include="..\Core\PacMan\man_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\PacMan\SemVer.cpp">

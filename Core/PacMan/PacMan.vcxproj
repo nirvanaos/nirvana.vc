@@ -602,6 +602,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\PacMan\Connection.h" />
+    <ClInclude Include="..\Core\PacMan\Manager.h" />
     <ClInclude Include="..\Core\PacMan\Packages.h" />
     <ClInclude Include="..\Core\PacMan\PacMan.h" />
     <ClInclude Include="..\Core\PacMan\pch.h" />
@@ -610,10 +611,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\PacMan\Connection.cpp" />
-    <ClCompile Include="..\Core\PacMan\PacFactory.cpp" />
+    <ClCompile Include="..\Core\PacMan\pac_factory.cpp" />
     <ClCompile Include="..\Core\PacMan\Packages.cpp" />
     <ClCompile Include="..\Core\PacMan\PacMan.cpp" />
-    <ClCompile Include="..\Core\PacMan\PacManFactory.cpp" />
+    <ClCompile Include="..\Core\PacMan\man_factory.cpp" />
     <ClCompile Include="..\Core\PacMan\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
