@@ -1404,6 +1404,7 @@
     <ClInclude Include="..\Windows\Source\shutdown.h" />
     <ClInclude Include="..\Windows\Source\app_data.h" />
     <ClInclude Include="..\Windows\Source\ThreadWorker.h" />
+    <ClInclude Include="..\Windows\Source\Timer.h" />
     <ClInclude Include="..\Windows\Source\TokenInformation.h" />
     <ClInclude Include="..\Windows\Source\WinWChar.h" />
     <ClInclude Include="..\Windows\Source\WorkerSemaphore.h" />
