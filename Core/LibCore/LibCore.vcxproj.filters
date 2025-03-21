@@ -251,7 +251,7 @@
     <ClInclude Include="..\Core\Source\MemContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\HeapDynamic.h">
+    <ClInclude Include="..\Core\Source\HeapCustom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Source\Event.h">
@@ -1330,7 +1330,7 @@
     <ClCompile Include="..\Core\Source\CurrentDirContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\HeapDynamic.cpp">
+    <ClCompile Include="..\Core\Source\HeapCustom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileLockRanges.cpp">

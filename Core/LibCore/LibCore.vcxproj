@@ -616,7 +616,7 @@
     <ClInclude Include="..\Core\Source\FileLockQueue.h" />
     <ClInclude Include="..\Core\Source\FileLockRanges.h" />
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
-    <ClInclude Include="..\Core\Source\HeapDynamic.h" />
+    <ClInclude Include="..\Core\Source\HeapCustom.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
     <ClInclude Include="..\Core\Source\LocaleImpl.h" />
@@ -1436,7 +1436,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\HeapDynamic.cpp">
+    <ClCompile Include="..\Core\Source\HeapCustom.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">pch.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
