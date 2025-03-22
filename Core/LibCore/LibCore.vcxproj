@@ -623,6 +623,7 @@
     <ClInclude Include="..\Core\Source\LocaleImpl.h" />
     <ClInclude Include="..\Core\Source\LockablePtr.h" />
     <ClInclude Include="..\Core\Source\open_binary.h" />
+    <ClInclude Include="..\Core\Source\ORB\ValueList.h" />
     <ClInclude Include="..\Core\Source\Shell.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\MapOrderedStable.h" />
