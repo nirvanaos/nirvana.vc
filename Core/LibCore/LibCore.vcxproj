@@ -5208,7 +5208,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ThreadWorker.cpp">
+    <ClCompile Include="..\Core\Source\Thread.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">pch.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
@@ -5444,7 +5444,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl" />
-    <None Include="..\Core\Source\ThreadBackground.inl" />
     <None Include="vcpkg.json" />
   </ItemGroup>
   <ItemGroup>

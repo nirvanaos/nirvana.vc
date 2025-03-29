@@ -877,7 +877,7 @@
     <ClCompile Include="..\Core\Source\SkipList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\ThreadWorker.cpp">
+    <ClCompile Include="..\Core\Source\Thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\SyncContext.cpp">
@@ -1530,9 +1530,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Source\Binder.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\Core\Source\ThreadBackground.inl">
       <Filter>Header Files</Filter>
     </None>
     <None Include="vcpkg.json" />
