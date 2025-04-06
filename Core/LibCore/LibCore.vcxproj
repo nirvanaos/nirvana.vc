@@ -620,6 +620,7 @@
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
+    <ClInclude Include="..\Core\Source\LocaleContext.h" />
     <ClInclude Include="..\Core\Source\LocaleImpl.h" />
     <ClInclude Include="..\Core\Source\LockablePtr.h" />
     <ClInclude Include="..\Core\Source\open_binary.h" />
