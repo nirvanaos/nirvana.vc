@@ -788,6 +788,7 @@
     <ClInclude Include="..\Core\Source\Security.h" />
     <ClInclude Include="..\Core\Source\SharedAllocator.h" />
     <ClInclude Include="..\Core\Source\Signals.h" />
+    <ClInclude Include="..\Core\Source\InitOnce.h" />
     <ClInclude Include="..\Core\Source\Singleton.h" />
     <ClInclude Include="..\Core\Source\SkipListWithPool.h" />
     <ClInclude Include="..\Core\Source\Runnable.h" />
