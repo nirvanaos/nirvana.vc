@@ -218,9 +218,6 @@
     <ClInclude Include="..\Core\Source\Chrono.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Source\RuntimeGlobal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Source\parallel-hashmap\parallel_hashmap\btree.h">
       <Filter>parallel-hashmap</Filter>
     </ClInclude>
@@ -1193,9 +1190,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\virtual_copy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\RuntimeGlobal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessDirectProxy.cpp">
