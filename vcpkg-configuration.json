@@ -1,0 +1,20 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "4bb07a326d9b9bce3703272a509e5bc25dd9cfd5",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "baseline": "5ce3c1229a6c86b596f8a2098dcae26499785be6",
+      "repository": "https://github.com/nirvanaos/vcpkg-registry.git",
+      "packages": [
+        "decnumber",
+        "idlfe",
+        "mockhost",
+        "nidl2cpp"
+      ]
+    }
+  ]
+}
