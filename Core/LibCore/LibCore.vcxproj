@@ -4436,11 +4436,6 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Library.VC\Nirvana\Library\Library.vcxproj">
-      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="..\Core\Source\ORB\TC_Factory.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -out_proxy "$(SolutionDir)Core\Core\Exports\IDL" -out_cpp "$(SolutionDir)Core\Core\Source\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -out_h "$(SolutionDir)Core\Core\Source\CORBA" -out_proxy "$(SolutionDir)Core\Core\Exports\IDL" -out_cpp "$(SolutionDir)Core\Core\Source\IDL"</Command>

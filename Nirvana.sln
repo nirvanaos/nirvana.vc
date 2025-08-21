@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FF4338E9-9
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibCore", "Core\LibCore\LibCore.vcxproj", "{3D48B775-2793-4249-BCE4-57736373EC32}"
 	ProjectSection(ProjectDependencies) = postProject
+		{810A987D-BFF4-4112-A59F-B8EAE9FCCD65} = {810A987D-BFF4-4112-A59F-B8EAE9FCCD65}
 		{D92428AE-D006-4367-86DF-060875A0E282} = {D92428AE-D006-4367-86DF-060875A0E282}
 	EndProjectSection
 EndProject
@@ -85,6 +86,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dumpolf", "dumpolf.vc\dumpolf.vcxproj", "{1F208F8F-C900-4D0E-A444-779F2E84B994}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "msvcstl", "Port\Windows\msvcstl\msvcstl.vcxproj", "{912C31C9-A2F1-475B-929F-1203DAE1363B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{810A987D-BFF4-4112-A59F-B8EAE9FCCD65} = {810A987D-BFF4-4112-A59F-B8EAE9FCCD65}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestORB", "TestORB", "{D2FE977F-5BEB-4A47-AD0D-FF2ED01023BB}"
 	ProjectSection(SolutionItems) = preProject
