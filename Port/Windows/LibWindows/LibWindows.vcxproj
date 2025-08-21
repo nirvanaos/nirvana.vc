@@ -35,6 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Windows\CmdLineParser.h" />
     <ClInclude Include="..\Windows\Port\Dir.h" />
     <ClInclude Include="..\Windows\Port\File.h" />
     <ClInclude Include="..\Windows\Port\FileSystem.h" />
@@ -959,7 +960,6 @@
     <ClInclude Include="..\Windows\Port\ProtDomain.h" />
     <ClInclude Include="..\Windows\Source\AddressSpace.h" />
     <ClInclude Include="..\Windows\Source\BufferPool.h" />
-    <ClInclude Include="..\Windows\Source\CmdLineParser.h" />
     <ClInclude Include="..\Windows\Source\CompletionPort.h" />
     <ClInclude Include="..\Windows\Source\CompletionPortReceiver.h" />
     <ClInclude Include="..\Windows\Source\DebugLog.h" />
@@ -1180,6 +1180,7 @@
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <SupportJustMyCode>false</SupportJustMyCode>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

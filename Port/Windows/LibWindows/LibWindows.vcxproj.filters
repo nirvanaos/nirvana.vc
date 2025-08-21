@@ -16,6 +16,9 @@
     <Filter Include="Port">
       <UniqueIdentifier>{cfc5074f-550e-442e-8ca1-b28f0c10e11b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{a76ece0b-1f46-4b12-8268-3b1e41d6eb85}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Windows\Source\BufferPool.cpp">
@@ -287,9 +290,6 @@
     <ClInclude Include="..\Windows\Source\initialize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Windows\Source\CmdLineParser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Port\Module.h">
       <Filter>Port</Filter>
     </ClInclude>
@@ -403,6 +403,9 @@
     </ClInclude>
     <ClInclude Include="..\Windows\Source\Timer.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Windows\CmdLineParser.h">
+      <Filter>Header Files\Windows</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

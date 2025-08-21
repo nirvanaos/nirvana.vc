@@ -50,11 +50,6 @@
   <ItemGroup>
     <None Include="..\Windows\msvcstl\readme.md" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Library.VC\Nirvana\Library\Library.vcxproj">
-      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -73,7 +68,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>ClangCL</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>NotSet</CharacterSet>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -88,7 +83,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>ClangCL</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
@@ -103,7 +98,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>ClangCL</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>NotSet</CharacterSet>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -118,7 +113,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>ClangCL</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
@@ -197,7 +192,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
@@ -221,13 +216,14 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <SupportJustMyCode>false</SupportJustMyCode>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -246,7 +242,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
@@ -271,7 +267,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
@@ -294,7 +290,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
@@ -318,7 +314,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
@@ -343,7 +339,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
@@ -368,7 +364,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus </AdditionalOptions>
       <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
