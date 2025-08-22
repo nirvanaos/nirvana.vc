@@ -740,6 +740,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\CoreModule.cpp" />
     <ClCompile Include="..\Core\Source\CurrentDirContext.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">pch.h</PrecompiledHeaderFile>
