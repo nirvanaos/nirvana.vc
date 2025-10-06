@@ -12,8 +12,11 @@ This repository contains MS Visual Studio 2022 solution for building the Nirvana
 
 Other Nirvana projects included here as submodules.
 
-This project relates to the first stage of Nirvana development and will be obsolete soon.
-The new [Nirvana SDK](https://github.com/nirvanaos/nirvana-sdk) has own C runtime library, LLVM standard C++ library and uses CLang compiler.
+This repository relates to the first stage of Nirvana development, based on MSVC compiler and runtimes.
+Now it is obsolete and frozen.
+
+The new [Nirvana repository](https://github.com/nirvanaos/nirvana) uses [Nirvana SDK](https://github.com/nirvanaos/nirvana-sdk)
+with own C runtime library, standard C++ library and uses CLang compiler.
 
 ## Folders
 ### Core
