@@ -38,19 +38,11 @@
     <ClCompile Include="..\Core\Test\TestCore\TestWeakRef.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestCore\pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Test\TestCore\TestFileLock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Core\Test\TestCore\readme.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Core\Test\TestCore\pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

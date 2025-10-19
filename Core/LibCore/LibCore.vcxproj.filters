@@ -27,14 +27,8 @@
     <Filter Include="IDL">
       <UniqueIdentifier>{3b611adf-7eff-4c6d-b4bb-e8315703fea6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ORB\IDL">
-      <UniqueIdentifier>{bfe55d61-26c0-4016-abf6-69f7ffc3f298}</UniqueIdentifier>
-    </Filter>
     <Filter Include="parallel-hashmap">
       <UniqueIdentifier>{43efe92b-a3a1-43ed-816f-170488d5d871}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ORB\IDL\Internal">
-      <UniqueIdentifier>{39dec286-9fe1-4035-a5bb-d6a89fe36d65}</UniqueIdentifier>
     </Filter>
     <Filter Include="NameService">
       <UniqueIdentifier>{f03dd1ac-9511-49db-b87b-bb510c3d2d6c}</UniqueIdentifier>
@@ -45,11 +39,20 @@
     <Filter Include="NameService\Source Files">
       <UniqueIdentifier>{513c6ce9-5574-4573-8a93-6c07058f3d51}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ORB\IDL\CCM">
-      <UniqueIdentifier>{1fbe624b-81bb-4ac8-ac8a-31688b3a00c6}</UniqueIdentifier>
+    <Filter Include="IDL\ORB">
+      <UniqueIdentifier>{0c4cb2f9-4196-46c5-855d-8e2cf38f70c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDL\PacMan">
+      <UniqueIdentifier>{ad1dba2a-ed7a-4ca2-9fa7-8f82bb0d3a23}</UniqueIdentifier>
     </Filter>
     <Filter Include="Generated">
-      <UniqueIdentifier>{bf6c975f-c5bd-441f-af1a-7db57e2a380f}</UniqueIdentifier>
+      <UniqueIdentifier>{39582613-09cb-4525-a01f-4c22c6e691d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\ORB">
+      <UniqueIdentifier>{0ec7157a-5eaa-4980-ac70-f6ffd838a7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\PacMan">
+      <UniqueIdentifier>{be16edd4-019b-44f5-8a76-621d4cbc2530}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -827,6 +830,75 @@
     <ClInclude Include="..\Core\Source\BinaryMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IDL\CoreDomains.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\CoreDomains_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\BiDirPolicy.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\BiDirPolicy_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\CSI.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\CSI_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\CSIIOP.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\CSIIOP_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\GIOP.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\GIOP_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\GSSUP.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\GSSUP_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\IIOP.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\IIOP_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\IOP.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\IOP_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\MessageRouting.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\MessageRouting_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\RequestCallback.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\RequestCallback_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\TC_Factory.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\ORB\TC_Factory_s.h">
+      <Filter>Generated\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\PacMan\factory.h">
+      <Filter>Generated\PacMan</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1234,9 +1306,6 @@
     <ClCompile Include="..\Core\Source\ORB\TypedEventChannel.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\FileAccessChar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1288,30 +1357,6 @@
     <ClCompile Include="..\Core\Source\ORB\CCM_Cookie.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\BiDirPolicy.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\CoreDomains.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\CSI.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\CSIIOP.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\GIOP.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\GSSUP.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\IIOP.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\TC_Factory.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Source\AtExit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1338,9 +1383,6 @@
     </ClCompile>
     <ClCompile Include="..\Core\Source\FileLockRanges.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Source\IDL\IOP.cpp">
-      <Filter>Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\ORB\RequestOutSync.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -1372,160 +1414,76 @@
     <ClCompile Include="..\Core\Source\CoreModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IDL\CoreDomains.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\BiDirPolicy.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\CSI.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\CSIIOP.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\GIOP.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\GSSUP.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\IIOP.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\IOP.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\MessageRouting.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\RequestCallback.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\ORB\TC_Factory.cpp">
+      <Filter>Generated\ORB</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
+    <CustomBuild Include="..\Core\IDL\CoreDomains.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TCKind.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\BiDirPolicy.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TypeCode.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\CSI.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\PortableServer.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\CSIIOP.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ORB.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\GIOP.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Policy.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\GSSUP.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Current.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\IIOP.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Dynamic.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\IOP.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Messaging.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\MessageRouting.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Pollable.idl">
-      <Filter>ORB\IDL</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\RequestCallback.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\GIOP.idl">
-      <Filter>ORB\IDL\Internal</Filter>
+    <CustomBuild Include="..\Core\IDL\ORB\TC_Factory.idl">
+      <Filter>IDL\ORB</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\IIOP.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DomainManager.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\CSI.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\GSSUP.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\CSIIOP.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\BiDirPolicy.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\TC_Factory.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Domains.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TimeBase.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosEventComm.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosNaming.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTime.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTimerEvent.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\CoreDomains.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\FT.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NirvanaDGC.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Request.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NVList.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\AMI.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\RequestCallback.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosEventChannelAdmin.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTypedEventChannelAdmin.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTypedEventComm.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_Stream.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_types.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Shell.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Base.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Cookie.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Events.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Exceptions.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Home.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Navigation.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Object.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Receptacle.idl">
-      <Filter>ORB\IDL\CCM</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\MessageRouting.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\Core\Source\ORB\IOP.idl">
-      <Filter>ORB\IDL\Internal</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\NDBC_ex.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\BindError.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Packages.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\FileStat.idl">
-      <Filter>IDL</Filter>
+    <CustomBuild Include="..\Core\PacMan\factory.idl">
+      <Filter>IDL\PacMan</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

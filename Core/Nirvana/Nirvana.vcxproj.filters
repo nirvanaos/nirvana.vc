@@ -13,154 +13,216 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Generated">
-      <UniqueIdentifier>{b703fa1a-e05c-4e31-a7eb-bafb62d028da}</UniqueIdentifier>
-      <SourceControlFiles>False</SourceControlFiles>
+    <Filter Include="IDL">
+      <UniqueIdentifier>{2f476310-d78e-4855-8a9a-01587f4bd75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDL\ORB">
+      <UniqueIdentifier>{b1f35b83-2876-4ca3-bd3d-7be04442f5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDL\Core">
+      <UniqueIdentifier>{39529ba9-a06a-4599-b6e9-b99eca006d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDL\Core\ORB">
+      <UniqueIdentifier>{07685c70-240c-48f3-bb93-31f5b21b08ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDL\ORB\CCM">
+      <UniqueIdentifier>{a1e7060b-5e79-4166-83e0-3f0b5e9b284c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Exports\IDL\AMI_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\BiDirPolicy_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CoreDomains_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CosEventChannelAdmin_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CosEventComm_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CosNaming_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CosTimerEvent_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CosTime_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CosTypedEventChannelAdmin_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CosTypedEventComm_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Current_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\DomainManager_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Domains_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Dynamic_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\File_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\FT_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Messaging_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\NirvanaDGC_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\ORB_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Policy_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Pollable_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\PortableServer_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Request_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\TCKind_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\TC_Factory_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\TimeBase_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\TypeCode_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\Exports\tc_exceptions.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\NVList_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CORBA_Stream_p.cpp">
-      <Filter>Source Files\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Exports\exports.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CORBA_types_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Base_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Cookie_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Events_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Exceptions_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Home_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Navigation_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Object_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\CCM_Receptacle_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Shell_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\NDBC_ex_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\BindError_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\Packages_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Exports\IDL\FileStat_p.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Core\Exports\pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\BindError.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Domains.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\File.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\FileStat.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Packages.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Shell.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\AMI.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Components.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Context.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_Stream.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CORBA_types.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosEventChannelAdmin.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosEventComm.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosLwLogAdministrator.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosLwLogConsumer.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosLwLogProducer.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosLwLogService.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosLwLogStatus.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosNaming.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTime.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTimerEvent.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTypedEventChannelAdmin.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\CosTypedEventComm.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Current.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DomainManager.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Dynamic.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\DynamicServant.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\IORequest.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Messaging.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NirvanaDGC.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\NVList.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ObjectFactory.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ORB.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Policy.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Pollable.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\PortableServer.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\RefCnt.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\Request.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\SFloat.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TCKind.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\TimeBase.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\SRC\Include\Nirvana\NDBC_ex.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\CoreDomains.idl">
+      <Filter>IDL\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\BiDirPolicy.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\CSI.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\CSIIOP.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\GIOP.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\GSSUP.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\IIOP.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\IOP.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\MessageRouting.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\RequestCallback.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\IDL\ORB\TC_Factory.idl">
+      <Filter>IDL\Core\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\FT.idl">
+      <Filter>IDL\ORB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Base.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Cookie.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Events.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Exceptions.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Home.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Navigation.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Object.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Library.VC\Nirvana\ORB\Include\CORBA\ccm\CCM_Receptacle.idl">
+      <Filter>IDL\ORB\CCM</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>

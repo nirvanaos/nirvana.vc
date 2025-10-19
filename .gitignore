@@ -263,3 +263,8 @@ __pycache__/
 /test-results/*.xml
 /logs/
 vcpkg_installed/
+/Core/LibCore/IDL/
+/Core/InterfaceRepository/IDL/
+/Core/dbc/IDL/
+/Core/LibCore/PacMan/
+/Core/Nirvana/IDL/
