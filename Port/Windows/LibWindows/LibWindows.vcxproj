@@ -302,6 +302,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Windows\Source\ObjectName.cpp" />
     <ClCompile Include="..\Windows\Source\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\Windows\Source/pch.h</PrecompiledHeaderFile>
@@ -980,9 +981,9 @@
     <ClInclude Include="..\Windows\Source\DirItem.h" />
     <ClInclude Include="..\Windows\Source\LockableHandle.h" />
     <ClInclude Include="..\Windows\Source\Mailslot.h" />
-    <ClInclude Include="..\Windows\Source\object_name.h" />
     <ClInclude Include="..\Windows\Source\MailslotReader.h" />
     <ClInclude Include="..\Windows\Source\MessageBroker.h" />
+    <ClInclude Include="..\Windows\Source\ObjectName.h" />
     <ClInclude Include="..\Windows\Source\OtherSpace.h" />
     <ClInclude Include="..\Windows\Source\pch.h" />
     <ClInclude Include="..\Windows\Source\RequestOverlapped.h" />
