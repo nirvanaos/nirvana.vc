@@ -32,8 +32,8 @@ jobs:
       - name: Setup anew (or from cache) vcpkg (and does not build any package)
         uses: lukka/run-vcpkg@v11
   
-#      - name: Restore vcpkg packages
-#        run: vcpkg integrate install
+      - name: Restore vcpkg packages
+        run: vcpkg integrate install
         
       - name: x64 Debug
         run: ./TestCore.ps1 "x64" "Debug 2022"
