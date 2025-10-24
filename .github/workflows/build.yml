@@ -28,14 +28,11 @@ jobs:
         with:
           msbuild-architecture: x64
 
-      - name: Setup NuGet
-        uses: nuget/setup-nuget@main
+      - name: Setup anew (or from cache) vcpkg (and does not build any package)
+        uses: lukka/run-vcpkg@v11
   
-      - name: Restore NuGet packages
-        run: nuget restore Nirvana.sln
-        
-      - name: Restore vcpkg packages
-        run: vcpkg integrate install
+#      - name: Restore vcpkg packages
+#        run: vcpkg integrate install
         
       - name: x64 Debug build
         run: ./Build.ps1 "x64" "Debug 2022"
