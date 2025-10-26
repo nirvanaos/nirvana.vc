@@ -51,6 +51,9 @@
     <ClCompile Include="..\Core\SQLite\mutex_methods.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\SQLite\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\SQLite\sqlite\sqlite3.h">

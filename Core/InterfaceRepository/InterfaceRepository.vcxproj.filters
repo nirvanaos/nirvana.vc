@@ -23,7 +23,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\InterfaceRepository\Repository.cpp">
+    <ClCompile Include="..\Core\InterfaceRepository\module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

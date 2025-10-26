@@ -399,6 +399,7 @@
     <ClInclude Include="..\Core\Source\BinderMemory.h" />
     <ClInclude Include="..\Core\Source\BinderObject.h" />
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
+    <ClInclude Include="..\Core\Source\call_with_user_exceptions.h" />
     <ClInclude Include="..\Core\Source\ConditionalCreator.h" />
     <ClInclude Include="..\Core\Source\CurrentDir.h" />
     <ClInclude Include="..\Core\Source\CurrentDirContext.h" />
@@ -430,6 +431,7 @@
     <ClInclude Include="..\Core\Source\HeapAllocator.h" />
     <ClInclude Include="..\Core\Source\HeapCustom.h" />
     <ClInclude Include="..\Core\Source\HeapDynamic.h" />
+    <ClInclude Include="..\Core\Source\InternalRequest.h" />
     <ClInclude Include="..\Core\Source\IO_Request.h" />
     <ClInclude Include="..\Core\Source\initterm.h" />
     <ClInclude Include="..\Core\Source\LocaleImpl.h" />
@@ -669,7 +671,7 @@
     <ClInclude Include="IDL\ORB\RequestCallback_s.h" />
     <ClInclude Include="IDL\ORB\TC_Factory.h" />
     <ClInclude Include="IDL\ORB\TC_Factory_s.h" />
-    <ClInclude Include="IDL\PacMan\factory.h" />
+    <ClInclude Include="PacMan\PacFactory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\append_path.cpp">
@@ -925,6 +927,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="..\Core\Source\InternalRequest.cpp" />
     <ClCompile Include="IDL\CoreDomains.cpp" />
     <ClCompile Include="IDL\ORB\BiDirPolicy.cpp" />
     <ClCompile Include="IDL\ORB\CSI.cpp" />
@@ -3621,7 +3624,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Core\Source\Binder.inl" />
     <None Include="vcpkg.json" />
   </ItemGroup>
   <ItemGroup>
@@ -4003,7 +4005,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Core\PacMan\factory.idl">
+    <CustomBuild Include="..\Core\PacMan\PacFactory.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)PacMan" -client -no_client_cpp</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)PacMan" -client -no_client_cpp</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)PacMan" -client -no_client_cpp</Command>
@@ -4012,14 +4014,6 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)PacMan" -client -no_client_cpp</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)PacMan" -client -no_client_cpp</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)PacMan" -client -no_client_cpp</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
@@ -4028,6 +4022,14 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)PacMan\%(Filename).h</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>

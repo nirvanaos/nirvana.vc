@@ -16,6 +16,9 @@
     <Filter Include="IDL">
       <UniqueIdentifier>{65def8b1-12ba-41bb-87a8-ce57c23350b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{c38f7e8d-9c40-4751-8165-23561389428e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\PacMan\Connection.h">
@@ -24,13 +27,7 @@
     <ClInclude Include="..\Core\PacMan\PacMan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\PacMan\pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\PacMan\Packages.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Core\PacMan\SemVer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\PacMan\version.h">
@@ -39,12 +36,15 @@
     <ClInclude Include="..\Core\PacMan\Manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IDL\PacFactory.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\PacFactory_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\PacMan\Packages.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\PacMan\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\PacMan\PacMan.cpp">
@@ -56,15 +56,21 @@
     <ClCompile Include="..\Core\PacMan\man_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\PacMan\SemVer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Core\PacMan\Connection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\PacMan\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\PacFactory.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\PacFactory_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Core\PacMan\factory.idl">
+    <CustomBuild Include="..\Core\PacMan\PacFactory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

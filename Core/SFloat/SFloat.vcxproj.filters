@@ -1167,6 +1167,9 @@
     <ClCompile Include="..\Core\SFloat\state.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\SFloat\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\SFloat\berkeley-softfloat-3\source\include\internals.h">

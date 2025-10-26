@@ -38,6 +38,9 @@
     <ClCompile Include="..\Core\dbc\PollableConnection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\dbc\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\dbc\ResultSetImpl.h">
