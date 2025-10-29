@@ -162,9 +162,6 @@
     <ClCompile Include="..\Windows\Source\Security.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\FileAccessConsoleBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -378,9 +375,6 @@
       <Filter>Port</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\RequestOverlapped.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Windows\Source\pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Windows\Source\FileAccessConsoleBase.h">
