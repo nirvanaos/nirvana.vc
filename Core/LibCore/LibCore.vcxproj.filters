@@ -905,6 +905,9 @@
     <ClInclude Include="..\Core\Source\call_with_user_exceptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Source\ProcessImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Source\ExecContext.cpp">
@@ -1454,6 +1457,9 @@
       <Filter>Generated\ORB</Filter>
     </ClCompile>
     <ClCompile Include="..\Core\Source\InternalRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Source\ProcessImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

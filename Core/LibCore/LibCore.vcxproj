@@ -438,6 +438,7 @@
     <ClInclude Include="..\Core\Source\LockablePtr.h" />
     <ClInclude Include="..\Core\Source\open_binary.h" />
     <ClInclude Include="..\Core\Source\ORB\ValueList.h" />
+    <ClInclude Include="..\Core\Source\ProcessImpl.h" />
     <ClInclude Include="..\Core\Source\Shell.h" />
     <ClInclude Include="..\Core\Source\LifeCyclePseudo.h" />
     <ClInclude Include="..\Core\Source\MapOrderedStable.h" />
@@ -928,6 +929,7 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="..\Core\Source\InternalRequest.cpp" />
+    <ClCompile Include="..\Core\Source\ProcessImpl.cpp" />
     <ClCompile Include="IDL\CoreDomains.cpp" />
     <ClCompile Include="IDL\ORB\BiDirPolicy.cpp" />
     <ClCompile Include="IDL\ORB\CSI.cpp" />

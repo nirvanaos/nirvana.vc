@@ -237,6 +237,7 @@
       </IgnoreSpecificDefaultLibraries>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
