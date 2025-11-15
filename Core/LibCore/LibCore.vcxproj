@@ -401,6 +401,7 @@
     <ClInclude Include="..\Core\Source\BitmapOps.h" />
     <ClInclude Include="..\Core\Source\call_with_user_exceptions.h" />
     <ClInclude Include="..\Core\Source\ConditionalCreator.h" />
+    <ClInclude Include="..\Core\Source\CoreMemory.h" />
     <ClInclude Include="..\Core\Source\CurrentDir.h" />
     <ClInclude Include="..\Core\Source\CurrentDirContext.h" />
     <ClInclude Include="..\Core\Source\EventUser.h" />

@@ -1135,7 +1135,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -1157,7 +1157,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -1183,7 +1183,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -1205,7 +1205,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -1232,7 +1232,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
@@ -1258,7 +1258,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
@@ -1285,7 +1285,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
@@ -1311,7 +1311,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Windows\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\Library.VC\Nirvana\SRC\Include;..\..\..\Library.VC\Nirvana\ORB\Include;..\..\..\Library.VC\Nirvana\IDL;..\..\..\Core\Core\Source;..\..\..\Core\LibCore;..\Windows;..\..\..\Library.VC\Nirvana\SRC\Port\Include</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
