@@ -16,8 +16,8 @@
     <Filter Include="Port">
       <UniqueIdentifier>{cfc5074f-550e-442e-8ca1-b28f0c10e11b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Windows">
-      <UniqueIdentifier>{a76ece0b-1f46-4b12-8268-3b1e41d6eb85}</UniqueIdentifier>
+    <Filter Include="wow64ext">
+      <UniqueIdentifier>{3ab65852-33b2-40b0-9c62-e1c4b9152617}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -111,9 +111,6 @@
     <ClCompile Include="..\Windows\Source\OtherDomain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\Source\app_data.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -179,6 +176,9 @@
     </ClCompile>
     <ClCompile Include="..\Windows\Source\ObjectName.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.cpp">
+      <Filter>wow64ext</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -398,11 +398,14 @@
     <ClInclude Include="..\Windows\Source\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Library.VC\Nirvana\SRC\Include\Nirvana\Windows\CmdLineParser.h">
-      <Filter>Header Files\Windows</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\Source\ObjectName.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\rewolf-wow64ext\src\wow64ext.h">
+      <Filter>wow64ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\Source\rewolf-wow64ext\src\internal.h">
+      <Filter>wow64ext</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
