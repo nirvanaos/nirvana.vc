@@ -4,6 +4,8 @@
       "name": "nidl2cpp",
       "host": true
     },
-    "mockhost"
+    "mockhost",
+    "decnumber",
+    "boost-preprocessor"
   ]
 }

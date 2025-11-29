@@ -3627,9 +3627,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vcpkg.json" />
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="..\Core\IDL\CoreDomains.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)IDL" -no_proxy</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -out "$(ProjectDir)IDL" -no_proxy</Command>

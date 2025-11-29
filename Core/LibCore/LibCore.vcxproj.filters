@@ -1504,7 +1504,4 @@
       <Filter>IDL\PacMan</Filter>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="vcpkg.json" />
-  </ItemGroup>
 </Project>

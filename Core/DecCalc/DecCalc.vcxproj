@@ -193,9 +193,10 @@
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
-    <VcpkgEnabled>false</VcpkgEnabled>
-    <VcpkgManifestInstall>false</VcpkgManifestInstall>
-    <VcpkgAutoLink>false</VcpkgAutoLink>
+    <VcpkgEnabled>true</VcpkgEnabled>
+    <VcpkgManifestInstall>true</VcpkgManifestInstall>
+    <VcpkgAutoLink>true</VcpkgAutoLink>
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
     <ClCompile>
@@ -204,7 +205,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -233,7 +234,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -265,7 +266,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -293,7 +294,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -320,7 +321,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -349,7 +350,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -381,7 +382,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -409,7 +410,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Core/DecCalc/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\decNumber.vc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include\CRTL;..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -442,9 +443,6 @@
     </ProjectReference>
     <ProjectReference Include="..\..\Port\Windows\msvcstl\msvcstl.vcxproj">
       <Project>{912c31c9-a2f1-475b-929f-1203dae1363b}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\decNumber.vc\decNumber.vcxproj">
-      <Project>{1b176788-050f-47ce-81d7-5f128f8a7688}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
