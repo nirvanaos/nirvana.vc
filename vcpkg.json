@@ -6,6 +6,7 @@
     },
     "mockhost",
     "decnumber",
-    "boost-preprocessor"
+    "boost-preprocessor",
+    "gtl"
   ]
 }
